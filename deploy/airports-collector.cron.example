@@ -1,0 +1,3 @@
+# 每天 03:10 采集一次（本机 cron）。日志追加到 /tmp 或你自己的日志目录。
+# 先确保 `uv run airports-collector migrate` 已经跑过一次。
+10 3 * * * cd /Users/scott/Documents/GitHub/airports && /opt/homebrew/bin/uv run airports-collector collect >> /tmp/airports-collector.log 2>&1

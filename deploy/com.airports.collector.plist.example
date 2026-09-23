@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- macOS launchd 示例：放到 ~/Library/LaunchAgents/ 后执行
+     launchctl load -w ~/Library/LaunchAgents/com.airports.collector.plist -->
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+    <key>Label</key><string>com.airports.collector</string>
+    <key>ProgramArguments</key>
+    <array>
+        <string>/opt/homebrew/bin/uv</string>
+        <string>run</string>
+        <string>airports-collector</string>
+        <string>collect</string>
+    </array>
+    <key>WorkingDirectory</key><string>/Users/scott/Documents/GitHub/airports</string>
+    <key>StartCalendarInterval</key>
+    <dict><key>Hour</key><integer>3</integer><key>Minute</key><integer>10</integer></dict>
+    <key>StandardOutPath</key><string>/tmp/airports-collector.log</string>
+    <key>StandardErrorPath</key><string>/tmp/airports-collector.err.log</string>
+</dict>
+</plist>

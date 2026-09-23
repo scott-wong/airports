@@ -1,0 +1,1175 @@
+id,ident,iata_code,icao_code,name,name_zh,name_zh_source,municipality,municipality_zh,municipality_zh_source,status
+3,AGGH,HIR,AGGH,Honiara International Airport,霍尼亚拉国际机场,wikidata:Q859876:zh-hans,Honiara,,,resolved
+66,AYNZ,LAE,AYNZ,Nadzab Tomodachi International Airport,莱城,wikidata:Q1431826:zh-hans,Lae,,,resolved
+67,AYPY,POM,AYPY,Port Moresby Jacksons International Airport,杰克逊斯国际机场,wikidata:Q1088438:zh-hans,Port Moresby,,,resolved
+114,BGGH,GOH,BGGH,Nuuk International Airport,努克机场,wikidata:Q1139968:zh,Nuuk,,,resolved
+117,BIAR,AEY,BIAR,Akureyri International Airport,阿克雷里机场,wikidata:Q1430749:zh-cn,Akureyri,,,resolved
+123,BIKF,KEF,BIKF,Keflavik International Airport,凯夫拉维克国际机场,wikidata:Q139921:zh-cn,Reykjavík,,,resolved
+1717,CYEG,YEG,CYEG,Edmonton International Airport,埃德蒙顿国际机场,wikidata:Q269588:zh,Edmonton,,,resolved
+1763,CYHM,YHM,CYHM,John C. Munro Hamilton International Airport,约翰·卡尔·芒罗哈密尔顿国际机场,wikidata:Q1431444:zh,Hamilton,,,resolved
+1770,CYHZ,YHZ,CYHZ,Halifax / Stanfield International Airport,哈利法克斯罗伯特·洛恩·斯坦菲尔德国际机场,wikidata:Q1345785:zh-hans,Halifax,,,resolved
+1808,CYLW,YLW,CYLW,Kelowna International Airport,基隆拿国际机场,wikidata:Q1431708:zh>zh-hans,Kelowna,,,resolved
+1840,CYOW,YOW,CYOW,Ottawa Macdonald-Cartier International Airport,渥太华麦克唐纳－卡蒂埃国际机场,wikidata:Q1319833:zh-hans,Ottawa,,,resolved
+1864,CYQB,YQB,CYQB,Quebec Jean Lesage International Airport,魁北克让·勒萨热国际机场,wikidata:Q794549:zh,Quebec,,,resolved
+1867,CYQG,YQG,CYQG,Windsor International Airport,温莎国际机场,wikidata:Q1052673:zh>zh-hans,Windsor,,,resolved
+1928,CYUL,YUL,CYUL,Montreal / Pierre Elliott Trudeau International Airport,蒙特利尔皮埃尔·埃利奥特·特鲁多国际机场,wikidata:Q736627:zh-hans,Montréal,,,resolved
+1941,CYVR,YVR,CYVR,Vancouver International Airport,温哥华国际机场,wikidata:Q321224:zh-cn,Vancouver,,,resolved
+1946,CYWG,YWG,CYWG,Winnipeg / James Armstrong Richardson International Airport,温尼伯詹姆斯·阿姆斯特朗·理查森国际机场,wikidata:Q1323755:zh-hans,Winnipeg,,,resolved
+1957,CYXE,YXE,CYXE,Saskatoon John G. Diefenbaker International Airport,萨斯卡通约翰·乔治·迪芬贝克国际机场,wikidata:Q1430711:zh,Saskatoon,,,resolved
+1973,CYYC,YYC,CYYC,Calgary International Airport,卡尔加里国际机场,wikidata:Q1160343:zh-hans,Calgary,,,resolved
+1979,CYYJ,YYJ,CYYJ,Victoria International Airport,维多利亚国际机场,wikidata:Q130193:zh-cn,Victoria,,,resolved
+1986,CYYT,YYT,CYYT,St. John's International Airport,圣约翰斯国际机场,wikidata:Q1516699:zh-hans,St. John's,,,resolved
+1990,CYYZ,YYZ,CYYZ,Toronto Pearson International Airport,多伦多皮尔逊国际机场,wikidata:Q242066:zh-cn,Toronto,,,resolved
+2049,DAAE,BJA,DAAE,Soummam–Abane Ramdane Airport,,,Béjaïa,,,unresolved
+2050,DAAG,ALG,DAAG,Houari Boumediene Airport,阿尔及尔胡阿里·布迈丁机场,wikidata:Q623452:zh-hans,Algiers,,,resolved
+2051,DAAJ,DJG,DAAJ,Tiska Djanet Airport,,,Djanet,,,unresolved
+2056,DAAT,TMR,DAAT,Aguenar – Hadj Bey Akhamok Airport,塔曼拉塞特机场,wikidata:Q1951782:zh-cn,Tamanrasset,,,resolved
+2057,DAAV,GJL,DAAV,Jijel Ferhat Abbas Airport,吉杰勒费尔哈特·阿巴斯机场,wikidata:Q2875839:zh>zh-hans,Tahir,,,resolved
+2060,DABB,AAE,DABB,Annaba Rabah Bitat Airport,拉巴赫·比塔特机场,wikidata:Q979270:zh-cn,Annaba,,,resolved
+2061,DABC,CZL,DABC,Mohamed Boudiaf International Airport,君士坦丁机场,wikidata:Q2510194:zh,Constantine,,,resolved
+2063,DABT,BLJ,DABT,Batna Mostefa Ben Boulaid Airport,,,Batna,,,unresolved
+2068,DAOI,CFK,DAOI,Chlef Aboubakr Belkaid International Airport,,,Chlef,,,unresolved
+2070,DAON,TLM,DAON,Zenata – Messali El Hadj Airport,特莱姆森,wikidata:Q2875969:zh>zh-hans,Zenata,,,resolved
+2071,DAOO,ORN,DAOO,Oran Es-Sénia (Ahmed Ben Bella) International Airport,奥兰艾哈迈德·本·贝拉机场,wikidata:Q637028:zh,Es-Sénia,,,resolved
+2076,DAUB,BSK,DAUB,Biskra - Mohamed Khider Airport,比斯克拉机场,wikidata:Q598215:zh>zh-hans,Biskra,,,resolved
+2087,DBBB,COO,DBBB,Cotonou Cadjehoun International Airport,柯多努国际机场,wikidata:Q856939:zh>zh-hans,Cotonou,,,resolved
+2088,DFFD,OUA,DFFD,Ouagadougou Thomas Sankara International Airport,瓦加杜古国际机场,wikidata:Q773547:zh>zh-hans,Ouagadougou,,,resolved
+2089,DFOO,BOY,DFOO,Bobo Dioulasso Airport,博博迪乌拉索机场,wikidata:Q598661:zh>zh-hans,Bobo Dioulasso,,,resolved
+2090,DGAA,ACC,DGAA,Kotoka International Airport,科托卡国际机场,wikidata:Q177689:zh,Accra,,,resolved
+2091,DGLE,TML,DGLE,Yakubu Tali International Airport,塔马利,wikidata:Q2195432:zh>zh-hans,Tamale,,,resolved
+2093,DGSI,KMS,DGSI,Prempeh I International Airport,库马西,wikidata:Q1877066:zh>zh-hans,Kumasi,,,resolved
+2096,DIAP,ABJ,DIAP,Félix-Houphouët-Boigny International Airport,阿必尚国际机场,wikidata:Q1165280:zh-hans,Abidjan,,,resolved
+2102,DIYO,ASK,DIYO,Yamoussoukro International Airport,雅穆索戈国际机场,wikidata:Q2876090:zh>zh-hans,Yamoussoukro,,,resolved
+2104,DNAA,ABV,DNAA,Nnamdi Azikiwe International Airport,纳姆迪·阿齐基韦国际机场,wikidata:Q525030:zh,Abuja,,,resolved
+2108,DNEN,ENU,DNEN,Akanu Ibiam International Airport,,,Enegu,,,unresolved
+2111,DNIL,ILR,DNIL,General Tunde Idiagbon International Airport,伊洛林国际机场,wikidata:Q3086140:zh-hans,Ilorin/Ogbomosho,,,resolved
+2114,DNKA,KAD,DNKA,Kaduna International Airport,卡杜纳,wikidata:Q5672567:zh>zh-hans,Kaduna,,,resolved
+2115,DNKN,KAN,DNKN,Mallam Aminu Kano International Airport,卡诺国际机场,wikidata:Q1431654:zh-cn,Kano,,,resolved
+2116,DNMA,MIU,DNMA,Maiduguri International Airport,,,Maiduguri,,,unresolved
+2118,DNMM,LOS,DNMM,Murtala Muhammed International Airport,穆尔塔拉·穆罕默德国际机场,wikidata:Q1043631:zh-hans,Lagos,,,resolved
+2120,DNPO,PHC,DNPO,Port Harcourt International Airport,哈科特港机场,wikidata:Q1432453:zh-cn,Port Harcourt,,,resolved
+2121,DNSO,SKO,DNSO,Sadiq Abubakar III International Airport,萨迪克·阿布巴卡尔三世国际机场,wikidata:Q922675:zh>zh-hans,Sokoto,,,resolved
+2125,DRRN,NIM,DRRN,Diori Hamani International Airport,迪奥里·哈马尼国际机场,wikidata:Q905933:zh,Niamey,,,resolved
+2133,DTTA,TUN,DTTA,Tunis Carthage International Airport,突尼斯－迦太基国际机场,wikidata:Q1141214:zh-hans,Tunis,,,resolved
+2139,DTTJ,DJE,DTTJ,Djerba Zarzis International Airport,杰尔巴－杰尔吉斯国际机场,wikidata:Q1425537:zh-hans,Mellita,,,resolved
+2143,DXNG,LRL,DXNG,Niamtougou International Airport,,,Niamtougou,,,unresolved
+2144,DXXX,LFW,DXXX,Lomé–Tokoin International Airport,纳辛贝·埃亚德马国际机场,wikidata:Q1431925:zh,Lomé,,,resolved
+2155,EBBR,BRU,EBBR,Brussels Airport,布鲁塞尔机场,wikidata:Q28934:zh,Zaventem,,,resolved
+2157,EBCI,CRL,EBCI,Brussels South Charleroi Airport,沙勒罗瓦－布鲁塞尔南机场,wikidata:Q1431012:zh,Charleroi,,,resolved
+2163,EBOS,OST,EBOS,Ostend-Bruges International Airport,奥斯坦德-布鲁日国际机场,wikidata:Q1432260:zh-hans,Oostende,,,resolved
+2210,EDDC,DRS,EDDC,Dresden Airport,德累斯顿机场,wikidata:Q657005:zh-hans,Dresden,,,resolved
+2211,EDDE,ERF,EDDE,Erfurt-Weimar Airport,爱尔福特-魏玛机场,wikidata:Q703794:zh-cn,Erfurt,,,resolved
+2212,EDDF,FRA,EDDF,Frankfurt Main Airport,法兰克福机场,wikidata:Q46033:zh,Frankfurt am Main,,,resolved
+2213,EDDG,FMO,EDDG,Münster Osnabrück Airport,明斯特奥斯纳布吕克国际机场,wikidata:Q673760:zh,Greven,,,resolved
+2214,EDDH,HAM,EDDH,Hamburg Helmut Schmidt Airport,汉堡机场,wikidata:Q27706:zh,Hamburg,,,resolved
+2216,EDDK,CGN,EDDK,Cologne Bonn Airport,科隆/波恩机场,wikidata:Q157741:zh>zh-hans,Köln (Cologne),,,resolved
+2217,EDDL,DUS,EDDL,Düsseldorf Airport,杜塞尔多夫国际机场,wikidata:Q58226:zh,Düsseldorf,,,resolved
+2218,EDDM,MUC,EDDM,Munich Airport,慕尼黑机场,wikidata:Q131402:zh-cn,Munich,,,resolved
+2219,EDDN,NUE,EDDN,Nuremberg Airport,纽伦堡机场,wikidata:Q265994:zh,Nuremberg,,,resolved
+2220,EDDP,LEJ,EDDP,Leipzig/Halle Airport,莱比锡/哈雷机场,wikidata:Q668382:zh,Schkeuditz,,,resolved
+2222,EDDS,STR,EDDS,Stuttgart Airport,斯图加特机场,wikidata:Q158732:zh-cn,Stuttgart,,,resolved
+2224,EDDV,HAJ,EDDV,Hannover Airport,汉诺威-朗根哈根机场,wikidata:Q170169:zh-cn,Hannover,,,resolved
+2225,EDDW,BRE,EDDW,Bremen Airport,不来梅机场,wikidata:Q665365:zh-hans,Bremen,,,resolved
+2227,EDFH,HHN,EDFH,Frankfurt-Hahn Airport,哈恩机场,wikidata:Q158211:zh-cn,Frankfurt am Main (Lautzenhausen),,,resolved
+2237,EDJA,FMM,EDJA,Memmingen Allgau Airport,梅明根机场,wikidata:Q651281:zh,Memmingen,,,resolved
+2244,EDLP,PAD,EDLP,Paderborn Lippstadt Airport,帕德博恩/利普施塔特机场,wikidata:Q685536:zh,Büren,,,resolved
+2246,EDLV,NRN,EDLV,Weeze (Niederrhein) Airport,韦策机场,wikidata:Q632410:zh-hans,Weeze,,,resolved
+2247,EDLW,DTM,EDLW,Dortmund Airport,多特蒙德机场,wikidata:Q313587:zh-cn,Dortmund,,,resolved
+2256,EDNY,FDH,EDNY,Bodensee Airport Friedrichshafen,腓特烈港机场,wikidata:Q682232:zh-hans,Friedrichshafen,,,resolved
+2270,EDSB,FKB,EDSB,Karlsruhe Baden-Baden Airport,卡尔斯鲁厄/巴登-巴登机场,wikidata:Q707457:zh,Rheinmünster,,,resolved
+2285,EDVK,KSF,EDVK,Kassel Airport,卡塞尔-卡尔登机场,wikidata:Q529143:zh-cn,Calden,,,resolved
+2301,EETN,TLL,EETN,Lennart Meri Tallinn Airport,塔林机场,wikidata:Q630524:zh-hans,Tallinn,,,resolved
+2307,EFHK,HEL,EFHK,Helsinki Vantaa Airport,赫尔辛基-万塔机场,wikidata:Q215327:zh-cn,Helsinki (Vantaa),,,resolved
+2314,EFIV,IVL,EFIV,Ivalo Airport,伊瓦洛机场,wikidata:Q850269:zh-hans,Ivalo,,,resolved
+2325,EFKT,KTT,EFKT,Kittilä International Airport,基蒂莱机场,wikidata:Q1347310:zh-hans,Kittilä,,,resolved
+2326,EFKU,KUO,EFKU,Kuopio Airport,库奥皮奥机场,wikidata:Q973283:zh,Kuopio / Siilinjärvi,,,resolved
+2329,EFLP,LPP,EFLP,Lappeenranta Airport,拉彭兰塔机场,wikidata:Q254039:zh,Lappeenranta,,,resolved
+2334,EFOU,OUL,EFOU,Oulu Airport,奥卢机场,wikidata:Q1131604:zh-hans,Oulu / Oulunsalo,,,resolved
+2341,EFRO,RVN,EFRO,Rovaniemi Airport,罗瓦涅米机场,wikidata:Q1323139:zh-hans,Rovaniemi,,,resolved
+2347,EFTP,TMP,EFTP,Tampere-Pirkkala Airport,坦佩雷－皮尔卡拉机场,wikidata:Q1126306:zh-hans,Tampere / Pirkkala,,,resolved
+2349,EFTU,TKU,EFTU,Turku Airport,图尔库机场,wikidata:Q1130231:zh-hans,Turku,,,resolved
+2351,EFVA,VAA,EFVA,Vaasa Airport,瓦萨机场,wikidata:Q1322467:zh-hans,Vaasa,,,resolved
+2357,EES,EES,HEBR,Berenice International Airport / Banas Cape Air Base,,,Berenice Troglodytica,,,unresolved
+2385,EGAA,BFS,EGAA,Belfast International Airport,贝尔法斯特国际机场,wikidata:Q8979:zh,Belfast,,,resolved
+2389,EGBB,BHX,EGBB,Birmingham Airport,伯明翰机场,wikidata:Q8719:zh,"Birmingham, West Midlands",,,resolved
+2398,EGCC,MAN,EGCC,Manchester Airport,曼彻斯特机场,wikidata:Q8694:zh-cn,"Manchester, Greater Manchester",,,resolved
+2415,EGFF,CWL,EGFF,Cardiff International Airport,卡地夫国际机场,wikidata:Q8994:zh>zh-hans,Cardiff,,,resolved
+2417,EGGD,BRS,EGGD,Bristol Airport,布里斯托尔（BRS）,wikidata:Q8725:zh-cn,Bristol,,,resolved
+2418,EGGP,LPL,EGGP,Liverpool John Lennon Airport,利物浦约翰·列侬机场,wikidata:Q8727:zh,Liverpool,,,resolved
+2419,EGGW,LTN,EGGW,London Luton Airport,伦敦卢顿机场,wikidata:Q8712:zh-cn,"Luton, Luton",,,resolved
+2429,EGKK,LGW,EGKK,London Gatwick Airport,盖特威克机场,wikidata:Q8703:zh-cn,London,,,resolved
+2434,EGLL,LHR,EGLL,London Heathrow Airport,希思罗机场,wikidata:Q8691:zh-cn,London,,,resolved
+2444,EGNM,LBA,EGNM,Leeds Bradford Airport,利兹-布拉德福德（LBA）,wikidata:Q8699:zh-cn,"Leeds, West Yorkshire",,,resolved
+2447,EGNS,IOM,EGNS,Isle of Man Airport,马恩岛,wikidata:Q9001:zh-cn,Castletown,,,resolved
+2448,EGNT,NCL,EGNT,Newcastle International Airport,纽卡斯尔国际机场,wikidata:Q8975:zh-cn,"Newcastle upon Tyne, Tyne and Wear",,,resolved
+2450,EGNX,EMA,EGNX,East Midlands Airport,东密德兰机场,wikidata:Q8977:zh>zh-hans,"Nottingham, Leicestershire",,,resolved
+2459,EGPD,ABZ,EGPD,Aberdeen International Airport,阿伯丁机场,wikidata:Q8981:zh,Aberdeen,,,resolved
+2461,EGPF,GLA,EGPF,Glasgow Airport,格拉斯哥国际机场,wikidata:Q8721:zh-cn,Glasgow,,,resolved
+2462,EGPH,EDI,EGPH,Edinburgh Airport,爱丁堡机场,wikidata:Q8716:zh-cn,"Ingliston, Edinburgh",,,resolved
+2464,EGPK,PIK,EGPK,Glasgow Prestwick Airport,格拉斯哥普雷斯蒂克国际机场,wikidata:Q8992:zh,"Prestwick, South Ayrshire",,,resolved
+2476,EGSS,STN,EGSS,London Stansted Airport,伦敦斯坦斯特德机场,wikidata:Q8709:zh-cn,"London, Essex",,,resolved
+2513,EHAM,AMS,EHAM,Amsterdam Airport Schiphol,阿姆斯特丹斯希普霍尔机场,wikidata:Q9694:zh-cn,Amsterdam,,,resolved
+2515,EHBK,MST,EHBK,Maastricht Aachen Airport,马斯特里赫特机场,wikidata:Q698063:zh-cn,Maastricht,,,resolved
+2518,EHEH,EIN,EHEH,Eindhoven Airport,埃因霍温机场,wikidata:Q1348234:zh-cn>zh-hans,Eindhoven,,,resolved
+2519,EHGG,GRQ,EHGG,Groningen Airport Eelde,格罗宁根机场,wikidata:Q769099:zh-cn,Groningen,,,resolved
+2524,EHRD,RTM,EHRD,Rotterdam The Hague Airport,鹿特丹机场,wikidata:Q656807:zh-cn,Rotterdam,,,resolved
+2530,EICK,ORK,EICK,Cork International Airport,科克国际机场,wikidata:Q1345361:zh-hans,Cork,,,resolved
+2533,EIDW,DUB,EIDW,Dublin Airport,都柏林机场,wikidata:Q178021:zh,Dublin,,,resolved
+2534,EIKN,NOC,EIKN,Ireland West Airport Knock,西爱尔兰机场,wikidata:Q848921:zh>zh-hans,Charlestown,,,resolved
+2537,EINN,SNN,EINN,Shannon Airport,香农机场,wikidata:Q584102:zh-hans,Shannon,,,resolved
+2540,EKAH,AAR,EKAH,Aarhus Airport,奥胡斯机场,wikidata:Q1341664:zh-hans,Aarhus,,,resolved
+2541,EKBI,BLL,EKBI,Billund Airport,比隆,wikidata:Q598121:zh,Billund,,,resolved
+2542,EKCH,CPH,EKCH,Copenhagen Kastrup Airport,哥本哈根凯斯楚普机场,wikidata:Q206277:zh-cn,Copenhagen,,,resolved
+2549,EKOD,ODE,EKOD,Odense Hans Christian Andersen Airport,奥登斯,wikidata:Q2896204:zh>zh-hans,Odense,,,resolved
+2559,EKVG,FAE,EKVG,Vágar Airport,沃格机场,wikidata:Q371471:zh>zh-hans,Vágar,,,resolved
+2562,EKYT,AAL,EKYT,Aalborg Airport,奥尔堡机场,wikidata:Q478620:zh-cn,Aalborg,,,resolved
+2563,ELLX,LUX,ELLX,Luxembourg-Findel International Airport,卢森堡,wikidata:Q872186:zh-cn,Luxembourg,,,resolved
+2564,ENAL,AES,ENAL,Ålesund Airport,奥勒松,wikidata:Q175897:zh-cn>zh-hans,Ålesund,,,resolved
+2569,ENBO,BOO,ENBO,Bodø Airport,博德机场,wikidata:Q39164:zh-cn,Bodø,,,resolved
+2570,ENBR,BGO,ENBR,"Bergen Airport, Flesland",卑尔根机场,wikidata:Q619980:zh-hans,Bergen,,,resolved
+2572,ENCN,KRS,ENCN,Kristiansand Airport,克里斯蒂安桑机场,wikidata:Q1431790:zh-hans,Kristiansand(Kjevik),,,resolved
+2575,ENEV,EVE,ENEV,Harstad/Narvik Airport,哈尔斯塔/纳尔维克机场 (埃沃内斯),wikidata:Q1431455:zh>zh-hans,Evenes,,,resolved
+2578,ENGM,OSL,ENGM,Oslo-Gardermoen International Airport,奥斯陆加勒穆恩机场,wikidata:Q210559:zh-cn,Oslo (Gardermoen),,,resolved
+2599,ENTC,TOS,ENTC,Tromsø Airport,特罗姆瑟机场,wikidata:Q2413018:zh-cn,Tromsø,,,resolved
+2600,ENTO,TRF,ENTO,"Sandefjord Airport, Torp",桑讷菲尤尔机场,wikidata:Q957105:zh,Sandefjord(Torp),,,resolved
+2601,ENVA,TRD,ENVA,"Trondheim Airport, Værnes",特隆赫姆机场,wikidata:Q729886:zh-cn,Trondheim,,,resolved
+2602,ENZV,SVG,ENZV,"Stavanger Airport, Sola",斯塔万格机场,wikidata:Q1355258:zh-hans,Stavanger,,,resolved
+2608,EPGD,GDN,EPGD,Gdańsk Lech Wałęsa Airport,格但斯克莱赫·瓦文萨机场,wikidata:Q779984:zh-cn,Gdańsk,,,resolved
+2609,EPKK,KRK,EPKK,Kraków John Paul II International Airport,克拉科夫-巴利采若望保禄二世国际机场,wikidata:Q581545:zh-cn>zh-hans,Balice,,,resolved
+2613,EPKT,KTW,EPKT,Katowice Wojciech Korfanty International Airport,卡托维兹,wikidata:Q1162558:zh-cn,Katowice,,,resolved
+2616,EPLL,LCJ,EPLL,Łódź Władysław Reymont Airport,罗兹瓦迪斯瓦夫雷蒙特机场,wikidata:Q764554:zh-cn,Łódź,,,resolved
+2622,EPMO,WMI,EPMO,Warsaw Modlin Airport,华沙莫德林机场,wikidata:Q1401995:zh-hans,Nowy Dwór Mazowiecki,,,resolved
+2625,EPPO,POZ,EPPO,Poznań-Ławica Airport,波兹南-拉威卡机场,wikidata:Q1361639:zh-hans,Poznań,,,resolved
+2629,EPRZ,RZE,EPRZ,Rzeszów-Jasionka Airport,热舒夫-亚西翁卡机场,wikidata:Q1432651:zh-cn,Jasionka,,,resolved
+2630,EPSC,SZZ,EPSC,Solidarity Szczecin–Goleniów Airport,斯塞新机场,wikidata:Q1432917:zh>zh-hans,Szczecin(Glewice),,,resolved
+2637,EPWA,WAW,EPWA,Warsaw Chopin Airport,华沙肖邦机场,wikidata:Q465071:zh-cn,Warsaw,,,resolved
+2638,EPWR,WRO,EPWR,Copernicus Wrocław Airport,哥白尼弗罗茨瓦夫机场,wikidata:Q1107152:zh-cn,Wrocław,,,resolved
+2648,ESGG,GOT,ESGG,Göteborg Landvetter Airport,哥德堡－兰德维特机场,wikidata:Q1137115:zh-hans,Göteborg,,,resolved
+2660,ESKN,NYO,ESKN,Stockholm Skavsta Airport,斯德哥尔摩斯卡夫斯塔机场,wikidata:Q664946:zh-cn>zh-hans,Nyköping,,,resolved
+2669,ESMS,MMX,ESMS,Malmö Sturup Airport,马尔默机场,wikidata:Q898922:zh-hans,Malmö,,,resolved
+2685,ESNQ,KRN,ESNQ,Kiruna Airport,基律纳机场,wikidata:Q1431740:zh>zh-hans,Kiruna,,,resolved
+2689,ESNU,UME,ESNU,Umeå Airport,于默奥机场,wikidata:Q1433148:zh-cn>zh-hans,Umeå,,,resolved
+2696,ESOW,VST,ESOW,Stockholm Västerås Airport,斯德哥尔摩－韦斯特罗斯机场,wikidata:Q29864:zh>zh-hans,Stockholm / Västerås,,,resolved
+2697,ESPA,LLA,ESPA,Luleå Airport,吕勒奥机场,wikidata:Q1431971:zh-cn,Luleå,,,resolved
+2701,ESSA,ARN,ESSA,Stockholm-Arlanda Airport,斯德哥尔摩阿兰达机场,wikidata:Q223499:zh-cn,Stockholm,,,resolved
+2706,ESSL,LPI,ESSL,Linköping City Airport,林雪坪,wikidata:Q1431883:zh,Linköping,,,resolved
+2710,ESSV,VBY,ESSV,Visby Airport,维斯比机场,wikidata:Q1433208:zh-cn,Visby,,,resolved
+2757,EVLA,LPX,EVLA,Liepāja International Airport,利耶帕亚国际机场,wikidata:Q517037:zh,Liepāja,,,resolved
+2758,EVRA,RIX,EVRA,Riga International Airport,里加国际机场,wikidata:Q505421:zh-hans,Riga,,,resolved
+2760,EYKA,KUN,EYKA,Kaunas International Airport,考纳斯机场,wikidata:Q847695:zh-hans,Kaunas,,,resolved
+2762,EYPA,PLQ,EYPA,Palanga International Airport,帕兰加国际机场,wikidata:Q1332588:zh-hans,Palanga,,,resolved
+2766,EYVI,VNO,EYVI,Vilnius International Airport,维尔纽斯国际机场,wikidata:Q847711:zh-hans,Vilnius,,,resolved
+2772,FABL,BFN,FABL,Bram Fischer International Airport,布隆方丹机场,wikidata:Q598282:zh-hans,Bloemfontein,,,resolved
+2775,FACT,CPT,FACT,Cape Town International Airport,开普敦国际机场,wikidata:Q854130:zh-hans,Cape Town,,,resolved
+2779,FAEL,ELS,FAEL,King Phalo Airport,东伦敦机场,wikidata:Q3496971:zh-hans,East London,,,resolved
+2783,FAGG,GRJ,FAGG,George Airport,乔治机场,wikidata:Q1431367:zh>zh-hans,George,,,resolved
+2794,FAKM,KIM,FAKM,Kimberley Airport,金伯利机场,wikidata:Q1141523:zh-hans,Kimberley,,,resolved
+2795,FAKN,MQP,FAKN,Kruger Mpumalanga International Airport,克鲁格姆普马兰加国际机场,wikidata:Q1431784:zh>zh-hans,Mbombela,,,resolved
+2800,FALA,HLA,FALA,Lanseria International Airport,兰塞里亚国际机场,wikidata:Q2163819:zh>zh-hans,Johannesburg,,,resolved
+2820,FAPE,PLZ,FAPE,Chief Dawid Stuurman International Airport,伊丽莎白港机场,wikidata:Q1432442:zh>zh-hans,Gqeberha (Port Elizabeth),,,resolved
+2827,FAPP,PTG,FAPP,Polokwane International Airport,波罗克瓦尼国际机场,wikidata:Q2233103:zh-hans,Polokwane,,,resolved
+2860,FBFT,FRW,FBPM,Phillip Gaonwe Matante International Airport,弗朗西斯敦机场,wikidata:Q1657700:zh-hans,Francistown,,,resolved
+2862,FBKE,BBK,FBKE,Kasane International Airport,卡萨内机场,wikidata:Q1431675:zh>zh-hans,Kasane,,,resolved
+2863,FBMN,MUB,FBMN,Maun International Airport,马翁,wikidata:Q121760:zh>zh-hans,Maun,,,resolved
+2864,FBSK,GBE,FBSK,Sir Seretse Khama International Airport,塞雷茨·卡马爵士国际机场,wikidata:Q1327949:zh-hans,Gaborone,,,resolved
+2868,FCBB,BZV,FCBB,Maya-Maya International Airport,马亚-马亚国际机场,wikidata:Q644963:zh-hans,Brazzaville,,,resolved
+2871,FCPP,PNR,FCPP,Antonio Agostinho-Neto International Airport,安东尼奥·阿戈什蒂纽·内图国际机场,wikidata:Q1432398:zh-hans>zh-hans,Pointe Noire,,,resolved
+2873,FEFF,BGF,FEFF,Bangui M'Poko International Airport,班吉－姆波科国际机场,wikidata:Q790043:zh,Bangui,,,resolved
+2875,FGBT,BSG,FGBT,Bata International Airport,巴塔机场,wikidata:Q2707180:zh>zh-hans,Bata,,,resolved
+2876,FGSL,SSG,FGSL,Malabo International Airport,马拉博机场,wikidata:Q655320:zh>zh-hans,Malabo,,,resolved
+2878,FIMP,MRU,FIMP,Sir Seewoosagur Ramgoolam International Airport,西沃萨古尔·拉姆古兰爵士国际机场,wikidata:Q36460:zh,Plaine Magnien,,,resolved
+2882,FKKD,DLA,FKKD,Douala International Airport,杜阿拉国际机场,wikidata:Q898928:zh-hans,Douala,,,resolved
+2886,FKKR,GOU,FKKR,Garoua International Airport,加鲁阿国际机场,wikidata:Q2161272:zh>zh-hans,Garoua,,,resolved
+2890,FKYS,NSI,FKYS,Yaoundé Nsimalen International Airport,雅温得-恩西马兰国际机场,wikidata:Q221351:zh>zh-hans,Yaoundé,,,resolved
+2893,FLLI,LVI,FLHN,Harry Mwanga Nkumbula International Airport,利文斯通,wikidata:Q1431890:zh,Livingstone,,,resolved
+2894,FLLS,LUN,FLKK,Kenneth Kaunda International Airport,肯尼思·卡翁达国际机场,wikidata:Q332302:zh-cn,Lusaka,,,resolved
+2895,FLMF,MFU,FLMF,Mfuwe International Airport,姆富韦,wikidata:Q3566281:zh>zh-hans,Mfuwe,,,resolved
+2901,FMCH,HAH,FMCH,Prince Said Ibrahim International Airport,赛义德·易卜拉欣王子国际机场,wikidata:Q653299:zh,Moroni,,,resolved
+2904,FMCZ,DZA,FMCZ,Dzaoudzi Pamandzi International Airport,藻德济-帕芒济国际机场,wikidata:Q642313:zh-cn,Dzaoudzi,,,resolved
+2905,FMEE,RUN,FMEE,Roland Garros Airport,罗兰加洛斯机场,wikidata:Q17430:zh>zh-hans,Sainte-Marie,,,resolved
+2906,FMEP,ZSE,FMEP,Saint-Pierre Pierrefonds Airport,圣皮埃尔机场,wikidata:Q17431:zh>zh-hans,Saint-Pierre,,,resolved
+2908,FMMI,TNR,FMMI,Ivato International Airport,塔那那利佛/伊瓦图国际机场,wikidata:Q670038:zh,Antananarivo,,,resolved
+2911,FMMT,TMM,FMMT,Toamasina Ambalamanasy Airport,图阿马西纳机场,wikidata:Q2006710:zh>zh-hans,Toamasina,,,resolved
+2919,FMNM,MJN,FMNM,Amborovy Airport,安博洛弗机场,wikidata:Q1657683:zh>zh-hans,Mahajanga,,,resolved
+2920,FMNN,NOS,FMNN,Nosy Be International Airport,法先机场,wikidata:Q613657:zh>zh-hans,Nosy Be,,,resolved
+2942,FNLU,LAD,FNLU,Quatro de Fevereiro International Airport,二月四日国际机场,wikidata:Q598002:zh-hans,Luanda,,,resolved
+2963,FOOG,POG,FOOG,Port Gentil International Airport,让蒂尔港国际机场,wikidata:Q1807680:zh>zh-hans,Port Gentil,,,resolved
+2966,FOOL,LBV,FOOL,Libreville Leon M'ba International Airport,利伯维尔国际机场,wikidata:Q420847:zh-cn,Libreville,,,resolved
+2969,FPST,TMS,FPST,São Tomé International Airport,圣多美国际机场,wikidata:Q1418267:zh>zh-hans,São Tomé,,,resolved
+2970,FQBR,BEW,FQBR,Beira International Airport,贝拉机场,wikidata:Q381643:zh-hans,Beira,,,resolved
+2975,FQMA,MPM,FQMA,Maputo Airport,马普托国际机场,wikidata:Q1022397:zh,Maputo,,,resolved
+2980,FQNP,APL,FQNP,Nampula Airport,楠普拉机场,wikidata:Q1526611:zh-hans,Nampula,,,resolved
+2984,FQTT,TET,FQTT,Tete Airport,太特,wikidata:Q3275527:zh,Tete,,,resolved
+2993,FSIA,SEZ,FSIA,Seychelles International Airport,塞舌尔国际机场,wikidata:Q1432843:zh,Victoria,,,resolved
+2998,FTTJ,NDJ,FTTJ,N'Djamena International Airport,恩贾梅纳国际机场,wikidata:Q979272:zh,N'Djamena,,,resolved
+3000,FVBU,BUQ,FVJN,Joshua Mqabuko Nkomo International Airport,,,Bulawayo,,,unresolved
+3004,FVFA,VFA,FVFA,Victoria Falls International Airport,维多利亚瀑布城机场,wikidata:Q1433189:zh,Victoria Falls,,,resolved
+3005,FVHA,HRE,FVRG,Robert Gabriel Mugabe International Airport,哈拉雷国际机场,wikidata:Q760897:zh-hans,Harare,,,resolved
+3015,FWCL,BLZ,FWCL,Chileka International Airport,奇莱卡国际机场,wikidata:Q2670307:zh-cn,Blantyre,,,resolved
+3018,FWKI,LLW,FWKI,Kamuzu International Airport,利隆圭国际机场,wikidata:Q721780:zh-cn,Lumbadzi,,,resolved
+3022,FXMM,MSU,FXMM,Moshoeshoe I International Airport,莫舒舒一世国际机场,wikidata:Q645462:zh-hans,Maseru(Mazenod),,,resolved
+3037,FYWB,WVB,FYWB,Walvis Bay International Airport,鲸湾港,wikidata:Q960708:zh-cn,Walvis Bay(Rooikop),,,resolved
+3039,FYWH,WDH,FYWH,Hosea Kutako International Airport,霍齐亚·库塔科国际机场,wikidata:Q667326:zh,Windhoek,,,resolved
+3040,FZAA,FIH,FZAA,Ndjili International Airport,恩吉利国际机场,wikidata:Q645492:zh-hans,Kinshasa,,,resolved
+3052,FZIC,FKI,FZIC,Bangoka International Airport,基桑加尼国际机场,wikidata:Q27596:zh-hans,Kisangani,,,resolved
+3057,FZNA,GOM,FZNA,Goma International Airport,戈马国际机场,wikidata:Q2564541:zh>zh-hans,Goma,,,resolved
+3059,FZQA,FBM,FZQA,Lubumbashi International Airport,卢本巴希国际机场,wikidata:Q738866:zh>zh-hans,Lubumbashi,,,resolved
+3066,GABS,BKO,GABS,Modibo Keita International Airport,巴马科国际机场,wikidata:Q721258:zh-hans,Bamako,,,resolved
+3071,GATB,TOM,GATB,Tombouktou Airport,廷巴克图机场,wikidata:Q764032:zh>zh-hans,Timbuktu,,,resolved
+3076,GBYD,BJL,GBYD,Banjul International Airport,班珠尔国际机场,wikidata:Q753531:zh-hans,Banjul (Yundum),,,resolved
+3077,GCFV,FUE,GCFV,Fuerteventura Airport,富埃特文图拉机场,wikidata:Q1431349:zh,El Matorral,,,resolved
+3081,GCLP,LPA,GCLP,Gran Canaria Airport,大加那利机场,wikidata:Q1130612:zh-hans,Gran Canaria Island,,,resolved
+3082,GCRR,ACE,GCRR,César Manrique-Lanzarote Airport,兰萨罗特塞萨尔·曼里克机场,wikidata:Q1430865:zh-cn,San Bartolomé,,,resolved
+3083,GCTS,TFS,GCTS,Tenerife Sur Airport,特内里费南部机场,wikidata:Q821984:zh,Tenerife,,,resolved
+3084,GCXO,TFN,GCXO,Tenerife Norte-Ciudad de La Laguna Airport,特内里费北部-拉拉古纳市机场,wikidata:Q932514:zh,Tenerife,,,resolved
+3095,GFLL,FNA,GFLL,Lungi International Airport,隆吉国际机场,wikidata:Q1453722:zh>zh-hans,Freetown (Lungi-Town),,,resolved
+3097,GGOV,OXB,GGOV,Osvaldo Vieira International Airport,奥斯瓦尔多·维埃拉国际机场,wikidata:Q1432281:zh-hans,Bissau,,,resolved
+3099,GLRB,ROB,GLRB,Roberts International Airport,罗伯茨国际机场,wikidata:Q721497:zh-hans,Monrovia,,,resolved
+3101,GMAD,AGA,GMAD,Al Massira Airport,阿达纳,wikidata:Q1416280:zh-cn,Agadir (Temsia),,,resolved
+3103,GMFF,FEZ,GMFF,Fes Saïss International Airport,非斯机场,wikidata:Q1431302:zh-hans,Saïss,,,resolved
+3107,GMFO,OUD,GMFO,Oujda Angads Airport,莱安加德斯机场,wikidata:Q1382309:zh-cn,Ahl Angad,,,resolved
+3109,GMME,RBA,GMME,Rabat-Salé Airport,拉巴特－塞拉国际机场,wikidata:Q1432573:zh,Rabat,,,resolved
+3110,GMMH,VIL,GMMH,Dakhla Airport,达赫拉机场,wikidata:Q1431176:zh-hans,Dakhla,,,resolved
+3112,GMML,EUN,GMML,Laayoune Hassan I International Airport,哈斯桑一世机场,wikidata:Q1431242:zh>zh-hans,El Aaiún,,,resolved
+3113,GMMN,CMN,GMMN,Mohammed V International Airport,穆罕默德五世国际机场,wikidata:Q955433:zh,Casablanca,,,resolved
+3114,GMMW,NDR,GMMW,Nador Al Aaroui International Airport,纳祖尔国际机场,wikidata:Q1432126:zh-hans,Al Aaroui,,,resolved
+3115,GMMX,RAK,GMMX,Marrakesh Menara Airport,马拉喀什－迈纳拉国际机场,wikidata:Q429304:zh,Marrakesh,,,resolved
+3117,GMMZ,OZZ,GMMZ,Ouarzazate International Airport,瓦尔扎扎特,wikidata:Q1432275:zh>zh-hans,Ouarzazate,,,resolved
+3120,GMTN,TTU,GMTN,Sania Ramel Airport,萨尼亚·拉梅尔机场,wikidata:Q1433058:zh-cn,Tétouan,,,resolved
+3121,GMTT,TNG,GMTT,Tangier Ibn Battuta Airport,丹吉尔,wikidata:Q1433022:zh-cn,Tangier,,,resolved
+3125,GOOY,DKR,GOOY,Léopold Sédar Senghor International Airport,达喀尔－约夫－利奥波德·塞达尔·桑戈尔国际机场,wikidata:Q513689:zh,Dakar,,,resolved
+3138,GQPP,NDB,GQPP,Nouadhibou International Airport,努瓦迪布国际机场,wikidata:Q2671152:zh-hans,Nouadhibou,,,resolved
+3146,GUCY,CKY,GUCY,Ahmed Sékou Touré International Airport,科纳克里国际机场,wikidata:Q644978:zh>zh-hans,Conakry,,,resolved
+3150,GVAC,SID,GVAC,Amílcar Cabral International Airport,阿米尔卡·加布拉尔国际机场,wikidata:Q482315:zh,Espargos,,,resolved
+3151,GVBA,BVC,GVBA,Aristides Pereira International Airport,阿里斯蒂德斯·佩雷拉国际机场,wikidata:Q1430965:zh-cn,Rabil,,,resolved
+3153,GVNP,RAI,GVNP,Nelson Mandela International Airport,纳尔逊·曼德拉国际机场,wikidata:Q1191196:zh>zh-hans,Praia,,,resolved
+3155,GVSV,VXE,GVSV,Cesaria Evora International Airport,塞萨里娅·埃沃拉国际机场,wikidata:Q674514:zh,São Pedro,,,resolved
+3157,HAAB,ADD,HAAB,Addis Ababa Bole International Airport,博莱国际机场,wikidata:Q44923:zh,Addis Ababa,,,resolved
+3162,HADR,DIR,HADR,Aba Tenna Dejazmach Yilma International Airport,阿巴·德纳·D·伊尔马国际机场,wikidata:Q2507539:zh-hans,Dire Dawa,,,resolved
+3170,HBBA,BJM,HBBA,Bujumbura Melchior Ndadaye International Airport,布琼布拉国际机场,wikidata:Q681134:zh>zh-hans,Bujumbura,,,resolved
+3171,HCMH,HGA,HCMH,Egal International Airport,埃加勒国际机场,wikidata:Q15564:zh,Hargeisa,,,resolved
+3174,HDAM,JIB,HDAM,Djibouti-Ambouli Airport,吉布提－安布利国际机场,wikidata:Q620706:zh-hans,Djibouti City,,,resolved
+3175,HEAL,DBB,HEAL,El Alamein International Airport,阿拉曼国际机场,wikidata:Q11824194:zh,El Alamein,,,resolved
+3176,HEAR,AAC,HEAR,El Arish International Airport,阿里什国际机场,wikidata:Q201626:zh-cn,El Arish,,,resolved
+3177,HEAT,ATZ,HEAT,Asyut International Airport,艾斯尤特国际机场,wikidata:Q2107478:zh,Asyut,,,resolved
+3180,HEBA,HBE,HEAX,Alexandria International Airport,阿拉伯堡机场,wikidata:Q1194015:zh-cn,Alexandria,,,resolved
+3183,HECA,CAI,HECA,Cairo International Airport,开罗国际机场,wikidata:Q461793:zh-cn,Cairo,,,resolved
+3186,HEGN,HRG,HEGN,Hurghada International Airport,古尔代盖国际机场,wikidata:Q385191:zh,Hurghada,,,resolved
+3191,HELX,LXR,HELX,Luxor International Airport,卢克索国际机场,wikidata:Q1347322:zh-hans,Luxor,,,resolved
+3192,HEMA,RMF,HEMA,Marsa Alam International Airport,阿莱姆港国际机场,wikidata:Q123222:zh-cn,Marsa Alam,,,resolved
+3193,HEMM,MUH,HEMM,Mersa Matruh International Airport,马特鲁港国际机场,wikidata:Q651557:zh>zh-hans,Marsa Matruh,,,resolved
+3196,HEPS,PSD,HEPS,Port Said International Airport,,,Port Said,,,unresolved
+3198,HESH,SSH,HESH,Sharm El Sheikh International Airport,沙姆沙伊赫国际机场,wikidata:Q326268:zh-cn,Sharm El Sheikh,,,resolved
+3199,HESN,ASW,HESN,Aswan International Airport,阿斯旺国际机场,wikidata:Q752537:zh-hans,Aswan,,,resolved
+3205,HKEL,EDL,HKEL,Eldoret International Airport,埃尔多雷特国际机场,wikidata:Q1258402:zh-hans,Eldoret,,,resolved
+3206,HKJK,NBO,HKJK,Jomo Kenyatta International Airport,乔莫·肯雅塔国际机场,wikidata:Q206349:zh,Nairobi,,,resolved
+3208,HKKI,KIS,HKKI,Kisumu International Airport,,,Kisumu,,,unresolved
+3213,HKMO,MBA,HKMO,Moi International Airport,莫伊国际机场,wikidata:Q392784:zh-cn,Mombasa,,,resolved
+3219,HLGD,SRX,HLGD,Sirt International Airport / Ghardabiya Airbase,,,Sirt,,,unresolved
+3223,HLLB,BEN,HLLB,Benina International Airport,贝尼纳国际机场,wikidata:Q44553:zh,Benina,,,resolved
+3224,HLLM,MJI,HLLM,Mitiga International Airport,的黎波里-米提加,wikidata:Q45000:zh,Tripoli,,,resolved
+3225,HLLQ,LAQ,HLLQ,Al Abraq International Airport,贝达国际机场,wikidata:Q36171:zh>zh-hans,Al Albraq,,,resolved
+3237,HRYR,KGL,HRYR,Kigali International Airport,基加利国际机场,wikidata:Q1322696:zh-hans,Kigali,,,resolved
+3246,HSPN,PZU,HSPN,Port Sudan New International Airport,苏丹港机场,wikidata:Q1431022:zh-cn,Port Sudan,,,resolved
+3247,HJJJ,JUB,HJJJ,Juba International Airport,朱巴机场,wikidata:Q1122958:zh-hans,Juba,,,resolved
+3249,HSSK,KRT,HSSK,Khartoum International Airport,喀土穆国际机场,wikidata:Q1050244:zh-hans,Khartoum,,,resolved
+3251,HTDA,DAR,HTDA,Julius Nyerere International Airport,朱利叶斯·尼雷尔国际机场,wikidata:Q1411192:zh-hans,Dar es Salaam,,,resolved
+3254,HTKJ,JRO,HTKJ,Kilimanjaro International Airport,乞力马扎罗国际机场,wikidata:Q1365099:zh-hans>zh-hans,Arusha,,,resolved
+3257,HTMW,MWZ,HTMW,Mwanza International Airport,姆万扎机场,wikidata:Q392790:zh-hans,Mwanza,,,resolved
+3260,HTZA,ZNZ,HTZA,Abeid Amani Karume International Airport,桑给巴尔,wikidata:Q1393401:zh-cn,Zanzibar,,,resolved
+3263,HUEN,EBB,HUEN,Entebbe International Airport,恩德培国际机场,wikidata:Q586065:zh,Entebbe,,,resolved
+3301,VAOZ,ISK,VAOZ,Nashik International Airport,,,Nashik,,,unresolved
+3371,KALB,ALB,KALB,Albany International Airport,奥尔巴尼国际机场,wikidata:Q1430745:zh-cn,Albany,,,resolved
+3384,KATL,ATL,KATL,Hartsfield Jackson Atlanta International Airport,哈茨菲尔德－杰克逊亚特兰大国际机场,wikidata:Q214861:zh-cn,Atlanta,,,resolved
+3386,KAUS,AUS,KAUS,Austin Bergstrom International Airport,奥斯汀-伯格斯特龙国际机场,wikidata:Q1430913:zh,Austin,,,resolved
+3396,KBDL,BDL,KBDL,Bradley International Airport,布拉德利国际机场,wikidata:Q1420233:zh-hans,Hartford,,,resolved
+3406,KBHM,BHM,KBHM,Birmingham-Shuttlesworth International Airport,伯明翰－沙特尔斯沃思国际机场,wikidata:Q865724:zh,Birmingham,,,resolved
+3420,KBNA,BNA,KBNA,Nashville International Airport,纳什维尔国际机场,wikidata:Q1432146:zh,Nashville,,,resolved
+3421,KBOI,BOI,KBOI,Boise Air Terminal/Gowen Field,博伊西机场,wikidata:Q1430971:zh>zh-hans,Boise,,,resolved
+3422,KBOS,BOS,KBOS,Boston Logan International Airport,爱德华·劳伦斯·洛根将军国际机场,wikidata:Q671475:zh,Boston,,,resolved
+3431,KBUF,BUF,KBUF,Buffalo Niagara International Airport,布法罗尼亚加拉国际机场,wikidata:Q597986:zh-cn,Buffalo,,,resolved
+3432,KBUR,BUR,KBUR,Hollywood Burbank/Bob Hope Airport,柏本克,wikidata:Q598817:zh,Burbank,,,resolved
+3435,KBWI,BWI,KBWI,Baltimore/Washington International Thurgood Marshall Airport,巴尔的摩/华盛顿瑟古德·马歇尔国际机场,wikidata:Q94895:zh,Baltimore,,,resolved
+3450,KCHS,CHS,KCHS,Charleston International Airport,查尔斯顿,wikidata:Q1163183:zh-cn,Charleston,,,resolved
+3454,KCLE,CLE,KCLE,Cleveland Hopkins International Airport,克里夫兰霍普金斯国际机场,wikidata:Q1100795:zh>zh-hans,Cleveland,,,resolved
+3457,KCLT,CLT,KCLT,Charlotte Douglas International Airport,夏洛特道格拉斯国际机场,wikidata:Q597649:zh-hans,Charlotte,,,resolved
+3458,KCMH,CMH,KCMH,John Glenn Columbus International Airport,哥伦布国际机场,wikidata:Q1432440:zh-cn,Columbus,,,resolved
+3463,KCOS,COS,KCOS,City of Colorado Springs Municipal Airport,科罗拉多泉机场,wikidata:Q969087:zh>zh-hans,Colorado Springs,,,resolved
+3471,KCVG,CVG,KCVG,Cincinnati Northern Kentucky International Airport,辛辛那堤/北肯塔基国际机场,wikidata:Q151121:zh>zh-hans,Cincinnati / Covington,,,resolved
+3479,KDAL,DAL,KDAL,Dallas Love Field,达拉斯爱田机场,wikidata:Q613569:zh-cn,Dallas,,,resolved
+3483,KDCA,DCA,KDCA,Ronald Reagan Washington National Airport,罗纳德·里根华盛顿国家机场,wikidata:Q676576:zh-hans,Washington,,,resolved
+3486,KDEN,DEN,KDEN,Denver International Airport,丹佛国际机场,wikidata:Q330015:zh-cn,Denver,,,resolved
+3488,KDFW,DFW,KDFW,Dallas Fort Worth International Airport,达拉斯－沃思堡国际机场,wikidata:Q459096:zh-cn,Dallas-Fort Worth,,,resolved
+3496,KDSM,DSM,KDSM,Des Moines International Airport,德梅因国际机场,wikidata:Q1431204:zh-cn,Des Moines,,,resolved
+3497,KDTW,DTW,KDTW,Detroit Metropolitan Wayne County Airport,底特律都会韦恩县机场,wikidata:Q652505:zh,Detroit,,,resolved
+3512,KELP,ELP,KELP,El Paso International Airport,艾尔帕索,wikidata:Q1231062:zh-cn,El Paso,,,resolved
+3521,KEWR,EWR,KEWR,Newark Liberty International Airport,纽瓦克自由国际机场,wikidata:Q466786:zh-cn,Newark,,,resolved
+3524,KFAT,FAT,KFAT,Fresno Yosemite International Airport,弗雷斯诺,wikidata:Q2720229:zh-cn,Fresno,,,resolved
+3531,KFLL,FLL,KFLL,Fort Lauderdale Hollywood International Airport,劳德代尔堡－好莱坞国际机场,wikidata:Q635361:zh-hans,Fort Lauderdale,,,resolved
+3552,KGEG,GEG,KGEG,Spokane International Airport,斯波坎国际机场,wikidata:Q917528:zh,Spokane,,,resolved
+3566,KGRR,GRR,KGRR,Gerald R. Ford International Airport,杰拉尔德·福特国际机场,wikidata:Q1510001:zh-cn,Grand Rapids,,,resolved
+3568,KGSO,GSO,KGSO,Piedmont Triad International Airport,皮埃蒙特三子城国际机场,wikidata:Q847772:zh-hans,Greensboro,,,resolved
+3588,KHOU,HOU,KHOU,William P. Hobby Airport,威廉·佩特斯·霍比机场,wikidata:Q771340:zh,Houston,,,resolved
+3602,KIAD,IAD,KIAD,Washington Dulles International Airport,华盛顿杜勒斯国际机场,wikidata:Q466835:zh-cn,Dulles,,,resolved
+3604,KIAH,IAH,KIAH,George Bush Intercontinental Airport,乔治·布什洲际机场,wikidata:Q744748:zh-hans,Houston,,,resolved
+3610,KIND,IND,KIND,Indianapolis International Airport,印第安纳波利斯国际机场,wikidata:Q1156865:zh-hans,Indianapolis,,,resolved
+3620,KJAX,JAX,KJAX,Jacksonville International Airport,杰克逊维尔国际机场,wikidata:Q1431579:zh,Jacksonville,,,resolved
+3622,KJFK,JFK,KJFK,John F. Kennedy International Airport,约翰·F·肯尼迪国际机场,wikidata:Q8685:zh-hans,New York,,,resolved
+3631,KLAS,LAS,KLAS,Harry Reid International Airport,哈里·里德国际机场,wikidata:Q853886:zh-cn,Las Vegas,,,resolved
+3632,KLAX,LAX,KLAX,Los Angeles International Airport,洛杉矶国际机场,wikidata:Q8731:zh-cn>zh-hans,Los Angeles,,,resolved
+3643,KLGA,LGA,KLGA,LaGuardia Airport,拉瓜迪亚机场,wikidata:Q319654:zh-cn,New York,,,resolved
+3644,KLGB,LGB,KLGB,Long Beach International Airport,长滩,wikidata:Q1431943:zh-cn,Long Beach,,,resolved
+3668,KMCI,MCI,KMCI,Kansas City International Airport,堪萨斯城,wikidata:Q1431674:zh-cn,Kansas City,,,resolved
+3670,KMCO,MCO,KMCO,Orlando International Airport,奥兰多国际机场,wikidata:Q929859:zh-hans,Orlando,,,resolved
+3673,KMDW,MDW,KMDW,Chicago Midway International Airport,芝加哥中途国际机场,wikidata:Q1061437:zh-hans,Chicago,,,resolved
+3675,KMEM,MEM,KMEM,Frederick W. Smith International Airport,孟菲斯国际机场,wikidata:Q866831:zh-hans,Memphis,,,resolved
+3685,KMIA,MIA,KMIA,Miami International Airport,迈阿密国际机场,wikidata:Q127530:zh-hans,Miami,,,resolved
+3690,KMKE,MKE,KMKE,General Mitchell International Airport,密尔沃基米切尔国际机场,wikidata:Q537950:zh-cn,Milwaukee,,,resolved
+3709,KMSP,MSP,KMSP,Minneapolis–Saint Paul International Airport / Wold–Chamberlain Field,明尼阿波利斯－圣保罗国际机场,wikidata:Q875749:zh-hans,Minneapolis,,,resolved
+3711,KMSY,MSY,KMSY,Louis Armstrong New Orleans International Airport,新奥尔良路易斯阿姆斯特朗国际机场,wikidata:Q1461076:zh-hans,New Orleans,,,resolved
+3717,KMYR,MYR,KMYR,Myrtle Beach International Airport,默特尔比奇国际机场,wikidata:Q1528300:zh-cn,Myrtle Beach,,,resolved
+3744,KOAK,OAK,KOAK,Oakland San Francisco Bay Airport,奥克兰国际机场,wikidata:Q1165584:zh-hans,Oakland,,,resolved
+3747,KOKC,OKC,KOKC,OKC Will Rogers World Airport,威尔·罗杰斯世界机场,wikidata:Q1499872:zh,Oklahoma City,,,resolved
+3751,KOMA,OMA,KOMA,Eppley Airfield,奥马哈,wikidata:Q1347672:zh-cn,Omaha,,,resolved
+3752,KONT,ONT,KONT,Ontario International Airport,安大略国际机场,wikidata:Q949831:zh,Ontario,,,resolved
+3754,KORD,ORD,KORD,Chicago O'Hare International Airport,奥黑尔国际机场,wikidata:Q213717:zh-cn,Chicago,,,resolved
+3755,KORF,ORF,KORF,Norfolk International Airport,诺福克国际机场,wikidata:Q1432196:zh>zh-hans,Norfolk,,,resolved
+3766,KPBI,DJT,KDJT,President Donald J. Trump International Airport,棕榈海岸,wikidata:Q1432310:zh-cn,West Palm Beach,,,resolved
+3768,KPDX,PDX,KPDX,Portland International Airport,波特兰国际机场,wikidata:Q1425566:zh-hans,Portland,,,resolved
+3771,KPHL,PHL,KPHL,Philadelphia International Airport,费城国际机场,wikidata:Q512128:zh>zh-hans,Philadelphia,,,resolved
+3772,KPHX,PHX,KPHX,Phoenix Sky Harbor International Airport,菲尼克斯天港国际机场,wikidata:Q912916:zh-cn,Phoenix,,,resolved
+3775,KPIE,PIE,KPIE,St. Petersburg Clearwater International Airport,圣彼得—克利尔沃特国际机场,wikidata:Q1584069:zh-hans,Pinellas Park,,,resolved
+3778,KPIT,PIT,KPIT,Pittsburgh International Airport,匹兹堡,wikidata:Q1421504:zh-cn,Pittsburgh,,,resolved
+3783,KPNS,PNS,KPNS,Pensacola International Airport,彭萨科拉区域机场,wikidata:Q6587079:zh>zh-hans,Pensacola,,,resolved
+3792,KPSP,PSP,KPSP,Palm Springs International Airport,棕榈泉国际机场,wikidata:Q2550620:zh-hans,Palm Springs,,,resolved
+3795,KPVD,PVD,KPVD,Rhode Island T. F. Green International Airport,罗德岛T·F·格林国际机场,wikidata:Q787782:zh>zh-hans,Providence/Warwick,,,resolved
+3796,KPWM,PWM,KPWM,Portland International Jetport,波特兰国际喷射机机场,wikidata:Q1432470:zh,Portland,,,resolved
+3844,KRDU,RDU,KRDU,Raleigh-Durham International Airport,莱利都林国际机场,wikidata:Q1192962:zh-hans,Raleigh/Durham,,,resolved
+3847,KRIC,RIC,KRIC,Richmond International Airport,里契蒙国际机场,wikidata:Q1857178:zh>zh-hans,Richmond,,,resolved
+3853,KRNO,RNO,KRNO,Reno Tahoe International Airport,里诺,wikidata:Q597139:zh-cn,Reno,,,resolved
+3855,KROC,ROC,KROC,Frederick Douglass Greater Rochester International Airport,罗彻斯特,wikidata:Q3914227:zh-cn,Rochester,,,resolved
+3858,KRSW,RSW,KRSW,Southwest Florida International Airport,南麦尔兹堡,wikidata:Q1500002:zh-cn,Fort Myers,,,resolved
+3862,KSAN,SAN,KSAN,San Diego International Airport,圣迭戈国际机场,wikidata:Q1333923:zh-cn,San Diego,,,resolved
+3863,KSAT,SAT,KSAT,San Antonio International Airport,圣安东尼奥国际机场,wikidata:Q1432706:zh>zh-hans,San Antonio,,,resolved
+3864,KSAV,SAV,KSAV,Savannah Hilton Head International Airport,萨凡纳/希尔顿黑德国际机场,wikidata:Q1432789:zh-hans>zh-hans,Savannah,,,resolved
+3867,KSBD,SBD,KSBD,San Bernardino International Airport,圣贝纳迪诺国际机场,wikidata:Q1626991:zh,San Bernardino,,,resolved
+3873,KSDF,SDF,KSDF,Louisville Muhammad Ali International Airport,路易维尔国际机场,wikidata:Q1199087:zh-hans,Louisville,,,resolved
+3875,KSEA,SEA,KSEA,Seattle–Tacoma International Airport,西雅图－塔科马国际机场,wikidata:Q14295:zh>zh-hans,Seattle,,,resolved
+3876,KSFB,SFB,KSFB,Orlando Sanford International Airport,奥兰多桑福德国际机场,wikidata:Q597631:zh-hans,Orlando,,,resolved
+3878,KSFO,SFO,KSFO,San Francisco International Airport,旧金山国际机场,wikidata:Q8688:zh-cn>zh-hans,San Francisco,,,resolved
+3883,KSJC,SJC,KSJC,Mineta San Jose International Airport,诺曼·峰田圣何塞国际机场,wikidata:Q1257392:zh-cn,San Jose,,,resolved
+3887,KSLC,SLC,KSLC,Salt Lake City International Airport,盐湖城国际机场,wikidata:Q526488:zh-hans,Salt Lake City,,,resolved
+3892,KSMF,SMF,KSMF,Sacramento International Airport,沙加缅度国际机场,wikidata:Q1432668:zh>zh-hans,Sacramento,,,resolved
+3894,KSNA,SNA,KSNA,John Wayne Orange County International Airport,橙县,wikidata:Q1692316:zh-cn,Santa Ana,,,resolved
+3899,KSRQ,SRQ,KSRQ,Sarasota Bradenton International Airport,萨拉索塔,wikidata:Q1284157:zh-cn,Sarasota/Bradenton,,,resolved
+3905,KSTL,STL,KSTL,St. Louis Lambert International Airport,圣路易斯兰伯特国际机场,wikidata:Q1425838:zh-hans,St Louis,,,resolved
+3913,KSYR,SYR,KSYR,Syracuse Hancock International Airport,锡拉丘兹汉考克国际机场,wikidata:Q175028:zh-cn,Syracuse,,,resolved
+3926,KTPA,TPA,KTPA,Tampa International Airport,坦帕国际机场,wikidata:Q571536:zh-cn,Tampa,,,resolved
+3930,KTUL,TUL,KTUL,Tulsa International Airport,塔尔萨国际机场,wikidata:Q515522:zh,Tulsa,,,resolved
+3932,KTUS,TUS,KTUS,Tucson International Airport,图森,wikidata:Q1433111:zh-cn,Tucson,,,resolved
+3938,KTYS,TYS,KTYS,McGhee Tyson Airport,诺克斯维尔,wikidata:Q651495:zh>zh-hans,Knoxville/Maryville,,,resolved
+3972,LATI,TIA,LATI,Tirana International Airport Mother Teresa,地拉那特蕾莎修女国际机场,wikidata:Q217226:zh-cn,Rinas,,,resolved
+3974,LBBG,BOJ,LBBG,Burgas Airport,布尔加斯机场,wikidata:Q1324587:zh-cn,Burgas,,,resolved
+3976,LBPD,PDV,LBPD,Plovdiv International Airport,普罗夫迪夫机场,wikidata:Q1370380:zh>zh-hans,Plovdiv,,,resolved
+3977,LBSF,SOF,LBSF,Sofia Airport,索菲亚机场,wikidata:Q127951:zh-cn,Sofia,,,resolved
+3979,LBWN,VAR,LBWN,Varna Airport,瓦尔纳机场,wikidata:Q1423410:zh-cn,Varna,,,resolved
+3980,LCLK,LCA,LCLK,Larnaca International Airport,拉纳卡国际机场,wikidata:Q654636:zh,Larnaca,,,resolved
+3981,LCPH,PFO,LCPH,Paphos International Airport,帕福斯国际机场,wikidata:Q1050707:zh-hans,Paphos,,,resolved
+3984,LDDU,DBV,LDDU,Dubrovnik Ruđer Bošković Airport,杜布罗夫尼克机场,wikidata:Q1147000:zh-hans,Dubrovnik,,,resolved
+3987,LDPL,PUY,LDPL,Pula Airport,普拉机场,wikidata:Q389327:zh-cn,Pula,,,resolved
+3989,LDRI,RJK,LDRI,Rijeka Airport,里耶卡机场,wikidata:Q1141414:zh>zh-hans,Rijeka(Omišalj),,,resolved
+3991,LDSP,SPU,LDSP,Split Saint Jerome Airport,斯普利特机场,wikidata:Q1125392:zh-cn,Split,,,resolved
+3993,LDZA,ZAG,LDZA,Zagreb Franjo Tuđman International Airport,萨格勒布机场,wikidata:Q128016:zh-cn,Velika Gorica,,,resolved
+3994,LDZD,ZAD,LDZD,Zadar Airport,札达尔机场,wikidata:Q155359:zh>zh-hans,Zadar,,,resolved
+3997,LEAL,ALC,LEAL,Alicante-Elche Miguel Hernández Airport,阿利坎特-埃尔切机场,wikidata:Q849314:zh-cn,Alicante,,,resolved
+3999,LEAS,OVD,LEAS,Asturias Airport,奥维耶多,wikidata:Q1430901:zh>zh-hans,Ranón,,,resolved
+4001,LEBB,BIO,LEBB,Bilbao Airport,毕尔巴鄂机场,wikidata:Q598197:zh-cn,Bilbao,,,resolved
+4004,LEBL,BCN,LEBL,Josep Tarradellas Barcelona-El Prat Airport,巴塞罗那机场,wikidata:Q56973:zh,Barcelona,,,resolved
+4010,LEGE,GRO,LEGE,Girona-Costa Brava Airport,赫罗纳－布拉瓦海岸机场,wikidata:Q1142410:zh>zh-hans,Girona,,,resolved
+4013,LEIB,IBZ,LEIB,Ibiza Airport,伊比沙机场,wikidata:Q1431549:zh-cn,Ibiza (Eivissa),,,resolved
+4019,LEMD,MAD,LEMD,Adolfo Suárez Madrid–Barajas Airport,马德里－巴拉哈斯机场,wikidata:Q166276:zh,Madrid,,,resolved
+4020,LEMG,AGP,LEMG,Málaga-Costa del Sol Airport,马拉加,wikidata:Q690894:zh-cn,Málaga,,,resolved
+4021,LEMH,MAH,LEMH,Menorca Airport,梅诺卡机场,wikidata:Q651372:zh-cn,Mahón (Maó),,,resolved
+4031,LERS,REU,LERS,Reus Airport,雷乌斯,wikidata:Q1332979:zh>zh-hans,Reus,,,resolved
+4035,LEPA,PMI,LEPA,Palma de Mallorca Airport,马略卡岛帕尔马机场,wikidata:Q656993:zh-hans,Palma de Mallorca,,,resolved
+4038,LEST,SCQ,LEST,Santiago-Rosalía de Castro Airport,圣地亚哥-德孔波斯特拉,wikidata:Q1432777:zh>zh-hans,Santiago de Compostela,,,resolved
+4042,LEVC,VLC,LEVC,Valencia Airport,巴伦西亚机场,wikidata:Q20455825:zh-cn>zh-hans,Valencia,,,resolved
+4048,LEZG,ZAZ,LEZG,Zaragoza Airport,萨拉戈萨机场,wikidata:Q704823:zh-hans,Zaragoza,,,resolved
+4049,LEZL,SVQ,LEZL,Seville Airport,塞维利亚机场,wikidata:Q1344758:zh-cn>zh-hans,Seville,,,resolved
+4060,LFBD,BOD,LFBD,Bordeaux–Mérignac Airport,波尔多,wikidata:Q612731:zh-cn,Bordeaux,,,resolved
+4070,LFBO,TLS,LFBO,Toulouse-Blagnac Airport,图卢兹－布拉尼亚克机场,wikidata:Q372615:zh,Toulouse/Blagnac,,,resolved
+4123,LFKB,BIA,LFKB,Bastia-Poretta International airport,巴斯蒂亚机场,wikidata:Q1430951:zh-cn,Bastia,,,resolved
+4125,LFKF,FSC,LFKF,Figari Sud-Corse Airport,菲加里-南科西嘉机场,wikidata:Q1431300:zh-cn,Figari,,,resolved
+4132,LFLC,CFE,LFLC,Clermont-Ferrand Auvergne airport,克莱蒙费朗奥弗涅机场,wikidata:Q1431123:zh-cn>zh-hans,Clermont-Ferrand,,,resolved
+4137,LFLL,LYS,LFLL,Lyon Saint-Exupéry Airport,里昂圣埃克絮佩里机场,wikidata:Q1547:zh-cn,"Colombier-Saugnieu, Rhône",,,resolved
+4155,LFML,MRS,LFML,Marseille Provence Airport,马赛普罗旺斯机场,wikidata:Q651190:zh-hans,"Marignane, Bouches-du-Rhône",,,resolved
+4156,LFMN,NCE,LFMN,Nice-Côte d'Azur Airport,尼斯蔚蓝海岸机场,wikidata:Q821557:zh-cn,"Nice, Alpes-Maritimes",,,resolved
+4161,LFMT,MPL,LFMT,Montpellier-Méditerranée Airport,蒙彼利埃地中海国际机场,wikidata:Q575865:zh-cn,Montpellier/Méditerranée,,,resolved
+4169,LFOB,BVA,LFOB,Beauvais-Tillé airport,博韦,wikidata:Q611983:zh-cn,Beauvais,,,resolved
+4183,LFPB,LBG,LFPB,Paris-Le Bourget International Airport,巴黎－勒布尔热机场,wikidata:Q738719:zh-hans,Paris,,,resolved
+4185,LFPG,CDG,LFPG,Charles de Gaulle International Airport,巴黎夏尔·戴高乐机场,wikidata:Q46280:zh,"Paris (Roissy-en-France, Val-d'Oise)",,,resolved
+4189,LFPO,ORY,LFPO,Paris-Orly Airport,巴黎－奥利机场,wikidata:Q223416:zh-cn,"Paris (Orly, Val-de-Marne)",,,resolved
+4202,LFQQ,LIL,LFQQ,Lille Airport,里尔机场,wikidata:Q1431888:zh-hans,Lesquin,,,resolved
+4206,LFRB,BES,LFRB,Brest Bretagne airport,布雷斯特-布列塔尼机场,wikidata:Q1191525:zh-hans,Brest,,,resolved
+4221,LFRS,NTE,LFRS,Nantes Atlantique Airport,南特大西洋机场,wikidata:Q1432144:zh-cn,Nantes,,,resolved
+4226,LFSB,BSL,LFSB,EuroAirport Basel–Mulhouse–Freiburg,巴塞尔－米卢斯－弗赖堡欧洲机场,wikidata:Q156971:zh-cn,Bâle / Mulhouse,,,resolved
+4238,LFST,SXB,LFST,Strasbourg Airport,斯特拉斯堡国际机场,wikidata:Q1165367:zh-hans,Strasbourg,,,resolved
+4251,LGAV,ATH,LGAV,Athens Eleftherios Venizelos International Airport,雅典埃莱夫塞里奥斯·韦尼泽洛斯国际机场,wikidata:Q211734:zh-cn,Spata-Artemida,,,resolved
+4258,LGIR,HER,LGIR,Heraklion International Nikos Kazantzakis Airport,伊拉克利翁尼科斯·卡赞察基斯国际机场,wikidata:Q1142384:zh-hans,Heraklion,,,resolved
+4264,LGKO,KGS,LGKO,"Kos International Airport ""Ippokratis""",科斯岛国际机场,wikidata:Q1420601:zh-cn,Kos Island,,,resolved
+4266,LGKR,CFU,LGKR,Corfu Ioannis Kapodistrias International Airport,克基拉岛扬尼斯·卡波迪斯特里亚斯国际机场,wikidata:Q1144233:zh-hans,Kerkyra (Corfu),,,resolved
+4268,LGKV,KVA,LGKV,Kavala Alexander the Great International Airport,卡瓦拉亚历山大大帝国际机场,wikidata:Q676516:zh,Kavala,,,resolved
+4279,LGRP,RHO,LGRP,"Rhodes International Airport ""Diagoras""",罗得岛迪亚戈拉斯国际机场,wikidata:Q833555:zh-hans,Rhodes,,,resolved
+4281,LGSA,CHQ,LGSA,Chania International Airport,哈尼亚扬尼斯·达斯卡洛伊安尼斯国际机场,wikidata:Q1232348:zh>zh-hans,Souda,,,resolved
+4286,LGSR,JTR,LGSR,Santorini International Airport,圣托里尼机场,wikidata:Q1432775:zh,Santorini Island,,,resolved
+4293,LGTS,SKG,LGTS,Thessaloniki Macedonia International Airport,塞萨洛尼基马其顿国际机场,wikidata:Q127958:zh-cn,Thessaloniki,,,resolved
+4296,LHBP,BUD,LHBP,Budapest Liszt Ferenc International Airport,布达佩斯李斯特·费伦茨国际机场,wikidata:Q500945:zh-hans,Budapest,,,resolved
+4297,LHDC,DEB,LHDC,Debrecen International Airport,德布勒森国际机场,wikidata:Q903138:zh>zh-hans,Debrecen,,,resolved
+4302,LHPP,PEV,LHPP,Pécs-Pogány International Airport,,,Pécs,,,unresolved
+4310,LIBD,BRI,LIBD,Bari Karol Wojtyła International Airport,约翰·保罗二世机场,wikidata:Q779805:zh-cn,Bari,,,resolved
+4314,LIBP,PSR,LIBP,Abruzzo Airport,阿布鲁佐国际机场,wikidata:Q1432361:zh,Pescara,,,resolved
+4315,LIBR,BDS,LIBR,Brindisi Airport,布林迪西/卡萨莱机场,wikidata:Q849715:zh-cn,Brindisi,,,resolved
+4317,LICA,SUF,LICA,Lamezia Terme Sant'Eufemia International Airport,拉梅齐亚泰尔梅,wikidata:Q1431860:zh>zh-hans,Lamezia Terme (CZ),,,resolved
+4318,LICC,CTA,LICC,Catania-Fontanarossa Airport,卡塔尼亚,wikidata:Q540273:zh-cn,Catania,,,resolved
+4321,LICJ,PMO,LICJ,Falcone–Borsellino Airport,巴勒莫国际机场,wikidata:Q630645:zh-cn,Palermo,,,resolved
+4332,LIEE,CAG,LIEE,Cagliari Elmas Airport,卡利亚里-埃尔马斯机场,wikidata:Q139983:zh-cn,Cagliari,,,resolved
+4333,LIEO,OLB,LIEO,Olbia Costa Smeralda Airport,奥尔比亚翡翠海岸机场,wikidata:Q1432236:zh-cn,Olbia (SS),,,resolved
+4340,LIMC,MXP,LIMC,Milan Malpensa International Airport,米兰,wikidata:Q60910:zh-cn,Ferno (VA),,,resolved
+4341,LIME,BGY,LIME,Il Caravaggio International Airport,奥廖阿尔塞廖国际机场,wikidata:Q517873:zh-cn,Orio al Serio (BG),,,resolved
+4342,LIMF,TRN,LIMF,Turin Airport,都灵机场,wikidata:Q528184:zh>zh-hans,Caselle Torinese (TO),,,resolved
+4344,LIMJ,GOA,LIMJ,Genoa Cristoforo Colombo Airport,热那亚－克里斯托弗·哥伦布机场,wikidata:Q1431383:zh,Genova (GE),,,resolved
+4345,LIML,LIN,LIML,Milano Linate Airport,连尼治机场,wikidata:Q828386:zh>zh-hans,Segrate (MI),,,resolved
+4354,LIPE,BLQ,LIPE,Bologna Guglielmo Marconi Airport,波隆纳机场,wikidata:Q389241:zh>zh-hans,Bologna,,,resolved
+4355,LIPH,TSF,LIPH,Treviso Airport,特雷维索机场,wikidata:Q513474:zh-hans,Treviso (TV),,,resolved
+4361,LIPQ,TRS,LIPQ,Trieste Airport,的里雅斯特机场,wikidata:Q893154:zh-hans,Ronchi dei Legionari/Trieste,,,resolved
+4362,LIPR,RMI,LIPR,Federico Fellini International Airport,费德里柯·费里尼国际机场,wikidata:Q1140972:zh-cn,Rimini (RN),,,resolved
+4366,LIPX,VRN,LIPX,Verona Villafranca Valerio Catullo Airport,维罗纳维拉弗兰卡机场,wikidata:Q1433197:zh-cn,Caselle (VR),,,resolved
+4368,LIPZ,VCE,LIPZ,Venice Marco Polo Airport,威尼斯－泰塞拉机场,wikidata:Q849347:zh-hans,Venezia (VE),,,resolved
+4370,LIRA,CIA,LIRA,Ciampino–G. B. Pastine International Airport,罗马钱皮诺机场,wikidata:Q1132616:zh,Rome,,,resolved
+4372,LIRF,FCO,LIRF,Rome–Fiumicino Leonardo da Vinci International Airport,罗马—菲乌米奇诺机场,wikidata:Q19101:zh,Rome,,,resolved
+4378,LIRN,NAP,LIRN,Naples International Airport,那不勒斯国际机场,wikidata:Q849383:zh>zh-hans,Napoli,,,resolved
+4379,LIRP,PSA,LIRP,Pisa International Airport,比萨－圣朱斯托机场,wikidata:Q709169:zh-hans,Pisa (PI),,,resolved
+4380,LIRQ,FLR,LIRQ,"Florence Airport, Peretola",佛罗伦萨－佩雷托拉机场,wikidata:Q707731:zh-hans,Firenze (FI),,,resolved
+4384,LIRZ,PEG,LIRZ,Perugia San Francesco d'Assisi – Umbria International Airport,佩鲁贾,wikidata:Q1371018:zh>zh-hans,Perugia (PG),,,resolved
+4386,LJLJ,LJU,LJLJ,Ljubljana Jože Pučnik Airport,卢布尔雅那,wikidata:Q1109558:zh-cn>zh-hans,Zgornji Brnik,,,resolved
+4393,LKCS,JCL,LKCS,České Budějovice South Bohemian Airport,,,České Budějovice,,,unresolved
+4399,LKKV,KLV,LKKV,Karlovy Vary Airport,卡罗维发利机场,wikidata:Q1431669:zh>zh-hans,Karlovy Vary,,,resolved
+4402,LKMT,OSR,LKMT,Leoš Janáček Airport Ostrava,俄斯特拉发,wikidata:Q922954:zh>zh-hans,Mošnov,,,resolved
+4405,LKPD,PED,LKPD,Pardubice Airport,帕尔杜比采机场,wikidata:Q2115080:zh-hans>zh-hans,Pardubice,,,resolved
+4408,LKPR,PRG,LKPR,Václav Havel Airport Prague,布拉格鲁济涅国际机场,wikidata:Q99172:zh>zh-hans,Prague,,,resolved
+4411,LLBG,TLV,LLBG,Ben Gurion International Airport,本-古里安国际机场,wikidata:Q181479:zh-cn,Tel Aviv,,,resolved
+4427,LMML,MLA,LMML,Malta International Airport,马耳他国际机场,wikidata:Q672289:zh>zh-hans,Valletta,,,resolved
+4430,LOWG,GRZ,LOWG,Graz Airport,格拉茨机场,wikidata:Q178162:zh>zh-hans,Feldkirchen bei Graz,,,resolved
+4431,LOWI,INN,LOWI,Innsbruck Airport,因斯布鲁克机场,wikidata:Q694434:zh>zh-hans,Innsbruck,,,resolved
+4432,LOWL,LNZ,LOWL,Linz-Hörsching Airport,林茨机场,wikidata:Q700852:zh>zh-hans,Linz,,,resolved
+4433,LOWS,SZG,LOWS,Salzburg Airport,萨尔茨堡沃尔夫冈·阿马多伊斯·莫扎特机场,wikidata:Q251538:zh,Salzburg,,,resolved
+4434,LOWW,VIE,LOWW,Vienna International Airport,维也纳国际机场,wikidata:Q32999:zh>zh-hans,Vienna,,,resolved
+4435,LOWK,KLU,LOWK,Klagenfurt Airport,克拉根福机场,wikidata:Q694404:zh>zh-hans,Klagenfurt am Wörthersee,,,resolved
+4448,LPFR,FAO,LPFR,Faro - Gago Coutinho International Airport,法鲁,wikidata:Q667001:zh-cn,Faro,,,resolved
+4452,LPMA,FNC,LPMA,Cristiano Ronaldo International Airport,马德拉机场,wikidata:Q639161:zh>zh-hans,Funchal,,,resolved
+4456,LPPD,PDL,LPPD,João Paulo II Airport,蓬塔德尔加达机场,wikidata:Q1432424:zh-cn,Ponta Delgada,,,resolved
+4459,LPPR,OPO,LPPR,Francisco de Sá Carneiro Airport,费尔南多·萨·卡内罗机场,wikidata:Q943743:zh,Porto,,,resolved
+4461,LPPT,LIS,LPPT,Lisbon Humberto Delgado Airport,里斯本机场,wikidata:Q403671:zh-cn,Lisbon,,,resolved
+4467,LQBK,BNX,LQBK,Banja Luka International Airport,巴尼亚卢卡国际机场,wikidata:Q1430945:zh>zh-hans,Mahovljani,,,resolved
+4468,LQMO,OMO,LQMO,Mostar International Airport,莫斯塔尔,wikidata:Q1432098:zh>zh-hans,Mostar,,,resolved
+4469,LQSA,SJJ,LQSA,Sarajevo International Airport,萨拉热窝国际机场,wikidata:Q740392:zh-hans,Sarajevo,,,resolved
+4470,LQTZ,TZL,LQTZ,Tuzla International Airport,图兹拉国际机场,wikidata:Q1433133:zh,Dubrave Gornje,,,resolved
+4472,LRBC,BCM,LRBC,Bacău George Enescu International  Airport,巴克乌国际机场,wikidata:Q1147758:zh>zh-hans,Bacău,,,resolved
+4474,LRBS,BBU,LRBS,Bucharest Băneasa Aurel Vlaicu International Airport,布加勒斯特伯尼亚萨－奥雷尔·弗拉伊库国际机场,wikidata:Q843229:zh-hans,Bucharest,,,resolved
+4475,LRCK,CND,LRCK,Mihail Kogălniceanu International Airport,米哈伊尔科格尔尼恰努国际机场,wikidata:Q382546:zh-cn>zh-hans,Constanța,,,resolved
+4476,LRCL,CLJ,LRCL,Avram Iancu Cluj International Airport,克卢日国际机场,wikidata:Q1068685:zh-hans,Cluj-Napoca,,,resolved
+4479,LRCV,CRA,LRCV,Craiova International Airport,克拉约瓦机场,wikidata:Q1431146:zh-hans,Craiova,,,resolved
+4480,LRIA,IAS,LRIA,Iaşi International Airport,雅西,wikidata:Q1431529:zh,Iaşi,,,resolved
+4481,LROD,OMR,LROD,Oradea International Airport,奥拉迪亚国际机场,wikidata:Q2102332:zh-hans,Oradea,,,resolved
+4482,LROP,OTP,LROP,Bucharest Henri Coandă International Airport,布加勒斯特奥托佩尼－亨利·科安德国际机场,wikidata:Q257631:zh,Otopeni,,,resolved
+4483,LRSB,SBZ,LRSB,Sibiu International Airport,锡比乌,wikidata:Q946418:zh>zh-hans,Sibiu,,,resolved
+4485,LRSV,SCV,LRSV,Suceava Ștefan cel Mare International Airport,苏恰瓦,wikidata:Q1303153:zh>zh-hans,Suceava,,,resolved
+4488,LRTR,TSR,LRTR,Timișoara Traian Vuia International Airport,蒂米什瓦拉特拉伊安·维亚国际机场,wikidata:Q1417736:zh-hans,Timişoara,,,resolved
+4490,LSGG,GVA,LSGG,Geneva International Airport,日内瓦国际机场,wikidata:Q289972:zh,Geneva,,,resolved
+4505,LSZH,ZRH,LSZH,Zürich Airport,苏黎世机场,wikidata:Q15114:zh>zh-hans,Zurich,,,resolved
+4509,LTAC,ESB,LTAC,Esenboğa International Airport,埃森博阿国际机场,wikidata:Q430490:zh,Ankara,,,resolved
+4515,LTAI,AYT,LTAI,Antalya International Airport,安塔利亚机场,wikidata:Q827480:zh-hans,Antalya,,,resolved
+4516,LTAJ,GZT,LTAJ,Gaziantep Oğuzeli International Airport,加济安泰普,wikidata:Q1431357:zh>zh-hans,Gaziantep,,,resolved
+4518,LTAN,KYA,LTAN,Konya Airport,科尼亚,wikidata:Q1431754:zh>zh-hans,Konya,,,resolved
+4523,LTAU,ASR,LTAU,Kayseri Erkilet International Airport,埃尔基莱特国际机场,wikidata:Q1431698:zh-cn,Kayseri,,,resolved
+4527,LTAZ,NAV,LTAZ,Nevşehir Kapadokya Airport,卡帕多细亚机场,wikidata:Q1432167:zh-cn,Nevşehir,,,resolved
+4528,LTBA,ISL,LTBA,İstanbul Atatürk Airport,,,Istanbul(Bakırköy),,,unresolved
+4533,LTBJ,ADB,LTBJ,Adnan Menderes International Airport,伊兹密尔,wikidata:Q504382:zh-cn,Gaziemir,,,resolved
+4542,LTBS,DLM,LTBS,Dalaman International Airport,达拉曼机场,wikidata:Q1431180:zh-cn,Dalaman,,,resolved
+4547,LTBY,AOE,LTBY,Hasan Polatkan Airport,哈桑·波拉特坎机场,wikidata:Q1431269:zh,Eskişehir,,,resolved
+4566,LTFD,EDO,LTFD,Balıkesir Koca Seyit Airport,,,Edremit,,,unresolved
+4567,LTFE,BJV,LTFE,Milas Bodrum International Airport,米拉斯-博德鲁姆机场,wikidata:Q766860:zh-cn,Bodrum,,,resolved
+4569,LTFJ,SAW,LTFJ,Istanbul Sabiha Gökçen International Airport,萨比哈·格克琴国际机场,wikidata:Q723622:zh-hans,"Pendik, Istanbul",,,resolved
+4571,LUKK,RMO,LUKK,Chişinău International Airport,基希讷乌国际机场,wikidata:Q844951:zh-hans,Chişinău,,,resolved
+4572,LWOH,OHD,LWOH,Ohrid St. Paul the Apostle Airport,奥赫里德圣使徒保罗机场,wikidata:Q127157:zh-cn,Ohrid,,,resolved
+4573,LWSK,SKP,LWSK,Skopje International Airport,史高比耶机场,wikidata:Q1142389:zh>zh-hans,Ilinden,,,resolved
+4574,LXGB,GIB,LXGB,Gibraltar Airport,直布罗陀机场,wikidata:Q501083:zh-hans,Gibraltar,,,resolved
+4610,LYBE,BEG,LYBE,Belgrade Nikola Tesla Airport,贝尔格莱德尼古拉·特斯拉机场,wikidata:Q127955:zh-cn,Belgrade,,,resolved
+4612,LYNI,INI,LYNI,Niš Constantine the Great Airport,尼什,wikidata:Q1262128:zh,Niš,,,resolved
+4613,LYPG,TGD,LYPG,Podgorica Airport / Podgorica Golubovci Airbase,波德戈里察国际机场,wikidata:Q844825:zh-hans,Podgorica,,,resolved
+4614,BKPR,PRN,BKPR,Priština Adem Jashari International Airport,普里什蒂纳国际机场,wikidata:Q643783:zh-hans,Prishtina,,,resolved
+4617,LZIB,BTS,LZIB,M. R. Štefánik Airport,布拉提斯拉瓦机场,wikidata:Q828379:zh>zh-hans,Bratislava,,,resolved
+4628,MBPV,PLS,MBPV,Providenciales International Airport,普罗维登西亚莱斯国际机场,wikidata:Q1748436:zh>zh-hans,Providenciales,,,resolved
+4635,MDLR,LRM,MDLR,Casa De Campo International Airport,罗马纳国际机场,wikidata:Q737856:zh-cn,La Romana,,,resolved
+4636,MDPC,PUJ,MDPC,Punta Cana International Airport,蓬塔卡纳国际机场,wikidata:Q1352042:zh-cn,Punta Cana,,,resolved
+4638,MDSD,SDQ,MDSD,Las Américas International Airport,圣多明各,wikidata:Q1062676:zh-cn,Santo Domingo,,,resolved
+4640,MDST,STI,MDST,Cibao International Airport,雌豹国际机场,wikidata:Q1431111:zh-cn,Santiago,,,resolved
+4644,MGGT,GUA,MGGT,La Aurora International Airport,拉奥罗拉国际机场,wikidata:Q765608:zh-hans,Guatemala City,,,resolved
+4661,MHLM,SAP,MHLM,Ramón Villeda Morales International Airport,拉蒙·比列达·莫拉莱斯国际机场,wikidata:Q2308399:zh-cn,San Pedro Sula,,,resolved
+4663,MHRO,RTB,MHRO,Juan Manuel Gálvez International Airport,罗阿坦岛国际机场,wikidata:Q555952:zh-hans>zh-hans,Coxen Hole,,,resolved
+4664,MHSC,XPL,MHPR,Palmerola International Airport,科马亚瓜国际机场,wikidata:Q76761345:zh>zh-hans,Palmerola,,,resolved
+4680,MKJP,KIN,MKJP,Norman Manley International Airport,金斯敦,wikidata:Q1432206:zh,Kingston,,,resolved
+4681,MKJS,MBJ,MKJS,Sangster International Airport,蒙特哥贝,wikidata:Q174140:zh-cn,Montego Bay,,,resolved
+4688,MMAA,ACA,MMAA,General Juan N. Álvarez International Airport,阿卡普尔科国际机场,wikidata:Q1430720:zh-cn,Acapulco,,,resolved
+4691,MMAS,AGU,MMAS,Aguascalientes International Airport,赫苏斯·特兰·佩雷多国际机场,wikidata:Q2593243:zh-cn,Aguascalientes,,,resolved
+4692,MMBT,HUX,MMBT,Bahías de Huatulco International Airport,华渡口国际机场,wikidata:Q2901831:zh-cn,Huatulco,,,resolved
+4697,MMCL,CUL,MMCL,Bachigualato Federal International Airport,库利亚坎,wikidata:Q2231716:zh-cn,Culiacán,,,resolved
+4701,MMCS,CJS,MMCS,Abraham González International Airport,华雷斯城国际机场,wikidata:Q2233076:zh-hans,Ciudad Juárez,,,resolved
+4703,MMCU,CUU,MMCU,General Roberto Fierro Villalobos International Airport,,,Chihuahua,,,unresolved
+4706,MMCZ,CZM,MMCZ,Cozumel International Airport,科苏梅尔岛,wikidata:Q1431147:zh-cn,Cozumel,,,resolved
+4710,MMGL,GDL,MMGL,Guadalajara International Airport,瓜达拉哈拉,wikidata:Q932025:zh-cn,Guadalajara,,,resolved
+4713,MMHO,HMO,MMHO,General Ignacio L. Pesqueira International Airport,埃莫西约国际机场,wikidata:Q1431468:zh>zh-hans,Hermosillo,,,resolved
+4722,MMLO,BJX,MMLO,Guanajuato International Airport,德尔巴乔国际机场,wikidata:Q1431200:zh-cn,Silao,,,resolved
+4724,MMLT,LTO,MMLT,Loreto International Airport,洛雷托,wikidata:Q1932928:zh,Loreto,,,resolved
+4726,MMMD,MID,MMMD,Manuel Crescencio Rejón International Airport,梅里达,wikidata:Q1432118:zh-cn,Mérida,,,resolved
+4728,MMMM,MLM,MMMM,General Francisco J. Mujica International Airport,莫雷利亚,wikidata:Q2231705:zh-cn,Morelia,,,resolved
+4731,MMMX,MEX,MMMX,Mexico City Benito Juárez International Airport,墨西哥城贝尼托·胡亚雷斯国际机场,wikidata:Q860559:zh-hans,Mexico City,,,resolved
+4732,MMMY,MTY,MMMY,Monterrey International Airport,阿波达卡,wikidata:Q767660:zh-cn,Monterrey,,,resolved
+4733,MMMZ,MZT,MMMZ,General Rafael Buelna International Airport,拉法尔布埃尔纳将军机场,wikidata:Q1432022:zh-cn,Mazatlàn,,,resolved
+4736,MMOX,OAX,MMOX,Xoxocotlán International Airport,索索科特兰国际机场,wikidata:Q1432218:zh-cn,Oaxaca,,,resolved
+4738,MMPB,PBC,MMPB,Hermanos Serdán International Airport,普埃布拉州国际机场,wikidata:Q583424:zh,Puebla,,,resolved
+4745,MMPR,PVR,MMPR,Puerto Vallarta International Airport,巴亚尔塔港,wikidata:Q2666312:zh-cn,Puerto Vallarta,,,resolved
+4747,MMQT,QRO,MMQT,Querétaro Intercontinental Airport,克雷塔罗国际机场,wikidata:Q1932794:zh-cn,Querétaro,,,resolved
+4750,MMSD,SJD,MMSD,Los Cabos International Airport,德尔卡沃,wikidata:Q2720492:zh-cn,San José del Cabo,,,resolved
+4757,MMTJ,TIJ,MMTJ,General Abelardo L. Rodriguez International Airport,蒂华纳国际机场,wikidata:Q1433064:zh-cn,Tijuana,,,resolved
+4760,MMTO,TLC,MMTO,Adolfo López Mateos International Airport,阿道夫·洛佩斯·马特奥斯国际机场,wikidata:Q2593750:zh-cn,Toluca,,,resolved
+4762,MMUN,CUN,MMUN,Cancún International Airport,坎昆国际机场,wikidata:Q641967:zh-hans,Cancún,,,resolved
+4763,MMVA,VSA,MMVA,Carlos Rovirosa Pérez International Airport,比亚埃尔莫萨,wikidata:Q2231542:zh>zh-hans,Villahermosa,,,resolved
+4764,MMVR,VER,MMVR,General Heriberto Jara International Airport,韦拉克鲁斯州国际机场,wikidata:Q3274799:zh>zh-hans,Veracruz,,,resolved
+4766,MMZH,ZIH,MMZH,Ixtapa-Zihuatanejo International Airport,伊斯塔帕-锡瓦塔内霍国际机场,wikidata:Q2608594:zh-cn,Ixtapa,,,resolved
+4774,MNMG,MGA,MNMG,Augusto C. Sandino (Managua) International Airport,奥古斯托·C·桑地诺国际机场,wikidata:Q530773:zh-hans,Managua,,,resolved
+4793,MPTO,PTY,MPTO,Tocumen International Airport,托库门国际机场,wikidata:Q1420178:zh-cn,Tocumen,,,resolved
+4806,MRLB,LIR,MRLB,Daniel Oduber Quirós International Airport,利韦里亚 (哥斯达黎加),wikidata:Q1708765:zh-cn>zh-hans,Liberia,,,resolved
+4810,MROC,SJO,MROC,Juan Santamaría International Airport,胡安·圣玛丽亚国际机场,wikidata:Q555940:zh-hans,San José (Alajuela),,,resolved
+4820,MSLP,SAL,MSLP,El Salvador International Airport Saint Óscar Arnulfo Romero y Galdámez,萨尔瓦多国际机场,wikidata:Q587675:zh-cn,San Salvador (San Luis Talpa),,,resolved
+4823,MTCH,CAP,MTCH,Cap Haitien International Airport,乌戈·查维兹国际机场,wikidata:Q2286957:zh>zh-hans,Cap Haitien,,,resolved
+4825,MTPP,PAP,MTPP,Toussaint Louverture International Airport,杜桑·卢维杜尔国际机场,wikidata:Q794560:zh,Port-au-Prince,,,resolved
+4834,MUCM,CMW,MUCM,Ignacio Agramonte International Airport,伊格恩阿格拉蒙特国际机场,wikidata:Q3086164:zh-cn,Camaguey,,,resolved
+4835,MUCU,SCU,MUCU,Antonio Maceo International Airport,安东尼奥马赛奥机场,wikidata:Q1432764:zh-cn,Santiago,,,resolved
+4839,MUHA,HAV,MUHA,José Martí International Airport,何塞·马蒂国际机场,wikidata:Q381677:zh,Havana,,,resolved
+4840,MUHG,HOG,MUHG,Frank Pais International Airport,奥尔金,wikidata:Q527031:zh-cn,Holguin,,,resolved
+4854,MUSC,SNU,MUSC,Abel Santamaria International Airport,圣克拉拉机场,wikidata:Q3496664:zh>zh-hans,Santa Clara,,,resolved
+4859,MUVR,VRA,MUVR,Juan Gualberto Gomez International Airport,巴拉德罗,wikidata:Q555863:zh-cn,Matanzas,,,resolved
+4862,MWCR,GCM,MWCR,Owen Roberts International Airport,欧文·罗伯茨国际机场,wikidata:Q665948:zh>zh-hans,George Town,,,resolved
+4946,MYGF,FPO,MYGF,Grand Bahama International Airport,大巴哈马国际机场,wikidata:Q2493876:zh-cn,Freeport,,,resolved
+4951,MYNN,NAS,MYNN,Lynden Pindling International Airport,林丁平德林国际机场,wikidata:Q1415006:zh,Nassau,,,resolved
+4954,MYSM,ZSA,MYSM,San Salvador International Airport,圣萨尔瓦多机场,wikidata:Q7415281:zh-cn,San Salvador,,,resolved
+4956,MZBZ,BZE,MZBZ,Philip S. W. Goldson International Airport,伯利兹市,wikidata:Q1422858:zh-cn>zh-hans,Belize City,,,resolved
+4958,NCRG,RAR,NCRG,Rarotonga International Airport,拉罗汤加国际机场,wikidata:Q954472:zh,Avarua,,,resolved
+4959,NFFN,NAN,NFFN,Nadi International Airport,楠迪国际机场,wikidata:Q1150557:zh-hans,Nadi,,,resolved
+4960,NFNA,SUV,NFNA,Nausori International Airport,瑙索里国际机场,wikidata:Q1188985:zh-hans,Nausori,,,resolved
+4962,NFTF,TBU,NFTF,Fua'amotu International Airport,努瓜娄发国际机场,wikidata:Q975696:zh>zh-hans,Nuku'alofa,,,resolved
+4964,NFTV,VAV,NFTV,Vava'u International Airport,瓦瓦乌,wikidata:Q2980547:zh>zh-hans,Vava'u Island,,,resolved
+4972,NGTA,TRW,NGTA,Bonriki International Airport,邦里基国际机场,wikidata:Q522496:zh>zh-hans,South Tarawa,,,resolved
+4975,NLWW,WLS,NLWW,Hihifo Airport,马塔乌图机场,wikidata:Q182259:zh-cn,Wallis Island,,,resolved
+4976,NSFA,APW,NSFA,Faleolo International Airport,法莱奥洛国际机场,wikidata:Q197933:zh-cn,Apia,,,resolved
+4978,NSTU,PPG,NSTU,Pago Pago International Airport,帕果帕果国际机场,wikidata:Q939904:zh>zh-hans,Pago Pago,,,resolved
+4979,NTAA,PPT,NTAA,Fa'a'ā International Airport,法阿国际机场,wikidata:Q1049719:zh-hans,Papeete,,,resolved
+5011,NVVV,VLI,NVVV,Bauerfield International Airport,维拉港国际机场,wikidata:Q811239:zh>zh-hans,Port Vila,,,resolved
+5021,NWWW,NOU,NWWW,La Tontouta International Airport,努美阿国际机场,wikidata:Q892783:zh-hans,Nouméa (La Tontouta),,,resolved
+5023,NZAA,AKL,NZAA,Auckland International Airport,奥克兰机场,wikidata:Q45938:zh>zh-hans,Auckland,,,resolved
+5026,NZCH,CHC,NZCH,Christchurch International Airport,克赖斯特彻奇国际机场,wikidata:Q1061330:zh-hans,Christchurch,,,resolved
+5051,NZQN,ZQN,NZQN,Queenstown Airport,皇后镇国际机场,wikidata:Q1204970:zh-hans,Queenstown,,,resolved
+5063,NZWN,WLG,NZWN,Wellington International Airport,惠灵顿国际机场,wikidata:Q1150574:zh-hans,Wellington,,,resolved
+5069,OAHR,HEA,OAHR,Herat - Khwaja Abdullah Ansari International Airport,赫拉特机场,wikidata:Q1431482:zh>zh-hans,Guzara,,,resolved
+5072,OAKB,KBL,OAKB,Kabul International Airport,喀布尔国际机场,wikidata:Q744802:zh-cn,Kabul,,,resolved
+5073,OAKN,KDH,OAKN,Ahmad Shah Baba International Airport,坎大哈国际机场,wikidata:Q33156:zh,Kandahar,,,resolved
+5075,OAMS,MZR,OAMS,Mazar-i-Sharif International Airport,马扎里沙里夫,wikidata:Q703013:zh>zh-hans,Mazar-i-Sharif,,,resolved
+5079,OBBI,BAH,OBBI,Bahrain International Airport,巴林国际机场,wikidata:Q637639:zh,Manama,,,resolved
+5082,OEAB,AHB,OEAB,Abha International Airport,艾卜哈地区机场,wikidata:Q2743319:zh-hans,Abha,,,resolved
+5083,OEAH,HOF,OEAH,Al-Ahsa International Airport,胡富夫,wikidata:Q2875750:zh,Hofuf,,,resolved
+5087,OEDF,DMM,OEDF,King Fahd International Airport,法赫德国王国际机场,wikidata:Q911155:zh-hans,Ad Dammam,,,resolved
+5089,OEDR,DHA,OEDR,King Abdulaziz Air Base,,,Dhahran,,,unresolved
+5091,OEGS,ELQ,OEGS,Prince Naif bin Abdulaziz International Airport,卡西姆地区机场,wikidata:Q2672934:zh-hans,Qassim,,,resolved
+5093,OEHL,HAS,OEHL,Hail International Airport,哈伊勒地区机场,wikidata:Q2876123:zh>zh-hans,Hail,,,resolved
+5097,OEJN,JED,OEJN,King Abdulaziz International Airport,阿卜杜勒-阿齐兹国王国际机场,wikidata:Q153592:zh-cn,Jeddah,,,resolved
+5101,OEMA,MED,OEMA,Prince Mohammad Bin Abdulaziz Airport,穆罕默德·本·阿卜杜勒-阿齐兹亲王国际机场,wikidata:Q1205940:zh-hans,Medina,,,resolved
+5103,OEPA,AQI,OEPA,Qaisumah–Hafar Al-Batin International Airport,阿勒吉苏马/哈费尔巴廷机场,wikidata:Q2672944:zh>zh-hans,Qaisumah,,,resolved
+5112,OERK,RUH,OERK,King Khalid International Airport,哈立德国王国际机场,wikidata:Q47157:zh,Riyadh,,,resolved
+5119,OESK,AJF,OESK,Al-Jawf International Airport,焦夫省国内机场,wikidata:Q2875755:zh>zh-hans,Al-Jawf,,,resolved
+5121,OETB,TUU,OETB,Prince Sultan bin Abdulaziz International Airport,塔布克,wikidata:Q2876145:zh,Tabuk,,,resolved
+5122,OETF,TIF,OETF,Taif International Airport,塔伊夫地区机场,wikidata:Q2876136:zh>zh-hans,Taif,,,resolved
+5129,OEYN,YNB,OEYN,Prince Abdulmohsen Bin Abdulaziz International Airport,阿卜杜勒·穆赫辛·本·阿卜杜拉齐兹王子国际机场,wikidata:Q2875998:zh>zh-hans,Yanbu,,,resolved
+5130,OIAA,ABD,OIAA,Abadan Ayatollah Jami International Airport,阿巴丹机场,wikidata:Q1948430:zh>zh-hans,Abadan,,,resolved
+5137,OIAW,AWZ,OIAW,Qasem Soleimani International Airport,阿瓦士机场,wikidata:Q622296:zh-cn,Ahvaz,,,resolved
+5143,OIBK,KIH,OIBK,Kish International Airport,基什国际机场,wikidata:Q2670526:zh-cn,Kish Island,,,resolved
+5156,OIFM,IFN,OIFM,Isfahan Shahid Beheshti International Airport,伊斯法罕国际机场,wikidata:Q1151889:zh-cn,Isfahan,,,resolved
+5166,OIIE,IKA,OIIE,Imam Khomeini International Airport,伊玛目霍梅尼国际机场,wikidata:Q734729:zh-hans,Tehran,,,resolved
+5168,OIII,THR,OIII,Mehrabad International Airport,梅赫拉巴德国际机场,wikidata:Q513684:zh-cn,Tehran,,,resolved
+5171,OIIP,PYK,OIIP,Payam International Airport,帕亚姆国际机场,wikidata:Q3443067:zh-cn,Karaj,,,resolved
+5172,OIKB,BND,OIKB,Bandar Abbas International Airport,阿巴斯港国际机场,wikidata:Q2358345:zh>zh-hans,Bandar Abbas,,,resolved
+5174,OIKK,KER,OIKK,Ayatollah Hashemi Rafsanjani International Airport,克尔曼机场,wikidata:Q1285726:zh-cn,Kerman,,,resolved
+5180,OIMB,XBJ,OIMB,Birjand International Airport,比尔詹德国际机场,wikidata:Q1955907:zh-cn,Birjand,,,resolved
+5183,OIMM,MHD,OIMM,Mashhad International Airport,沙希德·哈希米内贾德国际机场,wikidata:Q1152024:zh-hans,Mashhad,,,resolved
+5197,OISS,SYZ,OISS,Shiraz Shahid Dastghaib International Airport,沙希德·阿亚图拉·达斯特盖卜国际机场,wikidata:Q1151896:zh-hans,Shiraz,,,resolved
+5204,OITT,TBZ,OITT,Tabriz International Airport,大不里士国际机场,wikidata:Q721618:zh-cn,Tabriz,,,resolved
+5209,OIZH,ZAH,OIZH,Zahedan International Airport,扎黑丹机场,wikidata:Q559454:zh>zh-hans,Zahedan,,,resolved
+5212,OJAI,AMM,OJAI,Queen Alia International Airport,阿勒娅王后国际机场,wikidata:Q721494:zh-hans,Amman,,,resolved
+5213,OJAM,ADJ,OJAM,Marka International (Amman Civil) Airport,马尔卡国际机场,wikidata:Q1432011:zh,Amman,,,resolved
+5214,OJAQ,AQJ,OJAQ,King Hussein International Airport,侯赛因国王国际机场,wikidata:Q1430839:zh,Aqaba,,,resolved
+5220,OKKK,KWI,OKKK,Kuwait International Airport,科威特国际机场,wikidata:Q527157:zh>zh-hans,Kuwait City,,,resolved
+5222,OLBA,BEY,OLBA,Beirut Rafic Hariri International Airport,贝鲁特－拉菲克·哈里里国际机场,wikidata:Q668329:zh,Beirut,,,resolved
+5226,OMAA,AUH,OMAA,Zayed International Airport,阿布扎比国际机场,wikidata:Q643562:zh-hans>zh-hans,Abu Dhabi,,,resolved
+5227,OMAD,AZI,OMAD,Al Bateen Executive Airport,,,Abu Dhabi,,,unresolved
+5230,OMAL,AAN,OMAL,Al Ain International Airport,艾因国际机场,wikidata:Q1391995:zh-cn,Al Ain,,,resolved
+5235,OMDB,DXB,OMDB,Dubai International Airport,迪拜国际机场,wikidata:Q193439:zh-cn,Dubai,,,resolved
+5237,OMFJ,FJR,OMFJ,Fujairah International Airport,富查伊拉国际机场,wikidata:Q2739813:zh-cn,Fujairah,,,resolved
+5238,OMRK,RKT,OMRK,Ras Al Khaimah International Airport,哈伊马角国际机场,wikidata:Q1432589:zh-cn,Ras Al Khaimah,,,resolved
+5239,OMSJ,SHJ,OMSJ,Sharjah International Airport,沙迦国际机场,wikidata:Q635826:zh-cn,Sharjah,,,resolved
+5242,OOMS,MCT,OOMS,Muscat International Airport,马斯喀特国际机场,wikidata:Q1133357:zh-hans,Muscat/Seeb,,,resolved
+5244,OOSA,SLL,OOSA,Salalah International Airport,塞拉莱机场,wikidata:Q1432681:zh>zh-hans,Salalah,,,resolved
+5251,OPFA,LYP,OPFA,Faisalabad International Airport,费萨拉巴德国际机场,wikidata:Q31580:zh-hans,Faisalabad,,,resolved
+5255,OPKC,KHI,OPKC,Jinnah International Airport,真纳国际机场,wikidata:Q61052:zh,Karachi,,,resolved
+5257,OPLA,LHE,OPLA,Allama Iqbal International Airport,拉合尔阿拉马·伊克巴勒国际机场,wikidata:Q60879:zh,Lahore,,,resolved
+5264,OPMT,MUX,OPMT,Multan International Airport,木尔坦国际机场,wikidata:Q31569:zh,Multan,,,resolved
+5270,OPPS,PEW,OPPS,Bacha Khan International Airport,白沙瓦国际机场,wikidata:Q1516769:zh-hans,Peshawar,,,resolved
+5272,OPQT,UET,OPQT,Quetta International Airport,奎达国际机场,wikidata:Q31581:zh,Quetta,,,resolved
+5277,OPSD,KDU,OPSD,Skardu International Airport,斯卡杜机场,wikidata:Q2633552:zh,Skardu,,,resolved
+5283,OPTU,TUK,OPTU,Turbat International Airport,土尔巴特国际机场,wikidata:Q2633549:zh>zh-hans,Turbat,,,resolved
+5289,ORBI,BGW,ORBI,Baghdad International Airport / New Al Muthana Air Base,巴格达国际机场,wikidata:Q304438:zh>zh-hans,Baghdad,,,resolved
+5290,ORBM,OSM,ORBM,Mosul International Airport,摩苏尔国际机场,wikidata:Q1432089:zh>zh-hans,Mosul,,,resolved
+5292,ORER,EBL,ORER,Erbil International Airport,埃尔比勒国际机场,wikidata:Q648423:zh-cn,Arbil,,,resolved
+5293,ORKK,KIK,ORKK,Kirkuk International Airport,基尔库克国际机场,wikidata:Q6415856:zh>zh-hans,Kirkuk,,,resolved
+5294,ORMM,BSR,ORMM,Basra International Airport,巴士拉国际机场,wikidata:Q1418829:zh-hans,Basra,,,resolved
+5302,OSAP,ALP,OSAP,Aleppo International Airport,阿勒颇国际机场,wikidata:Q1420222:zh-hans,Aleppo,,,resolved
+5303,OSDI,DAM,OSDI,Damascus International Airport,大马士革国际机场,wikidata:Q570873:zh,Damascus,,,resolved
+5308,OTBD,DIA,OTBD,Doha International Airport,,,Doha,,,unresolved
+5311,OYAA,ADE,OYAA,Aden International Airport,亚丁国际机场,wikidata:Q1398872:zh>zh-hans,Aden,,,resolved
+5317,OYRN,RIY,OYRN,Riyan International Airport,里扬机场,wikidata:Q3505034:zh-hans,Mukalla(Riyan),,,resolved
+5318,OYSN,SAH,OYSN,Sanaa International Airport,萨那国际机场,wikidata:Q1165296:zh-hans,Sanaa,,,resolved
+5320,OYSY,GXF,OYSY,Seiyun Hadhramaut International Airport,,,Seiyun,,,unresolved
+5388,PANC,ANC,PANC,Ted Stevens Anchorage International Airport,泰德·史蒂文斯安克雷奇国际机场,wikidata:Q767753:zh>zh-hans,Anchorage,,,resolved
+5430,PGRO,ROP,PGRO,Rota International Airport,罗塔国际机场,wikidata:Q1187633:zh-hans,Rota Island,,,resolved
+5433,PGUM,GUM,PGUM,Antonio B. Won Pat International Airport,安东尼奥·汪帕特国际机场,wikidata:Q1136355:zh-hans,Hagåtña,,,resolved
+5448,PHKO,KOA,PHKO,Ellison Onizuka Kona International Airport at Keāhole,科纳国际机场,wikidata:Q1781135:zh>zh-hans,Kailua-Kona,,,resolved
+5449,PHLI,LIH,PHLI,Lihue Airport,利胡埃机场,wikidata:Q1146451:zh-hans,"Lihue, Kauai",,,resolved
+5453,PHNL,HNL,PHNL,Daniel K. Inouye International Airport,丹尼尔·K·井上国际机场,wikidata:Q531178:zh-hans,"Honolulu, Oahu",,,resolved
+5455,PHOG,OGG,PHOG,Kahului International Airport,卡胡卢伊机场,wikidata:Q1431637:zh-cn,Kahului,,,resolved
+5488,PKMJ,MAJ,PKMJ,Marshall Islands International Airport,马绍尔群岛国际机场,wikidata:Q650373:zh-hans,Majuro Atoll,,,resolved
+5493,PLCH,CXI,PLCH,Cassidy International Airport,卡西迪国际机场,wikidata:Q1431055:zh>zh-hans,Kiritimati,,,resolved
+5499,PTKK,TKK,PTKK,Chuuk International Airport,楚克国际机场,wikidata:Q166512:zh>zh-hans,Weno Island,,,resolved
+5501,PTRO,ROR,PTRO,Roman Tmetuchl International Airport,罗曼·莫图国际机场,wikidata:Q1147092:zh-hans,Babelthuap Island,,,resolved
+5502,PTSA,KSA,PTSA,Kosrae International Airport,科斯雷国际机场,wikidata:Q598642:zh>zh-hans,Okat,,,resolved
+5503,PTYA,YAP,PTYA,Yap International Airport,雅蒲岛国际机场,wikidata:Q1152202:zh-hans,Yap Island,,,resolved
+5516,RCKH,KHH,RCKH,Kaohsiung International Airport,高雄国际机场,wikidata:Q16810:zh-hans,Kaohsiung (Xiaogang),,,resolved
+5520,RCMQ,RMQ,RCMQ,Taichung International Airport / Ching Chuang Kang Air Base,台中国际机场,wikidata:Q374558:zh-cn,Taichung (Qingshui),,,resolved
+5522,RCNN,TNN,RCNN,Tainan International Airport / Tainan Air Base,台南机场,wikidata:Q702035:zh-hans,Tainan (Rende),,,resolved
+5524,RCQC,MZG,RCQC,Penghu Magong Airport,澎湖机场,wikidata:Q708281:zh-cn,Huxi,,,resolved
+5527,RCSS,TSA,RCSS,Taipei Songshan International Airport,台北松山机场,wikidata:Q702019:zh-hans,Taipei (Songshan),,,resolved
+5528,RCTP,TPE,RCTP,Taiwan Taoyuan International Airport,台湾桃园国际机场,wikidata:Q44856:zh-cn,Taoyuan,,,resolved
+5530,RCYU,HUN,RCYU,Hualien Chiashan Airport,花莲机场,wikidata:Q703921:zh-hans,Hualien City,,,resolved
+5531,RJAA,NRT,RJAA,Narita International Airport,成田国际机场,wikidata:Q36454:zh,Narita,,,resolved
+5533,RJAH,IBR,RJAH,Ibaraki Airport,百里飞行场,wikidata:Q1156420:zh-hans,Omitama,,,resolved
+5536,RJBB,KIX,RJBB,Kansai International Airport,关西国际机场,wikidata:Q193682:zh-cn,Osaka,,,resolved
+5538,RJBE,UKB,RJBE,Kobe Airport,神户机场,wikidata:Q741372:zh>zh-hans,Kobe,,,resolved
+5544,RJCC,CTS,RJCC,New Chitose Airport,新千岁机场,wikidata:Q908296:zh-hans,Sapporo,,,resolved
+5545,RJCH,HKD,RJCH,Hakodate Airport,函馆机场,wikidata:Q1155685:zh-hans,Hakodate,,,resolved
+5564,RJFF,FUK,RJFF,Fukuoka Airport,福冈机场,wikidata:Q1137465:zh-hans,Fukuoka,,,resolved
+5566,RJFK,KOJ,RJFK,Kagoshima Airport,鹿儿岛机场,wikidata:Q1156310:zh-hans,Kagoshima,,,resolved
+5567,RJFM,KMI,RJFM,Miyazaki Airport,宫崎机场,wikidata:Q1378640:zh-hans,Miyazaki,,,resolved
+5570,RJFR,KKJ,RJFR,Kitakyushu Airport,北九州机场,wikidata:Q594223:zh>zh-hans,Kitakyushu,,,resolved
+5571,RJFS,HSG,RJFS,Kyushu Saga International Airport,佐贺机场,wikidata:Q1366663:zh-hans,Saga,,,resolved
+5572,RJFT,KMJ,RJFT,Kumamoto Airport,熊本机场,wikidata:Q1199773:zh-hans,Kumamoto,,,resolved
+5573,RJFU,NGS,RJFU,Nagasaki Airport,长崎机场,wikidata:Q133796:zh-cn,Nagasaki,,,resolved
+5576,RJGG,NGO,RJGG,Chubu Centrair International Airport,中部国际机场,wikidata:Q679345:zh-hans,Tokoname,,,resolved
+5585,RJNK,KMQ,RJNK,Komatsu Airport / JASDF Komatsu Air Base,小松飞行场,wikidata:Q1141511:zh-hans,Kanazawa,,,resolved
+5590,RJOA,HIJ,RJOA,Hiroshima Airport,广岛机场,wikidata:Q82240:zh,Hiroshima,,,resolved
+5591,RJOB,OKJ,RJOB,Okayama Momotaro Airport,冈山机场,wikidata:Q1322391:zh-hans,Okayama,,,resolved
+5596,RJOK,KCZ,RJOK,Kochi Ryoma Airport,高知机场,wikidata:Q1156315:zh-hans,Nankoku,,,resolved
+5597,RJOM,MYJ,RJOM,Matsuyama Airport,松山机场,wikidata:Q255345:zh>zh-hans,Matsuyama,,,resolved
+5598,RJOO,ITM,RJOO,Osaka Itami International Airport,大阪国际机场,wikidata:Q1046748:zh-hans,Osaka,,,resolved
+5600,RJOS,TKS,RJOS,Tokushima Awaodori Airport / JMSDF Tokushima Air Base,德岛飞行场,wikidata:Q1142453:zh-hans,Tokushima,,,resolved
+5601,RJOT,TAK,RJOT,Takamatsu Airport,高松机场,wikidata:Q1334603:zh-hans,Takamatsu,,,resolved
+5605,RJSA,AOJ,RJSA,Aomori Airport,青森机场,wikidata:Q628429:zh>zh-hans,Aomori,,,resolved
+5613,RJSN,KIJ,RJSN,Niigata Airport,新潟机场,wikidata:Q1197536:zh-hans,Niigata,,,resolved
+5615,RJSS,SDJ,RJSS,Sendai Airport,仙台机场,wikidata:Q1054857:zh-hans,Natori,,,resolved
+5627,RJTT,HND,RJTT,Tokyo Haneda International Airport,东京国际机场,wikidata:Q204853:zh>zh-hans,Tokyo,,,resolved
+5638,RKNY,YNY,RKNY,Yangyang International Airport,襄阳国际机场,wikidata:Q483469:zh-hans,Gonghang-ro,,,resolved
+5639,RKPC,CJU,RKPC,Jeju International Airport,济州国际机场,wikidata:Q482497:zh-hans,Jeju City,,,resolved
+5642,RKPK,PUS,RKPK,Gimhae International Airport,金海国际机场,wikidata:Q483223:zh-hans,Busan,,,resolved
+5653,RKSI,ICN,RKSI,Incheon International Airport,仁川国际机场,wikidata:Q20932:zh-cn>zh-hans,Seoul,,,resolved
+5656,RKSS,GMP,RKSS,Seoul Gimpo International Airport,金浦国际机场,wikidata:Q482493:zh-hans,Seoul,,,resolved
+5661,RKTN,TAE,RKTN,Daegu International Airport,大邱国际机场,wikidata:Q483254:zh-hans,Daegu,,,resolved
+5663,RKTU,CJJ,RKTU,Cheongju International Airport/Cheongju Air Base (K-59/G-513),清州国际机场,wikidata:Q483675:zh-hans,Cheongju,,,resolved
+5671,ROAH,OKA,ROAH,Naha International Airport,那霸机场,wikidata:Q1197455:zh-hans,Naha,,,resolved
+5673,RODN,DNA,RODN,Kadena Air Base,,,Okinawa,,,unresolved
+5686,RPLB,SFS,RPLB,Subic Bay International Airport / Naval Air Station Cubi Point,苏比克湾国际机场,wikidata:Q2293938:zh>zh-hans,Olongapo,,,resolved
+5687,RPLC,CRK,RPLC,Clark International Airport / Clark Air Base,迪奥斯达多·马卡帕加尔国际机场,wikidata:Q692279:zh>zh-hans,Mabalacat,,,resolved
+5688,RPLI,LAO,RPLI,Laoag International Airport,佬沃机场,wikidata:Q598033:zh>zh-hans,Laoag City,,,resolved
+5689,RPLL,MNL,RPLL,Ninoy Aquino International Airport,尼诺伊·阿基诺国际机场,wikidata:Q86446:zh-cn,Manila (Pasay),,,resolved
+5697,RPMD,DVO,RPMD,Francisco Bangoy International Airport,达沃国际机场,wikidata:Q1192811:zh-hans,Davao,,,resolved
+5709,RPMR,GES,RPMR,General Santos International Airport,三投斯将军国际机场,wikidata:Q2479774:zh>zh-hans,General Santos,,,resolved
+5712,RPMZ,ZAM,RPMZ,Zamboanga International Airport,三宝颜机场,wikidata:Q1200033:zh-hans,Zamboanga,,,resolved
+5739,RPVI,ILO,RPVI,Iloilo International Airport,伊洛伊洛国际机场,wikidata:Q3085934:zh-hans,Cabatuan,,,resolved
+5741,RPVK,KLO,RPVK,Kalibo International Airport,卡利博国际机场,wikidata:Q1209088:zh-hans,Kalibo,,,resolved
+5742,RPVM,CEB,RPVM,Mactan Cebu International Airport,麦克坦－宿务国际机场,wikidata:Q1048704:zh-hans,Cebu City/Lapu-Lapu City,,,resolved
+5744,RPVP,PPS,RPVP,Puerto Princesa International Airport / PAF Antonio Bautista Air Base,公主港国际机场,wikidata:Q1432514:zh>zh-hans,Puerto Princesa,,,resolved
+5769,SAAR,ROS,SAAR,Rosario Islas Malvinas International Airport,罗萨里奥—马尔维纳斯群岛国际机场,wikidata:Q1432622:zh,Rosario,,,resolved
+5771,SABE,AEP,SABE,Aeroparque Jorge Newbery,乔治·纽伯里机场,wikidata:Q999047:zh-cn,Buenos Aires,,,resolved
+5773,SACO,COR,SACO,Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport,,,Cordoba,,,unresolved
+5781,SAEZ,EZE,SAEZ,Ezeiza International Airport - Ministro Pistarini,皮斯塔里尼部长国际机场,wikidata:Q384788:zh,Buenos Aires (Ezeiza),,,resolved
+5786,SAME,MDZ,SAME,Governor Francisco Gabrielli International Airport,州长弗朗西斯科·加布里埃利国际机场,wikidata:Q1432029:zh-cn,Mendoza,,,resolved
+5794,SANT,TUC,SANT,Teniente Benjamín Matienzo International Airport,圣米格尔-德图库曼,wikidata:Q1432711:zh-hans>zh-hans,San Miguel de Tucumán,,,resolved
+5804,SARE,RES,SARE,Resistencia International Airport,雷西斯滕西亚国际机场,wikidata:Q3495781:zh>zh-hans,Resistencia,,,resolved
+5811,SASA,SLA,SASA,Martín Miguel de Güemes International Airport,萨尔塔,wikidata:Q652588:zh>zh-hans,Salta,,,resolved
+5812,SASJ,JUJ,SASJ,Gobernador Horacio Guzman International Airport,奥拉西奥·古斯曼省长国际机场,wikidata:Q1927818:zh>zh-hans,San Salvador de Jujuy,,,resolved
+5822,SAVC,CRD,SAVC,General Enrique Mosconi International Airport,,,Comodoro Rivadavia,,,unresolved
+5834,SAWG,RGL,SAWG,Piloto Civil Norberto Fernández International Airport,诺韦尔托·费尔南德斯民事飞行员国际机场,wikidata:Q2876048:zh>zh-hans,Rio Gallegos,,,resolved
+5848,SAZN,NQN,SAZN,Presidente Perón International Airport,贝隆总统机场,wikidata:Q2600422:zh>zh-hans,Neuquén,,,resolved
+5852,SAZS,BRC,SAZS,Teniente Luis Candelaria International Airport,圣卡洛斯-德巴里洛切机场,wikidata:Q370274:zh>zh-hans,San Carlos de Bariloche,,,resolved
+5867,SBBE,BEL,SBBE,Val de Cans/Júlio Cezar Ribeiro International Airport,贝伦,wikidata:Q762986:zh-cn,Belém,,,resolved
+5872,SBBR,BSB,SBBR,Presidente Juscelino Kubitschek International Airport,巴西利亚－儒塞利诺·库比契克总统国际机场,wikidata:Q909488:zh-hans,Brasília,,,resolved
+5875,SBBV,BVB,SBBV,Atlas Brasil Cantanhede International Airport,博阿维斯塔国际机场,wikidata:Q597669:zh>zh-hans,Boa Vista,,,resolved
+5882,SBCF,CNF,SBCF,Tancredo Neves International Airport,贝洛奥里藏特,wikidata:Q1987608:zh-cn,Belo Horizonte,,,resolved
+5891,SBCT,CWB,SBCT,Curitiba-Afonso Pena International Airport,阿方索·佩纳国际机场,wikidata:Q180464:zh-cn,Curitiba,,,resolved
+5894,SBCY,CGB,SBCY,Várzea Grande–Marechal Rondon International Airport,库亚巴国际机场,wikidata:Q1030919:zh-cn,Cuiabá,,,resolved
+5897,SBEG,MAO,SBEG,Eduardo Gomes International Airport,马瑙斯－爱德华多·戈梅斯国际机场,wikidata:Q657271:zh,Manaus,,,resolved
+5900,SBFI,IGU,SBFI,Cataratas International Airport,伊瓜苏,wikidata:Q1431328:zh-cn,Foz do Iguaçu,,,resolved
+5901,SBFL,FLN,SBFL,Hercílio Luz International Airport,弗洛里亚诺波利斯,wikidata:Q539298:zh-cn,Florianópolis,,,resolved
+5905,SBFZ,FOR,SBFZ,Pinto Martins International Airport,平托马丁斯-福塔雷萨国际机场,wikidata:Q2074717:zh-cn,Fortaleza,,,resolved
+5906,SBGL,GIG,SBGL,Rio de Janeiro Galeão – Tom Jobim International Airport,里约热内卢/加利昂－安东尼奥·卡洛斯·若宾国际机场,wikidata:Q733998:zh,Rio De Janeiro,,,resolved
+5908,SBGO,GYN,SBGO,Santa Genoveva International Airport,戈亚尼亚国际机场,wikidata:Q2661286:zh-cn,Goiânia,,,resolved
+5910,SBGR,GRU,SBGR,São Paulo/Guarulhos–Governor André Franco Montoro International Airport,圣保罗/瓜鲁柳斯－安德烈·弗朗哥·蒙托罗州长国际机场,wikidata:Q385406:zh,São Paulo,,,resolved
+5923,SBJP,JPA,SBJP,Presidente Castro Pinto International Airport,若昂佩索阿国际机场,wikidata:Q2876050:zh>zh-hans,João Pessoa,,,resolved
+5927,SBKP,VCP,SBKP,Viracopos International Airport,坎皮纳斯,wikidata:Q381653:zh-cn,Campinas,,,resolved
+5942,SBMO,MCZ,SBMO,Zumbi dos Palmares International Airport,马塞约,wikidata:Q2448604:zh-cn,Maceió,,,resolved
+5947,SBNF,NVT,SBNF,Ministro Victor Konder International Airport,纳韦甘蒂斯,wikidata:Q1432040:zh-cn,Navegantes,,,resolved
+5951,SBPA,POA,SBPA,Porto Alegre-Salgado Filho International Airport,小萨尔加多国际机场,wikidata:Q1432702:zh,Porto Alegre,,,resolved
+5961,SBPS,BPS,SBPS,Porto Seguro International Airport,塞古罗港机场,wikidata:Q3312490:zh-cn,Porto Seguro,,,resolved
+5962,SBPV,PVH,SBPV,Governador Jorge Teixeira de Oliveira International Airport,豪尔赫·特谢拉·德奥利韦拉州长国际机场,wikidata:Q1153219:zh-cn,Porto Velho,,,resolved
+5964,SBRB,RBR,SBRB,Rio Branco-Plácido de Castro International Airport,里奥布兰科国际机场,wikidata:Q5110606:zh-cn,Rio Branco,,,resolved
+5965,SBRF,REC,SBRF,Recife/Guararapes - Gilberto Freyre International Airport,累西腓/瓜拉拉皮斯－吉尔贝托·弗雷雷国际机场,wikidata:Q387704:zh,Recife,,,resolved
+5967,SBRJ,SDU,SBRJ,Santos Dumont Airport,圣杜蒙特机场,wikidata:Q865475:zh-hans,Rio de Janeiro,,,resolved
+5971,SBSL,SLZ,SBSL,Marechal Cunha Machado International Airport,圣路易斯国际机场,wikidata:Q587801:zh-cn,São Luís,,,resolved
+5974,SBSP,CGH,SBSP,Congonhas–Deputado Freitas Nobre Airport,孔戈尼亚斯/圣保罗机场,wikidata:Q862401:zh,São Paulo,,,resolved
+5977,SBSV,SSA,SBSV,Deputado Luiz Eduardo Magalhães International Airport,萨尔瓦多－路易斯·爱德华多·马加良斯议员国际机场,wikidata:Q926029:zh,Salvador,,,resolved
+5998,SBVT,VIX,SBVT,Eurico de Aguiar Salles International Airport,维多利亚,wikidata:Q2578887:zh-cn,Vitória,,,resolved
+6009,SCCI,PUQ,SCCI,President Carlos Ibáñez International Airport,卡洛斯·伊巴涅斯·德尔坎普总统国际机场,wikidata:Q919952:zh>zh-hans,Punta Arenas,,,resolved
+6012,SCDA,IQQ,SCDA,Diego Aracena International Airport,伊基克机场,wikidata:Q1431221:zh>zh-hans,Iquique,,,resolved
+6015,SCEL,SCL,SCEL,Comodoro Arturo Merino Benítez International Airport,阿图罗·梅里诺·贝尼特斯准将国际机场,wikidata:Q127671:zh,Santiago,,,resolved
+6018,SCFA,ANF,SCFA,Andrés Sabella Gálvez International Airport,,,Antofagasta,,,unresolved
+6025,SCIE,CCP,SCIE,Carriel Sur International Airport,,,Concepcion,,,unresolved
+6026,SCIP,IPC,SCIP,Mataveri International Airport,马塔维里国际机场,wikidata:Q1070747:zh-hans,Isla De Pascua,,,resolved
+6043,SCTE,PMC,SCTE,El Tepual International Airport,特珀国际机场,wikidata:Q2756149:zh>zh-hans,Puerto Montt,,,resolved
+6056,SEGU,GYE,SEGU,José Joaquín de Olmedo International Airport,瓜亚基尔,wikidata:Q1422154:zh-cn,Guayaquil,,,resolved
+6076,SESA,SNC,SESA,General Ulpiano Paez International Airport,,,Salinas/La Libertad,,,unresolved
+6084,SETN,ESM,SETN,Carlos Concha Torres International Airport,,,Tachina,,,unresolved
+6088,SGAS,ASU,SGAS,Silvio Pettirossi International Airport,西尔维奥·佩蒂罗西国际机场,wikidata:Q903521:zh-hans,Asunción,,,resolved
+6091,SGES,AGT,SGES,Guaraní International Airport,瓜拉尼国际机场,wikidata:Q2673205:zh>zh-hans,Ciudad del Este,,,resolved
+6104,SKBO,BOG,SKBO,El Dorado International Airport,埃尔多拉多国际机场,wikidata:Q201785:zh,Bogota,,,resolved
+6105,SKBQ,BAQ,SKBQ,Ernesto Cortissoz International Airport,巴兰几亚国际机场,wikidata:Q645151:zh-hans>zh-hans,Barranquilla,,,resolved
+6109,SKCG,CTG,SKCG,Rafael Nuñez International Airport,拉斐尔•努涅斯国际机场,wikidata:Q2670003:zh-cn,Cartagena,,,resolved
+6110,SKCL,CLO,SKCL,Alfonso Bonilla Aragon International Airport,阿方索·博尼利亚阿拉贡国际机场,wikidata:Q2308547:zh-cn,Cali,,,resolved
+6158,SKRG,MDE,SKRG,Jose Maria Córdova International Airport,何塞·玛丽亚·科尔多瓦国际机场,wikidata:Q535161:zh-cn,Medellín,,,resolved
+6163,SKSP,ADZ,SKSP,Gustavo Rojas Pinilla International Airport,古斯塔沃·罗哈斯·皮尼利亚国际机场,wikidata:Q2732053:zh>zh-hans,San Andrés,,,resolved
+6180,SLCB,CBB,SLCB,Jorge Wilsterman International Airport,乔治·维尔斯特曼国际机场,wikidata:Q2671345:zh-cn,Cochabamba,,,resolved
+6184,SLLP,LPB,SLLP,El Alto International Airport,奥尔托国际机场,wikidata:Q1142225:zh-hans,La Paz / El Alto,,,resolved
+6185,SLOR,ORU,SLOR,Juan Mendoza International Airport,胡安·门多萨机场,wikidata:Q555858:zh-cn,Oruro,,,resolved
+6193,SLVR,VVI,SLVR,Viru Viru International Airport,圣克鲁斯 (玻利维亚),wikidata:Q1427782:zh>zh-hans,Santa Cruz,,,resolved
+6195,SMJP,PBM,SMJP,Johan Adolf Pengel International Airport,约翰·阿道夫·彭格尔国际机场,wikidata:Q183494:zh>zh-hans,Paramaribo,,,resolved
+6198,SOCA,CAY,SOCA,Cayenne – Félix Eboué Airport,开云─罗尚博国际机场,wikidata:Q794542:zh>zh-hans,Matoury,,,resolved
+6205,SPCL,PCL,SPCL,Cap FAP David Abenzur Rengifo International Airport,普卡尔帕国际机场,wikidata:Q20979014:zh-cn>zh-hans,Pucallpa,,,resolved
+6213,SPHI,CIX,SPHI,Capitán FAP José A. Quiñones González International Airport,秘鲁空军何塞·基尼奥内斯·冈萨雷斯上尉国际机场,wikidata:Q3275990:zh-hans>zh-hans,Chiclayo,,,resolved
+6217,SPIM,LIM,SPJC,Jorge Chávez International Airport,豪尔赫·查韦斯国际机场,wikidata:Q1142219:zh-hans,Lima,,,resolved
+6222,SPJL,JUL,SPJL,Inca Manco Capac International Airport,印加曼卡·卡帕克国际机场,wikidata:Q1286295:zh-cn,Juliaca,,,resolved
+6232,SPQT,IQT,SPQT,Coronel FAP Francisco Secada Vignetta International Airport,伊基托斯国际机场,wikidata:Q1431540:zh-cn>zh-hans,Iquitos,,,resolved
+6233,SPQU,AQP,SPQU,Rodríguez Ballón International Airport,罗德里格斯·巴隆国际机场,wikidata:Q1430861:zh-cn,Arequipa,,,resolved
+6235,SPRU,TRU,SPRU,Capitán FAP Carlos Martínez de Pinillos International Airport,特鲁希略国际机场,wikidata:Q1433108:zh-cn,Trujillo,,,resolved
+6236,SPSO,PIO,SPSO,Captain Renán Elías Olivera International Airport,,,Pisco,,,unresolved
+6243,SPZO,CUZ,SPZO,Alejandro Velasco Astete International Airport,库斯科国际机场,wikidata:Q1431170:zh-cn,Cusco,,,resolved
+6247,SUMU,MVD,SUMU,Carrasco General Cesáreo L. Berisso International Airport,卡拉斯科国际机场,wikidata:Q9064:zh,Ciudad de la Costa,,,resolved
+6255,SVBC,BLA,SVBC,General José Antonio Anzoategui International Airport,何塞·安东尼奥·安索阿特吉将军国际机场,wikidata:Q2231506:zh,Barcelona,,,resolved
+6259,SVBM,BRM,SVBM,Jacinto Lara International Airport,哈辛托·拉拉国际机场,wikidata:Q2231932:zh,Barquisimeto,,,resolved
+6297,SVMC,MAR,SVMC,La Chinita International Airport,马拉开波,wikidata:Q1335087:zh>zh-hans,Maracaibo,,,resolved
+6299,SVMG,PMV,SVMG,Del Caribe Santiago Mariño International Airport,圣地亚哥马里诺加勒比国际机场,wikidata:Q1655978:zh-cn,Isla Margarita,,,resolved
+6300,SVMI,CCS,SVMI,Maiquetía Simón Bolívar International Airport,迈克蒂亚西蒙·玻利瓦尔国际机场,wikidata:Q1058344:zh-hans,Maiquetía,,,resolved
+6315,SVPR,PZO,SVPR,General Manuel Carlos Piar International Airport,圭亚那城机场,wikidata:Q1320857:zh>zh-hans,Guyana City,,,resolved
+6334,SVVA,VLN,SVVA,Arturo Michelena International Airport,巴伦西亚机场,wikidata:Q2231898:zh>zh-hans,Valencia,,,resolved
+6356,SYCJ,GEO,SYCJ,Cheddi Jagan International Airport,乔治敦国际机场,wikidata:Q1333912:zh-hans,Georgetown,,,resolved
+6359,TAPA,ANU,TAPA,V. C. Bird International Airport,维尔伯德国际机场,wikidata:Q1433157:zh>zh-hans,Osbourn,,,resolved
+6360,TBPB,BGI,TBPB,Grantley Adams International Airport,布里奇敦国际机场,wikidata:Q902486:zh-hans,Bridgetown,,,resolved
+6363,TFFF,FDF,TFFF,Martinique Aimé Césaire International Airport,马丁尼克-亚米-凯萨国际机场,wikidata:Q651330:zh-hans,Fort-de-France,,,resolved
+6366,TFFR,PTP,TFFR,Maryse Condé International Airport,皮特尔角城国际机场,wikidata:Q1156872:zh-hans,Pointe-à-Pitre,,,resolved
+6367,TGPY,GND,TGPY,Maurice Bishop International Airport,莫里斯·毕晓普国际机场,wikidata:Q651339:zh-cn,Saint George's,,,resolved
+6369,TIST,STT,TIST,Cyril E. King Airport,圣-托马斯,wikidata:Q1148619:zh-cn,Charlotte Amalie,,,resolved
+6377,UTDK,TJU,UTDK,Kulob International Airport,库洛布,wikidata:Q2231909:zh-hans,Kulob,,,resolved
+6384,TJSJ,SJU,TJSJ,Luis Munoz Marin International Airport,路易斯·穆尼奥斯·马林国际机场,wikidata:Q1360523:zh,San Juan,,,resolved
+6386,TKPK,SKB,TKPK,Robert L. Bradshaw International Airport,罗伯特·L·布拉德肖国际机场,wikidata:Q1933813:zh-cn,Basseterre,,,resolved
+6389,TLPL,UVF,TLPL,Hewanorra International Airport,圣卢西亚,wikidata:Q1431475:zh-cn>zh-hans,Vieux Fort,,,resolved
+6402,TNCA,AUA,TNCA,Queen Beatrix International Airport,贝娅特丽克丝女王国际机场,wikidata:Q1139661:zh-hans,Oranjestad,,,resolved
+6403,TNCB,BON,TNCB,Flamingo International Airport,佛林明哥国际机场,wikidata:Q1430982:zh>zh-hans,Kralendijk,,,resolved
+6404,TNCC,CUR,TNCC,Hato International Airport,库拉索国际机场,wikidata:Q1431168:zh>zh-hans,Willemstad,,,resolved
+6406,TNCM,SXM,TNCM,Princess Juliana International Airport,朱丽安娜公主国际机场,wikidata:Q723325:zh-cn,Sint Maarten,,,resolved
+6409,TTCP,TAB,TTCP,A.N.R. Robinson International Airport,多巴哥机场,wikidata:Q1431143:zh-cn,Scarborough,,,resolved
+6410,TTPP,POS,TTPP,Piarco International Airport,西班牙港,wikidata:Q788810:zh,Port of Spain,,,resolved
+6411,TUPJ,EIS,TUPJ,Terrance B. Lettsome International Airport,托尔托拉岛,wikidata:Q7703252:zh-cn,Beef Island,,,resolved
+6416,TXKF,BDA,TXKF,L.F. Wade International Airport,百慕达国际机场,wikidata:Q1797758:zh>zh-hans,Hamilton,,,resolved
+6421,UAAA,ALA,UAAA,Almaty International Airport,阿拉木图国际机场,wikidata:Q858844:zh-hans,Almaty,,,resolved
+6423,UACC,NQZ,UACC,Nursultan Nazarbayev International Airport,努尔苏丹·纳扎尔巴耶夫国际机场,wikidata:Q174233:zh>zh-hans,Astana,,,resolved
+6424,UADD,DMB,UADD,Taraz International Airport,塔拉兹机场,wikidata:Q1433007:zh-cn,Taraz,,,resolved
+6425,UCFL,IKU,UCFL,Issyk-Kul International Airport,伊塞克湖国际机场,wikidata:Q3495879:zh-cn,Tamchy,,,resolved
+6426,UAFM,BSZ,UCFM,Manas International Airport,玛纳斯国际机场,wikidata:Q32997:zh-cn,Bishkek,,,resolved
+6427,UAFO,OSS,UCFO,Osh International Airport,奥什机场,wikidata:Q2448327:zh-hans,Osh,,,resolved
+6429,UAII,CIT,UAII,Shymkent International Airport,奇姆肯特国际机场,wikidata:Q27315:zh>zh-hans,Shymkent,,,resolved
+6430,UAKD,DZN,UAKD,Zhezkazgan National Airport,杰兹卡兹甘,wikidata:Q2393071:zh-cn,Zhezkazgan,,,resolved
+6431,UAKK,KGF,UAKK,Sary-Arka Airport,卡拉干达,wikidata:Q117807:zh-cn>zh-hans,Karaganda,,,resolved
+6432,UARR,URA,UARR,Manshuk Mametova International Airport,乌拉尔斯克,wikidata:Q27268:zh-cn,Uralsk,,,resolved
+6433,UASK,UKK,UASK,Oskemen International Airport,厄斯克门,wikidata:Q1433309:zh-cn,Ust-Kamenogorsk (Oskemen),,,resolved
+6434,UASP,PWQ,UASP,Pavlodar International Airport,巴甫洛达尔国际机场,wikidata:Q1432328:zh>zh-hans,Pavlodar,,,resolved
+6435,UASS,PLX,UASS,Semei International Airport,塞米伊机场,wikidata:Q432481:zh-hans,Semey,,,resolved
+6436,UATE,SCO,UATE,Aktau International Airport,阿克套机场,wikidata:Q1430826:zh-hans,Aktau,,,resolved
+6437,UATG,GUW,UATG,Atyrau International Airport,阿特劳机场,wikidata:Q1430894:zh>zh-hans,Atyrau,,,resolved
+6438,UATT,AKX,UATT,Aktobe International Airport,阿克托比机场,wikidata:Q1430836:zh-cn,Aktobe,,,resolved
+6439,UAUU,KSN,UAUU,Kostanay International Airport,库斯塔奈,wikidata:Q2393255:zh-cn,Kostanay,,,resolved
+6440,UBBB,GYD,UBBB,Heydar Aliyev International Airport,盖达尔·阿利耶夫国际机场,wikidata:Q386864:zh-cn,Baku,,,resolved
+6441,UBBG,GNJ,UBBG,Ganja International Airport,占贾国际机场,wikidata:Q1030032:zh-hans,Ganja,,,resolved
+6442,UBBN,NAJ,UBBN,Nakhchivan International Airport,纳希切万国际机场,wikidata:Q619376:zh-hans,Nakhchivan,,,resolved
+6444,UDSG,LWN,UDSG,Shirak International Airport,希拉克机场,wikidata:Q1431399:zh>zh-hans,Gyumri,,,resolved
+6446,UDYZ,EVN,UDYZ,Zvartnots International Airport,兹瓦尔特诺茨国际机场,wikidata:Q1124922:zh-hans,Yerevan,,,resolved
+6447,UEEE,YKS,UEEE,Platon Oyunsky Yakutsk International Airport,雅库茨克机场,wikidata:Q1431588:zh>zh-hans,Yakutsk,,,resolved
+6451,UGKO,KUT,UGKO,David the Builder Kutaisi International Airport,库塔伊西国际机场,wikidata:Q1156904:zh>zh-hans,Kopitnari,,,resolved
+6452,UGSB,BUS,UGSB,Alexander Kartveli Batumi International Airport,巴统国际机场,wikidata:Q1200570:zh>zh-hans,Batumi,,,resolved
+6453,UGTB,TBS,UGTB,Tbilisi International Airport,第比利斯国际机场,wikidata:Q778213:zh-hans,Tbilisi,,,resolved
+6460,UHPP,PKC,UHPP,Yelizovo Airport,堪察加彼得罗巴甫洛夫斯克机场,wikidata:Q2074948:zh-cn,Petropavlovsk-Kamchatsky,,,resolved
+6461,UHSS,UUS,UHSS,Yuzhno-Sakhalinsk International Airport,南萨哈林斯克机场,wikidata:Q766117:zh-hans,Yuzhno-Sakhalinsk,,,resolved
+6462,UHWW,VVO,UHWW,Vladivostok International Airport,符拉迪沃斯托克国际机场,wikidata:Q577067:zh>zh-hans,Artyom,,,resolved
+6463,UIAA,HTA,UIAA,Chita-Kadala International Airport,赤塔机场,wikidata:Q2735084:zh>zh-hans,Chita,,,resolved
+6465,UIII,IKT,UIII,Irkutsk International Airport,伊尔库茨克国际机场,wikidata:Q1431564:zh>zh-hans,Irkutsk,,,resolved
+6466,UIUU,UUD,UIUU,Baikal International Airport,贝加尔国际机场,wikidata:Q2719346:zh-hans,Ulan Ude,,,resolved
+6467,UKBB,KBP,UKBB,Boryspil International Airport,鲍里斯皮尔国际机场,wikidata:Q477677:zh-cn,Boryspil,,,resolved
+6474,UKFF,SIP,UKFF,Simferopol International Airport,辛菲罗波尔国际机场,wikidata:Q1432871:zh>zh-hans,Simferopol,,,resolved
+6481,UKLL,LWO,UKLL,Lviv International Airport,利沃夫基利茨基国际机场,wikidata:Q282909:zh-cn,Lviv,,,resolved
+6487,UKOO,ODS,UKOO,Odesa International Airport,敖德萨国际机场,wikidata:Q1432234:zh>zh-hans,Odesa,,,resolved
+6489,ULLI,LED,ULLI,Pulkovo Airport,列宁格勒普尔科沃机场,wikidata:Q690122:zh-cn,St. Petersburg,,,resolved
+6490,ULMM,MMK,ULMM,Emperor Nicholas II Murmansk Airport,摩尔曼斯克机场,wikidata:Q1529017:zh-cn,Murmansk,,,resolved
+6495,UMBB,BQT,UMBB,Brest International Airport,布列斯特机场,wikidata:Q27048:zh>zh-hans,Brest,,,resolved
+6498,UMKK,KGD,UMKK,Khrabrovo Airport,加里宁格勒,wikidata:Q1431650:zh-cn,Kaliningrad,,,resolved
+6501,UMMS,MSQ,UMMS,Minsk National Airport,明斯克国际机场,wikidata:Q777855:zh-hans,Minsk,,,resolved
+6503,UNAA,ABA,UNAA,Abakan International Airport,阿巴坎国际机场,wikidata:Q558204:zh>zh-hans,Abakan,,,resolved
+6504,UNBB,BAX,UNBB,Barnaul Gherman Titov International Airport,巴尔瑙尔机场,wikidata:Q1858312:zh>zh-hans,Barnaul,,,resolved
+6505,UNEE,KEJ,UNEE,Alexei Leonov Kemerovo International Airport,克麦罗沃国际机场,wikidata:Q240706:zh>zh-hans,Kemerovo,,,resolved
+6506,UNKL,KJA,UNKL,Krasnoyarsk International Airport,叶梅利亚诺夫国际机场,wikidata:Q1431601:zh-cn>zh-hans,Krasnoyarsk,,,resolved
+6507,UNNT,OVB,UNNT,Novosibirsk Tolmachevo Airport,托尔马切沃机场,wikidata:Q1328849:zh-hans,Novosibirsk,,,resolved
+6508,UNOO,OMS,UNOO,Omsk Central Airport,鄂木斯克机场,wikidata:Q1432246:zh-cn,Omsk,,,resolved
+6510,UOOO,NSK,UOOO,Alykel International Airport,诺里尔斯克机场,wikidata:Q1406531:zh-cn>zh-hans,Norilsk,,,resolved
+6512,URKK,KRR,URKK,Krasnodar Pashkovsky International Airport,克拉斯诺达尔国际机场,wikidata:Q1629051:zh-cn,Krasnodar,,,resolved
+6513,URML,MCX,URML,Makhachkala Uytash International Airport,马哈奇卡拉机场,wikidata:Q2452159:zh-cn,Makhachkala,,,resolved
+6514,URMM,MRV,URMM,Mineralnye Vody Airport,矿水城机场,wikidata:Q1432042:zh>zh-hans,Mineralnyye Vody,,,resolved
+6519,URSS,AER,URSS,Sochi International Airport,索契国际机场,wikidata:Q1138408:zh-hans,Sochi,,,resolved
+6520,URWA,ASF,URWA,Astrakhan Narimanovo Boris M. Kustodiev International Airport,纳里马诺沃机场,wikidata:Q2310593:zh>zh-hans,Astrakhan,,,resolved
+6522,URWW,VOG,URWW,Volgograd International Airport,伏尔加格勒国际机场,wikidata:Q1433263:zh-cn>zh-hans,Volgograd,,,resolved
+16091,KABQ,ABQ,KABQ,Albuquerque International Sunport,阿尔伯克基,wikidata:Q1578972:zh-cn,Albuquerque,,,resolved
+26370,USCC,CEK,USCC,Kurchatov Chelyabinsk International Airport,车里雅宾斯克机场,wikidata:Q1322423:zh>zh-hans,Chelyabinsk,,,resolved
+26371,USCM,MQF,USCM,Magnitogorsk International Airport,钢城国际机场,wikidata:Q2156249:zh>zh-hans,Magnitogorsk,,,resolved
+26374,USNN,NJC,USNN,Nizhnevartovsk Airport,下瓦尔托夫斯克机场,wikidata:Q2704076:zh-hans,Nizhnevartovsk,,,resolved
+26375,USPP,PEE,USPP,Perm International Airport,彼尔姆,wikidata:Q1430981:zh-cn,Perm,,,resolved
+26377,USRR,SGC,USRR,Surgut International Airport,苏尔古特机场,wikidata:Q1432943:zh-hans,Surgut,,,resolved
+26378,USSS,SVX,USSS,Koltsovo Airport,科利佐沃国际机场,wikidata:Q1334495:zh>zh-hans,Yekaterinburg,,,resolved
+26379,USTR,TJM,USTR,Roshchino International Airport,秋明机场,wikidata:Q2290825:zh-cn,Tyumen,,,resolved
+26380,UTAA,ASB,UTAA,Ashgabat International Airport,萨帕尔穆拉特·尼亚佐夫国际机场,wikidata:Q1148527:zh-hans,Ashgabat,,,resolved
+26383,UTAT,TAZ,UTAT,Dashoguz International Airport,达沙古兹机场,wikidata:Q1708745:zh-hans,Daşoguz,,,resolved
+26384,UTAV,CRZ,UTAV,Türkmenabat International Airport,土库曼纳巴德机场,wikidata:Q967711:zh>zh-hans,Türkmenabat,,,resolved
+26385,UTDD,DYU,UTDD,Dushanbe International Airport,杜尚别机场,wikidata:Q532778:zh-cn,Dushanbe,,,resolved
+26386,UTDL,LBD,UTDL,Khujand International Airport,苦盏机场,wikidata:Q2631952:zh-hans,Khujand,,,resolved
+26387,UTNU,UGC,UZNU,Urgench International Airport,乌尔根奇国际机场,wikidata:Q975965:zh>zh-hans,Urgench,,,resolved
+26388,UTSB,BHK,UZSB,Bukhara International Airport,布哈拉国际机场,wikidata:Q978200:zh-hans,Bukhara,,,resolved
+26390,UTSS,SKD,UZSS,Samarkand International Airport,撒马尔罕国际机场,wikidata:Q976746:zh-hans,Samarkand,,,resolved
+26392,UTTT,TAS,UZTT,Tashkent International Airport,塔什干国际机场,wikidata:Q860952:zh-hans,Tashkent,,,resolved
+26394,UUDD,DME,UUDD,Domodedovo International Airport,多莫杰多沃国际机场,wikidata:Q186614:zh-cn,Moscow,,,resolved
+26395,UUDL,IAR,UUDL,Golden Ring Yaroslavl International Airport,图诺什纳机场,wikidata:Q1147420:zh-hans,Tunoshna,,,resolved
+26396,UUEE,SVO,UUEE,Sheremetyevo International Airport,谢列梅捷沃国际机场,wikidata:Q192733:zh-cn,Moscow,,,resolved
+26401,UUWW,VKO,UUWW,Vnukovo International Airport,伏努科沃国际机场,wikidata:Q273462:zh-cn,Moscow,,,resolved
+26403,UWGG,GOJ,UWGG,Nizhny Novgorod / Strigino International Airport,斯特里吉诺机场,wikidata:Q1432178:zh-hans,Nizhny Novgorod,,,resolved
+26404,UWKD,KZN,UWKD,Kazan International Airport,喀山国际机场,wikidata:Q47151:zh>zh-hans,Kazan,,,resolved
+26411,UWUU,UFA,UWUU,Ufa International Airport,乌发,wikidata:Q650285:zh-cn,Ufa,,,resolved
+26412,UWWW,KUF,UWWW,Kurumoch International Airport,库鲁莫奇国际机场,wikidata:Q950834:zh-cn,Samara,,,resolved
+26431,VAAH,AMD,VAAH,Sardar Vallabh Patel International Airport,萨达尔·瓦拉巴伊·帕特尔国际机场,wikidata:Q401700:zh,Ahmedabad,,,resolved
+26434,VABB,BOM,VABB,Chhatrapati Shivaji Maharaj International Airport,贾特拉帕蒂·希瓦吉国际机场,wikidata:Q504368:zh,Mumbai,,,resolved
+26438,VABO,BDQ,VABO,Vadodara International Airport,巴罗达机场,wikidata:Q3274467:zh-cn,Vadodara,,,resolved
+26439,VABP,BHO,VABP,Raja Bhoj International Airport,拉贾博杰机场,wikidata:Q7285421:zh-cn,Bhopal,,,resolved
+26444,VOGO,GOI,VOGO,Goa Dabolim International Airport,果阿国际机场,wikidata:Q1431173:zh-cn,Vasco da Gama,,,resolved
+26446,VAID,IDR,VAID,Devi Ahilya Bai Holkar International Airport,霍克尔机场,wikidata:Q1658243:zh-cn,Indore,,,resolved
+26453,VANP,NAG,VANP,Dr. Babasaheb Ambedkar International Airport,巴巴萨海布·阿姆倍伽尔博士国际机场,wikidata:Q1657780:zh-hans,Nagpur,,,resolved
+26455,VAPO,PNQ,VAPO,Pune International Airport,浦那国际机场,wikidata:Q1432525:zh,Pune,,,resolved
+26461,VASU,STV,VASU,Surat International Airport,苏拉特机场,wikidata:Q2775871:zh-cn,Surat,,,resolved
+26463,VCBI,CMB,VCBI,Bandaranaike International Colombo Airport,班达拉奈克国际机场,wikidata:Q60900:zh,Colombo,,,resolved
+26466,VCCC,RML,VCCC,Colombo Ratmalana International Airport,拉特马拉纳机场,wikidata:Q1101384:zh>zh-hans,Colombo,,,resolved
+26468,VCCJ,JAF,VCCJ,Jaffna International Airport,,,Jaffna,,,unresolved
+26475,VDPP,PNH,VDPP,Phnom Penh International Airport,金边国际机场,wikidata:Q1054163:zh-hans,Phnom Penh (Pou Senchey),,,resolved
+26478,VDSV,KOS,VDSV,Sihanouk International Airport,西哈努克国际机场,wikidata:Q2113291:zh>zh-hans,Preah Sihanouk,,,resolved
+26491,VEBD,IXB,VEBD,Bagdogra Airport,巴多格拉机场,wikidata:Q2900847:zh-cn,Siliguri,,,resolved
+26494,VEBS,BBI,VEBS,Biju Patnaik International Airport,布巴内什瓦尔国际机场,wikidata:Q598850:zh-cn,Bhubaneswar,,,resolved
+26496,VECC,CCU,VECC,Netaji Subhash Chandra Bose International Airport,内塔吉·苏巴斯·钱德拉·鲍斯国际机场,wikidata:Q388535:zh,Kolkata,,,resolved
+26501,VEGT,GAU,VEGT,Lokpriya Gopinath Bordoloi International Airport,纳思国际机场,wikidata:Q2673008:zh-cn,Guwahati,,,resolved
+26504,VEIM,IMF,VEIM,Bir Tikendrajit International Airport,因帕尔国际机场,wikidata:Q2247550:zh-cn,Imphal,,,resolved
+26527,VGEG,CGP,VGEG,Shah Amanat International Airport,沙赫阿马纳国际机场,wikidata:Q525609:zh>zh-hans,Chattogram (Chittagong),,,resolved
+26532,VGSY,ZYL,VGSY,Osmany International Airport,欧西玛尼国际机场,wikidata:Q162139:zh-hans,Sylhet,,,resolved
+26534,VGHS,DAC,VGHS,Hazrat Shahjalal International Airport,沙阿贾拉勒国际机场,wikidata:Q30603:zh,Dhaka,,,resolved
+26535,VHHH,HKG,VHHH,Hong Kong International Airport,香港国际机场,wikidata:Q17704:zh-cn,Hong Kong,,,resolved
+26540,VIAR,ATQ,VIAR,Sri Guru Ram Das Ji International Airport,斯里古鲁拉姆达斯吉国际机场,wikidata:Q385356:zh-cn,Amritsar,,,resolved
+26545,VEBN,VNS,VEBN,Lal Bahadur Shastri International Airport,拉尔·巴哈杜尔·夏斯特里机场,wikidata:Q3276974:zh-cn,Varanasi,,,resolved
+26550,VICG,IXC,VICG,Shaheed Bhagat Singh International Airport,昌迪加尔国际机场,wikidata:Q1835533:zh-cn,Chandigarh,,,resolved
+26555,VIDP,DEL,VIDP,Indira Gandhi International Airport,英迪拉·甘地国际机场,wikidata:Q821275:zh-hans,New Delhi,,,resolved
+26559,VIHR,HSS,VIHR,Maharaja Agrasen International Airport,,,Hisar,,,unresolved
+26560,VIHX,HWR,VIHX,Halwara International Airport,,,Halwara,,,unresolved
+26563,VIJP,JAI,VIJP,Jaipur International Airport,斋普尔,wikidata:Q572387:zh-cn,Jaipur,,,resolved
+26570,VILK,LKO,VILK,Chaudhary Charan Singh International Airport,乔杜里查兰·辛格国际机场,wikidata:Q2672666:zh-cn,Lucknow,,,resolved
+26578,VISR,SXR,VISR,Srinagar International Airport,斯利那加机场,wikidata:Q2247528:zh>zh-hans,Srinagar,,,resolved
+26583,VLLB,LPQ,VLLB,Luang Phabang International Airport,琅勃拉邦国际机场,wikidata:Q1077327:zh-hans,Luang Phabang,,,resolved
+26584,VLPS,PKZ,VLPS,Pakse International Airport,巴色国际机场,wikidata:Q1432294:zh>zh-hans,Pakse,,,resolved
+26588,VLVT,VTE,VLVT,Wattay International Airport,瓦岱国际机场,wikidata:Q221279:zh>zh-hans,Vientiane,,,resolved
+26589,VMMC,MFM,VMMC,Macau International Airport,澳门国际机场,wikidata:Q525486:zh>zh-hans,Nossa Senhora do Carmo,,,resolved
+26593,VNBW,BWA,VNBW,Gautam Buddha International Airport,,,Siddharthanagar (Bhairahawa),,,unresolved
+26596,VNKT,KTM,VNKT,Tribhuvan International Airport,特里布万国际机场,wikidata:Q61066:zh,Kathmandu,,,resolved
+26606,VOBZ,VGA,VOBZ,Vijayawada International Airport,维杰亚瓦达机场,wikidata:Q432474:zh-cn,Vijayawada,,,resolved
+26607,VOCB,CJB,VOCB,Coimbatore International Airport,哥印拜陀国际机场,wikidata:Q505572:zh-cn,Coimbatore,,,resolved
+26609,VOCI,COK,VOCI,Cochin International Airport,柯枝国际机场,wikidata:Q592172:zh,Kochi,,,resolved
+26610,VOCL,CCJ,VOCL,Calicut International Airport,科泽科德,wikidata:Q573547:zh-cn,Calicut,,,resolved
+26617,VOML,IXE,VOML,Mangaluru International Airport,门格洛尔国际机场,wikidata:Q290527:zh-cn,Mangaluru,,,resolved
+26618,VOMM,MAA,VOMM,Chennai International Airport,金奈国际机场,wikidata:Q502670:zh,Chennai,,,resolved
+26620,VOPB,IXZ,VOPB,Veer Savarkar International Airport / INS Utkrosh,韦埃尔·萨瓦卡国际机场,wikidata:Q937462:zh>zh-hans,Port Blair,,,resolved
+26627,VOTP,TIR,VOTP,Tirupati International Airport,蒂鲁帕蒂机场,wikidata:Q1321723:zh-cn,Tirupati,,,resolved
+26628,VOTR,TRZ,VOTR,Tiruchirappalli International Airport,蒂鲁吉拉帕利国际机场,wikidata:Q56935:zh-cn,Tiruchirappalli,,,resolved
+26629,VOTV,TRV,VOTV,Thiruvananthapuram International Airport,特里凡得琅国际机场,wikidata:Q1466205:zh-hans,Thiruvananthapuram,,,resolved
+26632,VQPR,PBH,VQPR,Paro International Airport,帕罗机场,wikidata:Q44877:zh>zh-hans,Paro,,,resolved
+26633,VRMG,GAN,VRMG,Gan International Airport,甘岛国际机场,wikidata:Q1431353:zh>zh-hans,Gan,,,resolved
+26634,VRMH,HAQ,VRMH,Hanimaadhoo International Airport,沿哈霓玛阿都,wikidata:Q2580505:zh>zh-hans,Haa Dhaalu Atoll,,,resolved
+26636,VRMM,MLE,VRMM,Velana International Airport,维拉纳国际机场,wikidata:Q29104:zh,Malé,,,resolved
+26638,VTBD,DMK,VTBD,Don Mueang International Airport,廊曼国际机场,wikidata:Q1046755:zh-cn,Bangkok,,,resolved
+26645,VTBU,UTP,VTBU,U-Tapao–Rayong–Pattaya International Airport,乌塔保国际机场,wikidata:Q1371432:zh-hans,Rayong,,,resolved
+26647,VTCC,CNX,VTCC,Chiang Mai International Airport,清迈国际机场,wikidata:Q1065082:zh-hans,Chiang Mai,,,resolved
+26653,VTCT,CEI,VTCT,Mae Fah Luang - Chiang Rai International Airport,清莱国际机场,wikidata:Q969597:zh,Chiang Rai,,,resolved
+26669,VTSG,KBV,VTSG,Krabi International Airport,甲米机场,wikidata:Q616894:zh>zh-hans,Krabi,,,resolved
+26672,VTSM,USM,VTSM,Samui International Airport,苏梅国际机场,wikidata:Q867656:zh-hans,Na Thon (Ko Samui Island),,,resolved
+26674,VTSP,HKT,VTSP,Phuket International Airport,布吉国际机场,wikidata:Q240694:zh>zh-hans,Phuket,,,resolved
+26676,VTSS,HDY,VTSS,Hat Yai International Airport,合艾国际机场,wikidata:Q912583:zh,Hat Yai,,,resolved
+26678,VTUD,UTH,VTUD,Udon Thani International Airport,乌隆他尼国际机场,wikidata:Q1299161:zh,Udon Thani,,,resolved
+26692,VVCI,HPH,VVCI,Cat Bi International Airport,吉碑国际机场,wikidata:Q1425356:zh-hans,Haiphong (Hai An),,,resolved
+26693,VVCR,CXR,VVCR,Cam Ranh International Airport / Cam Ranh Air Base,金兰国际机场,wikidata:Q25226:zh-hans,Nha Trang/nha Trang aiurportCam Ranh,,,resolved
+26695,VVCT,VCA,VVCT,Can Tho International Airport,芹苴国际机场,wikidata:Q170343:zh-cn,Can Tho,,,resolved
+26697,VVDN,DAD,VVDN,Da Nang International Airport,岘港国际机场,wikidata:Q773330:zh>zh-hans,Da Nang,,,resolved
+26700,VVNB,HAN,VVNB,Noi Bai International Airport,内排国际机场,wikidata:Q844098:zh-hans,Hanoi (Soc Son),,,resolved
+26702,VVPB,HUI,VVPB,Phu Bai International Airport,富牌国际机场,wikidata:Q160094:zh-cn,Huế,,,resolved
+26705,VVPQ,PQC,VVPQ,Phú Quốc International Airport,富国国际机场,wikidata:Q1423325:zh>zh-hans,Phu Quoc Island,,,resolved
+26708,VVTS,SGN,VVTS,Tan Son Nhat International Airport,新山一国际机场,wikidata:Q478595:zh>zh-hans,Ho Chi Minh City,,,resolved
+26717,VYNT,NYT,VYNT,Nay Pyi Taw International Airport,奈比多国际机场,wikidata:Q3016810:zh-hans,Naypyitaw,,,resolved
+26727,VYMD,MDL,VYMD,Mandalay International Airport,曼德勒国际机场,wikidata:Q1193001:zh-hans,Mandalay,,,resolved
+26744,VYYY,RGN,VYYY,Yangon International Airport,仰光国际机场,wikidata:Q174764:zh,Yangon,,,resolved
+26745,WAAA,UPG,WAAA,Sultan Hasanuddin International Airport,望加锡国际机场,wikidata:Q1432006:zh>zh-hans,Makassar,,,resolved
+26751,WADD,DPS,WADD,Denpasar I Gusti Ngurah Rai International Airport,伍拉·赖国际机场,wikidata:Q1061846:zh-hans,"Kuta, Badung",,,resolved
+26755,WAJJ,DJJ,WAJJ,Dortheys Hiyo Eluay International Airport,仙谷国际机场,wikidata:Q963169:zh,Sentani,,,resolved
+26760,WALL,BPN,WALL,Sultan Aji Muhammad Sulaiman Sepinggan International Airport,苏丹阿吉·穆罕默德·苏莱曼·瑟宾甘国际机场,wikidata:Q263652:zh-cn,Balikpapan,,,resolved
+26770,WAMM,MDC,WAMM,Sam Ratulangi International Airport,万鸦老国际机场,wikidata:Q1428685:zh>zh-hans,Manado,,,resolved
+26779,WAOO,BDJ,WAOO,Syamsudin Noor International Airport,沙姆斯丁努尔国际机场,wikidata:Q1432936:zh-cn,Banjarbaru,,,resolved
+26784,WAPP,AMQ,WAPP,Pattimura International Airport,,,Ambon,,,unresolved
+26788,WARQ,SOC,WAHQ,Adisoemarmo International Airport,梭罗国际机场,wikidata:Q283970:zh-cn,Surakarta,,,resolved
+26789,WARR,SUB,WARR,Juanda International Airport,朱安达国际机场,wikidata:Q1431631:zh,Surabaya,,,resolved
+26790,WARS,SRG,WAHS,Jenderal Ahmad Yani Airport,艾哈迈德·雅尼国际机场,wikidata:Q1457975:zh-cn,Semarang,,,resolved
+26808,WBGG,KCH,WBGG,Kuching International Airport,古晋国际机场,wikidata:Q1305028:zh>zh-hans,Kuching,,,resolved
+26814,WBKK,BKI,WBKK,Kota Kinabalu International Airport,哥打基纳巴卢国际机场,wikidata:Q645760:zh-cn,Kota Kinabalu,,,resolved
+26819,WBSB,BWN,WBSB,Brunei International Airport,文莱国际机场,wikidata:Q1148514:zh-cn,Bandar Seri Begawan,,,resolved
+26828,WIDD,BTH,WIDD,Hang Nadim International Airport,韩那丁国际机场,wikidata:Q780450:zh>zh-hans,Batam,,,resolved
+26832,WIHH,HLP,WIHH,Halim Perdanakusuma International Airport,达哈利姆-珀达纳库苏马机场,wikidata:Q1032934:zh-cn,Jakarta,,,resolved
+26835,WIII,CGK,WIII,Soekarno-Hatta International Airport,苏加诺－哈达国际机场,wikidata:Q749497:zh-hans,Jakarta,,,resolved
+26847,WIOO,PNK,WIOO,Supadio International Airport,苏巴迪奥国际机场,wikidata:Q723474:zh-hans,Pontianak,,,resolved
+26858,WIPT,PDG,WIEE,Minangkabau International Airport,米南加保国际机场,wikidata:Q177844:zh-cn,Padang (Katapiang),,,resolved
+26862,WITT,BTJ,WITT,Sultan Iskandar Muda International Airport,班达亚齐机场,wikidata:Q2673757:zh-hans,Banda Aceh,,,resolved
+26872,WMKI,IPH,WMKI,Sultan Azlan Shah Airport,怡保苏丹阿斯兰沙国际机场,wikidata:Q3239106:zh-hans,Ipoh,,,resolved
+26873,WMKJ,JHB,WMKJ,Senai International Airport,士乃国际机场,wikidata:Q3239110:zh-hans,Johor Bahru,,,resolved
+26874,WMKK,KUL,WMKK,Kuala Lumpur International Airport,吉隆坡国际机场,wikidata:Q500253:zh-hans,Sepang,,,resolved
+26875,WMKL,LGK,WMKL,Langkawi International Airport,浮罗交怡国际机场,wikidata:Q1431863:zh>zh-hans,Langkawi,,,resolved
+26878,WMKP,PEN,WMKP,Penang International Airport,槟城国际机场,wikidata:Q669261:zh>zh-hans,Penang,,,resolved
+26879,WMSA,SZB,WMSA,Sultan Abdul Aziz Shah International Airport,苏丹阿卜杜勒·阿齐兹·沙阿机场,wikidata:Q1431802:zh-cn,Subang,,,resolved
+26881,WPDL,DIL,WPDL,Presidente Nicolau Lobato International Airport,尼古劳·洛巴托总统国际机场,wikidata:Q1432488:zh>zh-hans,Dili,,,resolved
+26887,WSSS,SIN,WSSS,Singapore Changi Airport,新加坡樟宜机场,wikidata:Q32159:zh-cn,Singapore,,,resolved
+26901,YBBN,BNE,YBBN,Brisbane International Airport,布里斯班机场,wikidata:Q45523:zh>zh-hans,Brisbane,,,resolved
+26902,YBCG,OOL,YBCG,Gold Coast Airport,黄金海岸机场,wikidata:Q1175431:zh-cn,Gold Coast,,,resolved
+26904,YBCS,CNS,YBCS,Cairns International Airport,凯恩斯机场,wikidata:Q474632:zh>zh-hans,Cairns,,,resolved
+26918,YBSU,MCY,YBSU,Sunshine Coast Airport,阳光海岸机场,wikidata:Q903231:zh>zh-hans,Maroochydore,,,resolved
+26927,YBRM,BME,YBRM,Broome International Airport,布鲁姆,wikidata:Q1431002:zh-cn,Broome,,,resolved
+27043,YMAV,AVV,YMAV,Melbourne Avalon International Airport,阿瓦隆机场,wikidata:Q17896:zh-cn,Geelong/Melbourne,,,resolved
+27058,YMHB,HBA,YMHB,Hobart International Airport,霍巴特国际机场,wikidata:Q15498:zh>zh-hans,Hobart (Cambridge),,,resolved
+27066,YMML,MEL,YMML,Melbourne Airport,墨尔本机场,wikidata:Q733738:zh-hans,Melbourne,,,resolved
+27096,YPAD,ADL,YPAD,Adelaide International Airport,阿德莱德机场,wikidata:Q14302:zh>zh-hans,Adelaide,,,resolved
+27100,YPCC,CCK,YPCC,Cocos (Keeling) Islands Airport,科科斯机场,wikidata:Q1105469:zh>zh-hans,West Island,,,resolved
+27101,YPDN,DRW,YPDN,Darwin International Airport / RAAF Darwin,达尔文国际机场,wikidata:Q17609:zh-hans,Darwin,,,resolved
+27117,YPPD,PHE,YPPD,Port Hedland International Airport,黑德兰港国际机场,wikidata:Q1188577:zh-hans,Port Hedland,,,resolved
+27119,YPPH,PER,YPPH,Perth International Airport,珀斯机场,wikidata:Q45935:zh>zh-hans,Perth,,,resolved
+27145,YSSY,SYD,YSSY,Sydney Kingsford Smith International Airport,悉尼机场,wikidata:Q17581:zh-cn,Sydney (Mascot),,,resolved
+27175,YWLM,NTL,YWLM,Newcastle Airport,纽卡索机场,wikidata:Q17570:zh>zh-hans,Williamtown,,,resolved
+27188,ZBAA,PEK,ZBAA,Beijing Capital International Airport,北京首都国际机场,wikidata:Q32190:zh-cn,Beijing,,,resolved
+27189,ZBHH,HET,ZBHH,Hohhot Baita International Airport,呼和浩特白塔国际机场,wikidata:Q3238282:zh-cn,Hohhot,,,resolved
+27190,ZBLA,HLD,ZBLA,Hulunbuir Hailar Airport,呼伦贝尔海拉尔机场,wikidata:Q1018047:zh-hans,Hailar,,,resolved
+27191,ZBSJ,SJW,ZBSJ,Shijiazhuang Zhengding International Airport,石家庄正定国际机场,wikidata:Q2421203:zh-hans,Shijiazhuang,,,resolved
+27192,ZBTJ,TSN,ZBTJ,Tianjin Binhai International Airport,天津滨海国际机场,wikidata:Q774669:zh-cn,Tianjin,,,resolved
+27193,ZBYN,TYN,ZBYN,Taiyuan Wusu International Airport,太原武宿国际机场,wikidata:Q2361055:zh-hans,Taiyuan,,,resolved
+27194,ZGGG,CAN,ZGGG,Guangzhou Baiyun International Airport,广州白云国际机场,wikidata:Q44868:zh-cn,Guangzhou (Huadu),,,resolved
+27195,ZGHA,CSX,ZGHA,Changsha Huanghua International Airport,长沙黄花国际机场,wikidata:Q1330618:zh-hans,Changsha (Changsha),,,resolved
+27196,ZGKL,KWL,ZGKL,Guilin Liangjiang International Airport,桂林两江国际机场,wikidata:Q1197688:zh-hans,Guilin (Lingui),,,resolved
+27197,ZGNN,NNG,ZGNN,Nanning Wuxu International Airport,南宁吴圩国际机场,wikidata:Q3238350:zh-hans,Nanning (Jiangnan),,,resolved
+27198,ZGSZ,SZX,ZGSZ,Shenzhen Bao'an International Airport,深圳宝安国际机场,wikidata:Q842297:zh-cn,Shenzhen,,,resolved
+27199,ZHCC,CGO,ZHCC,Zhengzhou Xinzheng International Airport,郑州新郑国际机场,wikidata:Q2034869:zh-cn,Zhengzhou,,,resolved
+27200,ZHHH,WUH,ZHHH,Wuhan Tianhe International Airport,武汉天河国际机场,wikidata:Q601091:zh-cn,Wuhan (Huangpi),,,resolved
+27201,ZJHK,HAK,ZJHK,Haikou Meilan International Airport,海口美兰国际机场,wikidata:Q1143116:zh-cn,Haikou (Meilan),,,resolved
+27202,ZJSY,SYX,ZJSY,Sanya Phoenix International Airport,三亚凤凰国际机场,wikidata:Q684964:zh-cn,Sanya (Tianya),,,resolved
+27203,ZKPY,FNJ,ZKPY,Pyongyang Sunan International Airport,平壤顺安国际机场,wikidata:Q491767:zh-hans,Pyongyang,,,resolved
+27204,ZLLL,LHW,ZLLL,Lanzhou Zhongchuan International Airport,兰州中川机场,wikidata:Q3234734:zh-hans,Lanzhou (Yongdeng),,,resolved
+27205,ZLXY,XIY,ZLXY,Xi'an Xianyang International Airport,西安咸阳国际机场,wikidata:Q141677:zh-hans,Xi'an,,,resolved
+27212,ZMUB,ULN,ZMUB,Buyant-Ukhaa International Airport,成吉思汗国际机场,wikidata:Q837745:zh-hans,Ulaanbaatar,,,resolved
+27213,ZPJH,JHG,ZPJH,Xishuangbanna Gasa International Airport,西双版纳嘎洒机场,wikidata:Q3234757:zh-hans,Jinghong (Gasa),,,resolved
+27214,ZPPP,KMG,ZPPP,Kunming Changshui International Airport,昆明长水国际机场,wikidata:Q1371636:zh-cn,Kunming,,,resolved
+27215,ZSAM,XMN,ZSAM,Xiamen Gaoqi International Airport,厦门高崎国际机场,wikidata:Q177216:zh-cn,Xiamen,,,resolved
+27216,ZSCN,KHN,ZSCN,Nanchang Changbei International Airport,南昌昌北国际机场,wikidata:Q1375451:zh-hans,Nanchang,,,resolved
+27217,ZSFZ,FOC,ZSFZ,Fuzhou Changle International Airport,福州长乐国际机场,wikidata:Q1350630:zh-hans,Fuzhou (Changle),,,resolved
+27218,ZSHC,HGH,ZSHC,Hangzhou Xiaoshan International Airport,杭州萧山国际机场,wikidata:Q1197691:zh-hans,Hangzhou,,,resolved
+27219,ZSJN,TNA,ZSJN,Jinan Yaoqiang International Airport,济南遥墙国际机场,wikidata:Q1378003:zh-hans,Jinan (Licheng),,,resolved
+27220,ZSNB,NGB,ZSNB,Ningbo Lishe International Airport,宁波栎社国际机场,wikidata:Q3243622:zh-cn,Ningbo,,,resolved
+27221,ZSNJ,NKG,ZSNJ,Nanjing Lukou International Airport,南京禄口国际机场,wikidata:Q559107:zh-hans,Nanjing,,,resolved
+27222,ZSOF,HFE,ZSOF,Hefei Xinqiao International Airport,合肥新桥国际机场,wikidata:Q1431445:zh-cn,Hefei,,,resolved
+27223,ZSPD,PVG,ZSPD,Shanghai Pudong International Airport,上海浦东国际机场,wikidata:Q36420:zh-cn,Shanghai (Pudong),,,resolved
+27225,ZSSS,SHA,ZSSS,Shanghai Hongqiao International Airport,上海虹桥国际机场,wikidata:Q421811:zh-cn,Shanghai (Minhang),,,resolved
+27228,ZUCK,CKG,ZUCK,Chongqing Jiangbei International Airport,重庆江北国际机场,wikidata:Q788417:zh-cn,Chongqing,,,resolved
+27229,ZUGY,KWE,ZUGY,Guiyang Longdongbao International Airport,贵阳龙洞堡国际机场,wikidata:Q3243613:zh-hans,Guiyang (Nanming),,,resolved
+27230,ZUUU,CTU,ZUUU,Chengdu Shuangliu International Airport,成都双流国际机场,wikidata:Q387560:zh-cn,Chengdu (Shuangliu),,,resolved
+27234,ZWSH,KHG,ZWSH,Kashgar Laining International Airport,喀什徕宁国际机场,wikidata:Q2579951:zh-hans,Kashgar,,,resolved
+27236,ZWWW,URC,ZWWW,Ürümqi Tianshan International Airport,乌鲁木齐天山国际机场,wikidata:Q765650:zh,Ürümqi,,,resolved
+27237,ZYCC,CGQ,ZYCC,Changchun Longjia International Airport,长春龙嘉国际机场,wikidata:Q1197677:zh-cn,Changchun,,,resolved
+27238,ZYHB,HRB,ZYHB,Harbin Taiping International Airport,哈尔滨太平国际机场,wikidata:Q1156786:zh-hans,Harbin,,,resolved
+27241,ZYQQ,NDG,ZYQQ,Qiqihar Sanjiazi Airport,齐齐哈尔三家子机场,wikidata:Q3267548:zh-hans,Qiqihar,,,resolved
+27242,ZYTL,DLC,ZYTL,Dalian Zhoushuizi International Airport,大连周水子国际机场,wikidata:Q965083:zh-cn,Dalian (Ganjingzi),,,resolved
+27243,ZYTX,SHE,ZYTX,Shenyang Taoxian International Airport,沈阳桃仙国际机场,wikidata:Q1144167:zh-cn,Shenyang,,,resolved
+28118,VTBS,BKK,VTBS,Suvarnabhumi Airport,素万那普机场,wikidata:Q194316:zh-cn,Bangkok,,,resolved
+29694,GMMD,BEM,GMMD,Beni Mellal Airport,贝尼迈拉勒机场,wikidata:Q12691880:zh>zh-hans,Oulad Yaich,,,resolved
+29851,SGEN,ENO,SGEN,Teniente Ramon A. Ayub Gonzalez International Airport,,,Encarnación,,,unresolved
+30593,ZGSD,ZUH,ZGSD,Zhuhai Jinwan Airport,珠海机场,wikidata:Q2733031:zh-hans,Zhuhai (Jinwan),,,resolved
+30664,HALA,AWA,HALA,Hawassa International Airport,阿瓦萨机场,wikidata:Q657369:zh>zh-hans,Hawassa,,,resolved
+30679,ZBOW,BAV,ZBOW,Baotou Donghe International Airport,包头东河国际机场,wikidata:Q1930670:zh-cn,Baotou,,,resolved
+30792,HCMF,BSA,HCMF,Bender Qassim International Airport,班达卡西姆国际机场,wikidata:Q1355062:zh-hans,Bosaso,,,resolved
+30876,ZBDT,DAT,ZBDT,Datong Yungang International Airport,大同云冈国际机场,wikidata:Q1018789:zh-cn,Datong,,,resolved
+30929,ZLDH,DNH,ZLDH,Dunhuang Mogao International Airport,敦煌机场,wikidata:Q1154516:zh-hans,Dunhuang,,,resolved
+30958,ZGDY,DYG,ZGDY,Zhangjiajie Hehua International Airport,张家界荷花国际机场,wikidata:Q1134280:zh-hans,Zhangjiajie (Yongding),,,resolved
+30979,LCEN,ECN,LCEN,Ercan International Airport,埃尔詹国际机场,wikidata:Q607230:zh,Tymbou (Kirklar),,,resolved
+31055,FAOR,JNB,FAOR,O.R. Tambo International Airport,奥利弗·坦博国际机场,wikidata:Q821750:zh-hans,Johannesburg,,,resolved
+31624,ZSZS,HSN,ZSZS,Zhoushan Putuoshan International Airport,舟山普陀山国际机场,wikidata:Q498954:zh-cn,Zhoushan,,,resolved
+31699,ZLJQ,JGN,ZLJQ,Jiayuguan International Airport,嘉峪关机场,wikidata:Q1937403:zh-hans,Jiayuguan,,,resolved
+31705,ZSQZ,JJN,ZSQZ,Quanzhou Jinjiang International Airport,泉州晋江机场,wikidata:Q2232118:zh-hans,Quanzhou,,,resolved
+31768,UACK,KOV,UACK,Kokshetau International Airport,科克舍套机场,wikidata:Q2635747:zh-hans,Kokshetau,,,resolved
+31794,UAOO,KZO,UAOO,Korkyt Ata International Airport,克孜勒奥尔达,wikidata:Q2636259:zh-cn,Kyzylorda,,,resolved
+31828,ZPLJ,LJG,ZPLJ,Lijiang Sanyi International Airport,丽江三义机场,wikidata:Q1431877:zh,Lijiang,,,resolved
+31867,ZULS,LXA,ZULS,Lhasa Gonggar International Airport,拉萨贡嘎国际机场,wikidata:Q786209:zh-hans,Shannan (Gonggar),,,resolved
+31870,ZHLY,LYA,ZHLY,Luoyang Beijiao Airport,洛阳北郊机场,wikidata:Q2507600:zh-hans,Luoyang (Laocheng),,,resolved
+31899,HCMM,MGQ,HCMM,Aden Adde International Airport,亚丁·阿德国际机场,wikidata:Q1119032:zh,Mogadishu,,,resolved
+31923,MMSM,NLU,MMSM,Felipe Ángeles International Airport,墨西哥城圣塔卢西亚机场,wikidata:Q5721568:zh,Mexico City,,,resolved
+32013,UTNN,NCU,UZNN,Nukus International Airport,努库斯机场,wikidata:Q976276:zh>zh-hans,Nukus,,,resolved
+32038,UTFN,NMA,UZFN,Namangan International Airport,纳曼干机场,wikidata:Q978313:zh>zh-hans,Namangan,,,resolved
+32400,ZGOW,SWA,ZGOW,Jieyang Chaoshan International Airport,揭阳潮汕机场,wikidata:Q1060852:zh-hans,Jieyang (Rongcheng),,,resolved
+32468,UNTT,TOF,UNTT,Tomsk Kamov Airport,柏加谢沃机场,wikidata:Q1322435:zh>zh-hans,Tomsk,,,resolved
+32489,ZSTX,TXN,ZSTX,Huangshan Tunxi International Airport,黄山屯溪机场,wikidata:Q1139165:zh-hans,Huangshan,,,resolved
+32495,UACP,PPK,UACP,Petropavl International Airport,彼得罗巴甫尔,wikidata:Q1432356:zh-cn,Petropavl,,,resolved
+32556,UTDT,KQT,UTDT,Bokhtar International Airport,,,Bokhtar,,,unresolved
+32672,ZSWZ,WNZ,ZSWZ,Wenzhou Longwan International Airport,温州龙湾国际机场,wikidata:Q716323:zh-cn,Wenzhou (Longwan),,,resolved
+32684,ZSWX,WUX,ZSWX,Sunan Shuofang International Airport,无锡硕放机场,wikidata:Q1433255:zh-cn,Wuxi,,,resolved
+32709,ZLXN,XNN,ZLXN,Xining Caojiabao International Airport,西宁曹家堡机场,wikidata:Q2235480:zh-hans,Haidong (Huzhu Tu Autonomous County),,,resolved
+32726,ZSYW,YIW,ZSYW,Yiwu Airport,义乌机场,wikidata:Q2566737:zh-hans,Yiwu/Jinhua,,,resolved
+35138,WPOC,OEC,WPOC,Oecusse Route of the Sandalwood International Airport,,,Oecussi-Ambeno,,,unresolved
+35141,VOHS,HYD,VOHS,Rajiv Gandhi International Airport,拉吉夫·甘地国际机场,wikidata:Q278667:zh,Hyderabad,,,resolved
+35145,VOBL,BLR,VOBL,Kempegowda International Airport Bengaluru,肯佩高达国际机场,wikidata:Q503364:zh>zh-hans,Bengaluru,,,resolved
+35178,RPVB,BCD,RPVB,Bacolod-Silay International Airport,描戈律锡莱国际机场,wikidata:Q1825524:zh>zh-hans,Bacolod City,,,resolved
+35276,OIKQ,GSM,OIKQ,Qeshm International Airport,格什姆岛国际机场,wikidata:Q604547:zh-hans,Qeshm(Dayrestan),,,resolved
+35316,ZSYN,YNZ,ZSYN,Yancheng Nanyang International Airport,盐城机场,wikidata:Q5918581:zh-hans,Yancheng (Tinghu),,,resolved
+39473,SLUY,UYU,SLUY,Joya Andina International Airport,安第斯明珠机场,wikidata:Q555406:zh-cn,Quijarro,,,resolved
+41624,OPST,SKT,OPST,Sialkot International Airport,锡亚尔科特国际机场,wikidata:Q28461:zh>zh-hans,Sialkot,,,resolved
+42924,URMG,GRV,URMG,Akhmat Kadyrov Grozny International Airport,格罗兹尼,wikidata:Q2426249:zh-cn,Grozny,,,resolved
+42965,UWPS,SKX,UWPS,Saransk International Airport,萨兰斯克机场,wikidata:Q2281749:zh>zh-hans,Saransk,,,resolved
+42967,UUBW,ZIA,UUBW,Zhukovsky International Airport,拉缅斯科耶机场,wikidata:Q2388744:zh-cn,Moscow,,,resolved
+43074,TRPG,MNI,TRPG,John A. Osborne Airport,约翰·奥斯本机场,wikidata:Q1431604:zh-cn,Gerald's Park,,,resolved
+44122,ZURK,RKZ,ZURK,Xigaze Peace Airport / Shigatse Air Base,日喀则和平机场,wikidata:Q1083293:zh-hans,Xigazê (Samzhubzê),,,resolved
+44167,ZSLG,LYG,ZSLG,Lianyungang Huaguoshan International Airport,连云港花果山国际机场,wikidata:Q60775425:zh,Lianyungang,,,resolved
+44336,UAOL,BXY,UAOL,Baikonur Krayniy International Airport,,,Baikonur,,,unresolved
+44491,LTCS,GNY,LTCS,Şanlıurfa GAP Airport,尚勒乌尔法GAP机场,wikidata:Q1433329:zh>zh-hans,Şanlıurfa,,,resolved
+44686,OTHH,DOH,OTHH,Hamad International Airport,哈马德国际机场,wikidata:Q1198791:zh-cn,Doha,,,resolved
+298989,ZLIC,INC,ZLIC,Yinchuan Hedong International Airport,银川河东机场,wikidata:Q3270994:zh-hans,Yinchuan,,,resolved
+299238,RJNS,FSZ,RJNS,Mount Fuji Shizuoka Airport,静冈机场,wikidata:Q1209993:zh-hans,Makinohara / Shimada,,,resolved
+299629,WADL,LOP,WADL,Lombok International Airport,龙目国际机场,wikidata:Q1395514:zh>zh-hans,"Mataram (Pujut, Lombok Tengah)",,,resolved
+299738,OM-0003,DQM,OODQ,Duqm International Airport,杜古姆扎阿鲁尼机场,wikidata:Q387628:zh>zh-hans,Duqm,,,resolved
+299742,OOSH,OHS,OOSH,Suhar International Airport,苏哈尔,wikidata:Q1432882:zh-cn,Suhar,,,resolved
+300320,OMDW,DWC,OMDW,Al Maktoum International Airport,阿勒马克图姆国际机场,wikidata:Q1065223:zh-cn,Dubai(Jebel Ali),,,resolved
+300455,ZBYC,YCU,ZBYC,Yuncheng Yanhu International Airport,运城盐湖国际机场,wikidata:Q1017617:zh-hans,Yuncheng (Yanhu),,,resolved
+300513,ZBDS,DSN,ZBDS,Ordos Ejin Horo International Airport,鄂尔多斯机场,wikidata:Q3538450:zh-hans,Ordos,,,resolved
+300611,OEAO,ULH,OEAO,Al-Ula International Airport,阿卜杜勒·马吉德·本·阿卜杜拉兹王子国际机场,wikidata:Q4120431:zh>zh-hans,Al-Ula,,,resolved
+300781,DNAS,ABB,DNAS,Asaba International Airport,阿萨巴国际机场,wikidata:Q2902763:zh>zh-hans,Asaba,,,resolved
+300795,FALE,DUR,FALE,King Shaka International Airport,沙卡国王国际机场,wikidata:Q392728:zh-cn,Durban,,,resolved
+300863,ZSSH,HIA,ZSSH,Huai'an Lianshui Airport,淮安涟水机场,wikidata:Q3206675:zh-hans,Huai'an,,,resolved
+300893,HESG,HMB,HESG,Suhaj International Airport,索哈杰国际机场,wikidata:Q4115512:zh-cn,Suhaj,,,resolved
+301881,EDDB,BER,EDDB,Berlin Brandenburg Airport,柏林勃兰登堡机场,wikidata:Q160556:zh-cn,Berlin,,,resolved
+302303,RKJB,MWX,RKJB,Muan International Airport,务安国际机场,wikidata:Q484060:zh-hans,Muan (Piseo-ri),,,resolved
+308033,FDSK,SHO,FDSK,King Mswati III International Airport,恩史瓦帝三世国际机场,wikidata:Q2285574:zh>zh-hans,Mpaka,,,resolved
+308134,LEMI,RMU,LEMI,Region of Murcia International Airport,穆尔西亚地区国际机场,wikidata:Q3015351:zh,Corvera,,,resolved
+308273,SEQM,UIO,SEQM,Mariscal Sucre International Airport,苏克雷元帅国际机场,wikidata:Q1547557:zh>zh-hans,Quito,,,resolved
+308633,RPMY,CGY,RPMY,Laguindingan International Airport,拉金丁干机场,wikidata:Q3274023:zh-hant>zh-hans,Laguindingan,,,resolved
+309484,EPLB,LUZ,EPLB,Lublin Airport,卢布林机场,wikidata:Q620446:zh>zh-hans,Lublin,,,resolved
+309577,WIMM,KNO,WIMM,Kualanamu International Airport,瓜拉纳穆国际机场,wikidata:Q4273083:zh>zh-hans,Beringin,,,resolved
+311028,ORNI,NJF,ORNI,Al Najaf International Airport,纳贾夫,wikidata:Q3499545:zh-cn,Najaf,,,resolved
+312665,FNBJ,NBJ,FNBJ,Dr. Antonio Agostinho Neto International Airport,,,Luanda (Ícolo e Bengo),,,unresolved
+313262,SBSG,NAT,SBSG,Rio Grande do Norte/São Gonçalo do Amarante–Governador Aluízio Alves International Airport,纳塔尔,wikidata:Q2090101:zh-cn,Natal,,,resolved
+313314,HAJJ,JIJ,HAJJ,Gerad Wilwal International Airport,,,Jijiga,,,unresolved
+313797,NG-0005,,DNBK,Sir Ahmadu Bello International Airport,比尔宁凯比,wikidata:Q18387412:zh>zh-hans,Birinin Kebbi,,,resolved
+314783,SCQP,ZCO,SCQP,La Araucanía International Airport,特木科机场,wikidata:Q17516120:zh>zh-hans,Temuco,,,resolved
+315119,YBWW,WTB,YBWW,Toowoomba Wellcamp Airport,图文巴机场,wikidata:Q16255487:zh-hans,Toowoomba,,,resolved
+316498,ESKS,SCR,ESKS,Scandinavian Mountains Airport,,,Malung-Sälen,,,unresolved
+316826,OCS,OCS,FGCO,Corisco International Airport,科里斯科国际机场,wikidata:Q25037308:zh>zh-hans,Corisco Island,,,resolved
+317457,LTFM,IST,LTFM,İstanbul Airport,伊斯坦布尔机场,wikidata:Q3661908:zh-cn,Istanbul,,,resolved
+322383,TVSA,SVD,TVSA,Argyle International Airport,雅盖国际机场,wikidata:Q4789828:zh>zh-hans,Kingstown,,,resolved
+323056,DNBC,BCU,DNBC,Sir Abubakar Tafawa Balewa Bauchi State International Airport,,,Bauchi,,,unresolved
+323315,GQNO,NKC,GQNO,Nouakchott–Oumtounsy International Airport,诺克少,wikidata:Q25337089:zh>zh-hans,Nouakchott,,,resolved
+324731,LTDB,COV,LTDB,Çukurova International Airport,,,Tarsus,,,unresolved
+325736,GOBD,DSS,GOBD,Blaise Diagne International Airport,达喀尔,wikidata:Q597308:zh>zh-hans,Dakar,,,resolved
+326363,URRP,ROV,URRP,Platov International Airport,普拉托夫国际机场,wikidata:Q16534881:zh-hans,Rostov-on-Don,,,resolved
+327452,VASD,SAG,VASD,Shirdi International Airport,舍地机场,wikidata:Q7498345:zh>zh-hans,Kakadi,,,resolved
+329504,VOKN,CNN,VOKN,Kannur International Airport,坎努尔,wikidata:Q3595649:zh>zh-hans,Kannur,,,resolved
+330388,LLER,ETM,LLER,Ramon International Airport,拉蒙机场,wikidata:Q2896949:zh-cn,Eilat,,,resolved
+330820,ZBAD,PKX,ZBAD,Beijing Daxing International Airport,北京大兴国际机场,wikidata:Q1139574:zh-cn,Beijing,,,resolved
+332096,ZSYT,YNT,ZSYT,Yantai Penglai International Airport,烟台蓬莱国际机场,wikidata:Q6587733:zh,Yantai,,,resolved
+332202,WAHI,YIA,WAHI,Yogyakarta International Airport,新日惹国际机场,wikidata:Q28725656:zh,Yogyakarta,,,resolved
+332512,OENN,NUM,OENN,Neom Bay Airport,尼奥机场,wikidata:Q63122768:zh>zh-hans,Sharma,,,resolved
+333229,SLAL,SRE,SLAL,Alcantarí International Airport,苏克雷机场,wikidata:Q24239376:zh>zh-hans,Sucre,,,resolved
+333670,LRBV,GHV,LRBV,Brașov-Ghimbav International Airport,布拉索夫-金巴夫国际机场,wikidata:Q3813650:zh,Brașov (Ghimbav),,,resolved
+333692,OPIS,ISB,OPIS,Islamabad International Airport,新伊斯兰玛巴德国际机场,wikidata:Q1190316:zh>zh-hans,Attock,,,resolved
+335326,ZMCK,UBN,ZMCK,Ulaanbaatar Chinggis Khaan International Airport,新乌兰巴托国际机场,wikidata:Q14697701:zh>zh-hans,Ulaanbaatar (Sergelen),,,resolved
+335334,HESX,SPX,HESX,Sphinx International Airport,斯芬克斯国际机场,wikidata:Q28716932:zh,Al Jiza,,,resolved
+336104,RPLK,DRP,RPLK,Bicol International Airport,比科尔国际机场,wikidata:Q4903706:zh>zh-hans,Legazpi,,,resolved
+336116,RPSP,TAG,RPSP,Bohol-Panglao International Airport,邦劳岛国际机场,wikidata:Q7130967:zh>zh-hans,Panglao,,,resolved
+337747,UAIT,HSA,UAIT,Hazrat Sultan International Airport,哈兹拉特苏丹国际机场,wikidata:Q99776256:zh,Turkıstan,,,resolved
+339001,UWSG,GSV,UWSG,Gagarin International Airport,加加林国际机场,wikidata:Q333137:zh>zh-hans,Saratov,,,resolved
+339963,KH-0001,DSY,VDDS,Dara Sakor International Airport,七星海国际机场,wikidata:Q110655658:zh,Ta Noun,,,resolved
+342092,OPGD,GWD,OPGW,New Gwadar International Airport,,,Gurandani,,,unresolved
+342093,IN-0276,NMI,VANM,Navi Mumbai International Airport,新孟买国际机场,wikidata:Q3015728:zh>zh-hans,Navi Mumbai,,,resolved
+342094,VOGA,GOX,VOGA,Manohar International Airport,莫帕机场,wikidata:Q27981434:zh>zh-hans,Mopa,,,resolved
+342095,ZUTF,TFU,ZUTF,Chengdu Tianfu International Airport,成都天府国际机场,wikidata:Q11074678:zh-cn,Chengdu (Jianyang),,,resolved
+342096,ZSQD,TAO,ZSQD,Qingdao Jiaodong International Airport,青岛胶东国际机场,wikidata:Q15672491:zh,Qingdao (Jiaozhou),,,resolved
+342097,NP-0003,PHH,VNPR,Pokhara International Airport,博卡拉国际机场,wikidata:Q55630162:zh,Pokhara,,,resolved
+342098,KH-0002,KTI,VDTI,Techo International Airport,德崇国际机场,wikidata:Q106616277:zh>zh-hans,Phnom Penh (Boeng Khyang),,,resolved
+342100,VN-0018,LTH,VVLT,Long Thanh International Airport (Under Construction),,,Ho Chi Minh City (Long Thanh),,,unresolved
+347108,ZHEC,EHU,ZHEC,Ezhou Huahu International Airport,鄂州花湖机场,wikidata:Q22100762:zh-hans,Ezhou,,,resolved
+350214,RSI,RSI,OERS,Red Sea International Airport,,,Hanak,,,unresolved
+354995,ZGZJ,ZHA,ZGZJ,Zhanjiang Wuchuan International Airport,湛江吴川国际机场,wikidata:Q56705156:zh,Zhanjiang,,,resolved
+429847,GMAZ,OZG,GMAZ,Zagora Airport,扎古拉,wikidata:Q12695647:zh,Zagora,,,resolved
+507237,AU-0539,WSI,YSWS,Western Sydney International (Nancy-Bird Walton) Airport,西悉尼机场,wikidata:Q16903158:zh>zh-hans,Sydney,,,resolved
+512065,VAHS,HSR,VAHS,Rajkot International Airport,,,Rajkot,,,unresolved
+513482,VDSA,SAI,VDSA,Siem Reap-Angkor International Airport,暹粒吴哥国际机场,wikidata:Q106511570:zh,Siem Reap,,,resolved
+520012,MMTL,TQO,MMTL,Felipe Carrillo Puerto International Airport Tulum,图卢姆国际机场,wikidata:Q104879058:zh,Tulum,,,resolved
+525659,FLSK,NLA,FLSK,Simon Mwansa Kapwepwe International Airport,恩多拉机场,wikidata:Q104861396:zh,Ndola,,,resolved
+597786,IN-0392,DXN,VIND,Noida International Airport,诺伊达国际机场,wikidata:Q3812243:zh,Gautam Buddha Nagar,,,resolved
+610317,VOVI,VTZ,VOVI,Alluri Sitarama Raju International Airport (Vizag),,,Visakhapatnam,,,unresolved
+610367,CA-1291,,,(Duplicate)YEG,,,Edmonton,,,unresolved
+610368,CA-1292,,,YEG,,,Edmonton,,,unresolved

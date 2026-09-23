@@ -15,11 +15,12 @@ from conftest import make_row, to_csv
 
 def test_parse_and_hash(sample_csv: str) -> None:
     records = parse_airports(sample_csv)
-    assert [record.id for record in records] == [1, 2, 3]
+    assert [record.id for record in records] == [1, 2, 3, 4]
     assert records[0].type == "large_airport"
     assert records[0].latitude_deg == 10.0
     assert records[1].iata_code is None
     assert records[2].icao_code is None
+    assert records[3].type == "medium_airport"
     assert records[0].row_hash == compute_row_hash(records[0].source_values())
     assert len(records[0].row_hash) == 64
 

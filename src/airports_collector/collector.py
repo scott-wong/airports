@@ -16,7 +16,7 @@ from .source import (
     sanity_check,
 )
 from .storage.repository import AirportRepository, MergeStats, utc_now
-from .zh_names import NameEntry, ZhNamesError, file_sha256, load_names
+from .zh_names import TARGET_TYPES, NameEntry, ZhNamesError, file_sha256, load_names
 
 ProgressFn = Callable[[str], None]
 
@@ -32,8 +32,8 @@ class CollectResult:
     source_sha256: str
     source_bytes: int
     rows_total: int
-    rows_large_airport: int
-    rows_large_airport_missing_zh: int
+    rows_named_airports: int
+    rows_missing_zh: int
     merge: MergeStats
     rows_deactivated: int
     names_file_sha256: str | None
@@ -43,7 +43,7 @@ class CollectResult:
             f"run {self.run_id}: 共 {self.rows_total} 行，新增 {self.merge.inserted}，"
             f"更新 {self.merge.updated}，未变 {self.merge.unchanged}，"
             f"复活 {self.merge.reactivated}，失活 {self.rows_deactivated}；"
-            f"大机场 {self.rows_large_airport} 条，其中缺中文名 {self.rows_large_airport_missing_zh} 条"
+            f"大/中型机场 {self.rows_named_airports} 条，其中缺中文名 {self.rows_missing_zh} 条"
         )
 
 
@@ -77,6 +77,9 @@ def build_staging_rows(
                 "name_zh": entry.name_zh if entry else None,
                 "municipality_zh": entry.municipality_zh if entry else None,
                 "name_zh_source": entry.name_zh_source if entry else None,
+                "municipality_zh_source": entry.municipality_zh_source if entry else None,
+                "location_zh": entry.location_zh if entry else None,
+                "location_zh_source": entry.location_zh_source if entry else None,
                 "row_hash": record.row_hash,
             }
         )
@@ -140,10 +143,12 @@ def collect(
     if not names and not allow_missing_names:
         raise ZhNamesError(f"中文名文件 {names_path} 没有任何记录")
 
-    large_airports = [record for record in records if record.type == "large_airport"]
-    missing_zh = [record for record in large_airports if not (names.get(record.id) and names[record.id].name_zh)]
-    if missing_zh and not allow_missing_names:
-        progress(f"注意：{len(missing_zh)} 条大机场没有中文名（unresolved）")
+    named_airports = [record for record in records if record.type in TARGET_TYPES]
+    missing_zh = [
+        record for record in named_airports if not (names.get(record.id) and names[record.id].name_zh)
+    ]
+    if missing_zh:
+        progress(f"注意：{len(missing_zh)} 条大/中型机场没有中文名（unresolved）")
 
     rows = build_staging_rows(records, names)
     snapshot_at = utc_now()
@@ -170,8 +175,8 @@ def collect(
             rows_unchanged=merge.unchanged,
             rows_reactivated=merge.reactivated,
             rows_deactivated=deactivated,
-            rows_large_airport=len(large_airports),
-            rows_large_airport_missing_zh=len(missing_zh),
+            rows_named_airports=len(named_airports),
+            rows_missing_zh=len(missing_zh),
         )
     except Exception as error:
         try:
@@ -186,8 +191,8 @@ def collect(
         source_sha256=download.sha256 if download else "",
         source_bytes=len(download.content) if download else 0,
         rows_total=len(rows),
-        rows_large_airport=len(large_airports),
-        rows_large_airport_missing_zh=len(missing_zh),
+        rows_named_airports=len(named_airports),
+        rows_missing_zh=len(missing_zh),
         merge=merge,
         rows_deactivated=deactivated,
         names_file_sha256=names_digest,

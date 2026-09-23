@@ -14,19 +14,22 @@ INSERT INTO {SCHEMA}.airport_staging (
     run_id, source_snapshot_at, id, ident, type, name, latitude_deg, longitude_deg,
     elevation_ft, continent, iso_country, iso_region, municipality, scheduled_service,
     gps_code, icao_code, iata_code, local_code, home_link, wikipedia_link, keywords,
-    name_zh, municipality_zh, name_zh_source, row_hash
+    name_zh, municipality_zh, name_zh_source, municipality_zh_source,
+    location_zh, location_zh_source, row_hash
 )
 SELECT
     $1::bigint, $2::timestamptz, t.id, t.ident, t.type, t.name, t.latitude_deg, t.longitude_deg,
     t.elevation_ft, t.continent, t.iso_country, t.iso_region, t.municipality, t.scheduled_service,
     t.gps_code, t.icao_code, t.iata_code, t.local_code, t.home_link, t.wikipedia_link, t.keywords,
-    t.name_zh, t.municipality_zh, t.name_zh_source, t.row_hash
+    t.name_zh, t.municipality_zh, t.name_zh_source, t.municipality_zh_source,
+    t.location_zh, t.location_zh_source, t.row_hash
 FROM jsonb_to_recordset($3::jsonb) AS t(
     id bigint, ident text, type text, name text, latitude_deg double precision,
     longitude_deg double precision, elevation_ft integer, continent text, iso_country text,
     iso_region text, municipality text, scheduled_service text, gps_code text, icao_code text,
     iata_code text, local_code text, home_link text, wikipedia_link text, keywords text,
-    name_zh text, municipality_zh text, name_zh_source text, row_hash text
+    name_zh text, municipality_zh text, name_zh_source text, municipality_zh_source text,
+    location_zh text, location_zh_source text, row_hash text
 )
 """
 
@@ -34,7 +37,7 @@ MERGE = f"""
 WITH input AS (
     SELECT * FROM {SCHEMA}.airport_staging WHERE run_id = $1::bigint
 ), existing AS (
-    SELECT a.id, a.row_hash, a.is_active, a.name_zh
+    SELECT a.id, a.row_hash, a.is_active, a.name_zh, a.municipality_zh, a.location_zh
     FROM {SCHEMA}.airport a
     JOIN input i ON i.id = a.id
 ), upserted AS (
@@ -43,7 +46,8 @@ WITH input AS (
         iso_country, iso_region, municipality, scheduled_service, gps_code, icao_code,
         iata_code, local_code, home_link, wikipedia_link, keywords, name_zh, municipality_zh,
         name_zh_source, name_zh_updated_at, row_hash, is_active, first_seen_at, last_seen_at,
-        deactivated_at, updated_at, source_snapshot_at
+        deactivated_at, updated_at, source_snapshot_at, municipality_zh_source,
+        location_zh, location_zh_source
     )
     SELECT
         i.id, i.ident, i.type, i.name, i.latitude_deg, i.longitude_deg, i.elevation_ft, i.continent,
@@ -52,7 +56,7 @@ WITH input AS (
         i.municipality_zh, i.name_zh_source,
         CASE WHEN i.name_zh IS NULL THEN NULL ELSE i.source_snapshot_at END,
         i.row_hash, true, i.source_snapshot_at, i.source_snapshot_at, NULL, i.source_snapshot_at,
-        i.source_snapshot_at
+        i.source_snapshot_at, i.municipality_zh_source, i.location_zh, i.location_zh_source
     FROM input i
     ON CONFLICT (id) DO UPDATE SET
         ident = EXCLUDED.ident,
@@ -76,6 +80,9 @@ WITH input AS (
         name_zh = EXCLUDED.name_zh,
         municipality_zh = EXCLUDED.municipality_zh,
         name_zh_source = EXCLUDED.name_zh_source,
+        municipality_zh_source = EXCLUDED.municipality_zh_source,
+        location_zh = EXCLUDED.location_zh,
+        location_zh_source = EXCLUDED.location_zh_source,
         name_zh_updated_at = CASE
             WHEN a.name_zh IS DISTINCT FROM EXCLUDED.name_zh THEN EXCLUDED.source_snapshot_at
             ELSE a.name_zh_updated_at
@@ -87,6 +94,8 @@ WITH input AS (
         updated_at = CASE
             WHEN a.row_hash IS DISTINCT FROM EXCLUDED.row_hash
               OR a.name_zh IS DISTINCT FROM EXCLUDED.name_zh
+              OR a.municipality_zh IS DISTINCT FROM EXCLUDED.municipality_zh
+              OR a.location_zh IS DISTINCT FROM EXCLUDED.location_zh
               OR a.is_active = false
             THEN EXCLUDED.source_snapshot_at
             ELSE a.updated_at
@@ -96,8 +105,21 @@ WITH input AS (
 )
 SELECT
     count(*) FILTER (WHERE e.id IS NULL) AS inserted,
-    count(*) FILTER (WHERE e.id IS NOT NULL AND e.row_hash IS DISTINCT FROM i.row_hash) AS updated,
-    count(*) FILTER (WHERE e.id IS NOT NULL AND e.row_hash IS NOT DISTINCT FROM i.row_hash) AS unchanged,
+    count(*) FILTER (
+        WHERE e.id IS NOT NULL AND (
+            e.row_hash IS DISTINCT FROM i.row_hash
+            OR e.name_zh IS DISTINCT FROM i.name_zh
+            OR e.municipality_zh IS DISTINCT FROM i.municipality_zh
+            OR e.location_zh IS DISTINCT FROM i.location_zh
+        )
+    ) AS updated,
+    count(*) FILTER (
+        WHERE e.id IS NOT NULL
+          AND e.row_hash IS NOT DISTINCT FROM i.row_hash
+          AND e.name_zh IS NOT DISTINCT FROM i.name_zh
+          AND e.municipality_zh IS NOT DISTINCT FROM i.municipality_zh
+          AND e.location_zh IS NOT DISTINCT FROM i.location_zh
+    ) AS unchanged,
     count(*) FILTER (WHERE e.id IS NOT NULL AND e.is_active = false) AS reactivated
 FROM upserted u
 JOIN input i ON i.id = u.id
@@ -135,8 +157,8 @@ SET status = $2,
     rows_unchanged = $10,
     rows_reactivated = $11,
     rows_deactivated = $12,
-    rows_large_airport = $13,
-    rows_large_airport_missing_zh = $14,
+    rows_named_airports = $13,
+    rows_missing_zh = $14,
     error_message = $15
 WHERE run_id = $1::bigint
 """
@@ -152,10 +174,19 @@ SELECT
     (SELECT count(*) FROM {SCHEMA}.airport) AS rows_total,
     (SELECT count(*) FROM {SCHEMA}.airport WHERE is_active) AS rows_active,
     (SELECT count(*) FROM {SCHEMA}.airport WHERE NOT is_active) AS rows_inactive,
-    (SELECT count(*) FROM {SCHEMA}.airport WHERE is_active AND type = 'large_airport') AS large_airports,
     (SELECT count(*) FROM {SCHEMA}.airport
-      WHERE is_active AND type = 'large_airport' AND name_zh IS NOT NULL) AS large_airports_with_zh,
+      WHERE is_active AND type IN ('large_airport', 'medium_airport')) AS named_targets,
+    (SELECT count(*) FROM {SCHEMA}.airport
+      WHERE is_active AND type IN ('large_airport', 'medium_airport')
+        AND name_zh IS NOT NULL) AS named_targets_with_zh,
     (SELECT count(*) FROM {SCHEMA}.airport WHERE name_zh IS NOT NULL) AS rows_with_zh,
+    (SELECT count(*) FROM {SCHEMA}.airport
+      WHERE is_active AND municipality IS NOT NULL) AS rows_with_municipality,
+    (SELECT count(*) FROM {SCHEMA}.airport
+      WHERE is_active AND municipality IS NOT NULL
+        AND municipality_zh IS NOT NULL) AS rows_with_municipality_zh,
+    (SELECT count(*) FROM {SCHEMA}.airport
+      WHERE is_active AND location_zh IS NOT NULL) AS rows_with_location_zh,
     (SELECT max(finished_at) FROM {SCHEMA}.collector_run WHERE status = 'succeeded') AS last_success_at,
     (SELECT run_id FROM {SCHEMA}.collector_run ORDER BY run_id DESC LIMIT 1) AS last_run_id,
     (SELECT status FROM {SCHEMA}.collector_run ORDER BY run_id DESC LIMIT 1) AS last_run_status
@@ -237,8 +268,8 @@ class AirportRepository:
         rows_unchanged: int | None,
         rows_reactivated: int | None,
         rows_deactivated: int | None,
-        rows_large_airport: int | None,
-        rows_large_airport_missing_zh: int | None,
+        rows_named_airports: int | None,
+        rows_missing_zh: int | None,
     ) -> None:
         self.storage.execute(
             RUN_FINISH,
@@ -255,8 +286,8 @@ class AirportRepository:
                 rows_unchanged,
                 rows_reactivated,
                 rows_deactivated,
-                rows_large_airport,
-                rows_large_airport_missing_zh,
+                rows_named_airports,
+                rows_missing_zh,
                 None,
             ),
         )

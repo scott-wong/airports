@@ -78,6 +78,14 @@ def sample_csv() -> str:
         make_row(),
         make_row(id="2", ident="BBB", type="small_airport", name="Small Field", iata_code="", icao_code="BBBB"),
         make_row(id="3", ident="CCC", type="closed", name="Closed Field", iata_code="", icao_code=""),
+        make_row(
+            id="4",
+            ident="DDD",
+            type="medium_airport",
+            name="Medium Airport",
+            iata_code="DDD",
+            icao_code="DDDD",
+        ),
     ]
     return to_csv(rows)
 

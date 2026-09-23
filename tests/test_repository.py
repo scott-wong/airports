@@ -50,8 +50,8 @@ def test_run_lifecycle() -> None:
         rows_unchanged=1,
         rows_reactivated=1,
         rows_deactivated=2,
-        rows_large_airport=1,
-        rows_large_airport_missing_zh=0,
+        rows_named_airports=1,
+        rows_missing_zh=0,
     )
     finish_params = storage.params_for("UPDATE airports.collector_run")[0]
     assert finish_params[0] == 42

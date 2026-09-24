@@ -1,0 +1,79 @@
+name: pages
+
+on:
+  schedule:
+    # 每周一 03:00 Asia/Shanghai（UTC 周日 19:00）
+    - cron: "0 19 * * 0"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install Python deps
+        run: uv sync --frozen
+
+      - name: Refresh Chinese names (Wikidata/Wikipedia, no LLM)
+        run: uv run airports-collector names refresh
+
+      - name: Export web snapshot
+        run: uv run airports-collector export-web
+
+      - name: Commit refreshed name data back to main
+        run: |
+          if ! git diff --quiet -- data/; then
+            git config user.name "github-actions[bot]"
+            git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+            git add data/
+            git commit -m "chore: 周更中文名数据（CI）"
+            git push
+          else
+            echo "data/ 无变化，跳过提交"
+          fi
+
+      - name: Install bun
+        uses: oven-sh/setup-bun@v2
+
+      - name: Install frontend deps
+        working-directory: web/globe
+        run: bun install --frozen-lockfile
+
+      - name: Frontend tests
+        working-directory: web/globe
+        run: bun test
+
+      - name: Build site
+        working-directory: web/globe
+        run: bun run build
+
+      - uses: actions/configure-pages@v5
+
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: web/globe/dist
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4

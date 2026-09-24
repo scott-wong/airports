@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: dark;
+}
+
+html,
+body,
+#root {
+  height: 100%;
+  margin: 0;
+  background: #04070f;
+  color: #dce9ff;
+  font-family: ui-sans-serif, system-ui, "PingFang SC", "Microsoft YaHei", sans-serif;
+  overflow: hidden;
+}
+
+.globe-scene {
+  position: absolute;
+  inset: 0;
+}
+
+.hud-panel {
+  background: rgba(6, 14, 26, 0.82);
+  border: 1px solid rgba(77, 227, 255, 0.24);
+  box-shadow:
+    0 0 24px rgba(0, 0, 0, 0.55),
+    inset 0 0 32px rgba(38, 132, 190, 0.08);
+  backdrop-filter: blur(10px);
+}
+
+.hud-title {
+  letter-spacing: 0.28em;
+  text-transform: uppercase;
+}
+
+.hud-scroll::-webkit-scrollbar {
+  width: 6px;
+}
+.hud-scroll::-webkit-scrollbar-thumb {
+  background: rgba(77, 227, 255, 0.28);
+  border-radius: 999px;
+}
+
+.vignette {
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
+  background: radial-gradient(circle at 50% 45%, transparent 45%, rgba(0, 0, 0, 0.72) 100%);
+}
+
+.badge {
+  border: 1px solid currentColor;
+  border-radius: 999px;
+  padding: 0 0.5rem;
+  font-size: 0.68rem;
+  line-height: 1.4rem;
+  letter-spacing: 0.08em;
+  white-space: nowrap;
+}

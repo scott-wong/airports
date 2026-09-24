@@ -15,3 +15,6 @@ build/
 web/globe/public/airports.json
 web/globe/public/airports.json.gz
 web/globe/public/manifest.json
+web/globe/node_modules/
+web/globe/dist/
+web/globe/.vite/

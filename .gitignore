@@ -12,3 +12,6 @@ build/
 *.egg-info/
 .idea/
 .vscode/
+web/globe/public/airports.json
+web/globe/public/airports.json.gz
+web/globe/public/manifest.json

@@ -13,7 +13,7 @@ from .source import SourceError, sanity_check
 from .storage.clients import StorageClient, StorageUnavailable, open_storage
 from .storage.migrations import MigrationError, MigrationRunner
 from .storage.repository import AirportRepository
-from .zh_names import ZhNamesError, load_llm_supplement, refresh_names
+from .zh_names import ZhNamesError, load_llm_supplement, load_names, refresh_names
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -29,6 +29,14 @@ def _build_parser() -> argparse.ArgumentParser:
     subparsers.add_parser("migrate", help="执行 migrations/ 下的 SQL 迁移")
     subparsers.add_parser("validate-schema", help="校验 airports schema 是否符合预期")
     subparsers.add_parser("status", help="输出 airports schema 的统计信息")
+
+    export_parser = subparsers.add_parser(
+        "export-web", help="生成展示端快照（airports.json.gz + manifest）"
+    )
+    export_parser.add_argument("--csv", help="使用本地 CSV 而不是下载源站")
+    export_parser.add_argument("--names", help="中文名 CSV（默认 data/airport_names_zh.csv）")
+    export_parser.add_argument("--out", help="输出目录（默认 web/globe/public）")
+    export_parser.add_argument("--no-gzip", action="store_true", help="输出未压缩的 airports.json")
 
     collect_parser = subparsers.add_parser("collect", help="采集并入库（默认整份下载）")
     collect_parser.add_argument("--csv", help="使用本地 CSV 而不是下载源站")
@@ -81,7 +89,7 @@ def run_command(args: argparse.Namespace) -> int:
     progress = _progress_printer(args.quiet)
 
     if args.command == "names" and args.names_command == "extract-llm":
-        from .zh_names import load_names, write_llm_supplement
+        from .zh_names import write_llm_supplement
 
         source = Path(args.source) if args.source else settings.names_file
         target = Path(args.out) if args.out else settings.llm_supplement_file
@@ -152,6 +160,36 @@ def run_command(args: argparse.Namespace) -> int:
                     print(f"  - {problem}", file=sys.stderr)
                 return 1
             print("airports schema 校验通过")
+            return 0
+
+        if args.command == "export-web":
+            from .web_export import export_web
+
+            names_path = Path(args.names) if args.names else settings.names_file
+            out_dir = Path(args.out) if args.out else settings.web_export_dir
+            with httpx.Client() as http_client:
+                records, download = load_records(
+                    csv_path=args.csv,
+                    http_client=http_client,
+                    source_url=settings.source_url,
+                    on_progress=progress,
+                )
+            sanity_check(records)
+            names = load_names(names_path)
+            result = export_web(
+                records,
+                names,
+                out_dir,
+                source_url=settings.source_url,
+                source_sha256=download.sha256 if download else "",
+                    names_file=names_path.relative_to(settings.repo_root)
+                if names_path.is_relative_to(settings.repo_root)
+                else names_path,
+                compress=not args.no_gzip,
+            )
+            print(result.summary())
+            print(f"快照: {result.snapshot_path}")
+            print(f"manifest: {result.manifest_path}")
             return 0
 
         if args.command == "status":

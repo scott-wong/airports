@@ -5,8 +5,11 @@
 
 - 渲染：globe.gl（three.js）球体 + 大气辉光 + 星空；点位是**单个 THREE.Points**（一次 draw call、
   自定义 shader、加性混合），悬停/点击用 0.5° 经纬网格 + 屏幕空间最近邻拾取（见 `docs/adr/0002`）。
-- 国家轮廓：Natural Earth（公共领域）三级比例尺，按缩放渐进加载（远景 45 KB / 区域 355 KB /
-  精细 2 MB），见 `docs/adr/0005`；筛选面板可开关（URL `borders=0`）。
+- 底图：globe.gl 瓦片引擎加载真实影像，支持 `实景卫星`（EOX Sentinel-2 cloudless，默认）、
+  `街道`（OpenStreetMap）、`线框`（极简）三种风格，URL `map=satellite|street|wireframe`，
+  见 `docs/adr/0006`。
+- 行政区轮廓：Natural Earth（公共领域）分三个图层按缩放叠加——国界（45 KB/355 KB/2 MB）、
+  省界（区域级起，261 KB/2.3 MB）、县市（城市级起，496 KB，仅美国县），开关 `borders=0`。
 - 数据：构建期快照 `public/airports.json.gz`，由 `airports-collector export-web` 生成，
   **页面不连数据库、不需要任何凭据**（见 `docs/adr/0001`）。
 - 双语：i18next（zh/en），语言优先级 `?lang=` → localStorage → 浏览器语言 → zh；国家名用
@@ -16,7 +19,7 @@
 ## 本地开发
 
 ```bash
-# 1) 先生成快照与国家轮廓（在仓库根目录）
+# 1) 先生成快照与行政区轮廓（在仓库根目录）
 uv run airports-collector export-web
 uv run airports-collector export-borders
 
@@ -50,7 +53,7 @@ bun run bench          # 8.6 万点性能基准（本地跑，不进 CI）
 
 | 操作 | 效果 |
 | --- | --- |
-| 拖拽 / 滚轮 | 旋转 / 缩放（放大到城市级时国界自动换成精细级别） |
+| 拖拽 / 滚轮 | 旋转 / 缩放（区域级起叠加省界，城市级再叠加县市，底图瓦片同步变细） |
 | 悬停点 | 右侧面板显示该机场（未选中时跟随鼠标） |
 | 点击点 | 选中并固定详情；点空白处取消 |
 | 空格键 | 暂停 / 恢复自动旋转 |
@@ -67,6 +70,14 @@ bun run bench          # 8.6 万点性能基准（本地跑，不进 CI）
 - 相机距离 >300 时自动只画 large/medium/seaplane/balloon，避免小点糊成一团；
 - 本机实测（M 系列，`bun run bench`）：几何构建 12.1ms、默认筛选 3.6ms、全类型+关键字筛选 42.5ms、
   拾取网格 6.5ms、1000 次 hover 拾取 2.9ms、8.2MB 快照解析 54ms。
+
+## 底图数据来源与许可
+
+- 卫星影像：**Sentinel-2 cloudless by EOX IT Services GmbH**（含 2020 年修改后的 Copernicus
+  Sentinel 数据），许可 CC BY-NC-SA 4.0 —— 仅限非商业用途，页脚已常驻署名。
+- 街道瓦片：**© OpenStreetMap contributors**，遵循 OSM 瓦片使用政策（轻量使用；流量大时请换
+  商业瓦片或自建）。
+- 行政区轮廓：**Natural Earth**（public domain）。
 
 ## 调试
 

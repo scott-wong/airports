@@ -10,6 +10,9 @@ export const AIRPORT_TYPES = [
 
 export type AirportType = (typeof AIRPORT_TYPES)[number];
 
+/** 底图风格：实景卫星、街道地图、纯线框。 */
+export type BasemapStyle = "satellite" | "street" | "wireframe";
+
 export interface Airport {
   id: number;
   ident: string;
@@ -55,6 +58,8 @@ export interface FilterState {
   query: string;
   hasZh: boolean;
   scheduledOnly: boolean;
-  /** 是否显示国家轮廓（只影响底图，不影响点位筛选）。 */
+  /** 是否显示国界/省界/县界轮廓（只影响底图，不影响点位筛选）。 */
   borders: boolean;
+  /** 底图风格。 */
+  basemap: BasemapStyle;
 }

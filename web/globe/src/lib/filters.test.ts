@@ -79,9 +79,13 @@ describe("filters", () => {
       hasZh: true,
       scheduledOnly: true,
       borders: false,
+      basemap: "street",
     };
     expect(decodeFilters(encodeFilters(filters))).toEqual(filters);
     expect(decodeFilters("")).toEqual(DEFAULT_FILTERS);
     expect(decodeFilters("borders=0").borders).toBe(false);
+    expect(decodeFilters("map=street").basemap).toBe("street");
+    expect(decodeFilters("map=nonsense").basemap).toBe("satellite");
+    expect(DEFAULT_FILTERS.basemap).toBe("satellite");
   });
 });

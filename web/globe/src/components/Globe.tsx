@@ -3,16 +3,17 @@ import Globe, { type GlobeInstance } from "globe.gl";
 import * as THREE from "three";
 
 import {
+  type BorderLayer,
   type BorderLevel,
+  borderRequests,
   createBorderLines,
   fetchBorderPayload,
   isFinerThan,
-  levelForDistance,
 } from "../lib/borders";
 import { GLOBE_RADIUS, latLngToVector3 } from "../lib/geo";
 import { POINT_ALTITUDE, buildGeometry, createStarfield, makePointsMaterial } from "../lib/points";
 import { buildPickGrid, candidatesNear, pickNearest, type PickGrid } from "../lib/picking";
-import type { Airport } from "../types";
+import type { Airport, BasemapStyle } from "../types";
 
 export interface GlobeHandle {
   focus: (airport: Airport) => void;
@@ -25,15 +26,41 @@ interface GlobeProps {
   onSelect: (airport: Airport | null) => void;
   autoRotate: boolean;
   borders: boolean;
+  basemap: BasemapStyle;
   onDetailLevel?: (level: BorderLevel) => void;
 }
 
 /** 拉远时只保留这些类型，避免 8.6 万点糊成一团（见 ADR-0002）。 */
 const COARSE_TYPES = new Set(["large_airport", "medium_airport", "seaplane_base", "balloonport"]);
 const COARSE_DISTANCE = 380;
+const MIN_DISTANCE = GLOBE_RADIUS * 1.045;
+const MAX_DISTANCE = GLOBE_RADIUS * 6;
+
+interface TileEngine {
+  globeTileEngineUrl: (fn: ((x: number, y: number, level: number) => string) | null) => void;
+  globeTileEngineMaxLevel: (level: number) => void;
+  globeTileEngineClearCache: () => void;
+}
+
+export const BASEMAP_TILES: Record<
+  Exclude<BasemapStyle, "wireframe">,
+  { url: (x: number, y: number, level: number) => string; maxLevel: number; attribution: string }
+> = {
+  satellite: {
+    url: (x, y, level) =>
+      `https://tiles.maps.eox.at/wmts/1.0.0/s2cloudless-2020_3857/default/g/${level}/${y}/${x}.jpg`,
+    maxLevel: 15,
+    attribution: "Sentinel-2 cloudless by EOX (CC BY-NC-SA 4.0)",
+  },
+  street: {
+    url: (x, y, level) => `https://tile.openstreetmap.org/${level}/${x}/${y}.png`,
+    maxLevel: 17,
+    attribution: "© OpenStreetMap contributors",
+  },
+};
 
 export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
-  { airports, selected, onHover, onSelect, autoRotate, borders, onDetailLevel },
+  { airports, selected, onHover, onSelect, autoRotate, borders, basemap, onDetailLevel },
   ref,
 ) {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -43,12 +70,15 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
   const airportsRef = useRef<Airport[]>(airports);
   const gridRef = useRef<PickGrid | null>(null);
   const coarseRef = useRef(false);
-  const borderLevelRef = useRef<BorderLevel | null>(null);
-  const borderLinesRef = useRef<THREE.LineSegments | null>(null);
-  const borderRequestRef = useRef<BorderLevel | null>(null);
-  const detailLevelCallbackRef = useRef(onDetailLevel);
   const idleTimerRef = useRef<number | null>(null);
   const autoRotateRef = useRef(autoRotate);
+  const basemapRef = useRef(basemap);
+  const borderLayersRef = useRef<
+    Map<BorderLayer, { level: BorderLevel; object: THREE.LineSegments }>
+  >(new Map());
+  const borderRequestsRef = useRef(new Set<string>());
+  const detailLevelCallbackRef = useRef(onDetailLevel);
+  const bordersVisibleRef = useRef(borders);
 
   const rebuildPoints = useCallback((list: Airport[], coarse: boolean) => {
     const points = pointsRef.current;
@@ -57,52 +87,74 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     const previous = points.geometry;
     points.geometry = buildGeometry(rendered);
     previous?.dispose();
-    // 拾取必须针对“真正画出来的那批点”，否则抽稀后下标会错位。
+    // 拾取必须针对"真正画出来的那批点"，否则抽稀后下标会错位。
     airportsRef.current = rendered;
     gridRef.current = buildPickGrid(rendered);
   }, []);
 
-  /** 按需加载国界层级；只会向更细的方向升级，避免来回抖动。 */
-  const ensureBorderLevel = useCallback(
-    (level: BorderLevel) => {
-      const globe = globeRef.current;
-      if (!globe) return;
-      if (!isFinerThan(level, borderLevelRef.current) || borderRequestRef.current === level) return;
-      borderRequestRef.current = level;
-      void fetchBorderPayload(level)
-        .then((payload) => {
-          const activeGlobe = globeRef.current;
-          if (!activeGlobe) return;
-          const lines = createBorderLines(payload, level === "coarse" ? 0.4 : 0.3);
-          if (borderLinesRef.current) {
-            activeGlobe.scene().remove(borderLinesRef.current);
-            borderLinesRef.current.geometry.dispose();
-            (borderLinesRef.current.material as THREE.Material).dispose();
-          }
-          activeGlobe.scene().add(lines);
-          borderLinesRef.current = lines;
-          borderLevelRef.current = level;
-          detailLevelCallbackRef.current?.(level);
-        })
-        .catch((error: unknown) => {
-          console.warn("国界加载失败", error);
-        })
-        .finally(() => {
-          if (borderRequestRef.current === level) borderRequestRef.current = null;
-        });
+  /** 按需加载某一图层；只向更细的方向升级，并在加载完成后替换旧对象。 */
+  const ensureBorder = useCallback((layer: BorderLayer, level: BorderLevel) => {
+    const current = borderLayersRef.current.get(layer);
+    if (!isFinerThan(level, current?.level ?? null)) return;
+    const key = `${layer}:${level}`;
+    if (borderRequestsRef.current.has(key)) return;
+    borderRequestsRef.current.add(key);
+    void fetchBorderPayload(layer, level)
+      .then((payload) => {
+        const globe = globeRef.current;
+        if (!globe) return;
+        const previous = borderLayersRef.current.get(layer);
+        if (previous) {
+          globe.scene().remove(previous.object);
+          previous.object.geometry.dispose();
+          (previous.object.material as THREE.Material).dispose();
+        }
+        const object = createBorderLines(payload);
+        object.visible = bordersVisibleRef.current;
+        globe.scene().add(object);
+        borderLayersRef.current.set(layer, { level, object });
+      })
+      .catch((error: unknown) => {
+        console.warn("边界加载失败", error);
+      })
+      .finally(() => {
+        borderRequestsRef.current.delete(key);
+      });
+  }, []);
+
+  const applyBorders = useCallback(
+    (distance: number) => {
+      const requests = borderRequests(distance);
+      for (const { layer, level } of requests) ensureBorder(layer, level);
+      const countries = requests.find((item) => item.layer === "countries");
+      if (countries) detailLevelCallbackRef.current?.(countries.level);
     },
-    [],
+    [ensureBorder],
   );
 
-  const applyView = useCallback(
-    (airport: Airport) => {
-      globeRef.current?.pointOfView(
-        { lat: airport.lat, lng: airport.lon, altitude: 0.55 },
-        900,
-      );
-    },
-    [],
-  );
+  const applyBasemap = useCallback((style: BasemapStyle) => {
+    const globe = globeRef.current;
+    if (!globe) return;
+    const tiled = globe as unknown as TileEngine;
+    if (style === "wireframe") {
+      tiled.globeTileEngineUrl(null);
+      tiled.globeTileEngineClearCache();
+      const material = globe.globeMaterial() as THREE.MeshPhongMaterial;
+      material.color = new THREE.Color("#071a2c");
+      material.emissive = new THREE.Color("#0b2a42");
+      material.emissiveIntensity = 0.5;
+      material.needsUpdate = true;
+      return;
+    }
+    const config = BASEMAP_TILES[style];
+    tiled.globeTileEngineMaxLevel(config.maxLevel);
+    tiled.globeTileEngineUrl(config.url);
+    tiled.globeTileEngineClearCache();
+  }, []);
+
+  const applyView = useCallback((airport: Airport) => {
+    globeRef.current?.pointOfView({ lat: airport.lat, lng: airport.lon, altitude: 0.55 }, 900);
+  }, []);
 
   useImperativeHandle(ref, () => ({ focus: applyView }), [applyView]);
 
@@ -133,8 +185,8 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     controls.dampingFactor = 0.08;
     controls.rotateSpeed = 0.55;
     controls.zoomSpeed = 0.7;
-    controls.minDistance = GLOBE_RADIUS * 1.12;
-    controls.maxDistance = GLOBE_RADIUS * 6;
+    controls.minDistance = MIN_DISTANCE;
+    controls.maxDistance = MAX_DISTANCE;
 
     const points = new THREE.Points(new THREE.BufferGeometry(), makePointsMaterial());
     points.frustumCulled = false;
@@ -148,13 +200,13 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     markerRef.current = marker;
 
     globe.scene().add(createStarfield());
-
-    const light = new THREE.AmbientLight(0x6688aa, 1.1);
-    globe.scene().add(light);
+    globe.scene().add(new THREE.AmbientLight(0x6688aa, 1.1));
 
     globeRef.current = globe;
     (window as unknown as { __airportGlobe?: GlobeInstance }).__airportGlobe = globe;
-    ensureBorderLevel(levelForDistance(globe.camera().position.length()));
+
+    applyBasemap(basemapRef.current);
+    applyBorders(globe.camera().position.length());
 
     const pauseRotation = () => {
       controls.autoRotate = false;
@@ -177,7 +229,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
           coarseRef.current = coarse;
           rebuildPoints(airportsRef.current, coarse);
         }
-        ensureBorderLevel(levelForDistance(distance));
+        applyBorders(distance);
       }, 180);
     };
     controls.addEventListener("change", onControlsChange);
@@ -199,13 +251,11 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
       container.removeEventListener("wheel", pauseRotation);
       controls.removeEventListener("change", onControlsChange);
       (globe as unknown as { _destructor?: () => void })._destructor?.();
-      if (borderLinesRef.current) {
-        globe.scene().remove(borderLinesRef.current);
-        borderLinesRef.current.geometry.dispose();
-        (borderLinesRef.current.material as THREE.Material).dispose();
-        borderLinesRef.current = null;
-        borderLevelRef.current = null;
+      for (const { object } of borderLayersRef.current.values()) {
+        object.geometry.dispose();
+        (object.material as THREE.Material).dispose();
       }
+      borderLayersRef.current.clear();
       points.geometry.dispose();
       (points.material as THREE.Material).dispose();
       marker.geometry.dispose();
@@ -214,7 +264,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
       pointsRef.current = null;
       markerRef.current = null;
     };
-  }, [rebuildPoints, ensureBorderLevel]);
+  }, [applyBasemap, applyBorders, rebuildPoints]);
 
   useEffect(() => {
     airportsRef.current = airports;
@@ -242,11 +292,14 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
   }, [onDetailLevel]);
 
   useEffect(() => {
-    const globe = globeRef.current;
-    const lines = borderLinesRef.current;
-    if (!globe || !lines) return;
-    lines.visible = borders;
+    bordersVisibleRef.current = borders;
+    for (const { object } of borderLayersRef.current.values()) object.visible = borders;
   }, [borders]);
+
+  useEffect(() => {
+    basemapRef.current = basemap;
+    applyBasemap(basemap);
+  }, [basemap, applyBasemap]);
 
   useEffect(() => {
     autoRotateRef.current = autoRotate;
@@ -261,6 +314,15 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     let raf = 0;
     let pending: { x: number; y: number } | null = null;
 
+    const project = (airport: Airport, cameraPosition: THREE.Vector3) => {
+      const world = latLngToVector3(airport.lat, airport.lon, POINT_ALTITUDE);
+      const facing =
+        world.x * cameraPosition.x + world.y * cameraPosition.y + world.z * cameraPosition.z;
+      if (facing < GLOBE_RADIUS * GLOBE_RADIUS * 0.92) return null;
+      const screen = globe.getScreenCoords(airport.lat, airport.lon, POINT_ALTITUDE);
+      return { x: screen.x, y: screen.y };
+    };
+
     const resolvePick = () => {
       raf = 0;
       if (!pending) return;
@@ -273,19 +335,16 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
         onHover(null);
         return;
       }
-      const camera = globe.camera();
-      const cameraPosition = camera.position;
-      const project = (airport: Airport) => {
-        const world = latLngToVector3(airport.lat, airport.lon, POINT_ALTITUDE);
-        const facing =
-          world.x * cameraPosition.x + world.y * cameraPosition.y + world.z * cameraPosition.z;
-        if (facing < GLOBE_RADIUS * GLOBE_RADIUS * 0.92) return null;
-        const screen = globe.getScreenCoords(airport.lat, airport.lon, POINT_ALTITUDE);
-        return { x: screen.x, y: screen.y };
-      };
+      const cameraPosition = globe.camera().position;
       for (const rings of [1, 2, 4]) {
         const candidates = candidatesNear(grid, geo.lat, geo.lng, rings);
-        const hit = pickNearest(candidates, list, project, cursor, 12);
+        const hit = pickNearest(
+          candidates,
+          list,
+          (airport) => project(airport, cameraPosition),
+          cursor,
+          12,
+        );
         if (hit) {
           onHover(hit);
           return;
@@ -299,6 +358,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
       pending = { x: event.clientX - rect.left, y: event.clientY - rect.top };
       if (!raf) raf = window.requestAnimationFrame(resolvePick);
     };
+
     const onClick = (event: MouseEvent) => {
       const rect = container.getBoundingClientRect();
       const cursor = { x: event.clientX - rect.left, y: event.clientY - rect.top };
@@ -310,17 +370,15 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
         return;
       }
       const cameraPosition = globe.camera().position;
-      const project = (airport: Airport) => {
-        const world = latLngToVector3(airport.lat, airport.lon, POINT_ALTITUDE);
-        const facing =
-          world.x * cameraPosition.x + world.y * cameraPosition.y + world.z * cameraPosition.z;
-        if (facing < GLOBE_RADIUS * GLOBE_RADIUS * 0.92) return null;
-        const screen = globe.getScreenCoords(airport.lat, airport.lon, POINT_ALTITUDE);
-        return { x: screen.x, y: screen.y };
-      };
       for (const rings of [1, 2, 4]) {
         const candidates = candidatesNear(grid, geo.lat, geo.lng, rings);
-        const hit = pickNearest(candidates, list, project, cursor, 14);
+        const hit = pickNearest(
+          candidates,
+          list,
+          (airport) => project(airport, cameraPosition),
+          cursor,
+          14,
+        );
         if (hit) {
           onSelect(hit);
           onHover(hit);

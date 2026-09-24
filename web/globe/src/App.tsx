@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { DetailPanel } from "./components/DetailPanel";
 import { FilterPanel } from "./components/FilterPanel";
-import { GlobeView, type GlobeHandle } from "./components/Globe";
+import { BASEMAP_TILES, GlobeView, type GlobeHandle } from "./components/Globe";
 import { HudHeader } from "./components/HudHeader";
 import { normalizeLanguage, rememberLanguage, type Language } from "./i18n";
 import type { BorderLevel } from "./lib/borders";
@@ -96,6 +96,7 @@ export default function App() {
         onSelect={handleSelect}
         autoRotate={autoRotate}
         borders={filters.borders}
+        basemap={filters.basemap}
         onDetailLevel={setDetailLevel}
       />
       <div className="vignette" />
@@ -135,8 +136,14 @@ export default function App() {
         </div>
       ) : null}
 
-      <footer className="pointer-events-none absolute bottom-2 right-4 z-10 font-mono text-[10px] text-hud-dim">
-        {snapshot ? `${snapshot.source.sha256.slice(0, 10)} · ${airports.length}` : null}
+      <footer className="pointer-events-none absolute bottom-2 right-4 z-10 text-right font-mono text-[10px] leading-relaxed text-hud-dim">
+        <div>
+          {filters.basemap === "wireframe"
+            ? "Natural Earth outlines (public domain)"
+            : BASEMAP_TILES[filters.basemap].attribution}{" "}
+          · Natural Earth borders (public domain)
+        </div>
+        <div>{snapshot ? `${snapshot.source.sha256.slice(0, 10)} · ${airports.length}` : null}</div>
       </footer>
     </main>
   );

@@ -1,4 +1,10 @@
-import { AIRPORT_TYPES, type Airport, type AirportType, type FilterState } from "../types";
+import {
+  AIRPORT_TYPES,
+  type Airport,
+  type AirportType,
+  type BasemapStyle,
+  type FilterState,
+} from "../types";
 
 export const DEFAULT_FILTERS: FilterState = {
   types: ["large_airport", "medium_airport", "seaplane_base", "balloonport"],
@@ -7,7 +13,10 @@ export const DEFAULT_FILTERS: FilterState = {
   hasZh: false,
   scheduledOnly: false,
   borders: true,
+  basemap: "satellite",
 };
+
+const BASEMAPS: BasemapStyle[] = ["satellite", "street", "wireframe"];
 
 export function haystackOf(airport: Airport): string {
   if (!airport.keywords) return buildHaystack(airport);
@@ -84,6 +93,7 @@ export function encodeFilters(filters: FilterState): string {
   if (filters.hasZh) params.set("zh", "1");
   if (filters.scheduledOnly) params.set("sched", "1");
   if (!filters.borders) params.set("borders", "0");
+  if (filters.basemap !== "satellite") params.set("map", filters.basemap);
   return params.toString();
 }
 
@@ -103,5 +113,8 @@ export function decodeFilters(search: string): FilterState {
     hasZh: params.get("zh") === "1",
     scheduledOnly: params.get("sched") === "1",
     borders: params.get("borders") !== "0",
+    basemap: (BASEMAPS as string[]).includes(params.get("map") ?? "")
+      ? (params.get("map") as BasemapStyle)
+      : "satellite",
   };
 }

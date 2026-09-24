@@ -3,7 +3,7 @@ import { useTranslation } from "react-i18next";
 
 import { TYPE_STYLE } from "../lib/colors";
 import { formatNumber } from "../lib/format";
-import type { AirportType, FilterState } from "../types";
+import type { AirportType, BasemapStyle, FilterState } from "../types";
 
 interface Props {
   filters: FilterState;
@@ -108,6 +108,34 @@ export function FilterPanel({
 
       <section className="mt-4">
         <h3 className="font-mono text-[11px] uppercase tracking-widest text-hud-dim">
+          {t("filters.basemap")}
+        </h3>
+        <div className="mt-2 grid grid-cols-3 gap-1">
+          {(["satellite", "street", "wireframe"] as BasemapStyle[]).map((style) => (
+            <button
+              key={style}
+              type="button"
+              onClick={() => onChange({ ...filters, basemap: style })}
+              className={`rounded border px-1 py-1 text-[11px] transition ${
+                filters.basemap === style
+                  ? "border-hud-cyan bg-hud-cyan/15 text-hud-cyan"
+                  : "border-hud-line text-hud-dim hover:text-slate-100"
+              }`}
+            >
+              {t(
+                style === "satellite"
+                  ? "filters.basemapSatellite"
+                  : style === "street"
+                    ? "filters.basemapStreet"
+                    : "filters.basemapWireframe",
+              )}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="mt-4">
+        <h3 className="font-mono text-[11px] uppercase tracking-widest text-hud-dim">
           {t("filters.search")}
         </h3>
         <input
@@ -205,6 +233,7 @@ export function FilterPanel({
             hasZh: false,
             scheduledOnly: false,
             borders: true,
+            basemap: "satellite",
           })
         }
         className="mt-4 w-full rounded border border-hud-line px-2 py-1 font-mono text-[11px] uppercase tracking-widest text-hud-dim hover:border-hud-cyan hover:text-hud-cyan"

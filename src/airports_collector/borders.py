@@ -33,20 +33,35 @@ class BordersError(RuntimeError):
 
 @dataclass(frozen=True)
 class LevelSpec:
-    name: str
+    """一个"图层 + 精细度"组合，对应前端一个可按需加载的文件。"""
+
+    layer: str          # countries | provinces | districts
+    name: str           # coarse | medium | fine
     source: str
     tolerance: float
     min_area: float
     precision: int
+    label_field: str = "NAME"
+
+    @property
+    def key(self) -> str:
+        return f"{self.layer}-{self.name}"
 
 
 LEVELS: tuple[LevelSpec, ...] = (
-    LevelSpec("coarse", "ne_110m_admin_0_countries.geojson", 0.02, 2.0, 2),
-    LevelSpec("medium", "ne_50m_admin_0_countries.geojson", 0.01, 0.05, 3),
-    LevelSpec("fine", "ne_10m_admin_0_countries.geojson", 0.003, 0.002, 4),
+    # 国家轮廓：远景粗线，放大换细线
+    LevelSpec("countries", "coarse", "ne_110m_admin_0_countries.geojson", 0.02, 2.0, 2),
+    LevelSpec("countries", "medium", "ne_50m_admin_0_countries.geojson", 0.01, 0.05, 3),
+    LevelSpec("countries", "fine", "ne_10m_admin_0_countries.geojson", 0.003, 0.002, 4),
+    # 省/州轮廓：中等缩放才出现
+    LevelSpec("provinces", "medium", "ne_50m_admin_1_states_provinces.geojson", 0.01, 0.05, 3),
+    LevelSpec("provinces", "fine", "ne_10m_admin_1_states_provinces.geojson", 0.008, 0.02, 4),
+    # 市县轮廓：Natural Earth 只提供美国县（county），作为"市"级近似
+    LevelSpec("districts", "fine", "ne_10m_admin_2_counties.geojson", 0.004, 0.004, 4),
 )
 
-LEVEL_BY_NAME = {spec.name: spec for spec in LEVELS}
+LEVEL_BY_NAME = {spec.key: spec for spec in LEVELS}
+LEVEL_NAMES = [spec.key for spec in LEVELS]
 
 Point = tuple[float, float]
 
@@ -136,8 +151,23 @@ def build_level(
     for feature in geojson.get("features", []):
         geometry = feature.get("geometry") or {}
         properties = feature.get("properties") or {}
-        iso = properties.get("ISO_A2") or properties.get("ADM0_A3") or properties.get("SOV_A3") or ""
-        name = properties.get("NAME_ZH") or properties.get("NAME") or properties.get("ADMIN") or ""
+        iso = (
+            properties.get("ISO_A2")
+            or properties.get("iso_a2")
+            or properties.get("ADM0_A3")
+            or properties.get("adm0_a3")
+            or properties.get("SOV_A3")
+            or ""
+        )
+        name = (
+            properties.get(spec.label_field)
+            or properties.get("name")
+            or properties.get("NAME_ZH")
+            or properties.get("NAME")
+            or properties.get("ADMIN")
+            or properties.get("adm1_name")
+            or ""
+        )
         rings: list[list[float]] = []
         for polygon in _iter_polygons(geometry):
             for ring_index, ring in enumerate(polygon):
@@ -159,6 +189,7 @@ def build_level(
         if rings:
             features.append({"iso": str(iso), "name": str(name), "rings": rings})
     return {
+        "layer": spec.layer,
         "level": spec.name,
         "attribution": ATTRIBUTION,
         "tolerance": spec.tolerance,
@@ -172,7 +203,7 @@ def build_level(
 def write_level(payload: dict[str, Any], out_dir: Path) -> tuple[Path, int, int]:
     out_dir.mkdir(parents=True, exist_ok=True)
     raw = json.dumps(payload, ensure_ascii=False, separators=(",", ":")).encode("utf-8")
-    path = out_dir / f"borders-{payload['level']}.json.gz"
+    path = out_dir / f"borders-{payload['layer']}-{payload['level']}.json.gz"
     path.write_bytes(gzip.compress(raw, 9))
     return path, len(raw), path.stat().st_size
 
@@ -184,15 +215,15 @@ def export_borders(
     levels: Sequence[str] | None = None,
     on_progress: Any | None = None,
 ) -> dict[str, Any]:
-    specs = [LEVEL_BY_NAME[name] for name in levels] if levels else list(LEVELS)
+    specs = [LEVEL_BY_NAME[key] for key in levels] if levels else list(LEVELS)
     results: dict[str, Any] = {}
     for spec in specs:
         if on_progress:
-            on_progress(f"下载 {spec.source}（{spec.name}）")
+            on_progress(f"下载 {spec.source}（{spec.key}）")
         geojson = download_borders(http_client, spec)
         payload = build_level(geojson, spec)
         path, raw_bytes, stored_bytes = write_level(payload, out_dir)
-        results[spec.name] = {
+        results[spec.key] = {
             "path": path.name,
             "rawBytes": raw_bytes,
             "storedBytes": stored_bytes,
@@ -204,7 +235,7 @@ def export_borders(
         }
         if on_progress:
             on_progress(
-                f"  {spec.name}: {payload['stats']['features']} 个国家 / "
+                f"  {spec.key}: {payload['stats']['features']} 个要素 / "
                 f"{payload['stats']['points']} 个点 → {stored_bytes / 1024:.0f} KB"
             )
     manifest = {"attribution": ATTRIBUTION, "levels": results}

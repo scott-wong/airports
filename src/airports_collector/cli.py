@@ -44,7 +44,7 @@ def _build_parser() -> argparse.ArgumentParser:
     borders_parser.add_argument("--out", help="输出目录（默认 web/globe/public/borders）")
     borders_parser.add_argument(
         "--levels",
-        help="要生成的级别，逗号分隔（coarse,medium,fine；默认全部）",
+        help="要生成的图层-级别，逗号分隔，如 countries-coarse,provinces-fine（默认全部）",
     )
 
     collect_parser = subparsers.add_parser("collect", help="采集并入库（默认整份下载）")

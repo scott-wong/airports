@@ -88,17 +88,18 @@ def run_command(args: argparse.Namespace) -> int:
     settings = load_settings(repo_root=args.repo_root, env_file=args.env_file)
     progress = _progress_printer(args.quiet)
 
-    if args.command == "names" and args.names_command == "extract-llm":
-        from .zh_names import write_llm_supplement
-
-        source = Path(args.source) if args.source else settings.names_file
-        target = Path(args.out) if args.out else settings.llm_supplement_file
-        entries = load_names(source)
-        saved = write_llm_supplement(target, entries.values())
-        print(f"已从 {source} 提取 {saved} 条 LLM 名字到 {target}")
-        return 0
-
+    # 只处理公开数据的命令：不需要数据库，也不要求凭据（CI 里就是这么跑的）。
     if args.command == "names":
+        if args.names_command == "extract-llm":
+            from .zh_names import write_llm_supplement
+
+            source = Path(args.source) if args.source else settings.names_file
+            target = Path(args.out) if args.out else settings.llm_supplement_file
+            entries = load_names(source)
+            saved = write_llm_supplement(target, entries.values())
+            print(f"已从 {source} 提取 {saved} 条 LLM 名字到 {target}")
+            return 0
+
         out_path = args.out or settings.names_file
         with httpx.Client() as http_client:
             records, _ = load_records(
@@ -111,9 +112,7 @@ def run_command(args: argparse.Namespace) -> int:
             supplement_path = (
                 Path(args.llm_supplement) if args.llm_supplement else settings.llm_supplement_file
             )
-            supplement = (
-                {} if args.no_llm_supplement else load_llm_supplement(supplement_path)
-            )
+            supplement = {} if args.no_llm_supplement else load_llm_supplement(supplement_path)
             if supplement and not args.quiet:
                 print(f"载入 LLM 存档 {supplement_path}（{len(supplement)} 条）")
             provider = None
@@ -133,6 +132,36 @@ def run_command(args: argparse.Namespace) -> int:
             )
         print(stats.summary())
         print(f"输出文件: {out_path}")
+        return 0
+
+    if args.command == "export-web":
+        from .web_export import export_web
+
+        names_path = Path(args.names) if args.names else settings.names_file
+        out_dir = Path(args.out) if args.out else settings.web_export_dir
+        with httpx.Client() as http_client:
+            records, download = load_records(
+                csv_path=args.csv,
+                http_client=http_client,
+                source_url=settings.source_url,
+                on_progress=progress,
+            )
+        sanity_check(records)
+        names = load_names(names_path)
+        result = export_web(
+            records,
+            names,
+            out_dir,
+            source_url=settings.source_url,
+            source_sha256=download.sha256 if download else "",
+            names_file=names_path.relative_to(settings.repo_root)
+            if names_path.is_relative_to(settings.repo_root)
+            else names_path,
+            compress=not args.no_gzip,
+        )
+        print(result.summary())
+        print(f"快照: {result.snapshot_path}")
+        print(f"manifest: {result.manifest_path}")
         return 0
 
     storage = _open_storage(settings, progress)
@@ -160,36 +189,6 @@ def run_command(args: argparse.Namespace) -> int:
                     print(f"  - {problem}", file=sys.stderr)
                 return 1
             print("airports schema 校验通过")
-            return 0
-
-        if args.command == "export-web":
-            from .web_export import export_web
-
-            names_path = Path(args.names) if args.names else settings.names_file
-            out_dir = Path(args.out) if args.out else settings.web_export_dir
-            with httpx.Client() as http_client:
-                records, download = load_records(
-                    csv_path=args.csv,
-                    http_client=http_client,
-                    source_url=settings.source_url,
-                    on_progress=progress,
-                )
-            sanity_check(records)
-            names = load_names(names_path)
-            result = export_web(
-                records,
-                names,
-                out_dir,
-                source_url=settings.source_url,
-                source_sha256=download.sha256 if download else "",
-                    names_file=names_path.relative_to(settings.repo_root)
-                if names_path.is_relative_to(settings.repo_root)
-                else names_path,
-                compress=not args.no_gzip,
-            )
-            print(result.summary())
-            print(f"快照: {result.snapshot_path}")
-            print(f"manifest: {result.manifest_path}")
             return 0
 
         if args.command == "status":

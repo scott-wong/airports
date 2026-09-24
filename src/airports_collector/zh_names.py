@@ -92,6 +92,31 @@ NAME_COLUMNS: tuple[str, ...] = (
 STATUS_RESOLVED = "resolved"
 STATUS_UNRESOLVED = "unresolved"
 
+# 英文名形如 "<地名> [International/Regional/...] <类型>" 时，可以用已知中文地名拼出中文名。
+NAME_KIND_ZH: tuple[tuple[str, str], ...] = (
+    ("seaplane base", "水上飞机基地"),
+    ("air force base", "空军基地"),
+    ("air base", "空军基地"),
+    ("heliport", "直升机场"),
+    ("airfield", "机场"),
+    ("aerodrome", "机场"),
+    ("airpark", "机场"),
+    ("airstrip", "简易机场"),
+    ("landing strip", "简易机场"),
+    ("airport", "机场"),
+)
+_NAME_MODIFIER = (
+    r"(?:International|Regional|Municipal|National|Public|County|City|Provincial|"
+    r"Civil|Domestic|Military|Private)"
+)
+_NAME_SHAPE_RE = re.compile(
+    r"^(?P<head>.+?)(?:[\s\-]+" + _NAME_MODIFIER + r")?\s+(?P<kind>"
+    + "|".join(sorted((kind for kind, _ in NAME_KIND_ZH), key=len, reverse=True))
+    + r")$",
+    re.IGNORECASE,
+)
+_NAME_KIND_MAP = dict(NAME_KIND_ZH)
+
 
 class ZhNamesError(RuntimeError):
     """中文名生成失败。"""
@@ -146,6 +171,9 @@ class RefreshStats:
     converted_from_traditional: int = 0
     municipality_from_wikipedia: int = 0
     municipality_unresolved: int = 0
+    composite_resolved: int = 0
+    llm_resolved: int = 0
+    llm_unresolved: int = 0
     location_from_wikidata: int = 0
     location_unresolved: int = 0
 
@@ -157,7 +185,9 @@ class RefreshStats:
             f"城市中文名（municipality_zh）{self.municipality_from_wikipedia} 条，"
             f"未解析 {self.municipality_unresolved} 条；"
             f"所在地中文名（location_zh）{self.location_from_wikidata} 条，"
-            f"未解析 {self.location_unresolved} 条"
+            f"未解析 {self.location_unresolved} 条；"
+            f"兜底合成 {self.composite_resolved} 条，LLM {self.llm_resolved} 条，"
+            f"最终未解析 {self.unresolved} 条"
         )
 
 
@@ -230,6 +260,28 @@ def clean_wiki_title(title: str) -> str | None:
     if not _is_valid_zh(text) or LATIN_WORD_RE.search(text):
         return None
     return _to_simplified(text)
+
+
+def _normalize_for_compare(text: str) -> str:
+    return re.sub(r"[^\w]", "", text).lower()
+
+
+def compose_name(english_name: str, place: str | None, place_zh: str | None) -> str | None:
+    """英文名就是“地名 + 机场类型”时，用地名中文拼出机场中文名。
+
+    例如 Kerema Airport + 凯里马 → 凯里马机场；拼不出就返回 None，宁可留空。
+    """
+    if not place or not place_zh:
+        return None
+    match = _NAME_SHAPE_RE.match(english_name.strip())
+    if not match:
+        return None
+    if _normalize_for_compare(match.group("head")) != _normalize_for_compare(place):
+        return None
+    suffix = _NAME_KIND_MAP.get(match.group("kind").lower())
+    if not suffix:
+        return None
+    return f"{place_zh}{suffix}"
 
 
 def _values_clause(codes: Sequence[str]) -> str:
@@ -638,8 +690,6 @@ def build_entries(
                     stats.via_icao += 1
                 if converted:
                     stats.converted_from_traditional += 1
-        if name_status == STATUS_UNRESOLVED:
-            stats.unresolved += 1
 
         municipality_zh = municipality_source = None
         municipality_status = STATUS_UNRESOLVED
@@ -652,6 +702,16 @@ def build_entries(
                 stats.municipality_from_wikipedia += 1
             else:
                 stats.municipality_unresolved += 1
+
+        if name_status == STATUS_UNRESOLVED:
+            composed = compose_name(record.name, record.municipality, municipality_zh)
+            if composed:
+                name_zh = composed
+                name_source = f"composite:municipality:{record.municipality}"
+                name_status = STATUS_RESOLVED
+                stats.composite_resolved += 1
+        if name_status == STATUS_UNRESOLVED:
+            stats.unresolved += 1
 
         location_zh = location_source = None
         if match is not None:
@@ -750,6 +810,8 @@ def refresh_names(
     records: Sequence[AirportRecord],
     out_path: Path,
     *,
+    llm_provider: Any | None = None,
+    llm_batch_size: int = 100,
     on_progress: Any | None = None,
 ) -> RefreshStats:
     targets = [record for record in records if record.type in TARGET_TYPES]
@@ -792,6 +854,43 @@ def refresh_names(
         stats=stats,
         matched_qids=matched,
     )
+    if llm_provider is not None:
+        from dataclasses import replace
+
+        from .llm_fallback import NameRequest, suggest_names
+
+        country_by_id = {record.id: record.iso_country for record in targets}
+        pending = [
+            NameRequest(
+                id=entry.id,
+                name=entry.name,
+                country=country_by_id.get(entry.id),
+                municipality=entry.municipality,
+                type=entry.type,
+            )
+            for entry in entries
+            if entry.name_zh_status == STATUS_UNRESOLVED
+        ]
+        if on_progress:
+            on_progress(f"LLM 兜底：{len(pending)} 条待处理（provider={llm_provider.label}）")
+        suggestions = suggest_names(
+            llm_provider, pending, batch_size=llm_batch_size, on_progress=on_progress
+        )
+        label = getattr(llm_provider, "label", "llm")
+        entries = [
+            replace(
+                entry,
+                name_zh=suggestions[entry.id],
+                name_zh_source=f"llm:{label}",
+                name_zh_status=STATUS_RESOLVED,
+            )
+            if entry.id in suggestions
+            else entry
+            for entry in entries
+        ]
+        stats.llm_resolved = len(suggestions)
+        stats.llm_unresolved = len(pending) - len(suggestions)
+
     digest = write_names(out_path, entries)
     if on_progress:
         on_progress(f"已写入 {out_path}（sha256 {digest[:12]}…）")

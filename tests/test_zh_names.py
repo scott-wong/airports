@@ -338,3 +338,22 @@ def test_wikipedia_continues_paginated_response() -> None:
         names = fetch_wikipedia_city_names(client, ["Springfield"])
     assert names == {"Springfield": "斯普林菲尔德"}
     assert len(calls) == 2
+
+
+def test_unresolved_counter_is_not_double_counted() -> None:
+    from airports_collector.zh_names import RefreshStats
+
+    stats = RefreshStats()
+    build_entries(
+        [
+            make_record(name="Testville Airport"),
+            make_record(id=2, ident="BBB", type="medium_airport", name="Testville Municipal Airport"),
+        ],
+        {"P238": {}, "P239": {}},
+        city_names={"Testville": "试验城"},
+        stats=stats,
+    )
+    # 两条都查不到 Wikidata 实体，但都能用“地名 + 类型”合成 → 最终不应有未解析
+    assert stats.composite_resolved == 2
+    assert stats.unresolved == 0
+    assert stats.target_airports == 2

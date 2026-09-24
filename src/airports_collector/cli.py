@@ -39,9 +39,17 @@ def _build_parser() -> argparse.ArgumentParser:
 
     names_parser = subparsers.add_parser("names", help="中文名相关操作")
     names_sub = names_parser.add_subparsers(dest="names_command", required=True)
-    refresh = names_sub.add_parser("refresh", help="从 Wikidata 重新生成中文名 CSV")
+    refresh = names_sub.add_parser("refresh", help="从 Wikidata/维基百科重新生成中文名 CSV")
     refresh.add_argument("--csv", help="使用本地 CSV 而不是下载源站")
     refresh.add_argument("--out", help="输出路径（默认 data/airport_names_zh.csv）")
+    refresh.add_argument(
+        "--llm-fallback",
+        action="store_true",
+        help="对仍无中文名的机场调用本机 codex exec 兜底（慢，会消耗模型额度）",
+    )
+    refresh.add_argument("--llm-model", help="传给 codex exec -m 的模型名，例如 deepseek-v4.1-flash")
+    refresh.add_argument("--llm-batch-size", type=int, default=100, help="每次 LLM 请求的机场条数")
+    refresh.add_argument("--llm-timeout", type=int, default=600, help="单次 LLM 请求超时（秒）")
     return parser
 
 
@@ -71,8 +79,18 @@ def run_command(args: argparse.Namespace) -> int:
                 on_progress=progress,
             )
             sanity_check(records)
+            provider = None
+            if args.llm_fallback:
+                from .llm_fallback import CodexExecProvider
+
+                provider = CodexExecProvider(model=args.llm_model, timeout=args.llm_timeout)
             stats = refresh_names(
-                http_client, records, out_path, on_progress=progress
+                http_client,
+                records,
+                out_path,
+                llm_provider=provider,
+                llm_batch_size=args.llm_batch_size,
+                on_progress=progress,
             )
         print(stats.summary())
         print(f"输出文件: {out_path}")

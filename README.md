@@ -6,8 +6,9 @@ schema `airports`，支持每日重跑与更新，并为 `large_airport` / `medi
 
 - 采集链路：Python 3.12 + `httpx` + InsForge Admin REST（`/api/database/advance/rawsql`），
   配置了 `AIRPORTS_DATABASE_DSN` 时可在 REST 不可用时回退直连 PostgreSQL。
-- 中文名：`name_zh`（3159/5280）、`municipality_zh`（服务城市，3084 条）、
-  `location_zh`（机场所在地的聚居地，1363 条），每条都带来源字段。
+- 中文名：`name_zh`（**5196/5281，98.4%**，含确定性合成与 LLM 兜底）、
+  `municipality_zh`（服务城市，3084 条）、`location_zh`（机场所在地的聚居地，1363 条），
+  每条都带来源字段（`wikidata:` / `wikipedia:` / `composite:` / `llm:`）。
 - 与 `flight_ops` 完全独立：本仓库只读写 `airports` schema，不做双写。
 
 术语见 [CONTEXT.md](./CONTEXT.md)，关键决定见 [docs/adr](./docs/adr)。
@@ -59,22 +60,28 @@ schema `airports`，支持每日重跑与更新，并为 `large_airport` / `medi
 | 该行重新出现 | `reactivated=1` |
 | 只改一条中文名 | `updated=1`，`name_zh_updated_at` 前移 |
 | 新增 medium/location 中文名 | `updated=1972` |
+| 合并 LLM/合成兜底中文名 | `inserted=7`，`updated=2040`，`unchanged=84079` |
 
 ## 中文名与中文城市名
 
 数据来源与规则（`names refresh` 生成 `data/airport_names_zh.csv`，采集只读该文件）：
 
-| 字段 | 来源 | 规则 | 当前覆盖 |
+| 字段 | 来源（按优先级） | 规则 | 当前覆盖 |
 | --- | --- | --- | --- |
-| `name_zh` | Wikidata | IATA(P238) → ICAO(P239)，实体须为机场类且距离 ≤25km；标签按 `zh-cn > zh-hans > zh > 繁体` 取，统一转简体，拒收混排拉丁标签 | 3159/5280（大机场 1123/1174，中机场 2036/4106） |
+| `name_zh` | ① Wikidata ② 确定性合成 ③ LLM 兜底 | ① IATA(P238) → ICAO(P239)，实体须为机场类且距离 ≤25km，标签按 `zh-cn > zh-hans > zh > 繁体` 取并转简体；② 英文名形如 `<地名> [International/Regional/…] <Airport/Air Base/…>` 且地名已有中文时直接拼；③ 仍无名字的交给大模型，不确定必须返回 `null` | **5196/5281** |
 | `municipality_zh` | 英文维基百科跨语言链接 | 按 `municipality` 字段匹配条目（自动尝试去掉 `Shanghai (Pudong)` 这类后缀），要求分类属于居民点、排除消歧义页 | 3084 |
 | `location_zh` | Wikidata P131 | 取机场 P131 中属于人类聚居地（Q486972 及其子类）的实体，多个人选时取人口最多者 | 1363 |
+
+来源前缀可以直接过滤，例如只要权威来源：
+`WHERE name_zh_source LIKE 'wikidata:%' OR name_zh_source LIKE 'wikipedia:%'`。
 
 要点：
 
 - 每个字段都有 `*_source` 记录来源（如 `wikidata:Q32190:zh-cn`、
   `wikipedia:en:London>zh`、`wikidata:Q36420:P131:Q125378:zh-cn`），可追溯、可复查；
-- 解析不到的一律留空并标 `unresolved`，**不做机器翻译、不猜**；省名/岛屿不会被当作城市名；
+- 兜底名一律带来源：`composite:municipality:<地名>` 是从已有中文地名拼出来的，
+  `llm:codex:<模型>` 是大模型生成、并经本地校验（必须含中文、不能是英文原名、长度受限）；
+  解析不到的留空并标 `unresolved`，省名/岛屿不会被当作城市名；
 - 中文名的变更走 `names refresh` + git diff，不在采集链路里实时调用外部服务；采集时把
   该文件的 sha256 写进 `collector_run`。
 
@@ -85,6 +92,8 @@ uv sync
 uv run airports-collector migrate           # 建/升级 schema、表、视图、授权
 uv run airports-collector validate-schema   # 校验对象与列是否齐全
 uv run airports-collector names refresh     # 可选：重新生成中文名 CSV（约 8 分钟）
+uv run airports-collector names refresh --llm-fallback --llm-model deepseek-v4.1-flash
+                                            # 再补 LLM 兜底（约 30 分钟，本机 codex exec）
 uv run airports-collector collect           # 采集并入库（下载源站）
 uv run airports-collector collect --csv /path/to/airports.csv   # 用本地 CSV
 uv run airports-collector status            # 统计当前数据
@@ -123,8 +132,8 @@ PostgREST 目前只暴露 `public, flight_ops`。要让应用用 InsForge SDK �
 
 ## 已知限制
 
-- `name_zh` 中机场覆盖约 50%：这些机场在 Wikidata / 中文维基没有中文条目（多为非洲、
-  中亚、南美的小机场），机器翻译会造出并不存在的“中文名”，因此留空。
+- 仍 `unresolved` 的机场约 85 条：模型与权威来源都不确定时宁可留空。
+- `llm:` 来源的中文名是生成值，不是权威译名；对精度敏感的用途请按来源前缀过滤。
 - `municipality_zh` 只收录能确认是居民点的城市；省份、岛屿、行政区一律不写。
 - `location_zh` 依赖 Wikidata P131，覆盖有限；它是“所在地”不是“服务城市”。
 - 其余类型（small/heliport/seaplane/balloon/closed）不查中文名，`name_zh` 为空。

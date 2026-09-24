@@ -51,9 +51,14 @@ def test_absolute_paths_kept(tmp_path: Path) -> None:
     assert settings.batch_size == 20
 
 
-def test_missing_credentials_raise(tmp_path: Path) -> None:
+def test_missing_credentials_only_break_storage(tmp_path: Path) -> None:
+    """公开数据命令（names/export-web）不需要凭据，只有写库时才报错。"""
+    from airports_collector.storage.clients import open_storage
+
+    settings = load_settings(repo_root=tmp_path, environ={})
+    assert settings.api_base_url == "" and settings.api_key == ""
     with pytest.raises(ConfigError, match="API_BASE_URL"):
-        load_settings(repo_root=tmp_path, environ={})
+        open_storage(settings)
 
 
 def test_redacted_key(tmp_path: Path) -> None:

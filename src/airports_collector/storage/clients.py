@@ -10,6 +10,8 @@ from typing import Any, Callable, Iterator, Protocol
 
 import httpx
 
+from ..config import ConfigError
+
 
 class StorageUnavailable(RuntimeError):
     """无法与 InsForge 存储通信。"""
@@ -183,6 +185,8 @@ def _default_connect(dsn: str) -> Any:  # pragma: no cover - 需要真实数据�
 
 def open_storage(settings: Any, *, on_progress: Any | None = None) -> StorageClient:
     """默认走 InsForge Admin REST；配置了 DSN 且 REST 不可用时回退直连 PostgreSQL。"""
+    if not getattr(settings, "api_base_url", "") or not getattr(settings, "api_key", ""):
+        raise ConfigError("缺少 API_BASE_URL / API_KEY：写库命令需要 InsForge 凭据（.codex/config.toml、.env 或环境变量）")
     rest = InsForgeRestClient(settings.api_base_url, settings.api_key)
     try:
         rest.query("SELECT 1 AS ok")

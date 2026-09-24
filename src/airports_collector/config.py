@@ -98,12 +98,10 @@ def load_settings(
         if value:
             merged[key] = value
 
+    # 凭据允许为空：names/export-web 这类只处理公开数据的命令不需要数据库。
+    # 真正要写库时由 open_storage() 校验（见 storage/clients.py）。
     api_base_url = (merged.get("API_BASE_URL") or "").strip().rstrip("/")
     api_key = (merged.get("API_KEY") or "").strip()
-    if not api_base_url:
-        raise ConfigError("缺少 API_BASE_URL：请配置 .codex/config.toml、.env 或环境变量")
-    if not api_key:
-        raise ConfigError("缺少 API_KEY：请配置 .codex/config.toml、.env 或环境变量")
 
     try:
         batch_size = int(merged.get("AIRPORTS_BATCH_SIZE") or DEFAULT_BATCH_SIZE)

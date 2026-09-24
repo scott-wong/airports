@@ -75,6 +75,14 @@ schema `airports`，支持每日重跑与更新，并为 `large_airport` / `medi
 来源前缀可以直接过滤，例如只要权威来源：
 `WHERE name_zh_source LIKE 'wikidata:%' OR name_zh_source LIKE 'wikipedia:%'`。
 
+中文名有三份可追溯的产物：
+
+- `data/airport_names_zh.csv`：主表（每个目标机场一行，含来源与状态），采集器只读它；
+- `data/airport_names_llm.csv`：LLM 生成名的**独立存档**。`names refresh` 会自动合并它，
+  所以在流水线里跑"不带 LLM 的刷新"不会丢掉这 1648 个名字；
+- `name_zh_source` 前缀即来源分级：`wikidata:` / `wikipedia:`（权威）→ `composite:`（确定性合成）
+  → `llm:`（模型生成）。
+
 要点：
 
 - 每个字段都有 `*_source` 记录来源（如 `wikidata:Q32190:zh-cn`、
@@ -94,6 +102,7 @@ uv run airports-collector validate-schema   # 校验对象与列是否齐全
 uv run airports-collector names refresh     # 可选：重新生成中文名 CSV（约 8 分钟）
 uv run airports-collector names refresh --llm-fallback --llm-model deepseek-v4.1-flash
                                             # 再补 LLM 兜底（约 30 分钟，本机 codex exec）
+uv run airports-collector names extract-llm # 把主 CSV 里的 llm: 名字拆到 data/airport_names_llm.csv
 uv run airports-collector collect           # 采集并入库（下载源站）
 uv run airports-collector collect --csv /path/to/airports.csv   # 用本地 CSV
 uv run airports-collector status            # 统计当前数据
@@ -110,6 +119,7 @@ API_BASE_URL=https://<your-insforge-host>
 API_KEY=ik_...
 AIRPORTS_SOURCE_URL=https://davidmegginson.github.io/ourairports-data/airports.csv
 AIRPORTS_NAMES_FILE=data/airport_names_zh.csv
+AIRPORTS_LLM_SUPPLEMENT_FILE=data/airport_names_llm.csv
 AIRPORTS_BATCH_SIZE=1000
 AIRPORTS_DATABASE_DSN=            # 可选，直连回退
 ```

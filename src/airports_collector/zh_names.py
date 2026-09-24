@@ -89,6 +89,8 @@ NAME_COLUMNS: tuple[str, ...] = (
     "location_zh_source",
 )
 
+LLM_SUPPLEMENT_COLUMNS: tuple[str, ...] = ("id", "ident", "name", "name_zh", "source")
+
 STATUS_RESOLVED = "resolved"
 STATUS_UNRESOLVED = "unresolved"
 
@@ -172,6 +174,7 @@ class RefreshStats:
     municipality_from_wikipedia: int = 0
     municipality_unresolved: int = 0
     composite_resolved: int = 0
+    llm_supplement_applied: int = 0
     llm_resolved: int = 0
     llm_unresolved: int = 0
     location_from_wikidata: int = 0
@@ -186,8 +189,8 @@ class RefreshStats:
             f"未解析 {self.municipality_unresolved} 条；"
             f"所在地中文名（location_zh）{self.location_from_wikidata} 条，"
             f"未解析 {self.location_unresolved} 条；"
-            f"兜底合成 {self.composite_resolved} 条，LLM {self.llm_resolved} 条，"
-            f"最终未解析 {self.unresolved} 条"
+            f"兜底合成 {self.composite_resolved} 条，LLM 存档 {self.llm_supplement_applied} 条，"
+            f"现场 LLM {self.llm_resolved} 条，最终未解析 {self.unresolved} 条"
         )
 
 
@@ -799,6 +802,44 @@ def load_names(path: Path) -> dict[int, NameEntry]:
     return entries
 
 
+def write_llm_supplement(path: Path, entries: Iterable[NameEntry]) -> int:
+    """把 LLM 生成的名字单独落盘；主 CSV 重新生成时会再合并回来。"""
+    rows = [entry for entry in entries if (entry.name_zh_source or "").startswith("llm:")]
+    path.parent.mkdir(parents=True, exist_ok=True)
+    with path.open("w", encoding="utf-8", newline="") as handle:
+        writer = csv.DictWriter(handle, fieldnames=list(LLM_SUPPLEMENT_COLUMNS), lineterminator="\n")
+        writer.writeheader()
+        for entry in sorted(rows, key=lambda item: item.id):
+            writer.writerow(
+                {
+                    "id": entry.id,
+                    "ident": entry.ident,
+                    "name": entry.name,
+                    "name_zh": entry.name_zh or "",
+                    "source": entry.name_zh_source or "",
+                }
+            )
+    return len(rows)
+
+
+def load_llm_supplement(path: Path) -> dict[int, tuple[str, str]]:
+    """读取 LLM 存档：id → (中文名, 来源)。"""
+    if not path.exists():
+        return {}
+    with path.open(encoding="utf-8", newline="") as handle:
+        reader = csv.DictReader(handle)
+        header = tuple(reader.fieldnames or ())
+        if header != LLM_SUPPLEMENT_COLUMNS:
+            raise ZhNamesError(f"{path} 表头不符合预期: {header}")
+        result: dict[int, tuple[str, str]] = {}
+        for row in reader:
+            name_zh = _optional(row["name_zh"])
+            if not name_zh:
+                continue
+            result[int(row["id"])] = (name_zh, row["source"] or "llm:unknown")
+    return result
+
+
 def file_sha256(path: Path) -> str:
     import hashlib
 
@@ -810,8 +851,10 @@ def refresh_names(
     records: Sequence[AirportRecord],
     out_path: Path,
     *,
+    llm_supplement: dict[int, tuple[str, str]] | None = None,
     llm_provider: Any | None = None,
     llm_batch_size: int = 100,
+    llm_supplement_out: Path | None = None,
     on_progress: Any | None = None,
 ) -> RefreshStats:
     targets = [record for record in records if record.type in TARGET_TYPES]
@@ -854,6 +897,31 @@ def refresh_names(
         stats=stats,
         matched_qids=matched,
     )
+    if llm_supplement:
+        from dataclasses import replace
+
+        applied = 0
+        updated_entries: list[NameEntry] = []
+        for entry in entries:
+            stored = llm_supplement.get(entry.id)
+            if entry.name_zh_status == STATUS_UNRESOLVED and stored and stored[0]:
+                updated_entries.append(
+                    replace(
+                        entry,
+                        name_zh=stored[0],
+                        name_zh_source=stored[1],
+                        name_zh_status=STATUS_RESOLVED,
+                    )
+                )
+                applied += 1
+            else:
+                updated_entries.append(entry)
+        entries = updated_entries
+        stats.llm_supplement_applied = applied
+        stats.unresolved -= applied
+        if on_progress:
+            on_progress(f"合并 LLM 存档 {applied} 条（{len(llm_supplement)} 条可用）")
+
     if llm_provider is not None:
         from dataclasses import replace
 
@@ -890,8 +958,13 @@ def refresh_names(
         ]
         stats.llm_resolved = len(suggestions)
         stats.llm_unresolved = len(pending) - len(suggestions)
+        stats.unresolved -= len(suggestions)
 
     digest = write_names(out_path, entries)
     if on_progress:
         on_progress(f"已写入 {out_path}（sha256 {digest[:12]}…）")
+    if llm_supplement_out is not None:
+        saved = write_llm_supplement(llm_supplement_out, entries)
+        if on_progress:
+            on_progress(f"LLM 存档已更新：{llm_supplement_out}（{saved} 条）")
     return stats

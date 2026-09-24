@@ -5279,3 +5279,4 @@ id,ident,type,iata_code,icao_code,name,name_zh,name_zh_source,name_zh_status,mun
 610367,CA-1291,large_airport,,,(Duplicate)YEG,埃德蒙顿国际机场,llm:codex:deepseek-v4.1-flash,resolved,Edmonton,埃德蒙顿,wikipedia:en:Edmonton>zh,resolved,,
 610368,CA-1292,large_airport,,,YEG,埃德蒙顿国际机场,llm:codex:deepseek-v4.1-flash,resolved,Edmonton,埃德蒙顿,wikipedia:en:Edmonton>zh,resolved,,
 610546,SE-0120,medium_airport,GVX,,Gävle–Sandviken Airport,耶夫勒-桑德维肯机场,llm:codex:deepseek-v4.1-flash,resolved,Sandviken,桑德维肯,wikipedia:en:Sandviken>zh,resolved,,
+610936,US-13052,medium_airport,,,Nw Quik Pull,,,unresolved,Heisson,,,unresolved,,

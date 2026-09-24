@@ -2,6 +2,7 @@ from __future__ import annotations
 
 import argparse
 import sys
+from pathlib import Path
 from typing import Sequence
 
 import httpx
@@ -12,7 +13,7 @@ from .source import SourceError, sanity_check
 from .storage.clients import StorageClient, StorageUnavailable, open_storage
 from .storage.migrations import MigrationError, MigrationRunner
 from .storage.repository import AirportRepository
-from .zh_names import ZhNamesError, refresh_names
+from .zh_names import ZhNamesError, load_llm_supplement, refresh_names
 
 
 def _build_parser() -> argparse.ArgumentParser:
@@ -50,6 +51,16 @@ def _build_parser() -> argparse.ArgumentParser:
     refresh.add_argument("--llm-model", help="传给 codex exec -m 的模型名，例如 deepseek-v4.1-flash")
     refresh.add_argument("--llm-batch-size", type=int, default=100, help="每次 LLM 请求的机场条数")
     refresh.add_argument("--llm-timeout", type=int, default=600, help="单次 LLM 请求超时（秒）")
+    refresh.add_argument(
+        "--llm-supplement",
+        help="LLM 中文名存档路径（默认 data/airport_names_llm.csv；不存在则不合并）",
+    )
+    refresh.add_argument(
+        "--no-llm-supplement", action="store_true", help="忽略 LLM 存档，只用权威来源与合成"
+    )
+    extract = names_sub.add_parser("extract-llm", help="从主 CSV 里把 LLM 生成的名字拆成存档")
+    extract.add_argument("--from", dest="source", help="主 CSV（默认 data/airport_names_zh.csv）")
+    extract.add_argument("--out", help="存档输出（默认 data/airport_names_llm.csv）")
     return parser
 
 
@@ -69,6 +80,16 @@ def run_command(args: argparse.Namespace) -> int:
     settings = load_settings(repo_root=args.repo_root, env_file=args.env_file)
     progress = _progress_printer(args.quiet)
 
+    if args.command == "names" and args.names_command == "extract-llm":
+        from .zh_names import load_names, write_llm_supplement
+
+        source = Path(args.source) if args.source else settings.names_file
+        target = Path(args.out) if args.out else settings.llm_supplement_file
+        entries = load_names(source)
+        saved = write_llm_supplement(target, entries.values())
+        print(f"已从 {source} 提取 {saved} 条 LLM 名字到 {target}")
+        return 0
+
     if args.command == "names":
         out_path = args.out or settings.names_file
         with httpx.Client() as http_client:
@@ -79,6 +100,14 @@ def run_command(args: argparse.Namespace) -> int:
                 on_progress=progress,
             )
             sanity_check(records)
+            supplement_path = (
+                Path(args.llm_supplement) if args.llm_supplement else settings.llm_supplement_file
+            )
+            supplement = (
+                {} if args.no_llm_supplement else load_llm_supplement(supplement_path)
+            )
+            if supplement and not args.quiet:
+                print(f"载入 LLM 存档 {supplement_path}（{len(supplement)} 条）")
             provider = None
             if args.llm_fallback:
                 from .llm_fallback import CodexExecProvider
@@ -88,8 +117,10 @@ def run_command(args: argparse.Namespace) -> int:
                 http_client,
                 records,
                 out_path,
+                llm_supplement=supplement,
                 llm_provider=provider,
                 llm_batch_size=args.llm_batch_size,
+                llm_supplement_out=None if args.no_llm_supplement else supplement_path,
                 on_progress=progress,
             )
         print(stats.summary())

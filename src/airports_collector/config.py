@@ -7,6 +7,7 @@ from pathlib import Path
 
 DEFAULT_SOURCE_URL = "https://davidmegginson.github.io/ourairports-data/airports.csv"
 DEFAULT_NAMES_FILE = "data/airport_names_zh.csv"
+DEFAULT_LLM_SUPPLEMENT_FILE = "data/airport_names_llm.csv"
 DEFAULT_MIGRATION_DIR = "migrations"
 DEFAULT_BATCH_SIZE = 1000
 
@@ -16,6 +17,7 @@ PROJECT_KEYS = (
     "AIRPORTS_SOURCE_URL",
     "AIRPORTS_MIGRATION_DIR",
     "AIRPORTS_NAMES_FILE",
+    "AIRPORTS_LLM_SUPPLEMENT_FILE",
     "AIRPORTS_BATCH_SIZE",
     "AIRPORTS_DATABASE_DSN",
 )
@@ -32,6 +34,7 @@ class Settings:
     source_url: str
     migration_dir: Path
     names_file: Path
+    llm_supplement_file: Path
     batch_size: int
     database_dsn: str | None
     repo_root: Path
@@ -119,6 +122,9 @@ def load_settings(
         source_url=(merged.get("AIRPORTS_SOURCE_URL") or DEFAULT_SOURCE_URL).strip(),
         migration_dir=_path("AIRPORTS_MIGRATION_DIR", DEFAULT_MIGRATION_DIR),
         names_file=_path("AIRPORTS_NAMES_FILE", DEFAULT_NAMES_FILE),
+        llm_supplement_file=_path(
+            "AIRPORTS_LLM_SUPPLEMENT_FILE", DEFAULT_LLM_SUPPLEMENT_FILE
+        ),
         batch_size=batch_size,
         database_dsn=database_dsn,
         repo_root=root,

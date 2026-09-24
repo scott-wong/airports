@@ -357,3 +357,65 @@ def test_unresolved_counter_is_not_double_counted() -> None:
     assert stats.composite_resolved == 2
     assert stats.unresolved == 0
     assert stats.target_airports == 2
+
+
+def test_llm_supplement_round_trip(tmp_path: Path) -> None:
+    from airports_collector.zh_names import load_llm_supplement, write_llm_supplement
+
+    llm_entry = NameEntry(
+        id=10,
+        ident="LLLL",
+        type="medium_airport",
+        iata_code=None,
+        icao_code="LLLL",
+        name="Kerema Airport",
+        name_zh="凯里马机场",
+        name_zh_source="llm:codex:test-model",
+        municipality=None,
+        municipality_zh=None,
+        municipality_zh_source=None,
+        name_zh_status=STATUS_RESOLVED,
+    )
+    authoritative = NameEntry(
+        id=11,
+        ident="WWWW",
+        type="large_airport",
+        iata_code="WWW",
+        icao_code="WWWW",
+        name="Some Airport",
+        name_zh="权威名机场",
+        name_zh_source="wikidata:Q1:zh-cn",
+        municipality=None,
+        municipality_zh=None,
+        municipality_zh_source=None,
+        name_zh_status=STATUS_RESOLVED,
+    )
+    path = tmp_path / "llm.csv"
+    saved = write_llm_supplement(path, [llm_entry, authoritative])
+    assert saved == 1  # 只存 llm: 来源
+    assert load_llm_supplement(path) == {10: ("凯里马机场", "llm:codex:test-model")}
+    assert load_llm_supplement(tmp_path / "missing.csv") == {}
+
+
+def test_refresh_merges_llm_supplement(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    from airports_collector import zh_names
+
+    monkeypatch.setattr(zh_names, "_fetch_candidates", lambda *a, **k: {})
+    monkeypatch.setattr(zh_names, "fetch_admin_labels", lambda *a, **k: {})
+    monkeypatch.setattr(zh_names, "fetch_wikipedia_city_names", lambda *a, **k: {})
+    out = tmp_path / "names.csv"
+    supplement = {1: ("凯里马机场", "llm:codex:test-model")}
+    with httpx.Client() as client:
+        stats = zh_names.refresh_names(
+            client,
+            [make_record(name="Kerema Airport", municipality="Kerema")],
+            out,
+            llm_supplement=supplement,
+            llm_supplement_out=tmp_path / "llm_out.csv",
+        )
+    entries = load_names(out)
+    assert entries[1].name_zh == "凯里马机场"
+    assert entries[1].name_zh_source == "llm:codex:test-model"
+    assert stats.llm_supplement_applied == 1
+    assert stats.unresolved == 0
+    assert (tmp_path / "llm_out.csv").exists()

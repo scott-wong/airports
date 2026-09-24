@@ -1,0 +1,1649 @@
+id,ident,name,name_zh,source
+70,AYWD,Wapenamanda Airport,瓦佩纳曼达机场,llm:codex:deepseek-v4.1-flash
+73,UB12,Nasosnaya Air Base,纳索斯纳亚空军基地,llm:codex:deepseek-v4.1-flash
+77,UB18,Baku Kala Air Base,巴库卡拉空军基地,llm:codex:deepseek-v4.1-flash
+78,UG11,Dollyar Air Base,多利亚尔空军基地,llm:codex:deepseek-v4.1-flash
+89,LBPG,Graf Ignatievo Air Base,格拉夫·伊格纳蒂耶沃空军基地,llm:codex:deepseek-v4.1-flash
+111,BG-JAM,Bezmer Air Base,贝兹梅尔空军基地,llm:codex:deepseek-v4.1-flash
+116,BGTL,Pituffik Space Base,皮图菲克太空基地,llm:codex:deepseek-v4.1-flash
+275,SBAC,Aracati Dragão do Mar Regional Airport,阿拉卡蒂地区机场,llm:codex:deepseek-v4.1-flash
+329,SDIY,João Durval Carneiro Airport,若昂·杜瓦尔·卡内罗机场,llm:codex:deepseek-v4.1-flash
+388,BR-2182,Russas - João de Deus Regional Airport,鲁萨斯-若昂·德·德乌斯地区机场,llm:codex:deepseek-v4.1-flash
+517,SBPG,Ponta Grossa Airport - Comandante Antonio Amilton Beraldo,蓬塔格罗萨机场,llm:codex:deepseek-v4.1-flash
+575,SBRD,Maestro Marinho Franco Airport,马埃斯特罗·马里尼奥·佛朗哥机场,llm:codex:deepseek-v4.1-flash
+624,CAJ4,Anahim Lake Airport,阿纳希姆湖机场,llm:codex:deepseek-v4.1-flash
+643,CAT4,Qualicum Beach Airport,夸利库姆海滩机场,llm:codex:deepseek-v4.1-flash
+657,CAZ5,Cache Creek-Ashcroft Regional Airport,卡什克里克-阿什克罗夫特地区机场,llm:codex:deepseek-v4.1-flash
+1293,CYLS,Barrie-Lake Simcoe Regional Airport,巴里-锡姆科湖地区机场,llm:codex:deepseek-v4.1-flash
+1294,CNC3,Brampton-Caledon Airport,布兰普顿-卡利登机场,llm:codex:deepseek-v4.1-flash
+1340,CYKM,Kincardine Municipal Airport,金卡丁市机场,llm:codex:deepseek-v4.1-flash
+1649,LYUZ,Ponikve Airport,波尼克韦机场,llm:codex:deepseek-v4.1-flash
+1655,CYAH,La Grande-4 Airport,拉格朗德-4机场,llm:codex:deepseek-v4.1-flash
+1658,CYAQ,Kasabonika Airport,卡萨博尼卡机场,llm:codex:deepseek-v4.1-flash
+1662,CYAV,Winnipeg / St. Andrews Airport,温尼伯/圣安德鲁斯机场,llm:codex:deepseek-v4.1-flash
+1666,CYAZ,Tofino / Long Beach Airport,托菲诺/长滩机场,llm:codex:deepseek-v4.1-flash
+1672,CYBF,Bonnyville Airport,邦尼维尔机场,llm:codex:deepseek-v4.1-flash
+1673,CYBG,Saguenay-Bagotville Airport,萨格奈-巴戈特维尔机场,llm:codex:deepseek-v4.1-flash
+1678,CYBR,Brandon Municipal Airport,布兰登市机场,llm:codex:deepseek-v4.1-flash
+1680,CYBU,Nipawin Airport,尼帕温机场,llm:codex:deepseek-v4.1-flash
+1682,CYBW,Calgary / Springbank Airport,卡尔加里/斯普林班克机场,llm:codex:deepseek-v4.1-flash
+1690,CYCH,Miramichi Airport,米拉米奇机场,llm:codex:deepseek-v4.1-flash
+1691,CYCL,Charlo Airport,查洛机场,llm:codex:deepseek-v4.1-flash
+1692,CYCN,Cochrane Airport,科克伦机场,llm:codex:deepseek-v4.1-flash
+1694,CYCP,Blue River Airport,蓝河机场,llm:codex:deepseek-v4.1-flash
+1695,CYCQ,Chetwynd Airport,切特温德机场,llm:codex:deepseek-v4.1-flash
+1709,CYDM,Ross River Airport,罗斯河机场,llm:codex:deepseek-v4.1-flash
+1710,CYDN,Dauphin Barker Airport,多芬巴克机场,llm:codex:deepseek-v4.1-flash
+1711,CYDO,Dolbeau-Saint-Felicien Airport,多尔博-圣费利西安机场,llm:codex:deepseek-v4.1-flash
+1716,CYEE,Huronia Airport,休伦尼亚机场,llm:codex:deepseek-v4.1-flash
+1719,CYEL,Elliot Lake Municipal Airport,埃利奥特湖市机场,llm:codex:deepseek-v4.1-flash
+1720,CYEM,Manitoulin East Municipal Airport,马尼图林东市机场,llm:codex:deepseek-v4.1-flash
+1721,CYEN,Estevan Airport,埃斯特万机场,llm:codex:deepseek-v4.1-flash
+1724,CYET,Edson Airport,埃德森机场,llm:codex:deepseek-v4.1-flash
+1726,CYEV,Inuvik Mike Zubko Airport,伊努维克迈克·祖布科机场,llm:codex:deepseek-v4.1-flash
+1727,CYEY,Amos/Magny Airport,阿莫斯/马尼机场,llm:codex:deepseek-v4.1-flash
+1732,CYFE,Forestville Airport,福里斯特维尔机场,llm:codex:deepseek-v4.1-flash
+1736,CYFR,Fort Resolution Airport,雷索卢申堡机场,llm:codex:deepseek-v4.1-flash
+1740,CYGD,Goderich Airport,戈德里奇机场,llm:codex:deepseek-v4.1-flash
+1741,CYGE,Golden Airport,戈尔登机场,llm:codex:deepseek-v4.1-flash
+1744,CYGL,La Grande Rivière Airport,拉格兰德里维埃机场,llm:codex:deepseek-v4.1-flash
+1748,CYGQ,Geraldton Greenstone Regional Airport,杰拉尔顿-格林斯通地区机场,llm:codex:deepseek-v4.1-flash
+1751,CYGV,Havre-Saint-Pierre Airport,阿弗尔-圣皮埃尔机场,llm:codex:deepseek-v4.1-flash
+1752,CYGW,Kuujjuarapik Airport,库朱瓦拉皮克机场,llm:codex:deepseek-v4.1-flash
+1759,CYHF,Hearst René Fontaine Municipal Airport,赫斯特勒内·方丹市机场,llm:codex:deepseek-v4.1-flash
+1764,CYHN,Hornepayne Municipal Airport,霍恩佩恩市机场,llm:codex:deepseek-v4.1-flash
+1771,CYIB,Atikokan Municipal Airport,阿蒂科坎市机场,llm:codex:deepseek-v4.1-flash
+1772,CYID,Digby / Annapolis Regional Airport,迪格比/安纳波利斯地区机场,llm:codex:deepseek-v4.1-flash
+1773,CYIF,St Augustin Airport,圣奥古斯丁机场,llm:codex:deepseek-v4.1-flash
+1776,CYIV,Island Lake Airport,岛湖机场,llm:codex:deepseek-v4.1-flash
+1778,CYJF,Fort Liard Airport,利亚德堡机场,llm:codex:deepseek-v4.1-flash
+1780,CYJN,St Jean Airport,圣让机场,llm:codex:deepseek-v4.1-flash
+1789,CYKJ,Key Lake Airport,基湖机场,llm:codex:deepseek-v4.1-flash
+1790,CYKL,Schefferville Airport,谢弗维尔机场,llm:codex:deepseek-v4.1-flash
+1793,CYKX,Kirkland Lake Airport,柯克兰莱克机场,llm:codex:deepseek-v4.1-flash
+1794,CYKY,Kindersley Airport,金德斯利机场,llm:codex:deepseek-v4.1-flash
+1799,CYLD,Chapleau Airport,沙普洛机场,llm:codex:deepseek-v4.1-flash
+1801,CYLJ,Meadow Lake Airport,梅多湖机场,llm:codex:deepseek-v4.1-flash
+1805,CYLR,Leaf Rapids Airport,利夫拉皮兹机场,llm:codex:deepseek-v4.1-flash
+1810,CYME,Matane Airport,马塔讷机场,llm:codex:deepseek-v4.1-flash
+1811,CYMG,Manitouwadge Airport,马尼图瓦奇机场,llm:codex:deepseek-v4.1-flash
+1813,CYMJ,Moose Jaw Air Vice Marshal C. M. McEwen Airport,穆斯乔空军少将C·M·麦克尤恩机场,llm:codex:deepseek-v4.1-flash
+1814,CYML,Charlevoix Airport,夏洛瓦机场,llm:codex:deepseek-v4.1-flash
+1817,CYMT,Chapais Airport,沙佩机场,llm:codex:deepseek-v4.1-flash
+1822,CYNA,Natashquan Airport,纳塔什宽机场,llm:codex:deepseek-v4.1-flash
+1827,CYNJ,Langley Airport,兰利机场,llm:codex:deepseek-v4.1-flash
+1829,CYNM,Matagami Airport,马塔加米机场,llm:codex:deepseek-v4.1-flash
+1830,CYNN,Nejanilini Lake Airport,内贾尼利尼湖机场,llm:codex:deepseek-v4.1-flash
+1832,CYOA,Ekati Airport,埃卡蒂机场,llm:codex:deepseek-v4.1-flash
+1834,CYOD,CFB Cold Lake,冷湖空军基地,llm:codex:deepseek-v4.1-flash
+1838,CYOP,Rainbow Lake Airport,彩虹湖机场,llm:codex:deepseek-v4.1-flash
+1839,CYOS,Owen Sound / Billy Bishop Regional Airport,欧文桑德/比利·毕晓普地区机场,llm:codex:deepseek-v4.1-flash
+1842,CYPA,Prince Albert Glass Field,阿尔伯特王子机场,llm:codex:deepseek-v4.1-flash
+1844,CYPD,Port Hawkesbury Airport,霍克斯伯里港机场,llm:codex:deepseek-v4.1-flash
+1846,CYPG,Portage-la-Prairie / Southport Airport,波蒂奇拉普雷里/南港机场,llm:codex:deepseek-v4.1-flash
+1849,CYPL,Pickle Lake Airport,皮克尔莱克机场,llm:codex:deepseek-v4.1-flash
+1851,CYPN,Port-Menier Airport,梅尼耶港机场,llm:codex:deepseek-v4.1-flash
+1859,CYPW,Powell River Airport,鲍威尔河机场,llm:codex:deepseek-v4.1-flash
+1860,CYPX,Puvirnituq Airport,普维尔尼图克机场,llm:codex:deepseek-v4.1-flash
+1865,CYQD,The Pas Airport,帕斯机场,llm:codex:deepseek-v4.1-flash
+1868,CYQH,Watson Lake Airport,沃森莱克机场,llm:codex:deepseek-v4.1-flash
+1873,CYQN,Nakina Airport,纳基纳机场,llm:codex:deepseek-v4.1-flash
+1876,CYQS,St Thomas Municipal Airport,圣托马斯市机场,llm:codex:deepseek-v4.1-flash
+1882,CYQY,Sydney / J.A. Douglas McCurdy Airport,悉尼/J.A.道格拉斯·麦柯迪机场,llm:codex:deepseek-v4.1-flash
+1883,CYQZ,Quesnel Airport,克内尔机场,llm:codex:deepseek-v4.1-flash
+1887,CYRI,Rivière-du-Loup Airport,里维耶尔迪卢机场,llm:codex:deepseek-v4.1-flash
+1888,CYRJ,Roberval Airport,罗贝瓦尔机场,llm:codex:deepseek-v4.1-flash
+1889,CYRL,Red Lake Airport,红湖机场,llm:codex:deepseek-v4.1-flash
+1891,CYRO,Ottawa / Rockcliffe Airport,渥太华/罗克利夫机场,llm:codex:deepseek-v4.1-flash
+1892,CYRP,Ottawa / Carp Airport,渥太华/卡普机场,llm:codex:deepseek-v4.1-flash
+1902,CYSG,Saint-Georges Airport,圣乔治机场,llm:codex:deepseek-v4.1-flash
+1903,CYSH,Smiths Falls-Montague (Russ Beach) Airport,史密斯福尔斯-蒙塔古机场,llm:codex:deepseek-v4.1-flash
+1906,CYSL,Saint-Léonard Airport,圣莱昂纳尔机场,llm:codex:deepseek-v4.1-flash
+1909,CYSP,Marathon Airport,马拉松机场,llm:codex:deepseek-v4.1-flash
+1913,CYSU,Summerside Airport,萨默赛德机场,llm:codex:deepseek-v4.1-flash
+1917,CYTA,Pembroke Airport,彭布罗克机场,llm:codex:deepseek-v4.1-flash
+1919,CYTF,Alma Airport,阿尔马机场,llm:codex:deepseek-v4.1-flash
+1924,CYTR,CFB Trenton,特伦顿空军基地,llm:codex:deepseek-v4.1-flash
+1930,CYUX,Hall Beach Airport,霍尔比奇机场,llm:codex:deepseek-v4.1-flash
+1932,CYVB,Bonaventure Airport,博纳旺蒂尔机场,llm:codex:deepseek-v4.1-flash
+1933,CYVC,La Ronge Airport,拉龙日机场,llm:codex:deepseek-v4.1-flash
+1934,CYVD,Virden / RJ (Bob) Andrew Field Regional Aerodrome,弗登地区机场,llm:codex:deepseek-v4.1-flash
+1939,CYVP,Kuujjuaq Airport,库朱阿克机场,llm:codex:deepseek-v4.1-flash
+1943,CYVV,Wiarton Airport,怀尔顿机场,llm:codex:deepseek-v4.1-flash
+1950,CYWL,Williams Lake Airport,威廉姆斯湖机场,llm:codex:deepseek-v4.1-flash
+1954,CYWY,Wrigley Airport,里格利机场,llm:codex:deepseek-v4.1-flash
+1965,CYXR,Earlton (Timiskaming Regional) Airport,厄尔顿（蒂米斯卡明地区）机场,llm:codex:deepseek-v4.1-flash
+1975,CYYE,Fort Nelson Airport,纳尔逊堡机场,llm:codex:deepseek-v4.1-flash
+1980,CYYL,Lynn Lake Airport,林恩湖机场,llm:codex:deepseek-v4.1-flash
+1985,CYYR,Goose Bay Airport,古斯湾机场,llm:codex:deepseek-v4.1-flash
+1987,CYYU,Kapuskasing Airport,卡普斯卡辛机场,llm:codex:deepseek-v4.1-flash
+1988,CYYW,Armstrong Airport,阿姆斯特朗机场,llm:codex:deepseek-v4.1-flash
+1992,CYZE,Gore Bay Manitoulin Airport,戈尔贝-马尼图林机场,llm:codex:deepseek-v4.1-flash
+1995,CYZH,Slave Lake Airport,斯拉夫湖机场,llm:codex:deepseek-v4.1-flash
+1998,CYZS,Coral Harbour Airport,珊瑚港机场,llm:codex:deepseek-v4.1-flash
+2000,CYZU,Whitecourt Airport,怀特考特机场,llm:codex:deepseek-v4.1-flash
+2003,CYZX,CFB Greenwood,格林伍德空军基地,llm:codex:deepseek-v4.1-flash
+2004,CYZY,Mackenzie Airport,马更些机场,llm:codex:deepseek-v4.1-flash
+2006,CZAM,Shuswap Regional Airport,舒斯瓦普地区机场,llm:codex:deepseek-v4.1-flash
+2011,CZBM,Bromont (Roland Désourdy) Airport,布罗蒙机场,llm:codex:deepseek-v4.1-flash
+2012,CZEE,Kelsey Airport,凯尔西机场,llm:codex:deepseek-v4.1-flash
+2014,CZFA,Faro Airport,法罗机场,llm:codex:deepseek-v4.1-flash
+2023,CZJG,Jenpeg Airport,詹佩格机场,llm:codex:deepseek-v4.1-flash
+2024,CZJN,Swan River Airport,天鹅河机场,llm:codex:deepseek-v4.1-flash
+2030,CZMT,Masset Airport,马塞特机场,llm:codex:deepseek-v4.1-flash
+2034,CZPC,Pincher Creek Airport,平彻克里克机场,llm:codex:deepseek-v4.1-flash
+2037,CZSJ,Sandy Lake Airport,桑迪莱克机场,llm:codex:deepseek-v4.1-flash
+2042,CZUC,Ignace Municipal Airport,伊格纳斯市政机场,llm:codex:deepseek-v4.1-flash
+2049,DAAE,Soummam–Abane Ramdane Airport,苏马姆－阿巴内·拉姆丹机场,llm:codex:deepseek-v4.1-flash
+2051,DAAJ,Tiska Djanet Airport,蒂斯卡贾奈特机场,llm:codex:deepseek-v4.1-flash
+2052,DAAK,Boufarik Air Base,布法里克空军基地,llm:codex:deepseek-v4.1-flash
+2054,DAAP,Illizi Takhamalt Airport,伊利济塔哈马特机场,llm:codex:deepseek-v4.1-flash
+2058,DAAY,Mecheria Airport,迈舍里耶机场,llm:codex:deepseek-v4.1-flash
+2062,DABS,Cheikh Larbi Tébessi Airport,谢赫·拉尔比·泰贝西机场,llm:codex:deepseek-v4.1-flash
+2063,DABT,Batna Mostefa Ben Boulaid Airport,巴特纳·穆斯塔法·本·布莱德机场,llm:codex:deepseek-v4.1-flash
+2065,DAOB,Abdelhafid Boussouf Bou Chekif Airport,阿卜杜勒哈菲德·布苏夫·布切基夫机场,llm:codex:deepseek-v4.1-flash
+2068,DAOI,Chlef Aboubakr Belkaid International Airport,谢利夫·阿布·贝克尔·贝尔凯德国际机场,llm:codex:deepseek-v4.1-flash
+2069,DAOL,Oran Tafraoui Airport,奥兰塔夫拉维机场,llm:codex:deepseek-v4.1-flash
+2072,DAOR,Béchar Boudghene Ben Ali Lotfi Airport,贝沙尔·布德盖内·本·阿里·洛特菲机场,llm:codex:deepseek-v4.1-flash
+2074,DAOV,Ghriss Airport,格里斯机场,llm:codex:deepseek-v4.1-flash
+2075,DAUA,Touat-Cheikh Sidi Mohamed Belkebir Airport,图瓦特-谢赫·西迪·穆罕默德·贝尔凯比尔机场,llm:codex:deepseek-v4.1-flash
+2078,DAUG,Noumérat - Moufdi Zakaria Airport,努梅拉特-穆夫迪·扎卡里亚机场,llm:codex:deepseek-v4.1-flash
+2079,DAUH,Hassi Messaoud-Oued Irara Krim Belkacem Airport,哈西迈斯欧德-瓦迪伊拉拉·克里姆·贝尔卡塞姆机场,llm:codex:deepseek-v4.1-flash
+2081,DAUK,Touggourt Sidi Madhi Airport,图古尔特·西迪·马迪机场,llm:codex:deepseek-v4.1-flash
+2082,DAUL,Laghouat - Molay Ahmed Medeghri Airport,拉格瓦特-穆莱·艾哈迈德·梅代格里机场,llm:codex:deepseek-v4.1-flash
+2085,DAUU,Ain Beida Airport,艾因贝达机场,llm:codex:deepseek-v4.1-flash
+2086,DAUZ,Zarzaitine - In Aménas Airport,扎尔扎伊廷-因阿迈纳斯机场,llm:codex:deepseek-v4.1-flash
+2101,DISP,San Pedro Airport,圣佩德罗机场,llm:codex:deepseek-v4.1-flash
+2108,DNEN,Akanu Ibiam International Airport,阿卡努·伊比亚姆国际机场,llm:codex:deepseek-v4.1-flash
+2134,DTTB,Bizerte Sidi Ahmed Air Base,比塞大西迪艾哈迈德空军基地,llm:codex:deepseek-v4.1-flash
+2135,DTTD,Remada Air Base,雷马达空军基地,llm:codex:deepseek-v4.1-flash
+2136,DTTF,Gafsa Ksar International Airport,加夫萨卡斯尔国际机场,llm:codex:deepseek-v4.1-flash
+2137,DTTG,Gabès Matmata International Airport,加贝斯马特马塔国际机场,llm:codex:deepseek-v4.1-flash
+2140,DTTR,El Borma Airport,埃尔博尔马机场,llm:codex:deepseek-v4.1-flash
+2161,EBKT,Kortrijk-Wevelgem International Airport,科特赖克-韦弗尔海姆国际机场,llm:codex:deepseek-v4.1-flash
+2184,EDAC,Leipzig–Altenburg Airport,莱比锡-阿尔滕堡机场,llm:codex:deepseek-v4.1-flash
+2187,EDAH,Heringsdorf Airport,黑灵斯多夫机场,llm:codex:deepseek-v4.1-flash
+2200,EDBR,Rothenburg/Görlitz Airfield,罗滕堡/格尔利茨机场,llm:codex:deepseek-v4.1-flash
+2226,EDFE,Frankfurt-Egelsbach Airport,法兰克福-埃格尔斯巴赫机场,llm:codex:deepseek-v4.1-flash
+2231,EDFZ,Mainz-Finthen Airfield,美因茨-芬滕机场,llm:codex:deepseek-v4.1-flash
+2232,EDGE,Eisenach-Kindel Airport,艾森纳赫-金德尔机场,llm:codex:deepseek-v4.1-flash
+2233,EDGS,Siegerland Airport,锡根兰机场,llm:codex:deepseek-v4.1-flash
+2234,EDHI,Hamburg-Finkenwerder Airport,汉堡-芬肯韦尔德机场,llm:codex:deepseek-v4.1-flash
+2235,EDHK,Kiel-Holtenau Airport,基尔-霍尔滕瑙机场,llm:codex:deepseek-v4.1-flash
+2252,EDMO,Oberpfaffenhofen Airport,上普法芬霍芬机场,llm:codex:deepseek-v4.1-flash
+2261,EDQD,Bayreuth Airport,拜罗伊特机场,llm:codex:deepseek-v4.1-flash
+2263,EDQM,Hof-Plauen Airport,霍夫-普劳恩机场,llm:codex:deepseek-v4.1-flash
+2273,EDTD,Donaueschingen-Villingen Airfield,多瑙艾辛根-菲林根机场,llm:codex:deepseek-v4.1-flash
+2276,EDTL,Lahr Airport,拉尔机场,llm:codex:deepseek-v4.1-flash
+2277,EDTM,Mengen-Hohentengen Airfield,门根-霍恩滕根机场,llm:codex:deepseek-v4.1-flash
+2278,EDTY,Adolf Würth Airport,阿道夫·伍尔特机场,llm:codex:deepseek-v4.1-flash
+2297,EEEI,Ämari Air Base,埃马里空军基地,llm:codex:deepseek-v4.1-flash
+2352,EFVR,Varkaus Airport,瓦尔考斯机场,llm:codex:deepseek-v4.1-flash
+2357,EES,Berenice International Airport / Banas Cape Air Base,贝勒尼基国际机场/巴纳斯角空军基地,llm:codex:deepseek-v4.1-flash
+2372,HE32,Al Mansurah Airbase,曼苏拉空军基地,llm:codex:deepseek-v4.1-flash
+2375,HE35,Abu Suwayr Air Base,阿布苏韦尔空军基地,llm:codex:deepseek-v4.1-flash
+2376,HE36,Bardawil International Airport,巴尔达维尔国际机场,llm:codex:deepseek-v4.1-flash
+2383,HEIS,Al Ismailiyya Air Base,伊斯梅利亚空军基地,llm:codex:deepseek-v4.1-flash
+2393,EGBN,Nottingham City Airport,诺丁汉城市机场,llm:codex:deepseek-v4.1-flash
+2403,EGDC,Royal Marines Base Chivenor,奇弗诺皇家海军陆战队基地,llm:codex:deepseek-v4.1-flash
+2406,EGDM,MoD Boscombe Down,博斯科姆唐国防部基地,llm:codex:deepseek-v4.1-flash
+2408,EGDR,RNAS Culdrose,皇家海军库尔德罗斯航空站,llm:codex:deepseek-v4.1-flash
+2409,EGDX,MOD St Athan,圣阿森国防部基地,llm:codex:deepseek-v4.1-flash
+2410,EGDY,RNAS Yeovilton,皇家海军约维尔顿航空站,llm:codex:deepseek-v4.1-flash
+2423,EGHL,Lasham Airfield,拉舍姆机场,llm:codex:deepseek-v4.1-flash
+2436,EGMD,Lydd London Ashford Airport,利德伦敦阿什福德机场,llm:codex:deepseek-v4.1-flash
+2443,EGNL,Barrow Walney Island Airport,巴罗沃尔尼岛机场,llm:codex:deepseek-v4.1-flash
+2445,EGNO,Warton Aerodrome,沃顿机场,llm:codex:deepseek-v4.1-flash
+2453,EGOS,RAF Shawbury,肖伯里皇家空军基地,llm:codex:deepseek-v4.1-flash
+2471,EGQL,Leuchars Station Airfield,卢赫斯机场,llm:codex:deepseek-v4.1-flash
+2472,EGQS,RAF Lossiemouth,洛西茅斯皇家空军基地,llm:codex:deepseek-v4.1-flash
+2480,EGTC,Cranfield Airport,克兰菲尔德机场,llm:codex:deepseek-v4.1-flash
+2486,EGUB,RAF Benson,本森皇家空军基地,llm:codex:deepseek-v4.1-flash
+2487,EGUL,RAF Lakenheath,莱肯希思皇家空军基地,llm:codex:deepseek-v4.1-flash
+2488,EGUN,RAF Mildenhall,米尔登霍尔皇家空军基地,llm:codex:deepseek-v4.1-flash
+2490,EGUW,Wattisham Airfield,瓦蒂舍姆机场,llm:codex:deepseek-v4.1-flash
+2492,EGVA,RAF Fairford,费尔福德皇家空军基地,llm:codex:deepseek-v4.1-flash
+2493,EGVN,RAF Brize Norton,布里兹诺顿皇家空军基地,llm:codex:deepseek-v4.1-flash
+2495,EGWC,RAF Cosford,科斯福德皇家空军基地,llm:codex:deepseek-v4.1-flash
+2497,EGXC,RAF Coningsby,康宁斯比皇家空军基地,llm:codex:deepseek-v4.1-flash
+2499,EGXE,RAF Leeming,利明皇家空军基地,llm:codex:deepseek-v4.1-flash
+2500,EGXG,Leeds East Airport,利兹东机场,llm:codex:deepseek-v4.1-flash
+2501,EGXH,RAF Honington,霍宁顿皇家空军基地,llm:codex:deepseek-v4.1-flash
+2504,EGXT,RAF Wittering,威特灵皇家空军基地,llm:codex:deepseek-v4.1-flash
+2506,EGXW,RAF Waddington,沃丁顿皇家空军基地,llm:codex:deepseek-v4.1-flash
+2508,EGXZ,RAF Topcliffe,托普克利夫皇家空军基地,llm:codex:deepseek-v4.1-flash
+2510,EGYE,RAF Barkston Heath,巴克斯顿希思皇家空军基地,llm:codex:deepseek-v4.1-flash
+2511,EGYM,RAF Marham,马勒姆皇家空军基地,llm:codex:deepseek-v4.1-flash
+2512,EGYP,Mount Pleasant Airport / RAF Mount Pleasant,芒特普莱森特机场,llm:codex:deepseek-v4.1-flash
+2514,EHBD,Kempen Airport Budel,肯彭机场,llm:codex:deepseek-v4.1-flash
+2516,EHDL,Deelen Air Base,代伦空军基地,llm:codex:deepseek-v4.1-flash
+2520,EHGR,Gilze Rijen Air Base,希尔泽赖恩空军基地,llm:codex:deepseek-v4.1-flash
+2521,EHKD,De Kooy Airfield / Den Helder Naval Air Station,德科伊机场,llm:codex:deepseek-v4.1-flash
+2528,EHVK,Volkel Air Base,沃尔克尔空军基地,llm:codex:deepseek-v4.1-flash
+2529,EHWO,Woensdrecht Air Base,翁斯德雷赫特空军基地,llm:codex:deepseek-v4.1-flash
+2536,EIME,Casement Air Base,凯斯门特空军基地,llm:codex:deepseek-v4.1-flash
+2551,EKRK,Copenhagen Roskilde Airport,哥本哈根罗斯基勒机场,llm:codex:deepseek-v4.1-flash
+2556,EKSV,Skive Airport,斯基沃机场,llm:codex:deepseek-v4.1-flash
+2558,EKVD,Kolding Vamdrup Airfield,科灵-瓦姆德鲁普机场,llm:codex:deepseek-v4.1-flash
+2561,EKVJ,Stauning Vestjylland  Airport,斯陶宁西日德兰机场,llm:codex:deepseek-v4.1-flash
+2574,ENDU,Bardufoss Airport,巴杜福斯机场,llm:codex:deepseek-v4.1-flash
+2583,ENKR,"Kirkenes Airport, Høybuktmoen",希尔克内斯机场,llm:codex:deepseek-v4.1-flash
+2586,ENMS,"Mosjøen Airport, Kjærstad",莫舍恩机场,llm:codex:deepseek-v4.1-flash
+2591,ENRO,Røros Airport,勒罗斯机场,llm:codex:deepseek-v4.1-flash
+2592,ENRY,"Moss Airport, Rygge",莫斯机场,llm:codex:deepseek-v4.1-flash
+2594,ENSN,Skien Airport,希恩机场,llm:codex:deepseek-v4.1-flash
+2596,ENSR,Sørkjosen Airport,瑟克约森机场,llm:codex:deepseek-v4.1-flash
+2597,ENSS,"Vardø Airport, Svartnes",瓦德瑟机场,llm:codex:deepseek-v4.1-flash
+2598,ENST,"Sandnessjøen Airport, Stokka",桑德内斯约恩机场,llm:codex:deepseek-v4.1-flash
+2605,EPCE,Cewice Naval Air Base,采维采海军航空基地,llm:codex:deepseek-v4.1-flash
+2607,EPDE,Deblin Military Air Base,登布林空军基地,llm:codex:deepseek-v4.1-flash
+2612,EPKS,Krzesiny Military Air Base,克热希尼空军基地,llm:codex:deepseek-v4.1-flash
+2618,EPMB,Malbork Królewo Air Base,马尔堡克鲁莱沃空军基地,llm:codex:deepseek-v4.1-flash
+2619,EPMI,Miroslawiec Military Air Base,米罗斯瓦维茨空军基地,llm:codex:deepseek-v4.1-flash
+2621,EPMM,Minsk Mazowiecki Military Air Base,明斯克-马佐维茨基空军基地,llm:codex:deepseek-v4.1-flash
+2627,EPPW,Powidz Military Air Base,波维兹空军基地,llm:codex:deepseek-v4.1-flash
+2633,EPSN,Swidwin Military Air Base,希维德温空军基地,llm:codex:deepseek-v4.1-flash
+2643,ESCF,Malmen Air Base,马尔门空军基地,llm:codex:deepseek-v4.1-flash
+2647,ESFR,Råda Air Base,罗达空军基地,llm:codex:deepseek-v4.1-flash
+2654,ESGT,Trollhättan-Vänersborg Airport,特罗尔海坦-韦纳斯堡机场,llm:codex:deepseek-v4.1-flash
+2656,ESIB,Såtenäs Air Base,索特奈斯空军基地,llm:codex:deepseek-v4.1-flash
+2712,ESTL,Ljungbyhed Airfield,永比赫德机场,llm:codex:deepseek-v4.1-flash
+2717,ETAD,Spangdahlem Air Base,施潘达勒姆空军基地,llm:codex:deepseek-v4.1-flash
+2718,ETAR,Ramstein Air Base,拉姆施泰因空军基地,llm:codex:deepseek-v4.1-flash
+2722,ETHC,Celle Army Airfield,策勒陆军机场,llm:codex:deepseek-v4.1-flash
+2724,ETHF,Fritzlar Army Airfield,弗里茨拉尔陆军机场,llm:codex:deepseek-v4.1-flash
+2727,ETHN,Niederstetten Army Air Base,尼德施泰滕陆军航空基地,llm:codex:deepseek-v4.1-flash
+2730,ETIC,Grafenwöhr Army Air Field,格拉芬沃尔陆军机场,llm:codex:deepseek-v4.1-flash
+2732,ETIH,Hohenfels Army Airfield,霍恩费尔斯陆军机场,llm:codex:deepseek-v4.1-flash
+2734,ETMN,Sea-Airport Cuxhaven/Nordholz / Nordholz Naval Airbase,库克斯港/诺德霍尔茨海上机场,llm:codex:deepseek-v4.1-flash
+2737,ETNH,Hohn Air Base,霍恩空军基地,llm:codex:deepseek-v4.1-flash
+2741,ETNS,Schleswig Air Base,石勒苏益格空军基地,llm:codex:deepseek-v4.1-flash
+2742,ETNT,Wittmundhafen Air Base,维特蒙德港空军基地,llm:codex:deepseek-v4.1-flash
+2744,ETNW,Wunstorf Air Base,文斯托夫空军基地,llm:codex:deepseek-v4.1-flash
+2749,ETSB,Büchel Air Base,比歇尔空军基地,llm:codex:deepseek-v4.1-flash
+2753,ETSI,Ingolstadt Manching Airport,因戈尔施塔特-曼兴机场,llm:codex:deepseek-v4.1-flash
+2754,ETSL,Lechfeld Air Base,莱希费尔德空军基地,llm:codex:deepseek-v4.1-flash
+2755,ETSN,Neuburg Air Base,诺伊堡空军基地,llm:codex:deepseek-v4.1-flash
+2780,FAEO,Ermelo Airport,埃尔默洛机场,llm:codex:deepseek-v4.1-flash
+2781,FAFB,Ficksburg Sentraoes Airport,菲克斯堡机场,llm:codex:deepseek-v4.1-flash
+2789,FAHR,Harrismith Airport,哈里史密斯机场,llm:codex:deepseek-v4.1-flash
+2806,FALY,Ladysmith Airport,莱迪史密斯机场,llm:codex:deepseek-v4.1-flash
+2814,FAMS,Morningside Farm Airport,莫宁赛德农场机场,llm:codex:deepseek-v4.1-flash
+2816,FANC,Newcastle Airport,纽卡斯尔机场,llm:codex:deepseek-v4.1-flash
+2823,FAPI,Pietersburg Municipal Airport,彼得斯堡市立机场,llm:codex:deepseek-v4.1-flash
+2830,FAQT,Queenstown Airport,昆士敦机场,llm:codex:deepseek-v4.1-flash
+2833,FARS,Robertson Airport,罗伯逊机场,llm:codex:deepseek-v4.1-flash
+2834,FASB,Springbok Airport,斯普林博克机场,llm:codex:deepseek-v4.1-flash
+2835,FASC,Secunda Airport,塞昆达机场,llm:codex:deepseek-v4.1-flash
+2836,FASD,Saldanha/Vredenburg Airport,萨尔达尼亚/弗雷登堡机场,llm:codex:deepseek-v4.1-flash
+2838,FASK,Swartkop Air Force Base,斯瓦特科普空军基地,llm:codex:deepseek-v4.1-flash
+2839,FASS,Sishen Airport,锡申机场,llm:codex:deepseek-v4.1-flash
+2846,FAUL,Prince Mangosuthu Buthelezi Airport,曼戈苏图·布特莱齐亲王机场,llm:codex:deepseek-v4.1-flash
+2850,FAVG,Virginia Airport,弗吉尼亚机场,llm:codex:deepseek-v4.1-flash
+2856,FAWK,Waterkloof Air Force Base,瓦特克鲁夫空军基地,llm:codex:deepseek-v4.1-flash
+2858,FAYP,Ysterplaat Air Force Base,伊斯特普拉特空军基地,llm:codex:deepseek-v4.1-flash
+2865,FBSN,Sua Pan Airport,苏阿潘机场,llm:codex:deepseek-v4.1-flash
+2870,FCOU,Ouesso Airport,韦索机场,llm:codex:deepseek-v4.1-flash
+2877,FHAW,RAF Ascension Island,阿森松岛皇家空军基地,llm:codex:deepseek-v4.1-flash
+2880,FJDG,Naval Support Facility Diego Garcia,迪戈加西亚海军支援设施,llm:codex:deepseek-v4.1-flash
+2884,FKKM,Foumban Nkounja Airport,富姆班恩昆贾机场,llm:codex:deepseek-v4.1-flash
+2891,FLKE,Kasompe Airport,卡松佩机场,llm:codex:deepseek-v4.1-flash
+2897,FLND,Peter Zuze Air Force Base,彼得·祖泽空军基地,llm:codex:deepseek-v4.1-flash
+2898,FLSO,Southdowns Airport,基特韦机场,llm:codex:deepseek-v4.1-flash
+2913,FMNA,Arrachart Airport,阿拉夏尔机场,llm:codex:deepseek-v4.1-flash
+2915,FMND,Andapa Airport,安达帕机场,llm:codex:deepseek-v4.1-flash
+2925,FMNW,Ambalabe Airport,安巴拉贝机场,llm:codex:deepseek-v4.1-flash
+2938,FNGI,Ngjiva Pereira Airport,恩吉瓦佩雷拉机场,llm:codex:deepseek-v4.1-flash
+2948,FNPA,Porto Amboim Airport,安博因港机场,llm:codex:deepseek-v4.1-flash
+2953,FNUE,Luena Airport,卢埃纳机场,llm:codex:deepseek-v4.1-flash
+2957,FOGK,Koulamoutou Mabimbi Airport,库拉穆图马宾比机场,llm:codex:deepseek-v4.1-flash
+2958,FOGM,Mouilla Ville Airport,穆伊拉维尔机场,llm:codex:deepseek-v4.1-flash
+2960,FOGQ,Okondja Airport,奥孔贾机场,llm:codex:deepseek-v4.1-flash
+2964,FOOH,Omboue Hospital Airport,翁布埃医院机场,llm:codex:deepseek-v4.1-flash
+2994,FSPP,Praslin Island Airport,普拉兰岛机场,llm:codex:deepseek-v4.1-flash
+3000,FVBU,Joshua Mqabuko Nkomo International Airport,约书亚·姆卡布科·恩科莫国际机场,llm:codex:deepseek-v4.1-flash
+3013,FVTL,Josiah Tungamirai Air Force Base,乔赛亚·通加米拉伊空军基地,llm:codex:deepseek-v4.1-flash
+3027,FYKM,Katima Mulilo Airport,卡蒂马穆利洛机场,llm:codex:deepseek-v4.1-flash
+3030,FYML,Mariental Airport,马林塔尔机场,llm:codex:deepseek-v4.1-flash
+3041,FZAB,Ndolo Airport,恩多洛机场,llm:codex:deepseek-v4.1-flash
+3053,FZJH,Matari Airport,马塔里机场,llm:codex:deepseek-v4.1-flash
+3055,FZKJ,Buta Zega Airport,布塔泽加机场,llm:codex:deepseek-v4.1-flash
+3062,FZSA,Kamina Air Base,卡米纳空军基地,llm:codex:deepseek-v4.1-flash
+3068,GAKY,Kayes Dag Dag Airport,卡伊达格达格机场,llm:codex:deepseek-v4.1-flash
+3069,GAMB,Mopti Airport,莫普提机场,llm:codex:deepseek-v4.1-flash
+3085,UG22,Tbilisi Marneuli Air Base,第比利斯马尔内乌利空军基地,llm:codex:deepseek-v4.1-flash
+3087,UG24,Tbilisi Soganlug Air Base,第比利斯索甘卢格空军基地,llm:codex:deepseek-v4.1-flash
+3090,UG27,Vaziani Air Base,瓦济阿尼空军基地,llm:codex:deepseek-v4.1-flash
+3091,UG28,Bolshiye Shiraki Air Base,大希拉基空军基地,llm:codex:deepseek-v4.1-flash
+3098,GLMR,Spriggs Payne Airport,斯普里格斯·佩恩机场,llm:codex:deepseek-v4.1-flash
+3105,GMFK,Moulay Ali Cherif Airport,穆莱·阿里·谢里夫机场,llm:codex:deepseek-v4.1-flash
+3106,GMFM,Bassatine Airport,巴萨廷机场,llm:codex:deepseek-v4.1-flash
+3123,GOGS,Cap Skirring Airport,斯基灵角机场,llm:codex:deepseek-v4.1-flash
+3154,GVSN,Preguiça Airport,普雷吉萨机场,llm:codex:deepseek-v4.1-flash
+3168,HAMK,Mekele Alula Aba Nega Airport,默克莱阿卢拉·阿巴·内加机场,llm:codex:deepseek-v4.1-flash
+3179,HEAZ,Almaza Air Force Base,阿尔马扎空军基地,llm:codex:deepseek-v4.1-flash
+3182,HEBS,Bani Sweif Air Base,贝尼苏韦夫空军基地,llm:codex:deepseek-v4.1-flash
+3188,HEGR,El Jora Airport,焦拉机场,llm:codex:deepseek-v4.1-flash
+3189,HEGS,Jiyanklis Air Base,吉扬克利斯空军基地,llm:codex:deepseek-v4.1-flash
+3212,HKLU,Manda Airport,曼达机场,llm:codex:deepseek-v4.1-flash
+3216,HKRE,Moi Air Base,莫伊空军基地,llm:codex:deepseek-v4.1-flash
+3219,HLGD,Sirt International Airport / Ghardabiya Airbase,苏尔特国际机场,llm:codex:deepseek-v4.1-flash
+3228,HLMB,Marsa al Brega Airport,卜雷加机场,llm:codex:deepseek-v4.1-flash
+3244,HSNN,Nyala Airport,尼亚拉机场,llm:codex:deepseek-v4.1-flash
+3253,HTIR,Iringa Airport,伊林加机场,llm:codex:deepseek-v4.1-flash
+3258,HTPE,Pemba Airport,奔巴机场,llm:codex:deepseek-v4.1-flash
+3259,HTTG,Tanga Airport,坦噶机场,llm:codex:deepseek-v4.1-flash
+3312,VEHX,Hashimara Air Force Station,哈西马拉空军基地,llm:codex:deepseek-v4.1-flash
+3341,VALT,Murod Kond Airport,穆罗德孔德机场,llm:codex:deepseek-v4.1-flash
+3343,VO94,Campbell Bay Airport / INS Baaz,坎贝尔湾机场/巴兹海军航空站,llm:codex:deepseek-v4.1-flash
+3354,OJMS,Muwaffaq Salti Air Base,穆瓦法克·萨尔蒂空军基地,llm:codex:deepseek-v4.1-flash
+3364,KADW,Joint Base Andrews,安德鲁斯联合基地,llm:codex:deepseek-v4.1-flash
+3391,KBAB,Beale Air Force Base,比尔空军基地,llm:codex:deepseek-v4.1-flash
+3392,KBAD,Barksdale Air Force Base,巴克斯代尔空军基地,llm:codex:deepseek-v4.1-flash
+3393,KBAF,Westfield-Barnes Regional Airport,韦斯特菲尔德-巴恩斯地区机场,llm:codex:deepseek-v4.1-flash
+3400,KBFF,Western Neb. Rgnl/William B. Heilig Airport,内布拉斯加西部地区机场/威廉·B·海利格机场,llm:codex:deepseek-v4.1-flash
+3407,KBIF,Biggs Army Air Field (Fort Bliss),比格斯陆军机场（布利斯堡）,llm:codex:deepseek-v4.1-flash
+3410,KBIX,Keesler Air Force Base,基斯勒空军基地,llm:codex:deepseek-v4.1-flash
+3413,KBKF,Buckley Space Force Base,巴克利太空军基地,llm:codex:deepseek-v4.1-flash
+3414,KBKL,Burke Lakefront Airport,伯克湖畔机场,llm:codex:deepseek-v4.1-flash
+3427,KBTL,Battle Creek Executive Airport at Kellogg Field,巴特尔克里克行政机场（凯洛格机场）,llm:codex:deepseek-v4.1-flash
+3428,KBTM,Bert Mooney Airport,伯特·穆尼机场,llm:codex:deepseek-v4.1-flash
+3441,KCBM,Columbus Air Force Base,哥伦布空军基地,llm:codex:deepseek-v4.1-flash
+3444,KCEF,Westover Metropolitan Airport / Westover Air Reserve Base,韦斯托弗大都会机场/韦斯托弗空军预备役基地,llm:codex:deepseek-v4.1-flash
+3445,KCEW,Bob Sikes Airport,鲍勃·赛克斯机场,llm:codex:deepseek-v4.1-flash
+3455,KCLL,Easterwood Field,伊斯特伍德机场,llm:codex:deepseek-v4.1-flash
+3456,KCLM,William R Fairchild International Airport,威廉·R·费尔柴尔德国际机场,llm:codex:deepseek-v4.1-flash
+3461,KCNM,Cavern City Air Terminal,卡弗恩城机场,llm:codex:deepseek-v4.1-flash
+3469,KCSV,Crossville Memorial Airport Whitson Field,克罗斯维尔纪念机场（惠特森机场）,llm:codex:deepseek-v4.1-flash
+3473,KCVS,Cannon Air Force Base,坎农空军基地,llm:codex:deepseek-v4.1-flash
+3477,KDAA,Davison Army Air Field,戴维森陆军机场,llm:codex:deepseek-v4.1-flash
+3490,KDLF,Laughlin Air Force Base,劳克林空军基地,llm:codex:deepseek-v4.1-flash
+3492,KDMA,Davis Monthan Air Force Base,戴维斯-蒙森空军基地,llm:codex:deepseek-v4.1-flash
+3494,KDOV,Dover Civil Air Terminal/Dover Air Force Base,多佛民用航空站/多佛空军基地,llm:codex:deepseek-v4.1-flash
+3499,KDYS,Dyess Air Force Base,戴斯空军基地,llm:codex:deepseek-v4.1-flash
+3503,KEDW,Edwards Air Force Base,爱德华兹空军基地,llm:codex:deepseek-v4.1-flash
+3504,KEEN,Dillant Hopkins Airport,迪兰特-霍普金斯机场,llm:codex:deepseek-v4.1-flash
+3507,KEKN,Elkins-Randolph County Regional Airport,埃尔金斯-伦道夫县地区机场,llm:codex:deepseek-v4.1-flash
+3509,KELD,South Arkansas Regional Airport at Goodwin Field,南阿肯色地区机场（古德温机场）,llm:codex:deepseek-v4.1-flash
+3511,KELO,Ely Municipal Airport,伊利市政机场,llm:codex:deepseek-v4.1-flash
+3513,KEND,Vance Air Force Base,万斯空军基地,llm:codex:deepseek-v4.1-flash
+3515,KERI,Erie International Tom Ridge Field,伊利国际机场（汤姆·里奇机场）,llm:codex:deepseek-v4.1-flash
+3516,KESF,Esler Army Airfield / Esler Regional Airport,埃斯勒陆军机场/埃斯勒地区机场,llm:codex:deepseek-v4.1-flash
+3526,KFBG,Simmons Army Air Field,西蒙斯陆军机场,llm:codex:deepseek-v4.1-flash
+3528,KFFO,Wright-Patterson Air Force Base,赖特-帕特森空军基地,llm:codex:deepseek-v4.1-flash
+3529,KFHU,Sierra Vista Municipal Airport / Libby Army Air Field,谢拉维斯塔市政机场/利比陆军机场,llm:codex:deepseek-v4.1-flash
+3530,KFLG,Flagstaff Pulliam Airport,弗拉格斯塔夫·普利亚姆机场,llm:codex:deepseek-v4.1-flash
+3538,KFPR,Treasure Coast International Airport,珍宝海岸国际机场,llm:codex:deepseek-v4.1-flash
+3542,KFSI,Henry Post Army Air Field,亨利·波斯特陆军机场,llm:codex:deepseek-v4.1-flash
+3544,KFTK,Godman Army Air Field,戈德曼陆军机场,llm:codex:deepseek-v4.1-flash
+3545,KFTW,Fort Worth Meacham International Airport,沃思堡米查姆国际机场,llm:codex:deepseek-v4.1-flash
+3548,KFYV,Drake Field,德雷克机场,llm:codex:deepseek-v4.1-flash
+3554,KGFL,Floyd Bennett Memorial Airport,弗洛伊德·贝内特纪念机场,llm:codex:deepseek-v4.1-flash
+3558,KGLS,Scholes International At Galveston Airport,加尔维斯顿斯科尔斯国际机场,llm:codex:deepseek-v4.1-flash
+3564,KGRI,Central Nebraska Regional Airport,内布拉斯加中部地区机场,llm:codex:deepseek-v4.1-flash
+3567,KGSB,Seymour Johnson Air Force Base,西摩·约翰逊空军基地,llm:codex:deepseek-v4.1-flash
+3570,KGTB,Wheeler Sack Army Air Field,惠勒-萨克陆军机场,llm:codex:deepseek-v4.1-flash
+3572,KGUP,Gallup Municipal Airport,盖洛普市政机场,llm:codex:deepseek-v4.1-flash
+3573,KGUS,Grissom Air Reserve Base,格里索姆空军预备役基地,llm:codex:deepseek-v4.1-flash
+3574,KGWO,Greenwood–Leflore Airport,格林伍德-勒弗洛尔机场,llm:codex:deepseek-v4.1-flash
+3580,KHIF,Hill Air Force Base,希尔空军基地,llm:codex:deepseek-v4.1-flash
+3584,KHMN,Holloman Air Force Base,霍洛曼空军基地,llm:codex:deepseek-v4.1-flash
+3585,KHON,Huron Regional Airport,休伦地区机场,llm:codex:deepseek-v4.1-flash
+3587,KHOT,Memorial Field Airport,温泉城纪念机场,llm:codex:deepseek-v4.1-flash
+3590,KHQM,Bowerman Airport,鲍尔曼机场,llm:codex:deepseek-v4.1-flash
+3592,KHRO,Boone County Airport,布恩县机场,llm:codex:deepseek-v4.1-flash
+3593,KHST,Homestead Air Reserve Base,霍姆斯特德空军预备基地,llm:codex:deepseek-v4.1-flash
+3595,KHTS,Tri-State Airport / Milton J. Ferguson Field,三州机场/米尔顿·J·弗格森机场,llm:codex:deepseek-v4.1-flash
+3596,KHUA,Redstone Army Air Field,红石陆军机场,llm:codex:deepseek-v4.1-flash
+3601,KIAB,McConnell Air Force Base,麦康奈尔空军基地,llm:codex:deepseek-v4.1-flash
+3607,KIKK,Greater Kankakee Airport,大坎卡基机场,llm:codex:deepseek-v4.1-flash
+3611,KINK,Winkler County Airport,温克勒县机场,llm:codex:deepseek-v4.1-flash
+3612,KINL,Falls International Airport,国际瀑布城国际机场,llm:codex:deepseek-v4.1-flash
+3613,KINT,Smith Reynolds Airport,史密斯·雷诺兹机场,llm:codex:deepseek-v4.1-flash
+3621,KJBR,Jonesboro Municipal Airport,琼斯伯勒市政机场,llm:codex:deepseek-v4.1-flash
+3626,KJXN,Jackson County Airport/Reynolds Field,杰克逊县机场/雷诺兹机场,llm:codex:deepseek-v4.1-flash
+3634,KLBE,Arnold Palmer Regional Airport,阿诺德·帕尔默地区机场,llm:codex:deepseek-v4.1-flash
+3636,KLBL,Liberal Mid-America Regional Airport,利伯勒尔中美洲地区机场,llm:codex:deepseek-v4.1-flash
+3639,KLEB,Lebanon Municipal Airport,黎巴嫩市政机场,llm:codex:deepseek-v4.1-flash
+3641,KLFI,Langley Air Force Base,兰利空军基地,llm:codex:deepseek-v4.1-flash
+3646,KLMT,Crater Lake-Klamath Regional Airport,火山口湖-克拉马斯地区机场,llm:codex:deepseek-v4.1-flash
+3650,KLOZ,London-Corbin Airport/Magee Field,伦敦-科尔宾机场/马吉机场,llm:codex:deepseek-v4.1-flash
+3652,KLRF,Little Rock Air Force Base,小石城空军基地,llm:codex:deepseek-v4.1-flash
+3655,KLSF,Lawson Army Air Field,劳森陆军机场,llm:codex:deepseek-v4.1-flash
+3656,KLSV,Nellis Air Force Base,内利斯空军基地,llm:codex:deepseek-v4.1-flash
+3657,KLTS,Altus Air Force Base,阿尔特斯空军基地,llm:codex:deepseek-v4.1-flash
+3658,KLUF,Luke Air Force Base,卢克空军基地,llm:codex:deepseek-v4.1-flash
+3659,KLUK,Cincinnati Municipal Airport Lunken Field,辛辛那提市政机场伦肯机场,llm:codex:deepseek-v4.1-flash
+3660,KLWM,Lawrence Municipal Airport,劳伦斯市政机场,llm:codex:deepseek-v4.1-flash
+3661,KLWT,Lewistown Municipal Airport,刘易斯敦市政机场,llm:codex:deepseek-v4.1-flash
+3664,KMBS,MBS International Airport,MBS国际机场,llm:codex:deepseek-v4.1-flash
+3665,KMCB,McComb-Pike County Airport / John E Lewis Field,麦库姆-派克县机场/约翰·E·刘易斯机场,llm:codex:deepseek-v4.1-flash
+3671,KMDH,Southern Illinois Airport,南伊利诺伊机场,llm:codex:deepseek-v4.1-flash
+3676,KMER,Castle Airport,卡斯尔机场,llm:codex:deepseek-v4.1-flash
+3680,KMGE,Dobbins Air Reserve Base,多宾斯空军预备基地,llm:codex:deepseek-v4.1-flash
+3687,KMIE,Delaware County Johnson Field,特拉华县约翰逊机场,llm:codex:deepseek-v4.1-flash
+3688,KMIV,Millville Municipal Airport,米尔维尔市政机场,llm:codex:deepseek-v4.1-flash
+3692,KMKL,McKellar-Sipes Regional Airport,麦凯勒-赛普斯地区机场,llm:codex:deepseek-v4.1-flash
+3694,KMLC,Mc Alester Regional Airport,麦卡莱斯特地区机场,llm:codex:deepseek-v4.1-flash
+3696,KMLS,Miles City Airport - Frank Wiley Field,迈尔斯城机场-弗兰克·威利机场,llm:codex:deepseek-v4.1-flash
+3698,KMMU,Morristown Municipal Airport,莫里斯敦市政机场,llm:codex:deepseek-v4.1-flash
+3699,KMMV,McMinnville Municipal Airport,麦克明维尔市政机场,llm:codex:deepseek-v4.1-flash
+3701,KMOD,Modesto City Co-Harry Sham Field,莫德斯托市县机场（哈里·沙姆机场）,llm:codex:deepseek-v4.1-flash
+3704,KMRB,Eastern WV Regional Airport/Shepherd Field,西弗吉尼亚东部地区机场/谢泼德机场,llm:codex:deepseek-v4.1-flash
+3710,KMSS,Massena International Airport Richards Field,马塞纳国际机场（理查兹机场）,llm:codex:deepseek-v4.1-flash
+3714,KMUI,Muir Army Air Field (Fort Indiantown Gap) Airport,缪尔陆军机场（印第安敦峡堡）,llm:codex:deepseek-v4.1-flash
+3715,KMUO,Mountain Home Air Force Base,芒廷霍姆空军基地,llm:codex:deepseek-v4.1-flash
+3718,KMYV,Yuba County Airport,尤巴县机场,llm:codex:deepseek-v4.1-flash
+3719,KNBC,Beaufort MCAS - Merritt Field,博福特海军陆战队航空站-梅里特机场,llm:codex:deepseek-v4.1-flash
+3722,KNEL,Lakehurst Maxfield Field Airport,莱克赫斯特马克斯菲尔德机场,llm:codex:deepseek-v4.1-flash
+3724,KNFG,Camp Pendleton MCAS (Munn Field) Airport,彭德尔顿营海军陆战队航空站（芒恩机场）,llm:codex:deepseek-v4.1-flash
+3725,KNFL,Fallon Naval Air Station,法伦海军航空站,llm:codex:deepseek-v4.1-flash
+3726,KNGP,Naval Air Station Corpus Christi Truax Field,科珀斯克里斯蒂海军航空站特鲁阿克斯机场,llm:codex:deepseek-v4.1-flash
+3727,KNGU,Norfolk Naval Station (Chambers Field),诺福克海军基地（钱伯斯机场）,llm:codex:deepseek-v4.1-flash
+3728,KNHK,Patuxent River Naval Air Station (Trapnell Field),帕塔克森特河海军航空站（特拉普内尔机场）,llm:codex:deepseek-v4.1-flash
+3729,KBXM,Brunswick Executive Airport,布伦瑞克行政机场,llm:codex:deepseek-v4.1-flash
+3732,KNKT,Cherry Point MCAS / Cunningham Field/,切里波因特海军陆战队航空站/坎宁安机场,llm:codex:deepseek-v4.1-flash
+3733,KNKX,Miramar Marine Corps Air Station - Mitscher Field,米拉马尔海军陆战队航空站-米切尔机场,llm:codex:deepseek-v4.1-flash
+3734,KNMM,Naval Air Station Meridian / McCain Field,默里迪恩海军航空站/麦凯恩机场,llm:codex:deepseek-v4.1-flash
+3735,KNPA,Naval Air Station Pensacola Forrest Sherman Field,彭萨科拉海军航空站福雷斯特·谢尔曼机场,llm:codex:deepseek-v4.1-flash
+3736,KNQA,Millington-Memphis Airport,米灵顿-孟菲斯机场,llm:codex:deepseek-v4.1-flash
+3737,KNQI,Kingsville Naval Air Station,金斯维尔海军航空站,llm:codex:deepseek-v4.1-flash
+3738,KNQX,Naval Air Station Key West/Boca Chica Field,基韦斯特海军航空站/博卡奇卡机场,llm:codex:deepseek-v4.1-flash
+3739,KNTD,Point Mugu Naval Air Station (Naval Base Ventura Co),穆古角海军航空站（文图拉县海军基地）,llm:codex:deepseek-v4.1-flash
+3740,KNTU,Oceana Naval Air Station,奥希阿纳海军航空站,llm:codex:deepseek-v4.1-flash
+3741,KNUQ,Moffett Federal Airfield,莫菲特联邦机场,llm:codex:deepseek-v4.1-flash
+3743,KNZY,North Island Naval Air Station-Halsey Field,北岛海军航空站-哈尔西机场,llm:codex:deepseek-v4.1-flash
+3745,KOFF,Offutt Air Force Base,奥法特空军基地,llm:codex:deepseek-v4.1-flash
+3746,KOGD,Ogden Hinckley Airport,奥格登·欣克利机场,llm:codex:deepseek-v4.1-flash
+3750,KOLU,Columbus Municipal Airport,哥伦布市政机场,llm:codex:deepseek-v4.1-flash
+3753,KOQU,Quonset State Airport,匡塞特州立机场,llm:codex:deepseek-v4.1-flash
+3757,KOSH,Wittman Regional Airport,维特曼地区机场,llm:codex:deepseek-v4.1-flash
+3760,KOTM,Ottumwa Regional Airport,奥塔姆瓦地区机场,llm:codex:deepseek-v4.1-flash
+3761,KOWB,Owensboro Daviess County Airport,欧文斯伯勒-戴维斯县机场,llm:codex:deepseek-v4.1-flash
+3762,KOZR,Cairns AAF (Fort Rucker) Air Field,凯恩斯陆军机场（拉克堡）,llm:codex:deepseek-v4.1-flash
+3764,KPAH,Barkley Regional Airport,巴克利地区机场,llm:codex:deepseek-v4.1-flash
+3765,KPAM,Tyndall Air Force Base,廷德尔空军基地,llm:codex:deepseek-v4.1-flash
+3767,KPDK,DeKalb Peachtree Airport,迪卡尔布-桃树机场,llm:codex:deepseek-v4.1-flash
+3774,KPIB,Hattiesburg Laurel Regional Airport,哈蒂斯堡-劳雷尔地区机场,llm:codex:deepseek-v4.1-flash
+3781,KPLN,Pellston Regional Airport of Emmet County Airport,佩尔斯顿地区机场（埃米特县机场）,llm:codex:deepseek-v4.1-flash
+3784,KPOB,Pope Field,波普机场,llm:codex:deepseek-v4.1-flash
+3785,KPOE,Polk Army Air Field,波尔克陆军机场,llm:codex:deepseek-v4.1-flash
+3786,KPOU,Dutchess County Airport,达奇斯县机场,llm:codex:deepseek-v4.1-flash
+3790,KPRX,Cox Field,考克斯机场,llm:codex:deepseek-v4.1-flash
+3793,KPTK,Oakland County International Airport,奥克兰县国际机场,llm:codex:deepseek-v4.1-flash
+3837,KRAL,Riverside Municipal Airport,里弗赛德市政机场,llm:codex:deepseek-v4.1-flash
+3839,KRBL,Red Bluff Municipal Airport,雷德布拉夫市政机场,llm:codex:deepseek-v4.1-flash
+3840,KRCA,Ellsworth Air Force Base,埃尔斯沃思空军基地,llm:codex:deepseek-v4.1-flash
+3846,KRHI,Rhinelander Oneida County Airport,莱茵兰德-奥奈达县机场,llm:codex:deepseek-v4.1-flash
+3850,KRKS,Southwest Wyoming Regional Airport,怀俄明西南地区机场,llm:codex:deepseek-v4.1-flash
+3851,KRMG,Richard B Russell Airport,理查德·B·拉塞尔机场,llm:codex:deepseek-v4.1-flash
+3852,KRND,Randolph Air Force Base,伦道夫空军基地,llm:codex:deepseek-v4.1-flash
+3859,KRUT,Rutland - Southern Vermont Regional Airport,拉特兰-南佛蒙特地区机场,llm:codex:deepseek-v4.1-flash
+3860,KRWI,Rocky Mount Wilson Regional Airport,落基山城-威尔逊地区机场,llm:codex:deepseek-v4.1-flash
+3865,KSAW,Marquette Sawyer Regional Airport,马凯特-索耶地区机场,llm:codex:deepseek-v4.1-flash
+3874,KSDM,Brown Field Municipal Airport,布朗市政机场,llm:codex:deepseek-v4.1-flash
+3877,KSFF,Felts Field,费尔茨机场,llm:codex:deepseek-v4.1-flash
+3881,KSHR,Sheridan County Airport,谢里登县机场,llm:codex:deepseek-v4.1-flash
+3885,KSKA,Fairchild Air Force Base,费尔柴尔德空军基地,llm:codex:deepseek-v4.1-flash
+3886,KSKF,Lackland Air Force Base,拉克兰空军基地,llm:codex:deepseek-v4.1-flash
+3888,KSLE,Salem-Willamette Valley Airport/McNary Field,塞勒姆-威拉米特谷机场/麦克纳里机场,llm:codex:deepseek-v4.1-flash
+3889,KSLI,Los Alamitos Army Air Field,洛斯阿拉米托斯陆军机场,llm:codex:deepseek-v4.1-flash
+3890,KSLK,Adirondack Regional Airport,阿迪朗达克地区机场,llm:codex:deepseek-v4.1-flash
+3895,KSNS,Salinas Municipal Airport,萨利纳斯市政机场,llm:codex:deepseek-v4.1-flash
+3897,KSPI,Abraham Lincoln Capital Airport,亚伯拉罕·林肯首府机场,llm:codex:deepseek-v4.1-flash
+3900,KSRR,Sierra Blanca Regional Airport,谢拉布兰卡地区机场,llm:codex:deepseek-v4.1-flash
+3901,KSSC,Shaw Air Force Base,肖空军基地,llm:codex:deepseek-v4.1-flash
+3904,KSTJ,Rosecrans Memorial Airport,罗斯克兰斯纪念机场,llm:codex:deepseek-v4.1-flash
+3906,KSTP,Saint Paul Downtown Holman Field,圣保罗市中心霍尔曼机场,llm:codex:deepseek-v4.1-flash
+3907,KSUS,Spirit of St Louis Airport,圣路易斯精神机场,llm:codex:deepseek-v4.1-flash
+3908,KSUU,Travis Air Force Base,特拉维斯空军基地,llm:codex:deepseek-v4.1-flash
+3910,KSVN,Hunter Army Air Field,亨特陆军机场,llm:codex:deepseek-v4.1-flash
+3912,KSWO,Stillwater Regional Airport,斯蒂尔沃特地区机场,llm:codex:deepseek-v4.1-flash
+3914,KSZL,Whiteman Air Force Base,怀特曼空军基地,llm:codex:deepseek-v4.1-flash
+3915,KTBN,Waynesville-St. Robert Regional Airport-Forney Field,韦恩斯维尔-圣罗伯特地区机场-福尼机场,llm:codex:deepseek-v4.1-flash
+3918,KTCM,McChord Air Force Base,麦科德空军基地,llm:codex:deepseek-v4.1-flash
+3919,KTCS,Truth or Consequences Municipal Airport,特鲁斯或康西昆西斯市政机场,llm:codex:deepseek-v4.1-flash
+3921,KTIK,Tinker Air Force Base,廷克空军基地,llm:codex:deepseek-v4.1-flash
+3922,KTIW,Tacoma Narrows Airport,塔科马海峡机场,llm:codex:deepseek-v4.1-flash
+3923,KTIX,Space Coast Regional Airport,太空海岸地区机场,llm:codex:deepseek-v4.1-flash
+3927,KTPL,Draughon Miller Central Texas Regional Airport,德劳恩-米勒中得克萨斯地区机场,llm:codex:deepseek-v4.1-flash
+3934,KTVL,Lake Tahoe Airport,太浩湖机场,llm:codex:deepseek-v4.1-flash
+3935,KTWF,Joslin Field Magic Valley Regional Airport,乔斯林机场-魔谷地区机场,llm:codex:deepseek-v4.1-flash
+3941,KUKI,Ukiah Municipal Airport,尤凯亚市政机场,llm:codex:deepseek-v4.1-flash
+3942,KUOX,University Oxford Airport,大学-牛津机场,llm:codex:deepseek-v4.1-flash
+3943,KVAD,Moody Air Force Base,穆迪空军基地,llm:codex:deepseek-v4.1-flash
+3944,KVBG,Vandenberg Space Force Base,范登堡太空军基地,llm:codex:deepseek-v4.1-flash
+3947,KVOK,Volk Field,沃尔克机场,llm:codex:deepseek-v4.1-flash
+3949,KVPZ,Porter County Municipal Airport,波特县市政机场,llm:codex:deepseek-v4.1-flash
+3951,KWRB,Robins Air Force Base,罗宾斯空军基地,llm:codex:deepseek-v4.1-flash
+3952,KWRI,Mc Guire Air Force Base,麦圭尔空军基地,llm:codex:deepseek-v4.1-flash
+3953,KWRL,Worland Municipal Airport,沃兰市政机场,llm:codex:deepseek-v4.1-flash
+3954,KWWD,Cape May County Airport,开普梅县机场,llm:codex:deepseek-v4.1-flash
+3955,KWYS,Yellowstone Airport,黄石机场,llm:codex:deepseek-v4.1-flash
+3956,KXMR,Cape Canaveral SFS Skid Strip,卡纳维拉尔角太空军基地滑行道,llm:codex:deepseek-v4.1-flash
+3961,KNYL,Yuma International Airport / Marine Corps Air Station Yuma,尤马国际机场/尤马海军陆战队航空站,llm:codex:deepseek-v4.1-flash
+3982,LCRA,RAF Akrotiri,阿克罗蒂里皇家空军基地,llm:codex:deepseek-v4.1-flash
+3995,HR-0034,Udbina Airfield,乌德比纳机场,llm:codex:deepseek-v4.1-flash
+4000,LEBA,Córdoba Airport,科尔多瓦机场,llm:codex:deepseek-v4.1-flash
+4009,LEGA,Armilla Air Base,阿米利亚空军基地,llm:codex:deepseek-v4.1-flash
+4022,LEMO,Moron Air Base,莫龙空军基地,llm:codex:deepseek-v4.1-flash
+4032,LERT,Rota Naval Station Airport,罗塔海军基地机场,llm:codex:deepseek-v4.1-flash
+4039,LESU,Pirineus - la Seu d'Urgel Airport,比利牛斯-拉塞乌杜尔赫尔机场,llm:codex:deepseek-v4.1-flash
+4050,LFAC,Calais Marck Airport,加来-马克机场,llm:codex:deepseek-v4.1-flash
+4051,LFAG,Péronne Saint-Quentin Airfield,佩罗讷-圣康坦机场,llm:codex:deepseek-v4.1-flash
+4056,LFAV,Valenciennes-Denain Airfield,瓦朗谢讷-德南机场,llm:codex:deepseek-v4.1-flash
+4057,LFAY,Amiens Glisy Airfield,亚眠-格利西机场,llm:codex:deepseek-v4.1-flash
+4059,LFBC,Cazaux (BA 120) Air Base,卡佐空军基地,llm:codex:deepseek-v4.1-flash
+4062,LFBF,Toulouse-Francazal (BA 101) Air Base,图卢兹-弗朗卡扎尔空军基地,llm:codex:deepseek-v4.1-flash
+4063,LFBG,Cognac-Châteaubernard (BA 709) Air Base,科尼亚克-沙托贝尔纳尔空军基地,llm:codex:deepseek-v4.1-flash
+4066,LFBK,Montluçon-Guéret Airport,蒙吕松-盖雷机场,llm:codex:deepseek-v4.1-flash
+4068,LFBM,Mont-de-Marsan (BA 118) Air Base,蒙德马桑空军基地,llm:codex:deepseek-v4.1-flash
+4069,LFBN,Niort - Marais Poitevin Airport,尼奥尔-普瓦图沼泽机场,llm:codex:deepseek-v4.1-flash
+4078,LFCC,Cahors Lalbenque airport,卡奥尔-拉尔邦克机场,llm:codex:deepseek-v4.1-flash
+4079,LFCG,Aérodrome de Saint-Girons - Antichan,圣吉龙-昂蒂尚机场,llm:codex:deepseek-v4.1-flash
+4080,LFCH,Aérodrome d'Arcachon-La Teste-de-Buch,阿卡雄-拉泰斯特德比什机场,llm:codex:deepseek-v4.1-flash
+4081,LFCI,Albi Le Sequestre airport,阿尔比-勒塞凯斯特尔机场,llm:codex:deepseek-v4.1-flash
+4089,LFCY,Royan-Médis Airport,鲁瓦扬-梅迪机场,llm:codex:deepseek-v4.1-flash
+4093,LFDH,Auch Gers Airfield,欧什-热尔机场,llm:codex:deepseek-v4.1-flash
+4097,LFDN,Rochefort-Saint-Agnant (BA 721) Airport,罗什福尔-圣阿尼昂机场,llm:codex:deepseek-v4.1-flash
+4109,LFGW,Verdun-Le Rozelier Airfield,凡尔登-勒罗泽利耶机场,llm:codex:deepseek-v4.1-flash
+4110,LFHO,Aubenas-South Ardèche Airport,欧布纳-南阿尔代什机场,llm:codex:deepseek-v4.1-flash
+4128,LFKS,Solenzara (BA 126) Air Base,索伦扎拉空军基地,llm:codex:deepseek-v4.1-flash
+4130,LFLA,Auxerre Branches airport,欧塞尔-布朗什机场,llm:codex:deepseek-v4.1-flash
+4138,LFLM,Mâcon-Charnay Airfield,马孔-沙尔奈机场,llm:codex:deepseek-v4.1-flash
+4140,LFLO,Roanne-Renaison Airport,罗阿讷-勒奈松机场,llm:codex:deepseek-v4.1-flash
+4145,LFLV,Vichy-Charmeil Airport,维希-沙尔梅伊机场,llm:codex:deepseek-v4.1-flash
+4150,LFMC,Le Luc-Le Cannet Airfield,勒吕克-勒卡内机场,llm:codex:deepseek-v4.1-flash
+4153,LFMI,Istres-Le Tubé Air Base,伊斯特尔-勒图贝空军基地,llm:codex:deepseek-v4.1-flash
+4157,LFMO,Orange-Caritat (BA 115) Air Base,奥朗日-卡里塔空军基地,llm:codex:deepseek-v4.1-flash
+4159,LFMQ,Le Castellet Airport,勒卡斯特莱机场,llm:codex:deepseek-v4.1-flash
+4160,LFMS,Aérodrome d'Alès Cévennes,阿莱斯-塞文机场,llm:codex:deepseek-v4.1-flash
+4164,LFMY,Salon-de-Provence (BA 701) Air Base,普罗旺斯地区萨隆空军基地,llm:codex:deepseek-v4.1-flash
+4166,LFNB,Mende-Brenoux Airfield,芒德-布勒努机场,llm:codex:deepseek-v4.1-flash
+4168,LFOA,Avord (BA 702) Air Base,阿沃尔空军基地,llm:codex:deepseek-v4.1-flash
+4170,LFOC,Châteaudun Airfield,沙托丹机场,llm:codex:deepseek-v4.1-flash
+4172,LFOE,Évreux-Fauville (BA 105) Air Base,埃夫勒-福维尔空军基地,llm:codex:deepseek-v4.1-flash
+4174,LFOI,Abbeville-Buigny Baie de Somme Airfield,阿布维尔-比尼索姆湾机场,llm:codex:deepseek-v4.1-flash
+4175,LFOJ,Orléans-Bricy (BA 123) Air Base,奥尔良-布里西空军基地,llm:codex:deepseek-v4.1-flash
+4187,LFPM,Melun-Villaroche Airfield,默伦-维拉罗什机场,llm:codex:deepseek-v4.1-flash
+4188,LFPN,Toussus-le-Noble Airport,图叙勒诺布尔机场,llm:codex:deepseek-v4.1-flash
+4190,LFPT,Pontoise-Cormeilles Aerodrome,蓬图瓦兹-科尔梅耶机场,llm:codex:deepseek-v4.1-flash
+4191,LFPV,Vélizy-Villacoublay Air Base,韦利济-维拉库布莱空军基地,llm:codex:deepseek-v4.1-flash
+4193,LFQB,Troyes-Barberey Airport,特鲁瓦-巴伯雷机场,llm:codex:deepseek-v4.1-flash
+4195,LFQE,Lieutenant Étienne Mantoux Air Base,艾蒂安·芒图中尉空军基地,llm:codex:deepseek-v4.1-flash
+4201,LFQP,Phalsbourg-Bourscheid Air Base,法尔斯堡-布尔沙伊德空军基地,llm:codex:deepseek-v4.1-flash
+4203,LFQT,Merville-Calonne Airport,梅维尔-卡洛讷机场,llm:codex:deepseek-v4.1-flash
+4204,LFQV,Charleville-Mézières Ardennes-Etienne Riché Airfield,沙勒维尔-梅济耶尔阿登-艾蒂安·里谢机场,llm:codex:deepseek-v4.1-flash
+4205,LFQW,Vesoul-Frotey Airfield,沃苏勒-弗罗泰机场,llm:codex:deepseek-v4.1-flash
+4210,LFRF,Granville Airport,格朗维尔机场,llm:codex:deepseek-v4.1-flash
+4216,LFRL,Lanvéoc-Poulmic Air Base,朗韦奥克-普尔米克空军基地,llm:codex:deepseek-v4.1-flash
+4232,LFSI,Saint-Dizier – Robinson Air Base,圣迪济耶-罗宾逊空军基地,llm:codex:deepseek-v4.1-flash
+4233,LFSM,Montbéliard-Courcelles Airfield,蒙贝利亚尔-库尔塞勒机场,llm:codex:deepseek-v4.1-flash
+4235,LFSO,Nancy-Ochey (BA 133) Air Base,南锡-奥谢空军基地,llm:codex:deepseek-v4.1-flash
+4239,LFSX,Luxeuil-Saint-Sauveur (BA 116) Air Base,吕克瑟伊-圣索沃尔空军基地,llm:codex:deepseek-v4.1-flash
+4246,LFXA,Ambérieu Air Base (BA 278),昂贝里厄空军基地,llm:codex:deepseek-v4.1-flash
+4248,LGAD,Andravida Air Base,安德拉维达空军基地,llm:codex:deepseek-v4.1-flash
+4254,LGEL,Elefsis Air Base,埃莱夫西斯空军基地,llm:codex:deepseek-v4.1-flash
+4257,LGIO,Ioannina King Pyrrhus National Airport,约阿尼纳皮洛士国王国家机场,llm:codex:deepseek-v4.1-flash
+4269,LGKZ,Kozani National Airport Filippos,科扎尼菲利波斯国家机场,llm:codex:deepseek-v4.1-flash
+4287,LGST,Sitia Airport,锡蒂亚机场,llm:codex:deepseek-v4.1-flash
+4290,LGTG,Tanagra Air Base,塔纳格拉空军基地,llm:codex:deepseek-v4.1-flash
+4302,LHPP,Pécs-Pogány International Airport,佩奇-波加尼国际机场,llm:codex:deepseek-v4.1-flash
+4303,LHPR,Győr-Pér Airport,杰尔-佩尔机场,llm:codex:deepseek-v4.1-flash
+4308,LIBA,Amendola Air Base,阿门多拉空军基地,llm:codex:deepseek-v4.1-flash
+4311,LIBF,Foggia Gino Lisa Airport,福贾吉诺·利萨机场,llm:codex:deepseek-v4.1-flash
+4312,LIBG,Taranto-Grottaglie Marcello Arlotta Airport,塔兰托-格罗塔列机场,llm:codex:deepseek-v4.1-flash
+4313,LIBN,Lecce Galatina Air Base / Galatina Fortunato Cesari Airport,莱切加拉蒂纳空军基地,llm:codex:deepseek-v4.1-flash
+4316,LIBV,Gioia del Colle Antonio Ramirez Air Base,焦亚德尔科莱空军基地,llm:codex:deepseek-v4.1-flash
+4322,LICP,Palermo-Boccadifalco Airport,巴勒莫-博卡迪法尔科机场,llm:codex:deepseek-v4.1-flash
+4325,LICZ,Sigonella Navy Air Base,锡戈内拉海军航空基地,llm:codex:deepseek-v4.1-flash
+4329,LIDT,Trento-Mattarello Airport,特伦托-马塔雷洛机场,llm:codex:deepseek-v4.1-flash
+4334,LIET,Tortolì Airport,托尔托利机场,llm:codex:deepseek-v4.1-flash
+4335,LILE,Biella-Cerrione Airfield,比耶拉-切里奥内机场,llm:codex:deepseek-v4.1-flash
+4337,LILN,Varese-Venegono Airport,瓦雷泽-韦内戈诺机场,llm:codex:deepseek-v4.1-flash
+4338,LIMA,Torino-Aeritalia Airport,都灵-阿埃里塔利亚机场,llm:codex:deepseek-v4.1-flash
+4346,LIMN,Cameri Air Base,卡梅里空军基地,llm:codex:deepseek-v4.1-flash
+4348,LIMS,Piacenza San Damiano Air Base,皮亚琴察圣达米亚诺空军基地,llm:codex:deepseek-v4.1-flash
+4353,LIPC,Cervia Air Base,切尔维亚空军基地,llm:codex:deepseek-v4.1-flash
+4356,LIPI,Udine-Rivolto Air Base,乌迪内-里沃尔托空军基地,llm:codex:deepseek-v4.1-flash
+4358,LIPL,Ghedi Air Base,盖迪空军基地,llm:codex:deepseek-v4.1-flash
+4363,LIPS,Istrana Air Base,伊斯特拉纳空军基地,llm:codex:deepseek-v4.1-flash
+4365,LIPU,Padova Gino Allegri Airfield,帕多瓦吉诺·阿莱格里机场,llm:codex:deepseek-v4.1-flash
+4369,LIQS,Siena-Ampugnano Airport,锡耶纳-安普尼亚诺机场,llm:codex:deepseek-v4.1-flash
+4371,LIRE,Pratica di Mare Air Base,普拉蒂卡迪马雷空军基地,llm:codex:deepseek-v4.1-flash
+4373,LIRG,Guidonia Air Base,圭多尼亚空军基地,llm:codex:deepseek-v4.1-flash
+4375,LIRJ,Marina di Campo Airport,马里纳迪坎波机场,llm:codex:deepseek-v4.1-flash
+4376,LIRL,Latina Air Base,拉蒂纳空军基地,llm:codex:deepseek-v4.1-flash
+4377,LIRM,Grazzanise Air Base,格拉扎尼塞空军基地,llm:codex:deepseek-v4.1-flash
+4381,LIRS,Grosseto Corrado Baccarini Air Base / Grosseto Airport,格罗塞托机场,llm:codex:deepseek-v4.1-flash
+4385,LJCE,Cerklje ob Krki Air Base,采尔克列奥布克尔基空军基地,llm:codex:deepseek-v4.1-flash
+4393,LKCS,České Budějovice South Bohemian Airport,捷克布杰约维采机场,llm:codex:deepseek-v4.1-flash
+4394,LKCV,Čáslav Air Base,恰斯拉夫空军基地,llm:codex:deepseek-v4.1-flash
+4397,LKKB,Prague–Kbely Air Base,布拉格-克贝利空军基地,llm:codex:deepseek-v4.1-flash
+4398,LKKU,Kunovice Airport,库诺维采机场,llm:codex:deepseek-v4.1-flash
+4400,LKLN,Plzeň-Líně Airport,比尔森-利涅机场,llm:codex:deepseek-v4.1-flash
+4403,LKNA,Náměšť Air Base,纳梅什季空军基地,llm:codex:deepseek-v4.1-flash
+4410,LKVO,Vodochody Airport,沃多霍迪机场,llm:codex:deepseek-v4.1-flash
+4413,LLEK,Tel Nof Air Base,特尔诺夫空军基地,llm:codex:deepseek-v4.1-flash
+4419,LLIB,Rosh Pina Airport,罗什平纳机场,llm:codex:deepseek-v4.1-flash
+4421,LLMZ,Bar Yehuda Airfield,巴尔·耶胡达机场,llm:codex:deepseek-v4.1-flash
+4422,LLNV,Nevatim Air Base,内瓦提姆空军基地,llm:codex:deepseek-v4.1-flash
+4424,LLRD,Ramat David Air Base,拉马特戴维空军基地,llm:codex:deepseek-v4.1-flash
+4425,LLRM,Ramon Air Base,拉蒙空军基地,llm:codex:deepseek-v4.1-flash
+4428,LOAN,Wiener Neustadt East Airport,维也纳新城东机场,llm:codex:deepseek-v4.1-flash
+4436,LOXZ,Hinterstoisser Air Base,策尔特韦格空军基地,llm:codex:deepseek-v4.1-flash
+4437,LPAR,Alverca Air Base,阿尔韦卡空军基地,llm:codex:deepseek-v4.1-flash
+4453,LPMR,Monte Real Air Base,蒙特雷亚尔空军基地,llm:codex:deepseek-v4.1-flash
+4454,LPMT,Montijo Air Base,蒙蒂茹空军基地,llm:codex:deepseek-v4.1-flash
+4464,LPTN,Tancos Airbase,坦科斯空军基地,llm:codex:deepseek-v4.1-flash
+4466,LPVZ,Aerodromo Goncalves Lobato (Viseu Airport),维塞乌机场,llm:codex:deepseek-v4.1-flash
+4486,LRTC,Tulcea Danube Delta Airport,图尔恰多瑙河三角洲机场,llm:codex:deepseek-v4.1-flash
+4489,LSGC,Les Eplatures Airport,拉绍德封机场,llm:codex:deepseek-v4.1-flash
+4493,LSMA,Alpnach Air Base,阿尔卑纳赫空军基地,llm:codex:deepseek-v4.1-flash
+4494,LSMD,Dübendorf Air Base,迪本多夫空军基地,llm:codex:deepseek-v4.1-flash
+4495,LSME,Emmen Air Base,埃门空军基地,llm:codex:deepseek-v4.1-flash
+4506,LSZR,Sankt Gallen Altenrhein Airport,圣加仑-阿尔滕莱茵机场,llm:codex:deepseek-v4.1-flash
+4507,LSZS,Engadin Airport,萨梅丹机场,llm:codex:deepseek-v4.1-flash
+4511,LTAE,Akıncı Air Base,阿肯哲空军基地,llm:codex:deepseek-v4.1-flash
+4513,LTAG,İncirlik Air Base,因吉尔利克空军基地,llm:codex:deepseek-v4.1-flash
+4521,LTAR,Sivas Nuri Demirağ Airport,锡瓦斯努里·德米拉机场,llm:codex:deepseek-v4.1-flash
+4528,LTBA,İstanbul Atatürk Airport,伊斯坦布尔阿塔图尔克机场,llm:codex:deepseek-v4.1-flash
+4535,LTBL,Çiğli Airbase,奇利空军基地,llm:codex:deepseek-v4.1-flash
+4540,LTBQ,Cengiz Topel Airport,坚吉兹·托佩尔机场,llm:codex:deepseek-v4.1-flash
+4543,LTBT,Akhisar Airport / Akhisar Air Base,阿克希萨尔机场,llm:codex:deepseek-v4.1-flash
+4546,LTBX,İstanbul Samandıra Army Air Base,伊斯坦布尔萨曼德拉陆军航空基地,llm:codex:deepseek-v4.1-flash
+4566,LTFD,Balıkesir Koca Seyit Airport,巴勒克埃西尔科贾塞伊特机场,llm:codex:deepseek-v4.1-flash
+4582,HL56,Matan al-Sarra Air Base,马坦萨拉空军基地,llm:codex:deepseek-v4.1-flash
+4602,HL77,Okba Ibn Nafa Air Base,奥克巴·伊本·纳法空军基地,llm:codex:deepseek-v4.1-flash
+4611,LYBT,Batajnica Air Base,巴塔伊尼察空军基地,llm:codex:deepseek-v4.1-flash
+4619,LZMC,Malacky/Kuchyňa Air Base,马拉茨基/库希尼亚空军基地,llm:codex:deepseek-v4.1-flash
+4624,LZZI,Žilina-Dolný Hričov Airport,日利纳-下赫里乔夫机场,llm:codex:deepseek-v4.1-flash
+4627,MBNC,North Caicos Airport,北凯科斯机场,llm:codex:deepseek-v4.1-flash
+4629,MBSC,South Caicos Airport,南凯科斯机场,llm:codex:deepseek-v4.1-flash
+4630,LUBM,Mărculești Air Base,默尔库莱什蒂空军基地,llm:codex:deepseek-v4.1-flash
+4632,MDBH,Maria Montez International Airport,玛丽亚·蒙特兹国际机场,llm:codex:deepseek-v4.1-flash
+4639,MDSI,San Isidro Air Base,圣伊西德罗空军基地,llm:codex:deepseek-v4.1-flash
+4646,MGRB,Rubelsanto Airport,鲁贝尔桑托机场,llm:codex:deepseek-v4.1-flash
+4648,MGSJ,San José Airport,圣何塞机场,llm:codex:deepseek-v4.1-flash
+4660,MHLC,Golosón International Airport,戈洛松国际机场,llm:codex:deepseek-v4.1-flash
+4667,MHTJ,Trujillo Airport,特鲁希略机场,llm:codex:deepseek-v4.1-flash
+4679,MKBS,Ian Fleming International Airport,伊恩·弗莱明国际机场,llm:codex:deepseek-v4.1-flash
+4682,MKKJ,Ken Jones Airport,肯·琼斯机场,llm:codex:deepseek-v4.1-flash
+4683,MKTP,Tinson Pen Airport,廷森彭机场,llm:codex:deepseek-v4.1-flash
+4690,MMAN,Del Norte International Airport,德尔诺特国际机场,llm:codex:deepseek-v4.1-flash
+4693,MMCB,General Mariano Matamoros International Airport,库埃纳瓦卡国际机场,llm:codex:deepseek-v4.1-flash
+4703,MMCU,General Roberto Fierro Villalobos International Airport,奇瓦瓦国际机场,llm:codex:deepseek-v4.1-flash
+4704,MMCV,General Pedro Jose Mendez International Airport,维多利亚城国际机场,llm:codex:deepseek-v4.1-flash
+4709,MMES,Ensenada International Airport / El Ciprés Air Base,恩塞纳达国际机场,llm:codex:deepseek-v4.1-flash
+4711,MMGM,General José María Yáñez International Airport,瓜伊马斯国际机场,llm:codex:deepseek-v4.1-flash
+4716,MMIO,Plan de Guadalupe International Airport,萨尔蒂约国际机场,llm:codex:deepseek-v4.1-flash
+4717,MMIT,General Antonio Cárdenas Rodríguez National Airport / Ixtepec Air Base,伊斯特佩克国家机场,llm:codex:deepseek-v4.1-flash
+4721,MMLM,Valle del Fuerte International Airport,洛斯莫奇斯国际机场,llm:codex:deepseek-v4.1-flash
+4723,MMLP,Manuel Márquez de León International Airport,拉巴斯国际机场,llm:codex:deepseek-v4.1-flash
+4725,MMMA,General Servando Canales International Airport,马塔莫罗斯国际机场,llm:codex:deepseek-v4.1-flash
+4729,MMMT,Minatitlán/Coatzacoalcos International Airport,米纳蒂特兰/夸察夸尔科斯国际机场,llm:codex:deepseek-v4.1-flash
+4734,MMNG,Nogales International Airport,诺加莱斯国际机场,llm:codex:deepseek-v4.1-flash
+4735,MMNL,Quetzalcóatl International Airport,新拉雷多国际机场,llm:codex:deepseek-v4.1-flash
+4748,MMRX,General Lucio Blanco International Airport,雷诺萨国际机场,llm:codex:deepseek-v4.1-flash
+4754,MMTB,Terán Air Base,特兰空军基地,llm:codex:deepseek-v4.1-flash
+4787,MPCE,Alonso Valderrama Airport,阿隆索·巴尔德拉马机场,llm:codex:deepseek-v4.1-flash
+4788,MPCH,Changuinola Captain Manuel Niño International Airport,昌吉诺拉曼努埃尔·尼诺国际机场,llm:codex:deepseek-v4.1-flash
+4789,MPDA,Enrique Malek International Airport,恩里克·马莱克国际机场,llm:codex:deepseek-v4.1-flash
+4792,MPSA,Ruben Cantu Airport,鲁本·坎图机场,llm:codex:deepseek-v4.1-flash
+4795,MRAO,Aerotortuguero Airport,托尔图格罗机场,llm:codex:deepseek-v4.1-flash
+4796,MRBA,Buenos Aires Airport,布宜诺斯艾利斯机场,llm:codex:deepseek-v4.1-flash
+4798,MRCC,Coto 47 Airport,科托47机场,llm:codex:deepseek-v4.1-flash
+4809,MRNS,Nosara Airport,诺萨拉机场,llm:codex:deepseek-v4.1-flash
+4826,MUBA,Gustavo Rizo Airport,古斯塔沃·里索机场,llm:codex:deepseek-v4.1-flash
+4832,MUCF,Jaime Gonzalez Airport,海梅·冈萨雷斯机场,llm:codex:deepseek-v4.1-flash
+4837,MUGM,Leeward Point Field,背风角机场,llm:codex:deepseek-v4.1-flash
+4838,MUGT,Mariana Grajales Airport,玛丽安娜·格拉哈莱斯机场,llm:codex:deepseek-v4.1-flash
+4841,MUKW,Kawama Airport,卡瓦马机场,llm:codex:deepseek-v4.1-flash
+4846,MUMO,Orestes Acosta Airport,奥雷斯特斯·阿科斯塔机场,llm:codex:deepseek-v4.1-flash
+4847,MUMZ,Sierra Maestra International Airport,马埃斯特拉山国际机场,llm:codex:deepseek-v4.1-flash
+4849,MUNG,Rafael Cabrera Airport,拉斐尔·卡布雷拉机场,llm:codex:deepseek-v4.1-flash
+4851,MUPB,Playa Baracoa Airport,普拉亚巴拉科阿机场,llm:codex:deepseek-v4.1-flash
+4856,MUSN,Siguanea Airport,锡瓜内阿机场,llm:codex:deepseek-v4.1-flash
+4858,MUTD,Alberto Delgado Airport,阿尔贝托·德尔加多机场,llm:codex:deepseek-v4.1-flash
+4860,MUVT,Hermanos Ameijeiras Airport,阿梅赫拉斯兄弟机场,llm:codex:deepseek-v4.1-flash
+4861,MWCB,Charles Kirkconnell International Airport,查尔斯·柯克康奈尔国际机场,llm:codex:deepseek-v4.1-flash
+4933,MYBC,Chub Cay Airport,查布礁机场,llm:codex:deepseek-v4.1-flash
+4938,MYCI,Colonel Hill Airport,科洛内尔希尔机场,llm:codex:deepseek-v4.1-flash
+4943,MYEN,Normans Cay Airport,诺曼礁机场,llm:codex:deepseek-v4.1-flash
+4950,MYMM,Mayaguana Airport,马亚瓜纳机场,llm:codex:deepseek-v4.1-flash
+4973,NGTE,Tabiteuea North Airport,北塔比特韦亚机场,llm:codex:deepseek-v4.1-flash
+4980,NTAR,Rurutu Airport,鲁鲁图机场,llm:codex:deepseek-v4.1-flash
+4981,NTAT,Tubuai Airport,图布艾机场,llm:codex:deepseek-v4.1-flash
+4985,NTGC,Tikehau Airport,提克豪机场,llm:codex:deepseek-v4.1-flash
+4988,NTGI,Manihi Airport,马尼希机场,llm:codex:deepseek-v4.1-flash
+4990,NTGK,Kaukura Airport,考库拉机场,llm:codex:deepseek-v4.1-flash
+4993,NTGT,Takapoto Airport,塔卡波托机场,llm:codex:deepseek-v4.1-flash
+4995,NTGV,Mataiva Airport,马塔伊瓦机场,llm:codex:deepseek-v4.1-flash
+5000,NTKR,Takaroa Airport,塔卡罗阿机场,llm:codex:deepseek-v4.1-flash
+5001,NTMD,Nuku Hiva Airport,努库希瓦机场,llm:codex:deepseek-v4.1-flash
+5004,NTTG,Rangiroa Airport,伦吉拉机场,llm:codex:deepseek-v4.1-flash
+5005,NTTH,Huahine-Fare Airport,胡阿希内-法雷机场,llm:codex:deepseek-v4.1-flash
+5007,NTTO,Hao Airport,豪机场,llm:codex:deepseek-v4.1-flash
+5009,NTTR,Raiatea Airport,赖阿特阿机场,llm:codex:deepseek-v4.1-flash
+5013,NWWD,Koné Airport,科内机场,llm:codex:deepseek-v4.1-flash
+5025,NZAR,Ardmore Airport,阿德莫尔机场,llm:codex:deepseek-v4.1-flash
+5031,NZGT,Glentanner Airport,格伦坦纳机场,llm:codex:deepseek-v4.1-flash
+5037,NZKT,Kaitaia Airport,凯塔亚机场,llm:codex:deepseek-v4.1-flash
+5039,NZMC,Mount Cook Airport,库克山机场,llm:codex:deepseek-v4.1-flash
+5040,NZMO,Manapouri Airport,马纳普里机场,llm:codex:deepseek-v4.1-flash
+5041,NZMS,Hood Airport,胡德机场,llm:codex:deepseek-v4.1-flash
+5043,NZNR,Hawke's Bay Airport,霍克斯湾机场,llm:codex:deepseek-v4.1-flash
+5047,NZOU,Oamaru Airport,奥马鲁机场,llm:codex:deepseek-v4.1-flash
+5050,NZPP,Paraparaumu Airport,帕拉帕劳姆机场,llm:codex:deepseek-v4.1-flash
+5054,NZSP,Amundsen–Scott South Pole Station Airport,阿蒙森-斯科特南极站机场,llm:codex:deepseek-v4.1-flash
+5056,NZTU,Timaru Airport,蒂马鲁机场,llm:codex:deepseek-v4.1-flash
+5057,NZUK,Pukaki Airport,普卡基机场,llm:codex:deepseek-v4.1-flash
+5059,NZWD,Williams Field Skiway,威廉姆斯机场,llm:codex:deepseek-v4.1-flash
+5064,NZWO,Wairoa Airport,怀罗阿机场,llm:codex:deepseek-v4.1-flash
+5065,NZWP,RNZAF Base Auckland-Whenuapai,新西兰皇家空军奥克兰基地-温努阿派,llm:codex:deepseek-v4.1-flash
+5067,NZWS,Westport Airport,韦斯特波特机场,llm:codex:deepseek-v4.1-flash
+5074,OAMN,Maymana Zahiraddin Faryabi Airport,迈马纳扎希鲁丁·法里亚比机场,llm:codex:deepseek-v4.1-flash
+5080,OBBS,Sheik Isa Air Base,谢赫伊萨空军基地,llm:codex:deepseek-v4.1-flash
+5089,OEDR,King Abdulaziz Air Base,阿卜杜勒阿齐兹国王空军基地,llm:codex:deepseek-v4.1-flash
+5092,OEGT,Gurayat Domestic Airport,古赖亚特国内机场,llm:codex:deepseek-v4.1-flash
+5096,OEJF,King Faisal Naval Base,费萨尔国王海军基地,llm:codex:deepseek-v4.1-flash
+5098,OEKK,King Khaled Military City Airport,哈立德国王军事城机场,llm:codex:deepseek-v4.1-flash
+5109,OEPS,Prince Sultan Air Base,苏丹王子空军基地,llm:codex:deepseek-v4.1-flash
+5114,OERR,Arar Domestic Airport,阿拉尔国内机场,llm:codex:deepseek-v4.1-flash
+5118,OESH,Sharurah Domestic Airport,沙鲁拉国内机场,llm:codex:deepseek-v4.1-flash
+5124,OETN,Ras Tanajib Airport,拉斯坦纳吉卜机场,llm:codex:deepseek-v4.1-flash
+5127,OEWD,Wadi Al Dawasir Domestic Airport,瓦迪达瓦西尔国内机场,llm:codex:deepseek-v4.1-flash
+5134,OIAI,Shahid Asiyaee Airport,沙希德·阿西亚伊机场,llm:codex:deepseek-v4.1-flash
+5138,OIBA,Abu Musa Island Airport,阿布穆萨岛机场,llm:codex:deepseek-v4.1-flash
+5142,OIBJ,Jam Airport,贾姆机场,llm:codex:deepseek-v4.1-flash
+5146,OIBQ,Khark Airport,哈尔克机场,llm:codex:deepseek-v4.1-flash
+5148,OIBV,Lavan Airport,拉万机场,llm:codex:deepseek-v4.1-flash
+5152,OICS,Sanandaj Airport,萨南达季机场,llm:codex:deepseek-v4.1-flash
+5157,OIFP,Badr Air Base,巴德尔空军基地,llm:codex:deepseek-v4.1-flash
+5162,OIHS,Nojeh Air Base,诺杰空军基地,llm:codex:deepseek-v4.1-flash
+5205,OITZ,Zanjan Airport,赞詹机场,llm:codex:deepseek-v4.1-flash
+5210,OIZI,Iranshahr Airport,伊朗沙赫尔机场,llm:codex:deepseek-v4.1-flash
+5219,OKAS,Ali Al Salem Air Base,阿里·萨利姆空军基地,llm:codex:deepseek-v4.1-flash
+5223,OLKA,Rene Mouawad Air Base,勒内·穆阿瓦德空军基地,llm:codex:deepseek-v4.1-flash
+5227,OMAD,Al Bateen Executive Airport,巴廷行政机场,llm:codex:deepseek-v4.1-flash
+5231,OMAM,Al Dhafra Air Base,达夫拉空军基地,llm:codex:deepseek-v4.1-flash
+5236,OMDM,Al Minhad Air Base,明哈德空军基地,llm:codex:deepseek-v4.1-flash
+5241,OOMA,RAFO Masirah,马西拉空军基地,llm:codex:deepseek-v4.1-flash
+5245,OOTH,Thumrait Air Base,苏姆莱特空军基地,llm:codex:deepseek-v4.1-flash
+5254,OPJA,Shahbaz Air Base,沙赫巴兹空军基地,llm:codex:deepseek-v4.1-flash
+5259,OPMA,Mangla Airport,曼格拉机场,llm:codex:deepseek-v4.1-flash
+5261,OPMI,Mianwali Air Base,米扬瓦利空军基地,llm:codex:deepseek-v4.1-flash
+5263,OPMR,Masroor Air Base,马斯鲁尔空军基地,llm:codex:deepseek-v4.1-flash
+5268,OPPG,Panjgur Airport,潘杰古尔机场,llm:codex:deepseek-v4.1-flash
+5269,OPPI,Pasni Airport,帕斯尼机场,llm:codex:deepseek-v4.1-flash
+5274,OPRN,PAF Base Nur Khan (Benazir Bhutto International Airport),巴基斯坦空军努尔汗基地（贝娜齐尔·布托国际机场）,llm:codex:deepseek-v4.1-flash
+5275,OPRS,Risalpur Air Base,里萨尔普尔空军基地,llm:codex:deepseek-v4.1-flash
+5276,OPRT,Rawalakot Airport,拉瓦拉科特机场,llm:codex:deepseek-v4.1-flash
+5278,OPSF,Faisal Air Base,费萨尔空军基地,llm:codex:deepseek-v4.1-flash
+5280,OPSS,Saidu Sharif Airport,赛杜沙里夫机场,llm:codex:deepseek-v4.1-flash
+5281,OPSU,Sui Airport,苏伊机场,llm:codex:deepseek-v4.1-flash
+5286,ORAA,Al Asad Air Base,阿萨德空军基地,llm:codex:deepseek-v4.1-flash
+5287,ORAT,Al Taqaddum Air Base,塔卡杜姆空军基地,llm:codex:deepseek-v4.1-flash
+5288,ORBD,Balad Southeast Airport / Joint Base Balad,巴拉德东南机场/巴拉德联合基地,llm:codex:deepseek-v4.1-flash
+5295,ORQW,Qayyarah West Airport,盖亚拉机场,llm:codex:deepseek-v4.1-flash
+5296,ORSH,Al Sahra Army Air Field,萨赫拉陆军机场,llm:codex:deepseek-v4.1-flash
+5298,ORTF,Tall Afar Army Air Field,泰勒阿费尔陆军机场,llm:codex:deepseek-v4.1-flash
+5299,ORTI,Al Taji Army Air Field,塔吉陆军机场,llm:codex:deepseek-v4.1-flash
+5300,ORTL,Ali Air Base,阿里空军基地,llm:codex:deepseek-v4.1-flash
+5301,ORUB,Ubaydah Bin Al Jarrah Airport,乌拜达·本·贾拉赫机场,llm:codex:deepseek-v4.1-flash
+5307,OSPR,Palmyra Airport,巴尔米拉机场,llm:codex:deepseek-v4.1-flash
+5320,OYSY,Seiyun Hadhramaut International Airport,赛云-哈德拉毛国际机场,llm:codex:deepseek-v4.1-flash
+5336,PAAQ,"Warren ""Bud"" Woods Palmer Municipal Airport",帕尔默市立机场,llm:codex:deepseek-v4.1-flash
+5339,PABI,Allen Army Airfield,艾伦陆军机场,llm:codex:deepseek-v4.1-flash
+5342,PABR,Wiley Post Will Rogers Memorial Airport,威利·波斯特-威尔·罗杰斯纪念机场,llm:codex:deepseek-v4.1-flash
+5344,PABV,Birchwood Airport,伯奇伍德机场,llm:codex:deepseek-v4.1-flash
+5346,PACL,Clear Airport,克利尔机场,llm:codex:deepseek-v4.1-flash
+5348,PACV,Merle K (Mudhole) Smith Airport,梅尔·K·史密斯机场,llm:codex:deepseek-v4.1-flash
+5355,PAED,Elmendorf Air Force Base,埃尔门多夫空军基地,llm:codex:deepseek-v4.1-flash
+5357,PAEI,Eielson Air Force Base,艾尔森空军基地,llm:codex:deepseek-v4.1-flash
+5361,PAFB,Ladd Army Airfield,拉德陆军机场,llm:codex:deepseek-v4.1-flash
+5362,PAFE,Kake Airport,凯克机场,llm:codex:deepseek-v4.1-flash
+5365,PAGA,Edward G. Pitka Sr Airport,爱德华·G·皮特卡机场,llm:codex:deepseek-v4.1-flash
+5376,PAIK,Bob Baker Memorial Airport,鲍勃·贝克纪念机场,llm:codex:deepseek-v4.1-flash
+5377,PAIL,Iliamna Airport,伊利亚姆纳机场,llm:codex:deepseek-v4.1-flash
+5385,PALU,Cape Lisburne LRRS Airport,利斯本角远程雷达站机场,llm:codex:deepseek-v4.1-flash
+5386,PAMR,Merrill Field,梅里尔机场,llm:codex:deepseek-v4.1-flash
+5394,PAOR,Northway Airport,诺斯韦机场,llm:codex:deepseek-v4.1-flash
+5396,PAPB,St George Airport,圣乔治机场,llm:codex:deepseek-v4.1-flash
+5397,PAPC,Port Clarence Coast Guard Station,克拉伦斯港海岸警卫队站,llm:codex:deepseek-v4.1-flash
+5400,PAPM,Platinum Airport,普拉蒂纳姆机场,llm:codex:deepseek-v4.1-flash
+5403,PARY,Ruby Airport,鲁比机场,llm:codex:deepseek-v4.1-flash
+5410,PASN,St Paul Island Airport,圣保罗岛机场,llm:codex:deepseek-v4.1-flash
+5415,PATL,Tatalina LRRS Airport,塔塔利纳远程雷达站机场,llm:codex:deepseek-v4.1-flash
+5418,PAVD,Valdez Pioneer Field,瓦尔迪兹机场,llm:codex:deepseek-v4.1-flash
+5420,PAWD,Seward Airport,苏厄德机场,llm:codex:deepseek-v4.1-flash
+5421,PAWG,Wrangell Airport,兰格尔机场,llm:codex:deepseek-v4.1-flash
+5432,PGUA,Andersen Air Force Base,安德森空军基地,llm:codex:deepseek-v4.1-flash
+5441,PHBK,Barking Sands Airport,巴金沙机场,llm:codex:deepseek-v4.1-flash
+5450,PHMK,Molokai Airport,莫洛凯机场,llm:codex:deepseek-v4.1-flash
+5451,PHMU,Waimea Kohala Airport,怀梅阿-科哈拉机场,llm:codex:deepseek-v4.1-flash
+5454,PHNY,Lanai Airport,拉奈机场,llm:codex:deepseek-v4.1-flash
+5461,OP12,Shamsi Airfield,沙姆西机场,llm:codex:deepseek-v4.1-flash
+5495,PPIZ,Point Lay LRRS Airport,波因特莱远程雷达站机场,llm:codex:deepseek-v4.1-flash
+5509,RCAY,Gangshan Air Force Base,冈山空军基地,llm:codex:deepseek-v4.1-flash
+5511,RCDC,Pingtung Air Force Base,屏东空军基地,llm:codex:deepseek-v4.1-flash
+5517,RCKU,Chiayi Airport,嘉义机场,llm:codex:deepseek-v4.1-flash
+5525,RCQS,Chihhang Air Base,志航空军基地,llm:codex:deepseek-v4.1-flash
+5535,RJAW,Ioto (Iwo Jima) Airbase,硫磺岛机场,llm:codex:deepseek-v4.1-flash
+5546,RJCJ,JASDF Chitose Air Base,日本航空自卫队千岁基地,llm:codex:deepseek-v4.1-flash
+5551,RJCT,Tokachi Airport,十胜机场,llm:codex:deepseek-v4.1-flash
+5553,RJDA,Amakusa Airport,天草机场,llm:codex:deepseek-v4.1-flash
+5561,RJFA,JASDF Ashiya Air Base,日本航空自卫队芦屋基地,llm:codex:deepseek-v4.1-flash
+5574,RJFY,JMSDF Kanoya Air Base,日本海上自卫队鹿屋航空基地,llm:codex:deepseek-v4.1-flash
+5575,RJFZ,JASDF Tsuiki Air Base,日本航空自卫队筑城基地,llm:codex:deepseek-v4.1-flash
+5584,RJNH,JASDF Hamamatsu Air Base,日本航空自卫队滨松基地,llm:codex:deepseek-v4.1-flash
+5589,RJNY,JASDF Shizuhama Air Base,日本航空自卫队静滨基地,llm:codex:deepseek-v4.1-flash
+5593,RJOF,JASDF Hofu Airfield,日本航空自卫队防府机场,llm:codex:deepseek-v4.1-flash
+5603,RJOY,Yao Airport,八尾机场,llm:codex:deepseek-v4.1-flash
+5609,RJSH,JMSDF Hachinohe Air Base / Hachinohe Airport,日本海上自卫队八户航空基地/八户机场,llm:codex:deepseek-v4.1-flash
+5616,RJST,JASDF Matsushima Air Base,日本航空自卫队松岛基地,llm:codex:deepseek-v4.1-flash
+5618,RJTA,JMSDF Atsugi Air Base / Naval Air Facility Atsugi,日本海上自卫队厚木航空基地/美国海军厚木航空设施,llm:codex:deepseek-v4.1-flash
+5619,RJTE,JMSDF Tateyama Air Base,日本海上自卫队馆山航空基地,llm:codex:deepseek-v4.1-flash
+5621,RJTJ,Iruma Air Base,入间基地,llm:codex:deepseek-v4.1-flash
+5622,RJTK,JGSDF Kisarazu Airfield,日本陆上自卫队木更津机场,llm:codex:deepseek-v4.1-flash
+5623,RJTL,JMSDF Shimofusa Air Base,日本海上自卫队下总航空基地,llm:codex:deepseek-v4.1-flash
+5628,RJTU,Utsunomiya Air Field,宇都宫机场,llm:codex:deepseek-v4.1-flash
+5629,RJTY,Yokota Air Base,横田空军基地,llm:codex:deepseek-v4.1-flash
+5636,RKNN,Gangneung Airport (K-18),江陵机场,llm:codex:deepseek-v4.1-flash
+5652,RKSG,Camp Humphreys (A-511) Desiderio Army Airfield,汉弗莱斯军营德西德里奥陆军机场,llm:codex:deepseek-v4.1-flash
+5654,RKSM,Seoul Air Base (K-16),首尔空军基地,llm:codex:deepseek-v4.1-flash
+5655,RKSO,Osan Air Base,乌山空军基地,llm:codex:deepseek-v4.1-flash
+5660,RKTI,Jungwon Air Base/Chungju Airport,中原空军基地/忠州机场,llm:codex:deepseek-v4.1-flash
+5664,RKTY,Yecheon Airbase,醴泉空军基地,llm:codex:deepseek-v4.1-flash
+5670,LR82,Boboc Air Base,博博克空军基地,llm:codex:deepseek-v4.1-flash
+5673,RODN,Kadena Air Base,嘉手纳空军基地,llm:codex:deepseek-v4.1-flash
+5683,ROTM,Futenma Marine Corps Air Station,普天间海军陆战队航空基地,llm:codex:deepseek-v4.1-flash
+5691,RPLS,Danilo Atienza Air Base,达尼洛·阿蒂恩萨空军基地,llm:codex:deepseek-v4.1-flash
+5692,RPLU,Lubang Airport,卢邦机场,llm:codex:deepseek-v4.1-flash
+5695,RPMB,Rajah Buayan Air Base,拉贾·布阿扬空军基地,llm:codex:deepseek-v4.1-flash
+5715,RPUB,Loakan Airport,洛坎机场,llm:codex:deepseek-v4.1-flash
+5716,RPUD,Daet Airport,达特机场,llm:codex:deepseek-v4.1-flash
+5721,RPUM,Mamburao Airport,曼布劳机场,llm:codex:deepseek-v4.1-flash
+5725,RPUR,Dr. Juan C. Angara Airport,胡安·C·安加拉博士机场,llm:codex:deepseek-v4.1-flash
+5726,RPUS,San Fernando Airport,圣费尔南多机场,llm:codex:deepseek-v4.1-flash
+5729,RPUW,Marinduque Airport,马林杜克机场,llm:codex:deepseek-v4.1-flash
+5743,RPVO,Ormoc Airport,奥尔莫克机场,llm:codex:deepseek-v4.1-flash
+5746,RPVS,Evelio Javier Airport,埃韦利奥·哈维尔机场,llm:codex:deepseek-v4.1-flash
+5756,OE49,Mecca East Airport,麦加东机场,llm:codex:deepseek-v4.1-flash
+5762,OE55,Aradah Airport,阿拉达机场,llm:codex:deepseek-v4.1-flash
+5764,SAAC,Comodoro Pierrestegui Airport,皮埃雷斯特吉准将机场,llm:codex:deepseek-v4.1-flash
+5773,SACO,Ingeniero Aeronáutico Ambrosio L.V. Taravella International Airport,安布罗西奥·L·V·塔拉韦拉航空工程师国际机场,llm:codex:deepseek-v4.1-flash
+5775,SADF,San Fernando Airport,圣费尔南多机场,llm:codex:deepseek-v4.1-flash
+5784,SAHS,Rincon De Los Sauces Airport,林孔德洛斯绍塞斯机场,llm:codex:deepseek-v4.1-flash
+5800,SAOR,Villa Reynolds Airport,雷诺兹镇机场,llm:codex:deepseek-v4.1-flash
+5822,SAVC,General Enrique Mosconi International Airport,恩里克·莫斯科尼将军国际机场,llm:codex:deepseek-v4.1-flash
+5831,SAWC,El Calafate - Commander Armando Tola International Airport,埃尔卡拉法特-阿曼多·托拉司令国际机场,llm:codex:deepseek-v4.1-flash
+5836,SAWJ,Capitan D Daniel Vazquez Airport,丹尼尔·D·巴斯克斯上尉机场,llm:codex:deepseek-v4.1-flash
+5840,SAZB,Comandante Espora Airport,埃斯波拉司令机场,llm:codex:deepseek-v4.1-flash
+5850,SAZP,Comodoro Pedro Zanni Airport,佩德罗·萨尼准将机场,llm:codex:deepseek-v4.1-flash
+5856,SAZY,Aviador C. Campos Airport,C·坎波斯飞行员机场,llm:codex:deepseek-v4.1-flash
+5858,SBAF,Campo Délio Jardim de Mattos Airport,坎波·德利奥·雅尔丁·德·马托斯机场,llm:codex:deepseek-v4.1-flash
+5860,SBAN,Anápolis Airbase,阿纳波利斯空军基地,llm:codex:deepseek-v4.1-flash
+5864,SBAT,Piloto Osvaldo Marques Dias Airport,阿尔塔弗洛雷斯塔机场,llm:codex:deepseek-v4.1-flash
+5866,SBAX,Romeu Zema Airport,阿拉沙机场,llm:codex:deepseek-v4.1-flash
+5868,SBBG,Comandante Gustavo Kraemer Airport,巴热机场,llm:codex:deepseek-v4.1-flash
+5871,SBBQ,Major Brigadeiro Doorgal Borges Airport,巴尔巴塞纳机场,llm:codex:deepseek-v4.1-flash
+5877,SBBZ,Umberto Modiano Airport,卡布弗里乌机场,llm:codex:deepseek-v4.1-flash
+5878,SBCA,Coronel Adalberto Mendes da Silva Airport,卡斯卡韦尔机场,llm:codex:deepseek-v4.1-flash
+5885,SBCI,Brig. Lysias Augusto Rodrigues Airport,卡罗利纳机场,llm:codex:deepseek-v4.1-flash
+5887,SBCM,Forquilhinha - Criciúma  Airport,克里西乌马机场,llm:codex:deepseek-v4.1-flash
+5888,SBCO,Canoas Air Force Base,卡诺阿斯空军基地,llm:codex:deepseek-v4.1-flash
+5889,SBCP,Bartolomeu Lisandro Airport,坎普斯-杜斯戈伊塔卡泽斯机场,llm:codex:deepseek-v4.1-flash
+5893,SBCX,Hugo Cantergiani Regional Airport,南卡希亚斯机场,llm:codex:deepseek-v4.1-flash
+5912,SBGV,Coronel Altino Machado Airport,瓦拉达雷斯州长机场,llm:codex:deepseek-v4.1-flash
+5913,SBGW,Edu Chaves Field,瓜拉廷格塔机场,llm:codex:deepseek-v4.1-flash
+5915,SBIC,Itacoatiara Airport,伊塔科阿蒂亚拉机场,llm:codex:deepseek-v4.1-flash
+5918,SBIP,Usiminas Airport,伊帕廷加机场,llm:codex:deepseek-v4.1-flash
+5922,SBJF,Francisco de Assis Airport,茹伊斯迪福拉机场,llm:codex:deepseek-v4.1-flash
+5925,SBJV,Lauro Carneiro de Loyola Airport,若因维利机场,llm:codex:deepseek-v4.1-flash
+5930,SBLN,Lins Airport,林斯机场,llm:codex:deepseek-v4.1-flash
+5937,SBME,Macaé Benedito Lacerda Airport,马卡埃机场,llm:codex:deepseek-v4.1-flash
+5940,SBML,Frank Miloye Milenkowichi–Marília State Airport,马里利亚机场,llm:codex:deepseek-v4.1-flash
+5941,SBMN,Ponta Pelada Airport / Manaus Air Base,马瑙斯空军基地,llm:codex:deepseek-v4.1-flash
+5944,SBMS,Dix-Sept Rosado Airport,莫索罗机场,llm:codex:deepseek-v4.1-flash
+5952,SBPB,Parnaíba - Prefeito Doutor João Silva Filho International Airport,巴纳伊巴国际机场,llm:codex:deepseek-v4.1-flash
+5953,SBPC,Poços de Caldas - Embaixador Walther Moreira Salles Airport,波苏斯-迪卡尔达斯机场,llm:codex:deepseek-v4.1-flash
+5954,SBPF,Lauro Kurtz Airport,帕苏丰杜机场,llm:codex:deepseek-v4.1-flash
+5956,SBPK,João Simões Lopes Neto International Airport,佩洛塔斯国际机场,llm:codex:deepseek-v4.1-flash
+5969,SBSC,Santa Cruz Air Force Base,圣克鲁斯空军基地,llm:codex:deepseek-v4.1-flash
+5972,SBSM,Santa Maria Airport,圣玛丽亚机场,llm:codex:deepseek-v4.1-flash
+5975,SBSR,Prof. Eribelto Manoel Reino State Airport,普雷图河畔圣若泽机场,llm:codex:deepseek-v4.1-flash
+5976,SBST,Santos Nero Moura Air Base / Guarujá Airport,瓜鲁雅机场,llm:codex:deepseek-v4.1-flash
+5978,SBTA,Base de Aviação de Taubaté,陶巴特空军基地,llm:codex:deepseek-v4.1-flash
+5979,SBTB,Trombetas Airport,特龙贝塔斯机场,llm:codex:deepseek-v4.1-flash
+5987,SBTS,Tiriós Airport,蒂里奥斯机场,llm:codex:deepseek-v4.1-flash
+5992,SBUG,Rubem Berta Airport,乌鲁瓜亚纳机场,llm:codex:deepseek-v4.1-flash
+5996,SBVG,Major Brigadeiro Trompowsky Airport,瓦尔任阿机场,llm:codex:deepseek-v4.1-flash
+5997,SBVH,Brigadeiro Camarão Airport,维列纳机场,llm:codex:deepseek-v4.1-flash
+6000,SBYS,Campo Fontenelle,皮拉苏农加机场,llm:codex:deepseek-v4.1-flash
+6001,SCAR,Chacalluta International Airport,阿里卡国际机场,llm:codex:deepseek-v4.1-flash
+6004,SCBE,Barriles Airport,托科皮亚机场,llm:codex:deepseek-v4.1-flash
+6008,SCCH,Gral. Bernardo O´Higgins Airport,奇廉机场,llm:codex:deepseek-v4.1-flash
+6011,SCCY,Teniente Vidal Airport,科伊艾克机场,llm:codex:deepseek-v4.1-flash
+6017,SCES,Ricardo García Posada Airport,萨尔瓦多机场,llm:codex:deepseek-v4.1-flash
+6018,SCFA,Andrés Sabella Gálvez International Airport,安托法加斯塔国际机场,llm:codex:deepseek-v4.1-flash
+6019,SCFM,Captain Fuentes Martinez Airport,波韦尼尔机场,llm:codex:deepseek-v4.1-flash
+6024,SCHR,Cochrane Airport,科克伦机场,llm:codex:deepseek-v4.1-flash
+6025,SCIE,Carriel Sur International Airport,康塞普西翁国际机场,llm:codex:deepseek-v4.1-flash
+6038,SCRG,La Independencia Airport,兰卡瓜机场,llm:codex:deepseek-v4.1-flash
+6042,SCTC,Maquehue Airport,特木科机场,llm:codex:deepseek-v4.1-flash
+6044,SCTL,Panguilemo Airport,塔尔卡机场,llm:codex:deepseek-v4.1-flash
+6046,SCTO,Victoria Airport,维多利亚机场,llm:codex:deepseek-v4.1-flash
+6047,SCTT,Las Breas Airport,塔尔塔尔机场,llm:codex:deepseek-v4.1-flash
+6051,SEAM,Chachoán Regional Airport,安巴托机场,llm:codex:deepseek-v4.1-flash
+6062,SEMA,Jose Maria Velasco Ibarra Airport,马卡拉机场,llm:codex:deepseek-v4.1-flash
+6063,SEMC,Coronel E Carvajal Airport,马卡斯机场,llm:codex:deepseek-v4.1-flash
+6071,SEPV,Reales Tamarindos Airport,波托维耶霍机场,llm:codex:deepseek-v4.1-flash
+6076,SESA,General Ulpiano Paez International Airport,萨利纳斯国际机场,llm:codex:deepseek-v4.1-flash
+6084,SETN,Carlos Concha Torres International Airport,埃斯梅拉达斯国际机场,llm:codex:deepseek-v4.1-flash
+6085,SETR,Tarapoa Airport,塔拉波阿机场,llm:codex:deepseek-v4.1-flash
+6089,SGAY,Aeropuerto Nacional Juan de Ayolas,阿约拉斯机场,llm:codex:deepseek-v4.1-flash
+6093,SGME,Dr. Luis María Argaña International Airport,埃斯蒂加里维亚元帅国际机场,llm:codex:deepseek-v4.1-flash
+6096,SGST,Santa Teresa Airport,圣特雷莎机场,llm:codex:deepseek-v4.1-flash
+6100,SKAS,Tres De Mayo Airport,阿西斯港机场,llm:codex:deepseek-v4.1-flash
+6101,SKBC,Las Flores Airport,埃尔班科机场,llm:codex:deepseek-v4.1-flash
+6106,SKBS,José Celestino Mutis Airport,巴伊亚索拉诺机场,llm:codex:deepseek-v4.1-flash
+6107,SKBU,Gerardo Tobar López Airport,布埃纳文图拉机场,llm:codex:deepseek-v4.1-flash
+6108,SKCC,Camilo Daza International Airport,库库塔国际机场,llm:codex:deepseek-v4.1-flash
+6112,SKCO,La Florida Airport,图马科机场,llm:codex:deepseek-v4.1-flash
+6115,SKCZ,Las Brujas Airport,科罗萨尔机场,llm:codex:deepseek-v4.1-flash
+6117,SKEJ,Yariguíes Airport,巴兰卡韦尔梅哈机场,llm:codex:deepseek-v4.1-flash
+6118,SKFL,Gustavo Artunduaga Paredes Airport,弗洛伦西亚机场,llm:codex:deepseek-v4.1-flash
+6120,SKGI,Santiago Vila Airport,希拉多特机场,llm:codex:deepseek-v4.1-flash
+6124,SKIB,Perales Airport,伊瓦格机场,llm:codex:deepseek-v4.1-flash
+6129,SKLM,Jorge Isaac Airport,迈考机场,llm:codex:deepseek-v4.1-flash
+6130,SKLT,Alfredo Vásquez Cobo International Airport,莱蒂西亚国际机场,llm:codex:deepseek-v4.1-flash
+6134,SKMG,Baracoa Airport,马甘格机场,llm:codex:deepseek-v4.1-flash
+6139,SKMU,Fabio Alberto Leon Bentley Airport,米图机场,llm:codex:deepseek-v4.1-flash
+6140,SKMZ,La Nubia Airport,马尼萨莱斯机场,llm:codex:deepseek-v4.1-flash
+6141,SKNV,Benito Salas Airport,内瓦机场,llm:codex:deepseek-v4.1-flash
+6142,SKOC,Aguas Claras Airport,奥卡尼亚机场,llm:codex:deepseek-v4.1-flash
+6147,SKPD,Obando Cesar Gaviria Trujillo Airport,伊尼里达港机场,llm:codex:deepseek-v4.1-flash
+6151,SKPP,Guillermo León Valencia Airport,波帕扬机场,llm:codex:deepseek-v4.1-flash
+6152,SKPQ,German Olano Air Base,赫尔曼·奥拉诺空军基地,llm:codex:deepseek-v4.1-flash
+6154,SKPS,Antonio Nariño Airport,帕斯托机场,llm:codex:deepseek-v4.1-flash
+6155,SKPV,El Embrujo Airport,普罗维登西亚机场,llm:codex:deepseek-v4.1-flash
+6157,SKQU,Mariquita Airport,马里基塔机场,llm:codex:deepseek-v4.1-flash
+6159,SKRH,Almirante Padilla Airport,里奥阿查机场,llm:codex:deepseek-v4.1-flash
+6164,SKSV,Eduardo Falla Solano Airport,圣维森特德尔卡古安机场,llm:codex:deepseek-v4.1-flash
+6168,SKTM,Gustavo Vargas Airport,塔梅机场,llm:codex:deepseek-v4.1-flash
+6169,SKTQ,Captain Ernesto Esguerra Cubides Air Base,特雷斯埃斯基纳斯空军基地,llm:codex:deepseek-v4.1-flash
+6170,SKUA,Marandúa Air Base,马兰杜阿空军基地,llm:codex:deepseek-v4.1-flash
+6171,SKUC,Santiago Perez Airport,阿劳卡机场,llm:codex:deepseek-v4.1-flash
+6173,SKUL,Heriberto Gíl Martínez Airport,图卢阿机场,llm:codex:deepseek-v4.1-flash
+6176,SKVP,Alfonso López Pumarejo Airport,巴耶杜帕尔机场,llm:codex:deepseek-v4.1-flash
+6177,SKVV,Vanguardia Airport,比亚维森西奥机场,llm:codex:deepseek-v4.1-flash
+6178,SKYP,El Alcaravan - Yopal Airport,约帕尔机场,llm:codex:deepseek-v4.1-flash
+6182,SLCO,Capitán Aníbal Arab Airport,科维哈机场,llm:codex:deepseek-v4.1-flash
+6183,SLET,El Trompillo Airport,埃尔特龙皮略机场,llm:codex:deepseek-v4.1-flash
+6187,SLPS,Capitán Av. Salvador Ogaya G. airport,苏亚雷斯港机场,llm:codex:deepseek-v4.1-flash
+6189,SLSU,Juana Azurduy de Padilla Air Force Base,胡安娜·阿苏尔杜伊·德帕迪利亚空军基地,llm:codex:deepseek-v4.1-flash
+6192,SLVM,Teniente Coronel Rafael Pabón Airport,拉斐尔·帕邦中校机场,llm:codex:deepseek-v4.1-flash
+6202,SPAY,Teniente General Gerardo Pérez Pinedo Airport,赫拉尔多·佩雷斯·皮内多中将机场,llm:codex:deepseek-v4.1-flash
+6204,SPBR,Iberia Airport,伊比利亚机场,llm:codex:deepseek-v4.1-flash
+6208,SPEO,FAP Lieutenant Jaime Andres de Montreuil Morales Airport,海梅·安德烈斯·德蒙特雷乌尔·莫拉莱斯空军中尉机场,llm:codex:deepseek-v4.1-flash
+6214,SPHO,Air Force Colonel Alfredo Mendivil Duarte Airport,阿尔弗雷多·门迪维尔·杜阿尔特空军上校机场,llm:codex:deepseek-v4.1-flash
+6218,SPJA,Juan Simons Vela Airport,胡安·西蒙斯·贝拉机场,llm:codex:deepseek-v4.1-flash
+6219,SPJE,Shumba Airport,顺巴机场,llm:codex:deepseek-v4.1-flash
+6220,SPJI,Juanjui Airport,胡安惠机场,llm:codex:deepseek-v4.1-flash
+6224,SPLO,General Jorge Fernandez Maldon Airport,豪尔赫·费尔南德斯·马尔多纳多将军机场,llm:codex:deepseek-v4.1-flash
+6228,SPMS,Moises Benzaquen Rengifo Airport,莫伊塞斯·本萨肯·伦希福机场,llm:codex:deepseek-v4.1-flash
+6236,SPSO,Captain Renán Elías Olivera International Airport,雷南·埃利亚斯·奥利韦拉上尉国际机场,llm:codex:deepseek-v4.1-flash
+6237,SPST,Cadete FAP Guillermo Del Castillo Paredes Airport,吉列尔莫·德尔卡斯蒂略·帕雷德斯空军学员机场,llm:codex:deepseek-v4.1-flash
+6242,SPZA,Maria Reiche Neuman Airport,玛丽亚·赖歇·诺伊曼机场,llm:codex:deepseek-v4.1-flash
+6244,SUAA,Ángel S. Adami International Airport,安赫尔·S·阿达米国际机场,llm:codex:deepseek-v4.1-flash
+6245,SUDU,Santa Bernardina International Airport,圣贝尔纳迪纳国际机场,llm:codex:deepseek-v4.1-flash
+6248,SUSO,Nueva Hesperides International Airport,新赫斯佩里德斯国际机场,llm:codex:deepseek-v4.1-flash
+6249,SVAC,Oswaldo Guevara Mujica Airport,奥斯瓦尔多·格瓦拉·穆希卡机场,llm:codex:deepseek-v4.1-flash
+6258,SVBL,El Libertador Airbase,解放者空军基地,llm:codex:deepseek-v4.1-flash
+6261,SVBS,Escuela Mariscal Sucre Airport,苏克雷元帅学校机场,llm:codex:deepseek-v4.1-flash
+6262,SVCB,General Tomas de Heres Airport,托马斯·德埃雷斯将军机场,llm:codex:deepseek-v4.1-flash
+6263,SVCD,Caicara del Orinoco Airport,凯卡拉德尔奥里诺科机场,llm:codex:deepseek-v4.1-flash
+6268,SVCN,Canaima Airport,卡奈马机场,llm:codex:deepseek-v4.1-flash
+6270,SVCP,General Francisco Bermúdez Airport,弗朗西斯科·贝穆德斯将军机场,llm:codex:deepseek-v4.1-flash
+6271,SVCR,José Leonardo Chirinos Airport,何塞·莱昂纳多·奇里诺斯机场,llm:codex:deepseek-v4.1-flash
+6272,SVCS,Caracas Óscar Machado Zuloaga International Airport,加拉加斯奥斯卡·马查多·苏洛阿加国际机场,llm:codex:deepseek-v4.1-flash
+6277,SVED,El Dorado Airport,埃尔多拉多机场,llm:codex:deepseek-v4.1-flash
+6282,SVFM,Generalissimo Francisco de Miranda Air Base,弗朗西斯科·德·米兰达大元帅空军基地,llm:codex:deepseek-v4.1-flash
+6286,SVGI,Guiria Airport,圭里亚机场,llm:codex:deepseek-v4.1-flash
+6296,SVLO,La Orchila Airport,拉奥尔奇拉机场,llm:codex:deepseek-v4.1-flash
+6301,SVMP,Metropolitano International Airport,大都会国际机场,llm:codex:deepseek-v4.1-flash
+6310,SVPC,General Bartolome Salom International Airport,巴托洛梅·萨洛姆将军国际机场,llm:codex:deepseek-v4.1-flash
+6312,SVPM,Paramillo Airport,帕拉米略机场,llm:codex:deepseek-v4.1-flash
+6316,SVPT,Palmarito Airport,帕尔马里托机场,llm:codex:deepseek-v4.1-flash
+6326,SVSP,Sub Teniente Nestor Arias Airport,内斯托尔·阿里亚斯少尉机场,llm:codex:deepseek-v4.1-flash
+6329,SVSZ,Miguel Urdaneta Fernández Airport,米格尔·乌尔达内塔·费尔南德斯机场,llm:codex:deepseek-v4.1-flash
+6332,SVTM,Tumeremo Airport,图梅雷莫机场,llm:codex:deepseek-v4.1-flash
+6336,SVVL,Dr. Antonio Nicolás Briceño Airport,安东尼奥·尼古拉斯·布里塞尼奥博士机场,llm:codex:deepseek-v4.1-flash
+6337,SVVP,Valle de La Pascua Airport,巴耶德拉帕斯夸机场,llm:codex:deepseek-v4.1-flash
+6339,OS57,Abu ad Duhur Air Base,阿布杜胡尔空军基地,llm:codex:deepseek-v4.1-flash
+6346,OS64,An Nasiriyah Air Base,纳西里耶空军基地,llm:codex:deepseek-v4.1-flash
+6351,OS69,Khalkhalah Air Base,哈勒哈拉空军基地,llm:codex:deepseek-v4.1-flash
+6352,OS70,Al Qusayr Air Base,古赛尔空军基地,llm:codex:deepseek-v4.1-flash
+6358,SYLT,Lethem Airport,莱瑟姆机场,llm:codex:deepseek-v4.1-flash
+6364,TFFG,Grand Case-l'Espérance Airport,格朗卡斯-莱斯佩朗斯机场,llm:codex:deepseek-v4.1-flash
+6365,TFFM,Marie-Galante Airport,玛丽-加朗特机场,llm:codex:deepseek-v4.1-flash
+6375,TJ-UT45,Gissar Air Base,吉萨尔空军基地,llm:codex:deepseek-v4.1-flash
+6376,TJ-UT46,Farkhor Air Base,法尔霍尔空军基地,llm:codex:deepseek-v4.1-flash
+6378,TJAB,Antonio Nery Juarbe Pol Airport,阿雷西沃机场,llm:codex:deepseek-v4.1-flash
+6381,TJIG,Fernando Luis Ribas Dominicci Airport,费尔南多·路易斯·里巴斯·多米尼奇机场,llm:codex:deepseek-v4.1-flash
+6385,TJVQ,Antonio Rivera Rodriguez Airport,安东尼奥·里维拉·罗德里格斯机场,llm:codex:deepseek-v4.1-flash
+6392,UT1G,Ashgabat Bezmein Air Base,阿什哈巴德别兹梅因空军基地,llm:codex:deepseek-v4.1-flash
+6397,TM-UT52,Mary North Airport,马里北机场,llm:codex:deepseek-v4.1-flash
+6407,TQPF,Clayton J. Lloyd International Airport,克莱顿·J·劳埃德国际机场,llm:codex:deepseek-v4.1-flash
+6412,TVSB,J F Mitchell Airport,J·F·米切尔机场,llm:codex:deepseek-v4.1-flash
+6414,TVSM,Mustique Airport,马斯蒂克机场,llm:codex:deepseek-v4.1-flash
+6428,UAFW,Kant Air Base,坎特空军基地,llm:codex:deepseek-v4.1-flash
+6445,UDYE,Erebuni Airport,埃雷布尼机场,llm:codex:deepseek-v4.1-flash
+6448,UERP,Polyarny Airport,波利亚尔内机场,llm:codex:deepseek-v4.1-flash
+6457,UHMD,Provideniya Bay Airport,普罗维杰尼亚湾机场,llm:codex:deepseek-v4.1-flash
+6459,UHMP,Pevek Airport,佩韦克机场,llm:codex:deepseek-v4.1-flash
+6479,UKKM,Hostomel Airport,霍斯托梅尔机场,llm:codex:deepseek-v4.1-flash
+6491,ULOO,Princess Olga Pskov International Airport,普斯科夫公主奥尔加国际机场,llm:codex:deepseek-v4.1-flash
+6497,UMII,Vitebsk Vostochny Airport,维捷布斯克东方机场,llm:codex:deepseek-v4.1-flash
+6509,UOHH,Khatanga Airport,哈坦加机场,llm:codex:deepseek-v4.1-flash
+6924,07FA,Ocean Reef Club Airport,海洋礁俱乐部机场,llm:codex:deepseek-v4.1-flash
+12243,5A8,Aleknagik / New Airport,阿莱克纳吉克/新机场,llm:codex:deepseek-v4.1-flash
+17619,PAHC,Holy Cross Airport,圣十字机场,llm:codex:deepseek-v4.1-flash
+18966,K67L,Mesquite Airport,梅斯基特机场,llm:codex:deepseek-v4.1-flash
+19033,K76F,Van Zandt County Regional Airport,范赞特县地区机场,llm:codex:deepseek-v4.1-flash
+19042,K79J,South Alabama Regional At Bill Benton Field Airport,南亚拉巴马地区机场（比尔·本顿机场）,llm:codex:deepseek-v4.1-flash
+19242,KAEG,Double Eagle II Airport,双鹰二号机场,llm:codex:deepseek-v4.1-flash
+19334,KAWO,Arlington Municipal Airport,阿灵顿市立机场,llm:codex:deepseek-v4.1-flash
+19353,KBBD,Curtis Field,柯蒂斯机场,llm:codex:deepseek-v4.1-flash
+19401,KBPI,Miley Memorial Field,迈利纪念机场,llm:codex:deepseek-v4.1-flash
+19402,KBPK,Ozark Regional Airport,欧扎克地区机场,llm:codex:deepseek-v4.1-flash
+19527,KCNU,Chanute Martin Johnson Airport,沙努特马丁·约翰逊机场,llm:codex:deepseek-v4.1-flash
+19529,KCNY,Canyonlands Regional Airport,峡谷地地区机场,llm:codex:deepseek-v4.1-flash
+19552,KCRQ,McClellan-Palomar Airport,麦克莱伦-帕洛马机场,llm:codex:deepseek-v4.1-flash
+19564,KCUB,Jim Hamilton L.B. Owens Airport,吉姆·汉密尔顿·L·B·欧文斯机场,llm:codex:deepseek-v4.1-flash
+19640,KDLS,Columbia Gorge Regional Airport,哥伦比亚峡谷地区机场,llm:codex:deepseek-v4.1-flash
+19662,KDUA,Durant Regional Airport - Eaker Field,杜兰特地区机场-埃克机场,llm:codex:deepseek-v4.1-flash
+19664,KDUG,Bisbee Douglas International Airport,比斯比-道格拉斯国际机场,llm:codex:deepseek-v4.1-flash
+19717,KEAT,Pangborn Memorial Airport,潘伯恩纪念机场,llm:codex:deepseek-v4.1-flash
+19729,KEET,Shelby County Airport,谢尔比县机场,llm:codex:deepseek-v4.1-flash
+19735,KEGI,Duke Field,杜克机场,llm:codex:deepseek-v4.1-flash
+19782,KEVW,Evanston-Uinta County Airport-Burns Field,埃文斯顿-尤因塔县机场-伯恩斯机场,llm:codex:deepseek-v4.1-flash
+19843,KFAF,Felker Army Air Field,费尔克陆军机场,llm:codex:deepseek-v4.1-flash
+19851,KFCS,Butts AAF (Fort Carson) Air Field,巴茨陆军机场（卡森堡）,llm:codex:deepseek-v4.1-flash
+19857,KFDY,Findlay Airport,芬德利机场,llm:codex:deepseek-v4.1-flash
+19982,KGTR,Golden Triangle Regional Airport,金三角地区机场,llm:codex:deepseek-v4.1-flash
+19997,KGYI,North Texas Regional Airport Perrin Field,北德克萨斯地区机场（佩林机场）,llm:codex:deepseek-v4.1-flash
+20027,KHBG,Hattiesburg Bobby L Chain Municipal Airport,哈蒂斯堡市立机场,llm:codex:deepseek-v4.1-flash
+20053,KHII,Lake Havasu City Airport,哈瓦苏湖城机场,llm:codex:deepseek-v4.1-flash
+20054,KHIO,Portland Hillsboro Airport,波特兰-希尔斯伯勒机场,llm:codex:deepseek-v4.1-flash
+20081,KHRT,Hurlburt Field,赫尔伯特机场,llm:codex:deepseek-v4.1-flash
+20095,KHUL,Houlton International Airport,霍尔顿国际机场,llm:codex:deepseek-v4.1-flash
+20107,KHYI,San Marcos Regional Airport,圣马科斯地区机场,llm:codex:deepseek-v4.1-flash
+20108,KHYR,Sawyer County Airport,索耶县机场,llm:codex:deepseek-v4.1-flash
+20117,KHZY,Northeast Ohio Regional Airport,俄亥俄东北地区机场,llm:codex:deepseek-v4.1-flash
+20129,KI39,Central Kentucky Regional Airport,肯塔基中部地区机场,llm:codex:deepseek-v4.1-flash
+20160,KIFP,Laughlin Bullhead International Airport,拉夫林/布尔黑德国际机场,llm:codex:deepseek-v4.1-flash
+20177,KIMT,Ford Airport,福特机场,llm:codex:deepseek-v4.1-flash
+20184,KIPL,Imperial County Airport,因皮里尔县机场,llm:codex:deepseek-v4.1-flash
+20187,KISM,Kissimmee Gateway Airport,基西米门户机场,llm:codex:deepseek-v4.1-flash
+20205,KJCT,Kimble County Airport,金布尔县机场,llm:codex:deepseek-v4.1-flash
+20216,KJKL,Julian Carroll Airport,朱利安·卡罗尔机场,llm:codex:deepseek-v4.1-flash
+20218,KJNX,Johnston Regional Airport,约翰斯顿地区机场,llm:codex:deepseek-v4.1-flash
+20220,KJQF,Concord-Padgett Regional Airport,康科德-帕吉特地区机场,llm:codex:deepseek-v4.1-flash
+20227,KJWY,Mid-Way Regional Airport,中途地区机场,llm:codex:deepseek-v4.1-flash
+20277,KKLS,Southwest Washington Regional Airport,华盛顿西南部地区机场,llm:codex:deepseek-v4.1-flash
+20317,KLAA,Southeast Colorado Regional Airport,科罗拉多东南部地区机场,llm:codex:deepseek-v4.1-flash
+20319,KLAW,Lawton Fort Sill Regional Airport,劳顿-锡尔堡地区机场,llm:codex:deepseek-v4.1-flash
+20322,KLBT,Lumberton Regional Airport,兰伯顿地区机场,llm:codex:deepseek-v4.1-flash
+20323,KLBX,Texas Gulf Coast Regional Airport,得克萨斯墨西哥湾沿岸地区机场,llm:codex:deepseek-v4.1-flash
+20329,KLEE,Leesburg International Airport,利斯堡国际机场,llm:codex:deepseek-v4.1-flash
+20332,KLFK,Angelina County Airport,安吉丽娜县机场,llm:codex:deepseek-v4.1-flash
+20337,KLGU,Logan-Cache Airport,洛根-卡什机场,llm:codex:deepseek-v4.1-flash
+20354,KLLQ,Monticello Municipal Ellis Field,蒙蒂塞洛市立埃利斯机场,llm:codex:deepseek-v4.1-flash
+20359,KLND,Hunt Field,亨特机场,llm:codex:deepseek-v4.1-flash
+20364,KLOL,Derby Field,德比机场,llm:codex:deepseek-v4.1-flash
+20386,KLVM,Mission Field,米申机场,llm:codex:deepseek-v4.1-flash
+20480,KMCE,Merced Regional Macready Field,默塞德地区麦克雷迪机场,llm:codex:deepseek-v4.1-flash
+20481,KMCK,McCook Ben Nelson Regional Airport,麦库克本·纳尔逊地区机场,llm:codex:deepseek-v4.1-flash
+20498,KMGC,Michigan City Municipal Airport,密歇根城市立机场,llm:codex:deepseek-v4.1-flash
+20506,KMHR,Sacramento Mather Airport,萨克拉门托马瑟机场,llm:codex:deepseek-v4.1-flash
+20532,KMMT,Mc Entire Joint National Guard Base,麦肯泰尔联合国民警卫队基地,llm:codex:deepseek-v4.1-flash
+20551,KMPV,Edward F Knapp State Airport,爱德华·F·纳普州立机场,llm:codex:deepseek-v4.1-flash
+20564,KMTH,Florida Keys Marathon International Airport,佛罗里达群岛马拉松国际机场,llm:codex:deepseek-v4.1-flash
+20579,KMWA,Veterans Airport of Southern Illinois,南伊利诺伊退伍军人机场,llm:codex:deepseek-v4.1-flash
+20583,KMWL,Mineral Wells Regional Airport,米纳勒尔韦尔斯地区机场,llm:codex:deepseek-v4.1-flash
+20591,KMYL,McCall Municipal Airport,麦考尔市立机场,llm:codex:deepseek-v4.1-flash
+20634,KNDZ,Whiting Field Naval Air Station South Airport,惠廷机场海军航空站南部机场,llm:codex:deepseek-v4.1-flash
+20643,KNID,China Lake Naws (Armitage Field) Airport,中国湖海军航空武器站（阿米蒂奇机场）,llm:codex:deepseek-v4.1-flash
+20656,KNSE,Whiting Field Naval Air Station - North,惠廷机场海军航空站北部,llm:codex:deepseek-v4.1-flash
+20666,KNXP,Twentynine Palms Strategic Expeditionary Landing Field,二十九棕榈战略远征着陆场,llm:codex:deepseek-v4.1-flash
+20669,KNYG,Quantico Marine Corps Airfield / Turner Field,匡蒂科海军陆战队机场/特纳机场,llm:codex:deepseek-v4.1-flash
+20709,KOAJ,Albert J Ellis Airport,阿尔伯特·J·埃利斯机场,llm:codex:deepseek-v4.1-flash
+20722,KOFK,Karl Stefan Memorial Airport,卡尔·斯特凡纪念机场,llm:codex:deepseek-v4.1-flash
+20725,KOGB,Orangeburg Municipal Airport,奥兰治堡市立机场,llm:codex:deepseek-v4.1-flash
+20727,KOGS,Ogdensburg International Airport,奥格登斯堡国际机场,llm:codex:deepseek-v4.1-flash
+20732,KOKB,Oceanside Municipal Airport,欧申赛德市立机场,llm:codex:deepseek-v4.1-flash
+20739,KOLF,L M Clayton Airport,L·M·克莱顿机场,llm:codex:deepseek-v4.1-flash
+20741,KOLS,Nogales International Airport,诺加利斯国际机场,llm:codex:deepseek-v4.1-flash
+20751,KONO,Ontario Municipal Airport,安大略市立机场,llm:codex:deepseek-v4.1-flash
+20752,KONP,Newport Municipal Airport,纽波特市立机场,llm:codex:deepseek-v4.1-flash
+20765,KORL,Orlando Executive Airport,奥兰多行政机场,llm:codex:deepseek-v4.1-flash
+20777,KOWD,Norwood Memorial Airport,诺伍德纪念机场,llm:codex:deepseek-v4.1-flash
+20781,KOXB,Ocean City Municipal Airport,大洋城市立机场,llm:codex:deepseek-v4.1-flash
+20807,KPBF,"Pine Bluff Regional Airport, Grider Field",派恩布拉夫地区机场（格赖德机场）,llm:codex:deepseek-v4.1-flash
+20812,KPCW,Erie-Ottawa International Airport,伊利-渥太华国际机场,llm:codex:deepseek-v4.1-flash
+20821,KPGA,Page Municipal Airport,佩吉市立机场,llm:codex:deepseek-v4.1-flash
+20824,KPGV,Pitt-Greenville Airport,皮特-格林维尔机场,llm:codex:deepseek-v4.1-flash
+20848,KPNA,Ralph Wenz Field,拉尔夫·文茨机场,llm:codex:deepseek-v4.1-flash
+20890,KPVU,Provo Municipal Airport,普罗沃市立机场,llm:codex:deepseek-v4.1-flash
+20896,KPWK,Chicago Executive Airport,芝加哥行政机场,llm:codex:deepseek-v4.1-flash
+20927,KRHP,Western Carolina Regional Airport,西卡罗来纳地区机场,llm:codex:deepseek-v4.1-flash
+20931,KRIL,Garfield County Regional Airport,加菲尔德县地区机场,llm:codex:deepseek-v4.1-flash
+20933,KRIW,Central Wyoming Regional Airport,怀俄明中部地区机场,llm:codex:deepseek-v4.1-flash
+20935,KRKD,Knox County Regional Airport,诺克斯县地区机场,llm:codex:deepseek-v4.1-flash
+20940,KRME,Griffiss International Airport,格里菲斯国际机场,llm:codex:deepseek-v4.1-flash
+20944,KRNH,New Richmond Regional Airport,新里士满地区机场,llm:codex:deepseek-v4.1-flash
+20962,KRSL,Russell Municipal Airport,拉塞尔市立机场,llm:codex:deepseek-v4.1-flash
+20972,KRVS,Tulsa Riverside Airport,塔尔萨河滨机场,llm:codex:deepseek-v4.1-flash
+20974,KRWL,Rawlins Municipal Airport/Harvey Field,罗林斯市立机场/哈维机场,llm:codex:deepseek-v4.1-flash
+20981,KRYY,Cobb County International Airport-McCollum Field,科布县国际机场-麦科勒姆机场,llm:codex:deepseek-v4.1-flash
+21046,KSDY,Sidney - Richland Regional Airport,西德尼-里奇兰地区机场,llm:codex:deepseek-v4.1-flash
+21061,KSGJ,Northeast Florida Regional Airport,佛罗里达东北部地区机场,llm:codex:deepseek-v4.1-flash
+21062,KSGR,Sugar Land Regional Airport,舒格兰地区机场,llm:codex:deepseek-v4.1-flash
+21065,KSGU,St George Regional Airport,圣乔治地区机场,llm:codex:deepseek-v4.1-flash
+21076,KSKX,Taos Regional Airport,陶斯地区机场,llm:codex:deepseek-v4.1-flash
+21085,KSME,Lake Cumberland Regional Airport,坎伯兰湖地区机场,llm:codex:deepseek-v4.1-flash
+21086,KSMN,Lemhi County Airport,莱姆哈伊县机场,llm:codex:deepseek-v4.1-flash
+21094,KSNY,Sidney Municipal Airport Lloyd W Carr Field,西德尼市立机场（劳埃德·W·卡尔机场）,llm:codex:deepseek-v4.1-flash
+21095,KSOA,Sonora Municipal Airport,索诺拉市立机场,llm:codex:deepseek-v4.1-flash
+21105,KSQL,San Carlos Airport,圣卡洛斯机场,llm:codex:deepseek-v4.1-flash
+21121,KSVC,Grant County Airport,格兰特县机场,llm:codex:deepseek-v4.1-flash
+21204,KTMB,Miami Executive Airport,迈阿密行政机场,llm:codex:deepseek-v4.1-flash
+21212,KTOI,Troy Municipal Airport at N Kenneth Campbell Field,特洛伊市立机场（N·肯尼思·坎贝尔机场）,llm:codex:deepseek-v4.1-flash
+21216,KTPH,Tonopah Airport,托诺帕机场,llm:codex:deepseek-v4.1-flash
+21220,KTRK,Truckee Tahoe Airport,特拉基-太浩机场,llm:codex:deepseek-v4.1-flash
+21222,KTRM,Jacqueline Cochran Regional Airport,杰奎琳·科克伦地区机场,llm:codex:deepseek-v4.1-flash
+21228,KTTD,Portland Troutdale Airport,波特兰特劳特代尔机场,llm:codex:deepseek-v4.1-flash
+21230,KTTS,Space Florida Launch and Landing Facility,佛罗里达航天发射和着陆设施,llm:codex:deepseek-v4.1-flash
+21261,KU42,South Valley Regional Airport,南谷地区机场,llm:codex:deepseek-v4.1-flash
+21280,KUAO,Aurora State Airport,奥罗拉州立机场,llm:codex:deepseek-v4.1-flash
+21305,KUUU,Newport State Airport,纽波特州立机场,llm:codex:deepseek-v4.1-flash
+21318,KVEL,Vernal Regional Airport,弗纳尔地区机场,llm:codex:deepseek-v4.1-flash
+21321,KVGT,North Las Vegas Airport,北拉斯维加斯机场,llm:codex:deepseek-v4.1-flash
+21335,KVQQ,Cecil Airport,塞西尔机场,llm:codex:deepseek-v4.1-flash
+21339,KVTN,Miller Field,米勒机场,llm:codex:deepseek-v4.1-flash
+21358,KW63,Lake Country Regional Airport,湖区地区机场,llm:codex:deepseek-v4.1-flash
+21375,KWJF,General William J Fox Airfield,威廉·J·福克斯将军机场,llm:codex:deepseek-v4.1-flash
+21379,KWMC,Winnemucca Municipal Airport,温尼马卡市立机场,llm:codex:deepseek-v4.1-flash
+21382,KWST,Westerly State Airport,韦斯特利州立机场,llm:codex:deepseek-v4.1-flash
+21386,KWWR,West Woodward Airport,西伍德沃德机场,llm:codex:deepseek-v4.1-flash
+21403,KX51,Miami Homestead General Aviation Airport,迈阿密霍姆斯特德通用航空机场,llm:codex:deepseek-v4.1-flash
+26397,UUEM,Migalovo Air Base,米加洛沃空军基地,llm:codex:deepseek-v4.1-flash
+26435,VEBU,Bilaspur Airport,比拉斯布尔机场,llm:codex:deepseek-v4.1-flash
+26441,VADN,Daman Airport,达曼机场,llm:codex:deepseek-v4.1-flash
+26449,VAKE,Kandla Airport,坎德拉机场,llm:codex:deepseek-v4.1-flash
+26457,VARG,Ratnagiri Airport,拉特纳吉里机场,llm:codex:deepseek-v4.1-flash
+26469,VCCK,Koggala Airport,科加拉机场,llm:codex:deepseek-v4.1-flash
+26471,VCCT,China Bay Airport,中国湾机场,llm:codex:deepseek-v4.1-flash
+26506,VEJS,Sonari Airport,索纳里机场,llm:codex:deepseek-v4.1-flash
+26516,VEPH,Panagarh Air Force Station,帕纳加尔空军基地,llm:codex:deepseek-v4.1-flash
+26522,VEUK,Utkela Airport,乌特凯拉机场,llm:codex:deepseek-v4.1-flash
+26528,VGIS,Ishurdi Airport,伊舒尔迪机场,llm:codex:deepseek-v4.1-flash
+26536,VHSK,Shek Kong Air Base,石岗空军基地,llm:codex:deepseek-v4.1-flash
+26539,VIAM,Ambala Air Force Station,安巴拉空军基地,llm:codex:deepseek-v4.1-flash
+26560,VIHX,Halwara International Airport,哈尔瓦拉国际机场,llm:codex:deepseek-v4.1-flash
+26564,VIJR,Jaisalmer Airport,杰伊瑟尔梅尔机场,llm:codex:deepseek-v4.1-flash
+26567,VIKO,Kota Airport,科塔机场,llm:codex:deepseek-v4.1-flash
+26568,VILD,Ludhiana Airport,卢迪亚纳机场,llm:codex:deepseek-v4.1-flash
+26573,VIPT,Pantnagar Airport,潘特纳加尔机场,llm:codex:deepseek-v4.1-flash
+26575,VISA,Sirsa Air Force Station,锡尔萨空军基地,llm:codex:deepseek-v4.1-flash
+26581,VIUX,Udhampur Air Force Station,乌德汉普尔空军基地,llm:codex:deepseek-v4.1-flash
+26593,VNBW,Gautam Buddha International Airport,佛陀国际机场,llm:codex:deepseek-v4.1-flash
+26605,VOBR,Bidar Airport / Bidar Air Force Station,比德尔机场/比德尔空军基地,llm:codex:deepseek-v4.1-flash
+26612,VOCX,Car Nicobar Air Force Base,卡尔尼科巴空军基地,llm:codex:deepseek-v4.1-flash
+26615,VOHY,Begumpet Airport,贝古姆佩特机场,llm:codex:deepseek-v4.1-flash
+26622,VOPN,Sri Sathya Sai Airport,斯里萨蒂亚赛机场,llm:codex:deepseek-v4.1-flash
+26624,VOSM,Salem Airport,塞勒姆机场,llm:codex:deepseek-v4.1-flash
+26635,VRMK,Kadhdhoo Airport,卡德胡机场,llm:codex:deepseek-v4.1-flash
+26641,VTBK,Kamphaeng Saen Airport,甘烹盛机场,llm:codex:deepseek-v4.1-flash
+26654,VTPB,Phetchabun Airport,碧差汶机场,llm:codex:deepseek-v4.1-flash
+26656,VTPI,Takhli Royal Thai Air Force Base,塔克利皇家泰国空军基地,llm:codex:deepseek-v4.1-flash
+26662,VTPT,Tak Airport,来兴机场,llm:codex:deepseek-v4.1-flash
+26670,VTSH,Songkhla Airport,宋卡机场,llm:codex:deepseek-v4.1-flash
+26671,VTSK,Pattani Airport,北大年机场,llm:codex:deepseek-v4.1-flash
+26680,VTUJ,Surin Airport,素林机场,llm:codex:deepseek-v4.1-flash
+26698,VVGL,Gia Lam Air Base,嘉林空军基地,llm:codex:deepseek-v4.1-flash
+26746,WABB,Frans Kaisiepo Airport,弗兰斯·凯西波机场,llm:codex:deepseek-v4.1-flash
+26747,ID-0339,Old Nabire Airport,旧纳比雷机场,llm:codex:deepseek-v4.1-flash
+26759,WAQT,Kalimarau Airport,卡利马劳机场,llm:codex:deepseek-v4.1-flash
+26778,WAON,Warukin Airport,瓦鲁金机场,llm:codex:deepseek-v4.1-flash
+26784,WAPP,Pattimura International Airport,帕蒂穆拉国际机场,llm:codex:deepseek-v4.1-flash
+26793,WASO,Babo Airport,巴博机场,llm:codex:deepseek-v4.1-flash
+26836,WIMB,Binaka Airport,比纳卡机场,llm:codex:deepseek-v4.1-flash
+26838,ID-0340,Tabing Airport,塔宾机场,llm:codex:deepseek-v4.1-flash
+26843,WIOG,Nanga Pinoh Airport,南加皮诺机场,llm:codex:deepseek-v4.1-flash
+26846,WION,Ranai Airport,拉奈机场,llm:codex:deepseek-v4.1-flash
+26849,ID-0341,Susilo Airport,苏西洛机场,llm:codex:deepseek-v4.1-flash
+26864,WMBT,Tioman Airport,刁曼机场,llm:codex:deepseek-v4.1-flash
+26867,WMKB,RMAF Butterworth Air Base,北海空军基地,llm:codex:deepseek-v4.1-flash
+26883,WSAG,Sembawang Air Base,三巴旺空军基地,llm:codex:deepseek-v4.1-flash
+26884,WSAP,Paya Lebar Air Base,巴耶利峇空军基地,llm:codex:deepseek-v4.1-flash
+26885,WSAT,Tengah Air Base,登加空军基地,llm:codex:deepseek-v4.1-flash
+26889,YAMB,RAAF Base Amberley,澳大利亚皇家空军安伯利基地,llm:codex:deepseek-v4.1-flash
+26912,YBKE,Bourke Airport,伯克机场,llm:codex:deepseek-v4.1-flash
+26922,YBOK,Oakey Army Aviation Centre,奥基陆军航空中心,llm:codex:deepseek-v4.1-flash
+26923,YBOU,Boulia Airport,布利亚机场,llm:codex:deepseek-v4.1-flash
+26962,YCOM,Cooma Snowy Mountains Airport,库马雪山机场,llm:codex:deepseek-v4.1-flash
+26976,YDYS,Dysart Airport,戴萨特机场,llm:codex:deepseek-v4.1-flash
+26977,OY74,Al Anad Air Base,阿纳德空军基地,llm:codex:deepseek-v4.1-flash
+26989,YGDH,Gunnedah Airport,冈尼达机场,llm:codex:deepseek-v4.1-flash
+26995,YGLB,Goulburn Airport,古尔本机场,llm:codex:deepseek-v4.1-flash
+26998,YGTE,Groote Eylandt Airport,格鲁特岛机场,llm:codex:deepseek-v4.1-flash
+27002,YHAY,Hay Airport,海伊机场,llm:codex:deepseek-v4.1-flash
+27005,YHLC,Halls Creek Airport,霍尔斯克里克机场,llm:codex:deepseek-v4.1-flash
+27007,YHML,Hamilton Airport,汉密尔顿机场,llm:codex:deepseek-v4.1-flash
+27008,YHOT,Mount Hotham Airport,霍瑟姆山机场,llm:codex:deepseek-v4.1-flash
+27010,YHPN,Hopetoun Airport,霍普敦机场,llm:codex:deepseek-v4.1-flash
+27011,YHSM,Horsham Airport,霍舍姆机场,llm:codex:deepseek-v4.1-flash
+27016,YIVL,Inverell Airport,因弗雷尔机场,llm:codex:deepseek-v4.1-flash
+27022,YKER,Kerang Airport,凯兰机场,llm:codex:deepseek-v4.1-flash
+27023,YKII,King Island Airport,国王岛机场,llm:codex:deepseek-v4.1-flash
+27025,YKMP,Kempsey Airport,肯普西机场,llm:codex:deepseek-v4.1-flash
+27026,YKOW,Kowanyama Airport,科瓦尼亚马机场,llm:codex:deepseek-v4.1-flash
+27027,YKRY,Kingaroy Airport,金格罗伊机场,llm:codex:deepseek-v4.1-flash
+27030,YLEC,Leigh Creek Airport,利克里克机场,llm:codex:deepseek-v4.1-flash
+27032,YLEO,Leonora Airport,莱奥诺拉机场,llm:codex:deepseek-v4.1-flash
+27034,YLHR,Lockhart River Airport,洛克哈特河机场,llm:codex:deepseek-v4.1-flash
+27037,YLRD,Lightning Ridge Airport,闪电岭机场,llm:codex:deepseek-v4.1-flash
+27039,YLST,Leinster Airport,伦斯特机场,llm:codex:deepseek-v4.1-flash
+27041,YLTV,Latrobe Valley Airport,拉特罗布谷机场,llm:codex:deepseek-v4.1-flash
+27045,YMBA,Mareeba Airport,马里巴机场,llm:codex:deepseek-v4.1-flash
+27050,YMEK,Meekatharra Airport,米卡萨拉机场,llm:codex:deepseek-v4.1-flash
+27053,YMES,RAAF Base East Sale,澳大利亚皇家空军东塞尔基地,llm:codex:deepseek-v4.1-flash
+27064,YMMB,Melbourne Moorabbin Airport,墨尔本穆拉宾机场,llm:codex:deepseek-v4.1-flash
+27069,YMNE,Mount Keith Airport,芒特基思机场,llm:codex:deepseek-v4.1-flash
+27071,YMOG,Mount Magnet Airport,芒特马格尼特机场,llm:codex:deepseek-v4.1-flash
+27075,YMRY,Moruya Airport,莫鲁亚机场,llm:codex:deepseek-v4.1-flash
+27081,YNAR,Narrandera Airport,纳兰德拉机场,llm:codex:deepseek-v4.1-flash
+27083,YNGU,Ngukurr Airport,恩古库尔机场,llm:codex:deepseek-v4.1-flash
+27086,YNRM,Narromine Airport,纳罗明机场,llm:codex:deepseek-v4.1-flash
+27088,YNTN,Normanton Airport,诺曼顿机场,llm:codex:deepseek-v4.1-flash
+27095,YORG,Orange Airport,奥兰治机场,llm:codex:deepseek-v4.1-flash
+27099,YPBO,Paraburdoo Airport,帕拉伯杜机场,llm:codex:deepseek-v4.1-flash
+27102,YPEA,RAAF Base Pearce,皮尔斯皇家空军基地,llm:codex:deepseek-v4.1-flash
+27103,YPED,RAAF Base Edinburgh,爱丁堡皇家空军基地,llm:codex:deepseek-v4.1-flash
+27105,YPIR,Port Pirie Airport,皮里港机场,llm:codex:deepseek-v4.1-flash
+27109,YPKS,Parkes Airport,帕克斯机场,llm:codex:deepseek-v4.1-flash
+27110,YPKT,Port Keats Airport,基茨港机场,llm:codex:deepseek-v4.1-flash
+27113,YPLM,Learmonth Airport,利尔蒙斯机场,llm:codex:deepseek-v4.1-flash
+27116,YPOD,Portland Airport,波特兰机场,llm:codex:deepseek-v4.1-flash
+27120,YPTN,Tindal Airport,廷达尔机场,llm:codex:deepseek-v4.1-flash
+27124,YQLP,Quilpie Airport,奎尔皮机场,llm:codex:deepseek-v4.1-flash
+27125,YREN,Renmark Airport,伦马克机场,llm:codex:deepseek-v4.1-flash
+27137,YSHK,Shark Bay Airport,鲨鱼湾机场,llm:codex:deepseek-v4.1-flash
+27138,YSHT,Shepparton Airport,谢珀顿机场,llm:codex:deepseek-v4.1-flash
+27139,YSMI,Smithton Airport,史密斯顿机场,llm:codex:deepseek-v4.1-flash
+27140,YSNB,Snake Bay Airport,蛇湾机场,llm:codex:deepseek-v4.1-flash
+27144,YSRI,RAAF Base Richmond,里士满皇家空军基地,llm:codex:deepseek-v4.1-flash
+27149,YSWH,Swan Hill Airport,天鹅山机场,llm:codex:deepseek-v4.1-flash
+27150,YSWL,Stawell Airport,斯托尔机场,llm:codex:deepseek-v4.1-flash
+27152,YTEF,Telfer Airport,特尔弗机场,llm:codex:deepseek-v4.1-flash
+27153,YTEM,Temora Airport,特莫拉机场,llm:codex:deepseek-v4.1-flash
+27154,YTGM,Thargomindah Airport,萨戈明达机场,llm:codex:deepseek-v4.1-flash
+27157,YTMU,Tumut Aerodrome,图马特机场,llm:codex:deepseek-v4.1-flash
+27168,YWDH,Windorah Airport,温多拉机场,llm:codex:deepseek-v4.1-flash
+27169,YWGT,Wangaratta Airport,旺加拉塔机场,llm:codex:deepseek-v4.1-flash
+27176,YWLU,Wiluna Airport,威卢纳机场,llm:codex:deepseek-v4.1-flash
+27178,YWRN,Warren Airport,沃伦机场,llm:codex:deepseek-v4.1-flash
+27179,YWSL,West Sale Airport,西塞尔机场,llm:codex:deepseek-v4.1-flash
+27180,YWTN,Winton Airport,温顿机场,llm:codex:deepseek-v4.1-flash
+27182,YWWL,West Wyalong Airport,西怀厄朗机场,llm:codex:deepseek-v4.1-flash
+27184,YWYY,Wynyard Airport,温亚德机场,llm:codex:deepseek-v4.1-flash
+27186,YYNG,Young Airport,扬机场,llm:codex:deepseek-v4.1-flash
+28148,KXTA,Homey (Area 51) Airport,51区机场,llm:codex:deepseek-v4.1-flash
+28485,HKNK,Nakuru Lanet Airport,纳库鲁拉内特机场,llm:codex:deepseek-v4.1-flash
+29094,EDUZ,Zerbst Airfield,采尔布斯特机场,llm:codex:deepseek-v4.1-flash
+29126,EGED,Eday Airport,伊迪机场,llm:codex:deepseek-v4.1-flash
+29173,EGPR,Barra Airport,巴拉机场,llm:codex:deepseek-v4.1-flash
+29277,ENRA,"Mo i Rana Airport, Røssvoll",莫伊拉纳机场,llm:codex:deepseek-v4.1-flash
+29278,ENRM,"Rørvik Airport, Ryum",勒尔维克机场,llm:codex:deepseek-v4.1-flash
+29282,ENSK,"Stokmarknes Airport, Skagen",斯托克马克内斯机场,llm:codex:deepseek-v4.1-flash
+29284,ENVD,Vadsø Airport,瓦德瑟机场,llm:codex:deepseek-v4.1-flash
+29443,LIPA,Aviano Air Base,阿维亚诺空军基地,llm:codex:deepseek-v4.1-flash
+29483,LOXN,Wiener Neustadt West Airport,维也纳新城西机场,llm:codex:deepseek-v4.1-flash
+29695,KSUZ,Saline County Regional Airport,萨林县地区机场,llm:codex:deepseek-v4.1-flash
+29953,FAHT,Eastgate Airport / Air Force Base Hoedspruit,东门机场/胡德斯普雷特空军基地,llm:codex:deepseek-v4.1-flash
+29975,EPIR,Inowroclaw Military Air Base,伊诺弗罗茨瓦夫空军基地,llm:codex:deepseek-v4.1-flash
+30340,SBJR,Jacarepaguá - Roberto Marinho Airport,雅卡雷帕瓜-罗伯托·马里尼奥机场,llm:codex:deepseek-v4.1-flash
+30590,OPSN,Sehwan Sharif Airport,塞万沙里夫机场,llm:codex:deepseek-v4.1-flash
+30599,JO-0002,King Feisal Air Base,费萨尔国王空军基地,llm:codex:deepseek-v4.1-flash
+30688,LY-BCQ,Brak Airport,布拉克机场,llm:codex:deepseek-v4.1-flash
+31016,EPTM,Tomaszów Mazowiecki Military Air Base,马佐夫舍地区托马舒夫空军基地,llm:codex:deepseek-v4.1-flash
+31031,EVTA,Jūrmala Airport,尤尔马拉机场,llm:codex:deepseek-v4.1-flash
+31549,BIGR,Grímsey Airport,格里姆塞机场,llm:codex:deepseek-v4.1-flash
+31696,MTJE,Jérémie Airport,热雷米机场,llm:codex:deepseek-v4.1-flash
+31728,GFBO,Bo Airport,博城机场,llm:codex:deepseek-v4.1-flash
+31761,UUBA,Kostroma Sokerkino Airport,科斯特罗马机场,llm:codex:deepseek-v4.1-flash
+31773,USUU,Kurgan Airport,库尔干机场,llm:codex:deepseek-v4.1-flash
+31818,ZHGH,Guangzhou MR Air Base / Guanghua Airport,老河口机场,llm:codex:deepseek-v4.1-flash
+31872,LYKV,Morava Airport,摩拉瓦机场,llm:codex:deepseek-v4.1-flash
+31977,MWCL,Edward Bodden Little Cayman Airfield,爱德华·博登小开曼机场,llm:codex:deepseek-v4.1-flash
+32006,ZBBB,Beijing Xijiao Airport,北京西郊机场,llm:codex:deepseek-v4.1-flash
+32066,HKNL,Nanyuki Civil Airport,纳纽基民航机场,llm:codex:deepseek-v4.1-flash
+32108,OKAJ,Ahmed Al Jaber Air Base,艾哈迈德·贾比尔空军基地,llm:codex:deepseek-v4.1-flash
+32124,OPMS,Minhas Air Base,明哈斯空军基地,llm:codex:deepseek-v4.1-flash
+32125,OPRQ,Rafiqui Air Base,拉菲基空军基地,llm:codex:deepseek-v4.1-flash
+32235,ZSRG,Rugao Air Base,如皋空军基地,llm:codex:deepseek-v4.1-flash
+32241,UUBK,Staroselye Airport,斯塔罗谢利耶机场,llm:codex:deepseek-v4.1-flash
+32290,OPSR,Mushaf Air Base,穆沙夫空军基地,llm:codex:deepseek-v4.1-flash
+32299,ZLSN,Xi'an Xiguan Airport,西安西关机场,llm:codex:deepseek-v4.1-flash
+32305,SBAE,Bauru/Arealva–Moussa Nakhal Tobias State Airport,巴乌鲁机场,llm:codex:deepseek-v4.1-flash
+32335,GLGE,Greenville/Sinoe Airport,格林维尔/锡诺机场,llm:codex:deepseek-v4.1-flash
+32336,MUSJ,San Julián Air Base,圣胡利安空军基地,llm:codex:deepseek-v4.1-flash
+32420,ZSSZ,Suzhou Guangfu Airport,苏州光福机场,llm:codex:deepseek-v4.1-flash
+32427,UUOT,Donskoye Airport,坦波夫顿斯科耶机场,llm:codex:deepseek-v4.1-flash
+32439,NWWA,Tiga Airport,蒂加机场,llm:codex:deepseek-v4.1-flash
+32509,UEMA,Moma Airport,莫马机场,llm:codex:deepseek-v4.1-flash
+32517,UHKD,Dzemgi Airport,泽姆吉机场,llm:codex:deepseek-v4.1-flash
+32554,USHS,Sovetskiy Airport,苏维埃茨基机场,llm:codex:deepseek-v4.1-flash
+32563,ZLYL,Yulin Yuyang Airport,榆林榆阳机场,llm:codex:deepseek-v4.1-flash
+32675,WSAC,Changi Air Base (East),樟宜空军基地（东）,llm:codex:deepseek-v4.1-flash
+32689,GFYE,Yengema Airport,延盖马机场,llm:codex:deepseek-v4.1-flash
+32753,ZYYY,Shenyang Dongta Airport,沈阳东塔机场,llm:codex:deepseek-v4.1-flash
+34932,ULLP,Pushkin Airport,普希金机场,llm:codex:deepseek-v4.1-flash
+34933,RU-0001,Levashovo Air Base,列瓦绍沃空军基地,llm:codex:deepseek-v4.1-flash
+34942,RU-0008,Bada Air Base,巴达空军基地,llm:codex:deepseek-v4.1-flash
+34945,RU-0010,Balashov Air Base,巴拉绍夫空军基地,llm:codex:deepseek-v4.1-flash
+34946,BY-0001,Orsha Airport - Balbasovo Air Base,奥尔沙机场-巴尔巴索沃空军基地,llm:codex:deepseek-v4.1-flash
+34954,UWKG,Borisoglebskoye Airport,鲍里索格列布斯科耶机场,llm:codex:deepseek-v4.1-flash
+34955,RU-0015,Khotilovo Air Base,霍季洛沃空军基地,llm:codex:deepseek-v4.1-flash
+34967,RU-0023,Chindant Air Base,钦丹特空军基地,llm:codex:deepseek-v4.1-flash
+34968,RU-4827,Cheryomushki Air Base,切廖穆什基空军基地,llm:codex:deepseek-v4.1-flash
+34969,UUMU,Chkalovskiy Air Base,契卡洛夫斯基空军基地,llm:codex:deepseek-v4.1-flash
+34971,RU-5105,Chuguyevka Air Base,丘古耶夫卡空军基地,llm:codex:deepseek-v4.1-flash
+34972,RU-4421,Danilovo Air Base,丹尼洛沃空军基地,llm:codex:deepseek-v4.1-flash
+34975,RU-1892,Dolinsk-Sokol Air Base,多林斯克-索科尔空军基地,llm:codex:deepseek-v4.1-flash
+34976,KZ-7470,Dolon Air Base,多隆空军基地,llm:codex:deepseek-v4.1-flash
+34983,RU-2844,Dzhida Air Base,吉达空军基地,llm:codex:deepseek-v4.1-flash
+34984,RU-8602,Engels Air Base,恩格斯空军基地,llm:codex:deepseek-v4.1-flash
+34993,RU-5672,Ivanovo North Air Base,伊万诺沃北空军基地,llm:codex:deepseek-v4.1-flash
+35010,RU-9345,Krechevitsy Air Base,克列切维齐空军基地,llm:codex:deepseek-v4.1-flash
+35017,XRWL,Lebyazhye Air Base,列比亚日耶空军基地,llm:codex:deepseek-v4.1-flash
+35029,RU-6558,Lyambir Air Base,利亚姆比尔空军基地,llm:codex:deepseek-v4.1-flash
+35041,UODN,Nagurskoye Airfield,纳古尔斯科耶机场,llm:codex:deepseek-v4.1-flash
+35046,RU-4464,Olenya Air Base,奥列尼亚空军基地,llm:codex:deepseek-v4.1-flash
+35063,RU-4536,Rogachyovo Air Base,罗加乔沃空军基地,llm:codex:deepseek-v4.1-flash
+35069,RU-2344,Samara Kryazh Air Base,萨马拉克里亚日空军基地,llm:codex:deepseek-v4.1-flash
+35074,RU-10048,Semyazino Airport,谢米亚济诺机场,llm:codex:deepseek-v4.1-flash
+35075,RU-3709,Bagay-Baranovka Air Base,巴盖-巴拉诺夫卡空军基地,llm:codex:deepseek-v4.1-flash
+35078,RU-8499,Sharomy Air Base,沙罗梅空军基地,llm:codex:deepseek-v4.1-flash
+35079,RU-4609,Shatalovo Air Base,沙塔洛沃空军基地,llm:codex:deepseek-v4.1-flash
+35080,RU-9942,Shaykovka Air Base,沙伊科夫卡空军基地,llm:codex:deepseek-v4.1-flash
+35084,RU-5376,Smuravyovo Air Base,斯穆拉维约沃空军基地,llm:codex:deepseek-v4.1-flash
+35085,RU-10049,Soltsy-2 Air Base,索利齐-2空军基地,llm:codex:deepseek-v4.1-flash
+35088,RU-7576,Step Air Base,斯捷普空军基地,llm:codex:deepseek-v4.1-flash
+35094,RU-4339,Tambov Air Base,坦波夫空军基地,llm:codex:deepseek-v4.1-flash
+35103,RU-6560,Ulan-Ude East Airport,乌兰乌德东机场,llm:codex:deepseek-v4.1-flash
+35106,RU-7978,Uprun Air Base,乌普鲁恩空军基地,llm:codex:deepseek-v4.1-flash
+35114,RU-9129,Vorkuta Sovetskiy Air Base,沃尔库塔苏维埃茨基空军基地,llm:codex:deepseek-v4.1-flash
+35115,RU-8363,Voronezh Baltimore Air Base,沃罗涅日巴尔的摩空军基地,llm:codex:deepseek-v4.1-flash
+35116,RU-3686,Oreshkovo Airfield,奥列什科沃机场,llm:codex:deepseek-v4.1-flash
+35121,RU-7911,Yugorsk Sovetsky Air Base,尤戈尔斯克苏维埃茨基空军基地,llm:codex:deepseek-v4.1-flash
+35138,WPOC,Oecusse Route of the Sandalwood International Airport,欧库西檀香之路国际机场,llm:codex:deepseek-v4.1-flash
+35179,AYBA,Baimuru Airport,拜穆鲁机场,llm:codex:deepseek-v4.1-flash
+35180,AYBM,Balimo Airport,巴利莫机场,llm:codex:deepseek-v4.1-flash
+35225,KP-0015,Koksan Air Base,谷山空军基地,llm:codex:deepseek-v4.1-flash
+35230,KP-0020,Hwangju Airbase,黄州空军基地,llm:codex:deepseek-v4.1-flash
+35232,KP-0022,Pukchang Air Base,北仓空军基地,llm:codex:deepseek-v4.1-flash
+35235,KP-0025,Toksan Air Base,德山空军基地,llm:codex:deepseek-v4.1-flash
+35245,KP-0035,Hwangsuwon Airbase,黄水原空军基地,llm:codex:deepseek-v4.1-flash
+39563,PY-0002,Aeropuerto Nacional de Coronel Oviedo,奥维多上校国家机场,llm:codex:deepseek-v4.1-flash
+41135,SD-0001,Wadi Seidna Air Base,瓦迪赛义德纳空军基地,llm:codex:deepseek-v4.1-flash
+41136,RU-0016,Lipetsk Air Base,利佩茨克空军基地,llm:codex:deepseek-v4.1-flash
+41687,UTTP,Tashkent-Khumo International Airport,塔什干-胡莫国际机场,llm:codex:deepseek-v4.1-flash
+41925,MRAN,La Fortuna Arenal Airport,拉福图纳阿雷纳尔机场,llm:codex:deepseek-v4.1-flash
+42210,BZ-SJX,Sartaneja Airport,萨尔塔内哈机场,llm:codex:deepseek-v4.1-flash
+42321,TJRV,José Aponte de la Torre Airport,何塞·阿蓬特·德拉托雷机场,llm:codex:deepseek-v4.1-flash
+42328,RU-0028,Kaliningrad Chkalovsk Naval Air Base,加里宁格勒契卡洛夫斯克海军航空基地,llm:codex:deepseek-v4.1-flash
+42429,TW-0004,Zuoying Naval Airfield,左营海军机场,llm:codex:deepseek-v4.1-flash
+42469,EG-0003,Bilbeis 2 Airfield,比勒拜斯2号机场,llm:codex:deepseek-v4.1-flash
+42471,HE16,Birma Air Base,比尔马空军基地,llm:codex:deepseek-v4.1-flash
+42526,OITU,Maku National Airport,马库国家机场,llm:codex:deepseek-v4.1-flash
+42923,XRMU,Khankala Air Base,汉卡拉空军基地,llm:codex:deepseek-v4.1-flash
+42927,RU-0036,Irkutsk Northwest Airport,伊尔库茨克西北机场,llm:codex:deepseek-v4.1-flash
+42931,UIBV,Zheleznogorsk Airport,热列兹诺戈尔斯克机场,llm:codex:deepseek-v4.1-flash
+42933,RU-10053,Yermolino Air Base,叶尔莫利诺空军基地,llm:codex:deepseek-v4.1-flash
+42938,UHPL,Palana Airport,帕拉纳机场,llm:codex:deepseek-v4.1-flash
+42947,UUYV,Izhma Airport,伊日马机场,llm:codex:deepseek-v4.1-flash
+42955,UNIP,Podkamennaya Tunguska Airport,波德卡缅纳亚通古斯卡机场,llm:codex:deepseek-v4.1-flash
+42958,UOIG,Svetlogorsk Airport,斯韦特洛戈尔斯克机场,llm:codex:deepseek-v4.1-flash
+42960,UHMG,Chaybukha Airport,柴布哈机场,llm:codex:deepseek-v4.1-flash
+42961,UHMT,Magadan-13 Airport,马加丹-13机场,llm:codex:deepseek-v4.1-flash
+42962,UHMW,Severo-Evensk Airport,北埃文斯克机场,llm:codex:deepseek-v4.1-flash
+42963,UHMS,Seymchan Airport,谢伊姆昌机场,llm:codex:deepseek-v4.1-flash
+42966,RU-10054,Myachkovo Airfield,米亚奇科沃机场,llm:codex:deepseek-v4.1-flash
+42968,UUMT,Tretyakovo Airport,特列季亚科沃机场,llm:codex:deepseek-v4.1-flash
+42971,RU-0043,Mius Airport,米乌斯机场,llm:codex:deepseek-v4.1-flash
+42974,UNNE,Yeltsovka Airport,叶利佐夫卡机场,llm:codex:deepseek-v4.1-flash
+42978,UENK,Kyzyl-Syr Airport,克孜勒-瑟尔机场,llm:codex:deepseek-v4.1-flash
+42979,UEMM,Magan Airport,马甘机场,llm:codex:deepseek-v4.1-flash
+42985,USSK,Uktus Airport,乌克图斯机场,llm:codex:deepseek-v4.1-flash
+42997,UIAE,Krasnokamensk Airport,克拉斯诺卡缅斯克机场,llm:codex:deepseek-v4.1-flash
+43008,RU-0060,Chernyakhovsk Naval Air Base,切尔尼亚霍夫斯克海军航空基地,llm:codex:deepseek-v4.1-flash
+43010,RU-10056,Fedotovo Naval Air Base,费多托沃海军航空基地,llm:codex:deepseek-v4.1-flash
+43011,UHKG,Kamenny Ruchey Naval Air Base,卡缅内鲁切伊海军航空基地,llm:codex:deepseek-v4.1-flash
+43014,RU-0064,Ostrov Naval Air Base,奥斯特罗夫海军航空基地,llm:codex:deepseek-v4.1-flash
+43015,RU-0065,Pribylovo Naval Air Base,普里贝洛沃海军航空基地,llm:codex:deepseek-v4.1-flash
+43016,RU-10057,Severomorsk-1 Naval Air Base,北莫尔斯克-1海军航空基地,llm:codex:deepseek-v4.1-flash
+43018,RU-10058,Severomorsk-3 Naval Air Base,北莫尔斯克-3海军航空基地,llm:codex:deepseek-v4.1-flash
+43226,SYKA,Kaieteur Airport,凯厄图尔机场,llm:codex:deepseek-v4.1-flash
+43334,ULPP,Peski Airfield,佩斯基机场,llm:codex:deepseek-v4.1-flash
+43663,UERA,Aykhal Airport,艾哈尔机场,llm:codex:deepseek-v4.1-flash
+43669,RU-10059,Dyagilevo Air Base,佳吉列沃空军基地,llm:codex:deepseek-v4.1-flash
+43671,UWWB,Buguruslan Severny Airport,布古鲁斯兰北机场,llm:codex:deepseek-v4.1-flash
+43693,USHB,Berezovo Airport,别列佐沃机场,llm:codex:deepseek-v4.1-flash
+43866,UHKM,Sovetskaya Gavan (Maygatka) Airport,苏维埃港（迈加特卡）机场,llm:codex:deepseek-v4.1-flash
+43972,CN-0003,Laohutun Air Base,老虎屯空军基地,llm:codex:deepseek-v4.1-flash
+43973,CN-0004,Pulandian Air Base,普兰店空军基地,llm:codex:deepseek-v4.1-flash
+43974,CN-JNZ,Sanshilipu Air Base,三十里堡空军基地,llm:codex:deepseek-v4.1-flash
+44082,CN-0006,Beijing Shahezhen Air Base,北京沙河镇空军基地,llm:codex:deepseek-v4.1-flash
+44083,CN-0007,Beijing Tongxian Air Base,北京通县空军基地,llm:codex:deepseek-v4.1-flash
+44089,CN-0013,Fengning Air Base,丰宁空军基地,llm:codex:deepseek-v4.1-flash
+44090,CN-0014,Hohhot Bikeqi Air Base,呼和浩特毕克齐空军基地,llm:codex:deepseek-v4.1-flash
+44091,CN-0015,Huairen Air Base,怀仁空军基地,llm:codex:deepseek-v4.1-flash
+44092,CN-0016,Liangxiangzhen Air Base,良乡镇空军基地,llm:codex:deepseek-v4.1-flash
+44094,CN-0018,Tangguantun Air Base,唐官屯空军基地,llm:codex:deepseek-v4.1-flash
+44096,CN-0020,Wenshui Air Base,文水空军基地,llm:codex:deepseek-v4.1-flash
+44097,CN-0021,Yangcun Air Base,杨村空军基地,llm:codex:deepseek-v4.1-flash
+44098,CN-0022,Yongning Air Base,永宁空军基地,llm:codex:deepseek-v4.1-flash
+44101,CN-0025,Tangshan Zunhua Air Base,唐山遵化空军基地,llm:codex:deepseek-v4.1-flash
+44102,CN-0026,Chengdu Huangtianba Air Base,成都黄田坝空军基地,llm:codex:deepseek-v4.1-flash
+44106,CN-0030,Chongqing Baishiyi Air Base,重庆白市驿空军基地,llm:codex:deepseek-v4.1-flash
+44117,CN-0041,Luliang Air Base,陆良空军基地,llm:codex:deepseek-v4.1-flash
+44119,CN-0043,Honghe Mengzi Airport / Mengzi Air Base,红河蒙自机场,llm:codex:deepseek-v4.1-flash
+44121,CN-0045,Qionglai Air Base,邛崃空军基地,llm:codex:deepseek-v4.1-flash
+44124,CN-0048,Wenshan Air Base,文山空军基地,llm:codex:deepseek-v4.1-flash
+44125,CN-0049,Xiangyun Midu Air Base,祥云弥渡空军基地,llm:codex:deepseek-v4.1-flash
+44131,CN-0053,Baihe Ningming Air Base,白河宁明空军基地,llm:codex:deepseek-v4.1-flash
+44133,CN-0055,Changsha Datuopu Airport / Changsha Air Base,长沙大托铺机场,llm:codex:deepseek-v4.1-flash
+44134,CN-0056,Dangyang Air Base,当阳空军基地,llm:codex:deepseek-v4.1-flash
+44135,CN-0057,Foluo Northeast Air Base,佛罗东北空军基地,llm:codex:deepseek-v4.1-flash
+44141,CN-0063,Guiping Mengxu Air Base,桂平蒙圩空军基地,llm:codex:deepseek-v4.1-flash
+44147,CN-0069,Jialaishi Air Base,加来空军基地,llm:codex:deepseek-v4.1-flash
+44149,CN-0071,Leiyang Air Base,耒阳空军基地,llm:codex:deepseek-v4.1-flash
+44150,CN-0072,Lingshui Air Base,陵水空军基地,llm:codex:deepseek-v4.1-flash
+44158,CN-0080,Suixi Air Base,遂溪空军基地,llm:codex:deepseek-v4.1-flash
+44163,CN-0085,Xiaogan Air Base,孝感空军基地,llm:codex:deepseek-v4.1-flash
+44168,CN-0090,Cangxian Air Base,沧县空军基地,llm:codex:deepseek-v4.1-flash
+44170,CN-0092,Jiaozhou Jiaocheng Air Base,胶州胶城空军基地,llm:codex:deepseek-v4.1-flash
+44174,CN-0096,Laiyang Air Base,莱阳空军基地,llm:codex:deepseek-v4.1-flash
+44175,CN-0097,Luyang Air Base,鲁阳空军基地,llm:codex:deepseek-v4.1-flash
+44182,ZYXC,Xingcheng Air Base,兴城空军基地,llm:codex:deepseek-v4.1-flash
+44184,CN-0106,Xuzhou Daguozhang Air Base,徐州大郭庄空军基地,llm:codex:deepseek-v4.1-flash
+44189,CN-0111,Zhucheng Air Base,诸城空军基地,llm:codex:deepseek-v4.1-flash
+44192,CN-0114,Baoji Air Base,宝鸡空军基地,llm:codex:deepseek-v4.1-flash
+44195,CN-0117,Hainanzhou Gonghe Airport,海南州共和机场,llm:codex:deepseek-v4.1-flash
+44201,CN-0123,Lanzhou Air Base,兰州空军基地,llm:codex:deepseek-v4.1-flash
+44203,CN-0125,Lintao Air Base,临洮空军基地,llm:codex:deepseek-v4.1-flash
+44205,CN-0127,Qingshui Air Base,清水空军基地,llm:codex:deepseek-v4.1-flash
+44210,CN-0132,Ürümqi South Air Base,乌鲁木齐南空军基地,llm:codex:deepseek-v4.1-flash
+44211,CN-0133,Malan Air Base,马兰空军基地,llm:codex:deepseek-v4.1-flash
+44212,CN-0134,Wugong Air Base,武功空军基地,llm:codex:deepseek-v4.1-flash
+44213,CN-0135,Ürümqi Changji Air Base,乌鲁木齐昌吉空军基地,llm:codex:deepseek-v4.1-flash
+44214,CN-0136,Wuwei Air Base,武威空军基地,llm:codex:deepseek-v4.1-flash
+44215,CN-0137,Xi'an Air Base,西安空军基地,llm:codex:deepseek-v4.1-flash
+44216,CN-0138,Xincheng Air Base,新城空军基地,llm:codex:deepseek-v4.1-flash
+44218,CN-0140,Yanliang Air Base,阎良空军基地,llm:codex:deepseek-v4.1-flash
+44224,CN-0146,Daishan Air Base,岱山空军基地,llm:codex:deepseek-v4.1-flash
+44225,CN-0147,Feidong Air Base,肥东空军基地,llm:codex:deepseek-v4.1-flash
+44227,CN-0149,Fuzhou Air Base,福州空军基地,llm:codex:deepseek-v4.1-flash
+44230,CN-0152,Huian Air Base,惠安空军基地,llm:codex:deepseek-v4.1-flash
+44231,CN-0153,Hangzhou Jianqiao Airport,杭州笕桥机场,llm:codex:deepseek-v4.1-flash
+44236,CN-0158,Longtian Air Base,龙田空军基地,llm:codex:deepseek-v4.1-flash
+44241,CN-0163,Nanchang Xiangtang Air Base,南昌向塘空军基地,llm:codex:deepseek-v4.1-flash
+44243,CN-0165,Ningbo Zhuangqiao Air Base,宁波庄桥空军基地,llm:codex:deepseek-v4.1-flash
+44247,CN-0169,Shanghai Dachang Air Base,上海大场空军基地,llm:codex:deepseek-v4.1-flash
+44260,CN-0182,Zhangshu Air Base,樟树空军基地,llm:codex:deepseek-v4.1-flash
+44268,CN-0190,Dingxin-Shuangchengzi Air Base,鼎新-双城子空军基地,llm:codex:deepseek-v4.1-flash
+44269,CN-0191,Fuxin Air Base,阜新空军基地,llm:codex:deepseek-v4.1-flash
+44270,CN-0192,Gongzhuling Air Base,公主岭空军基地,llm:codex:deepseek-v4.1-flash
+44275,CN-0197,Kaiyuan Air Base,开原空军基地,llm:codex:deepseek-v4.1-flash
+44276,CN-0198,Lalin Air Base,拉林空军基地,llm:codex:deepseek-v4.1-flash
+44279,CN-0201,Pingquan Air Base,平泉空军基地,llm:codex:deepseek-v4.1-flash
+44282,CN-0204,Shenyang Beiling Air Base,沈阳北陵空军基地,llm:codex:deepseek-v4.1-flash
+44284,CN-0206,Shenyang Yuhong Quansheng Airport,沈阳于洪全胜机场,llm:codex:deepseek-v4.1-flash
+44286,CN-0208,Siping Air Base,四平空军基地,llm:codex:deepseek-v4.1-flash
+44287,CN-0209,Suizhong Air Base,绥中空军基地,llm:codex:deepseek-v4.1-flash
+44288,CN-0210,Tuchengzi Air Base,土城子空军基地,llm:codex:deepseek-v4.1-flash
+44291,UKFG,Gvardeyskoye (Hvardiiske) Air Base,格瓦尔杰伊斯科耶空军基地,llm:codex:deepseek-v4.1-flash
+44296,UKFI,Saky Air Base,萨基空军基地,llm:codex:deepseek-v4.1-flash
+44297,UA-0012,Kirovskoe Air Base,基洛夫斯科耶空军基地,llm:codex:deepseek-v4.1-flash
+44302,RU-0090,Krasnodar Central Air Base,克拉斯诺达尔中央空军基地,llm:codex:deepseek-v4.1-flash
+44313,UA-0022,Kacha Air Base,卡恰空军基地,llm:codex:deepseek-v4.1-flash
+44321,RU-10062,Khanskaya Air Base,汉斯卡亚空军基地,llm:codex:deepseek-v4.1-flash
+44335,UAON,Yubileyniy Airfield,尤比列伊内机场,llm:codex:deepseek-v4.1-flash
+44336,UAOL,Baikonur Krayniy International Airport,拜科努尔克拉伊尼国际机场,llm:codex:deepseek-v4.1-flash
+44338,UMMA,Baranavichi Air Base,巴拉诺维奇空军基地,llm:codex:deepseek-v4.1-flash
+44355,KZ-0068,Kurchatov Airfield,库尔恰托夫机场,llm:codex:deepseek-v4.1-flash
+44356,UNOS,Omsk Severny Airport,鄂木斯克北机场,llm:codex:deepseek-v4.1-flash
+44363,BY-0006,Osovtsy Air Base,奥索夫齐空军基地,llm:codex:deepseek-v4.1-flash
+44370,RU-0125,Bobrovka Air Base,博布罗夫卡空军基地,llm:codex:deepseek-v4.1-flash
+44425,UNKM,Krasnoyarsk Cheremshanka Airport,克拉斯诺亚尔斯克切列姆尚卡机场,llm:codex:deepseek-v4.1-flash
+44432,UKKO,Ozerne Air Base,奥泽尔内空军基地,llm:codex:deepseek-v4.1-flash
+44467,HKNY,Laikipia Air Base,莱基皮亚空军基地,llm:codex:deepseek-v4.1-flash
+44473,UHMK,Keperveem Airport,克佩尔韦姆机场,llm:codex:deepseek-v4.1-flash
+44492,TR-0004,Temelli Air Base,泰梅利空军基地,llm:codex:deepseek-v4.1-flash
+44509,IQ-0016,H1 New Air Base,H1新空军基地,llm:codex:deepseek-v4.1-flash
+44510,IQ-0017,H2 Air Base,H2空军基地,llm:codex:deepseek-v4.1-flash
+44511,IQ-0018,H3 Air Base,H3空军基地,llm:codex:deepseek-v4.1-flash
+44513,IQ-0020,H3 Northwest AFB,H3西北空军基地,llm:codex:deepseek-v4.1-flash
+44514,IQ-0021,H3 Southwest Air Base,H3西南空军基地,llm:codex:deepseek-v4.1-flash
+44517,IQ-0024,Jalibah Southeast Air Base,贾利巴东南空军基地,llm:codex:deepseek-v4.1-flash
+44524,IQ-0030,Kut Al Hayy East Air Base,库特哈伊东空军基地,llm:codex:deepseek-v4.1-flash
+44533,IQ-0039,Rasheed Air Base,拉希德空军基地,llm:codex:deepseek-v4.1-flash
+44534,IQ-0040,Ruwayshid Air Base,鲁韦希德空军基地,llm:codex:deepseek-v4.1-flash
+44536,IQ-0042,Sahl Sinjar Air Base,萨赫勒辛贾尔空军基地,llm:codex:deepseek-v4.1-flash
+44539,IQ-0045,Samarra East Air Base / Dhuluiya Airport,萨迈拉东空军基地/杜卢伊亚机场,llm:codex:deepseek-v4.1-flash
+44548,IQ-0054,Tuz Khurmatu Air Base,图兹胡尔马图空军基地,llm:codex:deepseek-v4.1-flash
+44578,DNGO,Gombe Lawanti International Airport,贡贝拉万蒂国际机场,llm:codex:deepseek-v4.1-flash
+44614,UWWG,Bezymyanka Airfield,别济米扬卡机场,llm:codex:deepseek-v4.1-flash
+44865,URRT,Taganrog Yuzhny Airport,塔甘罗格尤日内机场,llm:codex:deepseek-v4.1-flash
+44866,RU-0211,Taganrog Tsentralny Air Base,塔甘罗格中央空军基地,llm:codex:deepseek-v4.1-flash
+44870,UERS,Saskylakh Airport,萨斯克拉赫机场,llm:codex:deepseek-v4.1-flash
+44899,RU-0217,Sormovo Airfield,索尔莫沃机场,llm:codex:deepseek-v4.1-flash
+44992,RU-10076,Smolensk North Airport,斯摩棱斯克北机场,llm:codex:deepseek-v4.1-flash
+44998,RU-0240,Seshcha Air Base,谢夏空军基地,llm:codex:deepseek-v4.1-flash
+45170,UA-0047,Dolgintsevo Air Base,多尔金采沃空军基地,llm:codex:deepseek-v4.1-flash
+45175,RU-0282,Millerovo Air Base,米列罗沃空军基地,llm:codex:deepseek-v4.1-flash
+45955,KEDC,Austin Executive Airport,奥斯汀行政机场,llm:codex:deepseek-v4.1-flash
+46128,RU-0303,Privolzhskiy Air Base,普里沃尔日斯基空军基地,llm:codex:deepseek-v4.1-flash
+46129,RU-0304,Kapustin Yar Airfield,卡普斯京亚尔机场,llm:codex:deepseek-v4.1-flash
+46157,RU-0327,Vozdvizhenka Air Base,沃兹德维任卡空军基地,llm:codex:deepseek-v4.1-flash
+46242,RU-0372,Rostov-on-Don Central Air Base,顿河畔罗斯托夫中央空军基地,llm:codex:deepseek-v4.1-flash
+46533,FABR,Barberton Airport,巴伯顿机场,llm:codex:deepseek-v4.1-flash
+299747,OM-0004,Mussanah Airport,穆萨纳机场,llm:codex:deepseek-v4.1-flash
+300239,HAHM,Harar Meda Airport,哈拉尔梅达机场,llm:codex:deepseek-v4.1-flash
+300565,NG-0004,Port Harcourt City Airport / Port Harcourt Air Force Base,哈科特港城市机场/哈科特港空军基地,llm:codex:deepseek-v4.1-flash
+300605,GMFB,Bouarfa Airport,布阿尔法机场,llm:codex:deepseek-v4.1-flash
+300862,HSFA,Paloich Airport,帕洛伊奇机场,llm:codex:deepseek-v4.1-flash
+301316,VRMV,Villa International Airport Maamigili,维拉国际机场,llm:codex:deepseek-v4.1-flash
+308258,SGGR,Aeropuerto Nacional de Salto del Guaira,萨尔托德尔瓜伊拉国家机场,llm:codex:deepseek-v4.1-flash
+308995,VQGP,Gelephu Airport,格勒普机场,llm:codex:deepseek-v4.1-flash
+309411,SEJD,Jumandy Airport,胡曼迪机场,llm:codex:deepseek-v4.1-flash
+312665,FNBJ,Dr. Antonio Agostinho Neto International Airport,安东尼奥·阿戈斯蒂纽·内图博士国际机场,llm:codex:deepseek-v4.1-flash
+313314,HAJJ,Gerad Wilwal International Airport,吉吉加国际机场,llm:codex:deepseek-v4.1-flash
+313681,KP-0038,Riwon Airbase,利原空军基地,llm:codex:deepseek-v4.1-flash
+315271,UG-0002,Savannah Airstrip,萨凡纳简易机场,llm:codex:deepseek-v4.1-flash
+315898,LPCB,Aerodromo de Castelo Branco,布朗库堡机场,llm:codex:deepseek-v4.1-flash
+316498,ESKS,Scandinavian Mountains Airport,斯堪的纳维亚山脉机场,llm:codex:deepseek-v4.1-flash
+317032,LPSO,Aeródromo Municipal de Ponte de Sor,蓬蒂迪索尔机场,llm:codex:deepseek-v4.1-flash
+317863,LTCW,Hakkari Yüksekova Airport,哈卡里-于克塞科瓦机场,llm:codex:deepseek-v4.1-flash
+317932,EDQA,Bamberg-Breitenau Airfield,班贝格-布赖特瑙机场,llm:codex:deepseek-v4.1-flash
+318497,FGMY,President Obiang Nguema International Airport,奥比昂·恩圭马总统国际机场,llm:codex:deepseek-v4.1-flash
+318502,SAOV,Presidente Néstor Kirchner Regional Airport,内斯托尔·基什内尔总统地区机场,llm:codex:deepseek-v4.1-flash
+318875,HTGW,Songwe Airport,松圭机场,llm:codex:deepseek-v4.1-flash
+322922,KP-0068,Koksan 2 Highway Strip,谷山2号公路跑道,llm:codex:deepseek-v4.1-flash
+323056,DNBC,Sir Abubakar Tafawa Balewa Bauchi State International Airport,阿布巴卡尔·塔法瓦·巴莱瓦爵士国际机场,llm:codex:deepseek-v4.1-flash
+323400,MX-0424,Creel International Airport / Barrancas del Cobre Regional Airport,克雷尔国际机场/铜峡谷地区机场,llm:codex:deepseek-v4.1-flash
+323825,RJCS,JASDF Kenebetsu Airfield,日本航空自卫队计根别机场,llm:codex:deepseek-v4.1-flash
+323881,CN-0062,Bazhong Enyang Airport,巴中恩阳机场,llm:codex:deepseek-v4.1-flash
+324440,KXWA,Williston Basin International Airport,威利斯顿盆地国际机场,llm:codex:deepseek-v4.1-flash
+324731,LTDB,Çukurova International Airport,丘库罗瓦国际机场,llm:codex:deepseek-v4.1-flash
+327451,ZYSQ,Songyuan Chaganhu Airport,松原查干湖机场,llm:codex:deepseek-v4.1-flash
+327453,VIKG,Kishangarh Airport Ajmer,基尚加尔机场,llm:codex:deepseek-v4.1-flash
+329666,CN-0083,Guodu Air Base,果都空军基地,llm:codex:deepseek-v4.1-flash
+331218,IN-0107,Sindhudurg Airport,辛杜杜尔格机场,llm:codex:deepseek-v4.1-flash
+333070,ZWRQ,Ruoqiang Loulan Airport,若羌楼兰机场,llm:codex:deepseek-v4.1-flash
+333222,BR-0569,Glauber de Andrade Rocha Airport,格劳贝尔·罗沙机场,llm:codex:deepseek-v4.1-flash
+334199,SBJH,São Paulo Catarina Executive Airport,圣保罗卡塔琳娜行政机场,llm:codex:deepseek-v4.1-flash
+335883,PHIK,Hickam Air Force Base,希卡姆空军基地,llm:codex:deepseek-v4.1-flash
+339961,CN-0121,Huangdicun Naval Air Base,黄地村海军航空基地,llm:codex:deepseek-v4.1-flash
+340146,VOKU,Kurnool Airport,库尔努尔机场,llm:codex:deepseek-v4.1-flash
+340196,OM-0007,Ras al Hadd Airport,拉斯哈德机场,llm:codex:deepseek-v4.1-flash
+340295,DNBY,Bayelsa International Airport,巴耶尔萨国际机场,llm:codex:deepseek-v4.1-flash
+342092,OPGD,New Gwadar International Airport,新瓜达尔国际机场,llm:codex:deepseek-v4.1-flash
+342100,VN-0018,Long Thanh International Airport (Under Construction),隆城国际机场,llm:codex:deepseek-v4.1-flash
+342469,USTJ,Tobolsk Remezov Airport,托博尔斯克列梅佐夫机场,llm:codex:deepseek-v4.1-flash
+343470,USDB,Bovanenkovo Airport,博瓦年科沃机场,llm:codex:deepseek-v4.1-flash
+347295,HSSG,Sabera Geneina Airport,朱奈纳机场,llm:codex:deepseek-v4.1-flash
+348158,CN-0188,Beijing Nanjiao Airport,北京南郊机场,llm:codex:deepseek-v4.1-flash
+349430,NE-0001,Niger Air Base 201,尼日尔201空军基地,llm:codex:deepseek-v4.1-flash
+350214,RSI,Red Sea International Airport,红海国际机场,llm:codex:deepseek-v4.1-flash
+350945,CN-0249,Leshan Airport,乐山机场,llm:codex:deepseek-v4.1-flash
+351133,CN-0290,Sanya Air Base,三亚空军基地,llm:codex:deepseek-v4.1-flash
+351520,PH-0462,Central Mindanao Airport,中棉兰老机场,llm:codex:deepseek-v4.1-flash
+352892,WAFB,Toraja Airport,托拉查机场,llm:codex:deepseek-v4.1-flash
+353792,BTZ,Betong International Airport,勿洞国际机场,llm:codex:deepseek-v4.1-flash
+353993,CN-0316,Chenghu General Airport,苏州澄湖通用机场,llm:codex:deepseek-v4.1-flash
+354040,CN-0321,Anji Tianzihu General Airport,安吉天子湖通用机场,llm:codex:deepseek-v4.1-flash
+354173,DGAH,Ho Airport,霍机场,llm:codex:deepseek-v4.1-flash
+354509,CN-0331,Jiuzhou Airport,珠海九洲机场,llm:codex:deepseek-v4.1-flash
+354545,IN-0301,Rashtrakavi Kuvempu Airport,希莫加机场,llm:codex:deepseek-v4.1-flash
+354546,IN-0308,Itanagar Donyi Polo Hollongi Airport,多尼波罗机场,llm:codex:deepseek-v4.1-flash
+354658,CN-0345,Shanpo Air Base,山坡空军基地,llm:codex:deepseek-v4.1-flash
+356138,WABO,Stevanus Rumbewas Airport,塞鲁伊机场,llm:codex:deepseek-v4.1-flash
+430508,CN-0396,Shaodong Airport,邵东机场,llm:codex:deepseek-v4.1-flash
+505530,SCTN,Nuevo Chaitén Airport,新柴滕机场,llm:codex:deepseek-v4.1-flash
+507351,FTFY,Ouadi Doum Air Base,瓦迪杜姆空军基地,llm:codex:deepseek-v4.1-flash
+507629,CN-0401,Ningxiang Airport,宁乡机场,llm:codex:deepseek-v4.1-flash
+507771,SN6L,Dr. Luciano de Arruda Coelho Regional Airport,索布拉尔地区机场,llm:codex:deepseek-v4.1-flash
+508595,ZM-0045,Kalumbila Airport,卡伦比拉机场,llm:codex:deepseek-v4.1-flash
+508630,IN-0369,Sant Gadge Baba Yavatmal Airport,亚瓦特马尔机场,llm:codex:deepseek-v4.1-flash
+525766,CN-0418,Hohhot Shengle International Airport (under construction),呼和浩特盛乐国际机场,llm:codex:deepseek-v4.1-flash
+548284,ZSJG,Jining Da'an Airport,济宁大安机场,llm:codex:deepseek-v4.1-flash
+557052,MU-0004,IAF Agalega,阿加莱加机场,llm:codex:deepseek-v4.1-flash
+558007,VIMB,Moradabad Airport,莫拉达巴德机场,llm:codex:deepseek-v4.1-flash
+597259,SA-0094,King Salman Air Base,萨勒曼国王空军基地,llm:codex:deepseek-v4.1-flash
+598248,UTTZ,Zomin Airport,扎明机场,llm:codex:deepseek-v4.1-flash
+601075,PK-0092,Mai Bakhtawar International Airport,迈巴赫塔瓦尔国际机场,llm:codex:deepseek-v4.1-flash
+601910,TJ-0011,Khovaling Airport,霍瓦林机场,llm:codex:deepseek-v4.1-flash
+603863,AR-0768,[Duplicate] Aeropuerto Pergamino,佩尔加米诺机场,llm:codex:deepseek-v4.1-flash
+604055,CU-0115,[Duplicate] Holguín Air Base,奥尔金空军基地,llm:codex:deepseek-v4.1-flash
+604508,GR-0109,(*)Kasteli Hellenic Air Force Base,卡斯特利空军基地,llm:codex:deepseek-v4.1-flash
+606039,CN-0501,Hancheng Heyang Airport,韩城合阳机场,llm:codex:deepseek-v4.1-flash
+609615,VE-0526,(Misplaced duplicate?)Aeropuerto internacional Simón bolivar,西蒙·玻利瓦尔国际机场,llm:codex:deepseek-v4.1-flash
+610317,VOVI,Alluri Sitarama Raju International Airport (Vizag),维沙卡帕特南国际机场,llm:codex:deepseek-v4.1-flash
+610367,CA-1291,(Duplicate)YEG,埃德蒙顿国际机场,llm:codex:deepseek-v4.1-flash
+610368,CA-1292,YEG,埃德蒙顿国际机场,llm:codex:deepseek-v4.1-flash
+610546,SE-0120,Gävle–Sandviken Airport,耶夫勒-桑德维肯机场,llm:codex:deepseek-v4.1-flash

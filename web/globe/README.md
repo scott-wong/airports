@@ -73,5 +73,10 @@ bun run bench          # 8.6 万点性能基准（本地跑，不进 CI）
 ## 部署
 
 `.github/workflows/pages.yml`：每周一 03:00（Asia/Shanghai）或手动触发，依次
-`names refresh`（不带 LLM，自动合并 LLM 存档）→ `export-web` → `bun install && bun run build`
-→ 官方 Pages Actions 发布；若 `data/*.csv` 有变化，自动提交回 `main`。
+`export-web`（用仓库内的中文名 CSV）→ `bun install && bun run build` → 官方 Pages Actions 发布；
+若数据文件有变化会提交回 `main`。
+
+- 默认**不在 CI 里刷中文名**：GitHub runner 访问 Wikidata/Wikipedia 会被限速（实测 25 分钟仍未完成）。
+  中文名更新走本机 `uv run airports-collector names refresh`（自动合并 LLM 存档）后提交；
+  确实想在 CI 里刷时，手动触发 workflow 并勾选 `refresh_names`。
+- 站点数据 = 公开源 CSV（每次都重新下载）+ 仓库内中文名 CSV，因此没有内网依赖、没有 secret。

@@ -5,6 +5,8 @@
 
 - 渲染：globe.gl（three.js）球体 + 大气辉光 + 星空；点位是**单个 THREE.Points**（一次 draw call、
   自定义 shader、加性混合），悬停/点击用 0.5° 经纬网格 + 屏幕空间最近邻拾取（见 `docs/adr/0002`）。
+- 国家轮廓：Natural Earth（公共领域）三级比例尺，按缩放渐进加载（远景 45 KB / 区域 355 KB /
+  精细 2 MB），见 `docs/adr/0005`；筛选面板可开关（URL `borders=0`）。
 - 数据：构建期快照 `public/airports.json.gz`，由 `airports-collector export-web` 生成，
   **页面不连数据库、不需要任何凭据**（见 `docs/adr/0001`）。
 - 双语：i18next（zh/en），语言优先级 `?lang=` → localStorage → 浏览器语言 → zh；国家名用
@@ -14,8 +16,9 @@
 ## 本地开发
 
 ```bash
-# 1) 先生成快照（在仓库根目录）
+# 1) 先生成快照与国家轮廓（在仓库根目录）
 uv run airports-collector export-web
+uv run airports-collector export-borders
 
 # 2) 前端
 cd web/globe
@@ -47,7 +50,7 @@ bun run bench          # 8.6 万点性能基准（本地跑，不进 CI）
 
 | 操作 | 效果 |
 | --- | --- |
-| 拖拽 / 滚轮 | 旋转 / 缩放（缩放到 0.55 高度可看城市级） |
+| 拖拽 / 滚轮 | 旋转 / 缩放（放大到城市级时国界自动换成精细级别） |
 | 悬停点 | 右侧面板显示该机场（未选中时跟随鼠标） |
 | 点击点 | 选中并固定详情；点空白处取消 |
 | 空格键 | 暂停 / 恢复自动旋转 |

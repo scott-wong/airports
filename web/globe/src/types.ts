@@ -55,4 +55,6 @@ export interface FilterState {
   query: string;
   hasZh: boolean;
   scheduledOnly: boolean;
+  /** 是否显示国家轮廓（只影响底图，不影响点位筛选）。 */
+  borders: boolean;
 }

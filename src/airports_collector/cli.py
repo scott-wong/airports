@@ -38,6 +38,15 @@ def _build_parser() -> argparse.ArgumentParser:
     export_parser.add_argument("--out", help="输出目录（默认 web/globe/public）")
     export_parser.add_argument("--no-gzip", action="store_true", help="输出未压缩的 airports.json")
 
+    borders_parser = subparsers.add_parser(
+        "export-borders", help="生成渐进式国家轮廓（Natural Earth，公共领域）"
+    )
+    borders_parser.add_argument("--out", help="输出目录（默认 web/globe/public/borders）")
+    borders_parser.add_argument(
+        "--levels",
+        help="要生成的级别，逗号分隔（coarse,medium,fine；默认全部）",
+    )
+
     collect_parser = subparsers.add_parser("collect", help="采集并入库（默认整份下载）")
     collect_parser.add_argument("--csv", help="使用本地 CSV 而不是下载源站")
     collect_parser.add_argument(
@@ -132,6 +141,17 @@ def run_command(args: argparse.Namespace) -> int:
             )
         print(stats.summary())
         print(f"输出文件: {out_path}")
+        return 0
+
+    if args.command == "export-borders":
+        from .borders import export_borders
+
+        out_dir = Path(args.out) if args.out else settings.borders_dir
+        levels = [item.strip() for item in args.levels.split(",")] if args.levels else None
+        with httpx.Client() as http_client:
+            manifest = export_borders(out_dir, http_client, levels=levels, on_progress=progress)
+        total = sum(item["storedBytes"] for item in manifest["levels"].values())
+        print(f"生成 {len(manifest['levels'])} 级国界，共 {total / 1024:.0f} KB：{out_dir}")
         return 0
 
     if args.command == "export-web":

@@ -6,6 +6,7 @@ export const DEFAULT_FILTERS: FilterState = {
   query: "",
   hasZh: false,
   scheduledOnly: false,
+  borders: true,
 };
 
 export function haystackOf(airport: Airport): string {
@@ -82,6 +83,7 @@ export function encodeFilters(filters: FilterState): string {
   if (filters.query) params.set("q", filters.query);
   if (filters.hasZh) params.set("zh", "1");
   if (filters.scheduledOnly) params.set("sched", "1");
+  if (!filters.borders) params.set("borders", "0");
   return params.toString();
 }
 
@@ -100,5 +102,6 @@ export function decodeFilters(search: string): FilterState {
     query: params.get("q") ?? "",
     hasZh: params.get("zh") === "1",
     scheduledOnly: params.get("sched") === "1",
+    borders: params.get("borders") !== "0",
   };
 }

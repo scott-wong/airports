@@ -6,6 +6,7 @@ import { FilterPanel } from "./components/FilterPanel";
 import { GlobeView, type GlobeHandle } from "./components/Globe";
 import { HudHeader } from "./components/HudHeader";
 import { normalizeLanguage, rememberLanguage, type Language } from "./i18n";
+import type { BorderLevel } from "./lib/borders";
 import { countByType, countryCounts, decodeFilters, encodeFilters, applyFilters, DEFAULT_FILTERS } from "./lib/filters";
 import { fetchSnapshot } from "./lib/snapshot";
 import type { Airport, AirportSnapshot, FilterState } from "./types";
@@ -20,6 +21,7 @@ export default function App() {
   const [selected, setSelected] = useState<Airport | null>(null);
   const [hovered, setHovered] = useState<Airport | null>(null);
   const [autoRotate, setAutoRotate] = useState(true);
+  const [detailLevel, setDetailLevel] = useState<BorderLevel>("coarse");
   const globeRef = useRef<GlobeHandle | null>(null);
 
   const load = useCallback(() => {
@@ -93,6 +95,8 @@ export default function App() {
         onHover={handleHover}
         onSelect={handleSelect}
         autoRotate={autoRotate}
+        borders={filters.borders}
+        onDetailLevel={setDetailLevel}
       />
       <div className="vignette" />
 
@@ -102,6 +106,7 @@ export default function App() {
         generatedAt={snapshot?.generatedAt ?? ""}
         language={currentLanguage}
         onLanguageChange={changeLanguage}
+        detailLevel={detailLevel}
       />
 
       <FilterPanel

@@ -184,12 +184,28 @@ export function FilterPanel({
           />
           {t("filters.scheduled")}
         </label>
+        <label className="flex cursor-pointer items-center gap-2 text-[13px] text-slate-200">
+          <input
+            type="checkbox"
+            checked={filters.borders}
+            onChange={(event) => onChange({ ...filters, borders: event.target.checked })}
+            className="h-3.5 w-3.5 accent-cyan-400"
+          />
+          {t("filters.borders")}
+        </label>
       </section>
 
       <button
         type="button"
         onClick={() =>
-          onChange({ types: [], countries: [], query: "", hasZh: false, scheduledOnly: false })
+          onChange({
+            types: [],
+            countries: [],
+            query: "",
+            hasZh: false,
+            scheduledOnly: false,
+            borders: true,
+          })
         }
         className="mt-4 w-full rounded border border-hud-line px-2 py-1 font-mono text-[11px] uppercase tracking-widest text-hud-dim hover:border-hud-cyan hover:text-hud-cyan"
       >

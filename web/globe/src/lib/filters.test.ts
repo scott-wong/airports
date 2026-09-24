@@ -78,8 +78,10 @@ describe("filters", () => {
       query: "首都 airport",
       hasZh: true,
       scheduledOnly: true,
+      borders: false,
     };
     expect(decodeFilters(encodeFilters(filters))).toEqual(filters);
     expect(decodeFilters("")).toEqual(DEFAULT_FILTERS);
+    expect(decodeFilters("borders=0").borders).toBe(false);
   });
 });

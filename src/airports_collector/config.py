@@ -9,6 +9,7 @@ DEFAULT_SOURCE_URL = "https://davidmegginson.github.io/ourairports-data/airports
 DEFAULT_NAMES_FILE = "data/airport_names_zh.csv"
 DEFAULT_LLM_SUPPLEMENT_FILE = "data/airport_names_llm.csv"
 DEFAULT_WEB_EXPORT_DIR = "web/globe/public"
+DEFAULT_BORDERS_DIR = "web/globe/public/borders"
 DEFAULT_MIGRATION_DIR = "migrations"
 DEFAULT_BATCH_SIZE = 1000
 
@@ -20,6 +21,7 @@ PROJECT_KEYS = (
     "AIRPORTS_NAMES_FILE",
     "AIRPORTS_LLM_SUPPLEMENT_FILE",
     "AIRPORTS_WEB_EXPORT_DIR",
+    "AIRPORTS_BORDERS_DIR",
     "AIRPORTS_BATCH_SIZE",
     "AIRPORTS_DATABASE_DSN",
 )
@@ -38,6 +40,7 @@ class Settings:
     names_file: Path
     llm_supplement_file: Path
     web_export_dir: Path
+    borders_dir: Path
     batch_size: int
     database_dsn: str | None
     repo_root: Path
@@ -127,6 +130,7 @@ def load_settings(
             "AIRPORTS_LLM_SUPPLEMENT_FILE", DEFAULT_LLM_SUPPLEMENT_FILE
         ),
         web_export_dir=_path("AIRPORTS_WEB_EXPORT_DIR", DEFAULT_WEB_EXPORT_DIR),
+        borders_dir=_path("AIRPORTS_BORDERS_DIR", DEFAULT_BORDERS_DIR),
         batch_size=batch_size,
         database_dsn=database_dsn,
         repo_root=root,

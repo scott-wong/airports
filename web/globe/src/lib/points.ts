@@ -20,7 +20,7 @@ export const POINT_VERTEX = `
     vec4 mv = modelViewMatrix * vec4(position, 1.0);
     gl_Position = projectionMatrix * mv;
     float attenuation = 260.0 * uPixelRatio / max(-mv.z, 1.0);
-    gl_PointSize = clamp(aSize * attenuation, 1.0, 64.0);
+    gl_PointSize = clamp(aSize * attenuation, 1.0, 16.0);
   }
 `;
 

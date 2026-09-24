@@ -9,6 +9,7 @@ interface Props {
   generatedAt: string;
   language: string;
   onLanguageChange: (language: Language) => void;
+  detailLevel: "coarse" | "medium" | "fine";
 }
 
 export function HudHeader({
@@ -17,6 +18,7 @@ export function HudHeader({
   generatedAt,
   language,
   onLanguageChange,
+  detailLevel,
 }: Props) {
   const { t } = useTranslation();
   const stamp = generatedAt ? new Date(generatedAt) : null;
@@ -46,6 +48,10 @@ export function HudHeader({
           </span>
           <span>
             <span className="text-hud-cyan">{t("hud.generated")}</span> {stampLabel}
+          </span>
+          <span>
+            <span className="text-hud-cyan">{t("hud.detail")}</span>{" "}
+            {t(`hud.detail${detailLevel[0].toUpperCase()}${detailLevel.slice(1)}`)}
           </span>
         </div>
       </div>

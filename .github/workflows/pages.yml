@@ -43,6 +43,9 @@ jobs:
       - name: Export web snapshot
         run: uv run airports-collector export-web
 
+      - name: Export country outlines (Natural Earth)
+        run: uv run airports-collector export-borders
+
       - name: Commit refreshed name data back to main
         run: |
           if ! git diff --quiet -- data/; then

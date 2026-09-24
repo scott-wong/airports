@@ -2,6 +2,13 @@ import { useCallback, useEffect, useImperativeHandle, useRef, forwardRef } from 
 import Globe, { type GlobeInstance } from "globe.gl";
 import * as THREE from "three";
 
+import {
+  type BorderLevel,
+  createBorderLines,
+  fetchBorderPayload,
+  isFinerThan,
+  levelForDistance,
+} from "../lib/borders";
 import { GLOBE_RADIUS, latLngToVector3 } from "../lib/geo";
 import { POINT_ALTITUDE, buildGeometry, createStarfield, makePointsMaterial } from "../lib/points";
 import { buildPickGrid, candidatesNear, pickNearest, type PickGrid } from "../lib/picking";
@@ -17,6 +24,8 @@ interface GlobeProps {
   onHover: (airport: Airport | null) => void;
   onSelect: (airport: Airport | null) => void;
   autoRotate: boolean;
+  borders: boolean;
+  onDetailLevel?: (level: BorderLevel) => void;
 }
 
 /** 拉远时只保留这些类型，避免 8.6 万点糊成一团（见 ADR-0002）。 */
@@ -24,7 +33,7 @@ const COARSE_TYPES = new Set(["large_airport", "medium_airport", "seaplane_base"
 const COARSE_DISTANCE = 380;
 
 export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
-  { airports, selected, onHover, onSelect, autoRotate },
+  { airports, selected, onHover, onSelect, autoRotate, borders, onDetailLevel },
   ref,
 ) {
   const containerRef = useRef<HTMLDivElement | null>(null);
@@ -34,6 +43,10 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
   const airportsRef = useRef<Airport[]>(airports);
   const gridRef = useRef<PickGrid | null>(null);
   const coarseRef = useRef(false);
+  const borderLevelRef = useRef<BorderLevel | null>(null);
+  const borderLinesRef = useRef<THREE.LineSegments | null>(null);
+  const borderRequestRef = useRef<BorderLevel | null>(null);
+  const detailLevelCallbackRef = useRef(onDetailLevel);
   const idleTimerRef = useRef<number | null>(null);
   const autoRotateRef = useRef(autoRotate);
 
@@ -48,6 +61,38 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     airportsRef.current = rendered;
     gridRef.current = buildPickGrid(rendered);
   }, []);
+
+  /** 按需加载国界层级；只会向更细的方向升级，避免来回抖动。 */
+  const ensureBorderLevel = useCallback(
+    (level: BorderLevel) => {
+      const globe = globeRef.current;
+      if (!globe) return;
+      if (!isFinerThan(level, borderLevelRef.current) || borderRequestRef.current === level) return;
+      borderRequestRef.current = level;
+      void fetchBorderPayload(level)
+        .then((payload) => {
+          const activeGlobe = globeRef.current;
+          if (!activeGlobe) return;
+          const lines = createBorderLines(payload, level === "coarse" ? 0.4 : 0.3);
+          if (borderLinesRef.current) {
+            activeGlobe.scene().remove(borderLinesRef.current);
+            borderLinesRef.current.geometry.dispose();
+            (borderLinesRef.current.material as THREE.Material).dispose();
+          }
+          activeGlobe.scene().add(lines);
+          borderLinesRef.current = lines;
+          borderLevelRef.current = level;
+          detailLevelCallbackRef.current?.(level);
+        })
+        .catch((error: unknown) => {
+          console.warn("国界加载失败", error);
+        })
+        .finally(() => {
+          if (borderRequestRef.current === level) borderRequestRef.current = null;
+        });
+    },
+    [],
+  );
 
   const applyView = useCallback(
     (airport: Airport) => {
@@ -109,6 +154,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
 
     globeRef.current = globe;
     (window as unknown as { __airportGlobe?: GlobeInstance }).__airportGlobe = globe;
+    ensureBorderLevel(levelForDistance(globe.camera().position.length()));
 
     const pauseRotation = () => {
       controls.autoRotate = false;
@@ -131,6 +177,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
           coarseRef.current = coarse;
           rebuildPoints(airportsRef.current, coarse);
         }
+        ensureBorderLevel(levelForDistance(distance));
       }, 180);
     };
     controls.addEventListener("change", onControlsChange);
@@ -152,6 +199,13 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
       container.removeEventListener("wheel", pauseRotation);
       controls.removeEventListener("change", onControlsChange);
       (globe as unknown as { _destructor?: () => void })._destructor?.();
+      if (borderLinesRef.current) {
+        globe.scene().remove(borderLinesRef.current);
+        borderLinesRef.current.geometry.dispose();
+        (borderLinesRef.current.material as THREE.Material).dispose();
+        borderLinesRef.current = null;
+        borderLevelRef.current = null;
+      }
       points.geometry.dispose();
       (points.material as THREE.Material).dispose();
       marker.geometry.dispose();
@@ -160,7 +214,7 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
       pointsRef.current = null;
       markerRef.current = null;
     };
-  }, [rebuildPoints]);
+  }, [rebuildPoints, ensureBorderLevel]);
 
   useEffect(() => {
     airportsRef.current = airports;
@@ -182,6 +236,17 @@ export const GlobeView = forwardRef<GlobeHandle, GlobeProps>(function GlobeView(
     const material = marker.material as THREE.ShaderMaterial;
     material.uniforms.uPixelRatio.value = Math.min(window.devicePixelRatio || 1, 2) * 2.4;
   }, [selected]);
+
+  useEffect(() => {
+    detailLevelCallbackRef.current = onDetailLevel;
+  }, [onDetailLevel]);
+
+  useEffect(() => {
+    const globe = globeRef.current;
+    const lines = borderLinesRef.current;
+    if (!globe || !lines) return;
+    lines.visible = borders;
+  }, [borders]);
 
   useEffect(() => {
     autoRotateRef.current = autoRotate;

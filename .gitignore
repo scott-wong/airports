@@ -18,3 +18,4 @@ web/globe/public/manifest.json
 web/globe/node_modules/
 web/globe/dist/
 web/globe/.vite/
+web/globe/public/borders/

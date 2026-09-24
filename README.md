@@ -11,7 +11,13 @@ schema `airports`，支持每日重跑与更新，并为 `large_airport` / `medi
   每条都带来源字段（`wikidata:` / `wikipedia:` / `composite:` / `llm:`）。
 - 与 `flight_ops` 完全独立：本仓库只读写 `airports` schema，不做双写。
 
-术语见 [CONTEXT.md](./CONTEXT.md)，关键决定见 [docs/adr](./docs/adr)。
+**3D 地球前端**：`web/globe/`（bun + Vite + React + globe.gl），线上地址
+<https://scott-wong.github.io/airports/>（自定义域 <https://wangyu.space/airports/>），
+支持缩放、按类型/国家/关键字筛选、中英双语与中文名来源徽章；数据由 `export-web` 生成的
+构建期快照提供，前端不连库、不需要凭据。周流水线见 `.github/workflows/pages.yml`。
+
+术语见 [CONTEXT.md](./CONTEXT.md) 与 [CONTEXT-MAP.md](./CONTEXT-MAP.md)，
+关键决定见 [docs/adr](./docs/adr) 与 [web/globe/docs/adr](./web/globe/docs/adr)。
 
 ## 数据模型
 
@@ -105,6 +111,7 @@ uv run airports-collector names refresh --llm-fallback --llm-model deepseek-v4.1
 uv run airports-collector names extract-llm # 把主 CSV 里的 llm: 名字拆到 data/airport_names_llm.csv
 uv run airports-collector collect           # 采集并入库（下载源站）
 uv run airports-collector collect --csv /path/to/airports.csv   # 用本地 CSV
+uv run airports-collector export-web        # 生成展示端快照（web/globe/public/airports.json.gz）
 uv run airports-collector status            # 统计当前数据
 uv run pytest                               # 单元测试
 ```
